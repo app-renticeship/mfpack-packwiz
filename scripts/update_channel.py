@@ -216,6 +216,11 @@ def main() -> int:
     changed = 0
     for path in sorted(MODS.glob("*.pw.toml")):
         mod = parse_mod(path)
+        # `pin = true` (packwiz's own pin flag) freezes a mod at its current file.
+        # Unpin by deleting the line once a newer version has been tested.
+        if re.search(r"^pin\s*=\s*true", mod["text"], re.M):
+            print(f"  pinned, skip {mod['name']}")
+            continue
         ch = effective_channel(mod, args.channel, overrides)
         # If override asks for more unstable than CLI, use the higher of the two for that mod only
         if channel_rank(ch) < channel_rank(args.channel):

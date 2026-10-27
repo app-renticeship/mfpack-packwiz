@@ -6,6 +6,11 @@ hash = "78137effbcf3f8d93f64aa10f365a225b8439c0a0f49ea61cd99d4d6836aaeb1"
 metafile = true
 
 [[files]]
+file = "mods/all-of-create-core.pw.toml"
+hash = "787ae7f846dbad4d31b67538719b8cfed585e884d0557f767648fc87c9469a8c"
+metafile = true
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "e6c3ccb32aece186b98b0bf470c96728baa6703a0595f76b1d4026bbef3876a9"
 metafile = true
@@ -137,12 +142,12 @@ metafile = true
 
 [[files]]
 file = "mods/carry-on.pw.toml"
-hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
+hash = "29224f52b512ee02dd5a6eaaa07278cc31d8f28462d5c0a7f407a7a2c4b0cff2"
 metafile = true
 
 [[files]]
 file = "mods/carryon-aeronautics-compat.pw.toml"
-hash = "eed733b7e39667ee2ed7d679fb32ddcd362ee10d1ec567859678a9e266e1f6bb"
+hash = "9dc68995d95eec984994a290d4aec247bb9a44a9531f90d9a84af8cb8cc47a73"
 metafile = true
 
 [[files]]
@@ -252,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-gadgets-and-gizmos.pw.toml"
-hash = "4e7ff38ae876601e11487a504519ef148424cc0a566fcced04e2227f1489660f"
+hash = "fb6321007ad551c275d1d113d962f9315248294fffb8ed9ce7340e4b908beb68"
 metafile = true
 
 [[files]]
@@ -271,8 +276,13 @@ hash = "bc425f292f39406f5e2d14a8c51abe6ff8538bf41109b5bebb6e538f56a08ef2"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-x-curios-api-compat.pw.toml"
+hash = "5ecb109525a513f6c79dafe1d665f016a89303b4831055ebd48feb6258acc32c"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "2151a4d33c058f2fe354a9d250fc7077c97e78d92bf183eb98d8cbec193b2c26"
+hash = "baf99834ef747c913b296113e94fb75a6c2de87272a48ef1a91b8e74ef1cb811"
 metafile = true
 
 [[files]]
@@ -386,6 +396,11 @@ hash = "4af51379442ec8650fe735c1713143bafc2a43e5934656fce5e8c3fc079627af"
 metafile = true
 
 [[files]]
+file = "mods/create-extra-recipes-cf.pw.toml"
+hash = "3220a07f92a86000d843392b7bb4be02b9c7246f4bd6efb417deb23e57f1a7e3"
+metafile = true
+
+[[files]]
 file = "mods/create-factory.pw.toml"
 hash = "529fe7776ef6de84815aa03eed09b0ec2a017fe2c3500d23934dcd35b3689848"
 metafile = true
@@ -418,6 +433,11 @@ metafile = true
 [[files]]
 file = "mods/create-immersive-tacz-integration.pw.toml"
 hash = "7760d53288ec162b9d0840d3d11e88b362578bf9bb74da789d8177ac3f6c04b8"
+metafile = true
+
+[[files]]
+file = "mods/create-industrialized-architecture.pw.toml"
+hash = "da92d716b39b4e86b21df016318041fb95e754e0a4de9968e87260050557c1d2"
 metafile = true
 
 [[files]]
@@ -488,6 +508,11 @@ metafile = true
 [[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "f39f8a5c3454cf90cb097b195ea5639ef8f3f24a8dcb0b66f5b5fd4683caa1b3"
+metafile = true
+
+[[files]]
+file = "mods/create-prismatic-shine.pw.toml"
+hash = "d3537c38cdc1e2057fce2aadc5d684cf9286002afc04ec7d46e089cbf4633a89"
 metafile = true
 
 [[files]]
@@ -591,8 +616,13 @@ hash = "2467d5a73a839001fa6ace24f6ed080b8e5b681532dd0e6456c34873addc7f77"
 metafile = true
 
 [[files]]
+file = "mods/create-xaeros-map.pw.toml"
+hash = "e78e982a02334b9f051701b154fd210bfdbf3be16bec1ace3b4ba7fc93095cf6"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
-hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+hash = "b9aaadff5300ec35b0f4b62f9d9f5cd08aedf0e6c9ebd8d746b06dfd8a755577"
 metafile = true
 
 [[files]]
@@ -637,7 +667,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "1aadfa5d86fbf10d8c370dbfa5df59aa31e8441c446d8960401351f048b06df3"
+hash = "46f9e2fe108c5c182f8461ac0e4e250d93eb7efa521793f57d63def4b5b5c9f1"
 metafile = true
 
 [[files]]
@@ -757,12 +787,37 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "4c0e46bc6d9c3bd2a7753525221326f5137cce2da8e7b519efbb774ffc74d771"
+hash = "582c6391746af4e8ff1003e15e4fa476b9ec044649f2acda7159052cb6eafdd1"
 metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "a03c1e0d46ff47559399720ce7098de9ae0c329dc047f6ccf4deb545fd5c355c"
+metafile = true
+
+[[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "65f618c6757a5093a61f3bb47a48fbcbfe18d5dad0fe12f26544cbd7dd531ffc"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library.pw.toml"
+hash = "9888bec9a5fed75e2ce0b2469ded62bf73594e55b24a273d0ab410e36d3e6424"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests.pw.toml"
+hash = "2c2e9ac834eaf727930d9c028f4a34b209b973234a8e2c19debcf9b1935cb660"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams.pw.toml"
+hash = "1506491f72a3bfaa348aee17df73dcdace5a2144297149645bf7848d22fdd76e"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "fbfc95ef09ffa8f058adbe165556781e17919afa5cd7e14192d1906f6f68dd16"
 metafile = true
 
 [[files]]
@@ -832,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "ea29179711e919c117a2ff72935098a9ec8fd2ad41dc0c6e7e28b0a507ec4dd3"
+hash = "e8838b22642d7614962af8f8e2c42daaab5ce361aea6fdce3765183a8ad01a1b"
 metafile = true
 
 [[files]]
@@ -852,7 +907,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "1af5a3356a1d4edbc9aaf92244ab8f76de5c9dfbfb7d9d2fa4a7ad660cf65215"
+hash = "53575d332cdc08b00a8003122188902fc75a3b523f1cce0141729424b426463e"
 metafile = true
 
 [[files]]
@@ -908,6 +963,11 @@ metafile = true
 [[files]]
 file = "mods/lodestonelib.pw.toml"
 hash = "afa7a9108f1524c5ca136746979c593f9804b4469c62f1ad38d97dad107242e3"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations.pw.toml"
+hash = "84ae53b0561c3726310544cf016e116fc9e8072db10a664b4fa1e9e18bbb1761"
 metafile = true
 
 [[files]]
@@ -1121,6 +1181,11 @@ hash = "af9ffb2b80a041a36df097adc2c571b6a6609a417644eb328b0d9536bb415427"
 metafile = true
 
 [[files]]
+file = "mods/recipe-essentials.pw.toml"
+hash = "7da595dafb9dd0513d2b47fdaf7d1681db99caf851b2605e7e82ba975642dcf7"
+metafile = true
+
+[[files]]
 file = "mods/reconnectible-chains.pw.toml"
 hash = "2a4f123fab3b78243abc248cc22c83a496b5d0c189d54b64fdfd52fdcaf42a56"
 metafile = true
@@ -1177,7 +1242,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "828ff98d56855d5a32d32eca8c93f8cbf2d1a66bcde78ad8c5463d840e30e7aa"
+hash = "e618ecad26582f374bc9b034353d63f80d6c2809149ae95cf9316a8f6302f8b9"
 metafile = true
 
 [[files]]
@@ -1207,7 +1272,7 @@ metafile = true
 
 [[files]]
 file = "mods/sinytra-connector.pw.toml"
-hash = "f45642165aa0412ecd2f59d69390159993d00d4dfc1431f96b258e3cde19f6bc"
+hash = "05390f0cf23f1aecf1abd607af704b872ad80794be062f38c47e6aa02adc90c7"
 metafile = true
 
 [[files]]

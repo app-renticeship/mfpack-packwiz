@@ -1,6 +1,7 @@
 name = "Sinytra Connector"
 filename = "connector-2.0.0-beta.17+1.21.1-full.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
