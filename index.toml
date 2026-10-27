@@ -1479,3 +1479,8 @@ metafile = true
 file = "config/distanthorizons-client.pw.toml"
 hash = "7c34f8be55a216f1bc0f688a5ebce5903b003c66a3fbe92c54096a0d53418946"
 metafile = true
+
+[[files]]
+file = "mods/simply-jetpacks-2.pw.toml"
+hash = "a042c152a15768f64b283c8b0ab407fc7051782923e9bd14f6e1aed18ec4c035"
+metafile = true
