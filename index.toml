@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "fe80befdb33b295a12c91bfd27d036ced333c05382cb5321c5aa9068486949ce"
+
+[[files]]
 file = "mods/aeroclaims.pw.toml"
 hash = "9c3b44eab3d409a3250541b58782623f1542e1a79e44faf04c07e869a4a8db7e"
 metafile = true
@@ -1308,6 +1312,11 @@ metafile = true
 [[files]]
 file = "mods/taczaddon.pw.toml"
 hash = "e97ca2aa50a906dab54e762d7b7abf20f8209db8f32f86977f9993055af20252"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
