@@ -1,13 +1,13 @@
 name = "Create Aeronautics: Gadgets & Gizmos"
-filename = "gadgets-and-gizmos-bundled-2.0.0-Pre-Release-5.jar"
+filename = "gadgets-and-gizmos-bundled-V1.2.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Sza3GgEL/versions/IDR4lPuz/gadgets-and-gizmos-bundled-2.0.0-Pre-Release-5.jar"
+url = "https://cdn.modrinth.com/data/Sza3GgEL/versions/MgD655V5/gadgets-and-gizmos-bundled-V1.2.10.jar"
 hash-format = "sha512"
-hash = "6021ffdd4e9f9d302f47b4392eb130c093b94baf7968318cc338345506154b0a8bfe55abe0e14d9f976f69677d758d1df6d5debdcd6510ec1ffce140f8f17d4c"
+hash = "6b80bd14decd674cdd3232839e4632894a0dcb4ae6ff6eac5ac520d0b67c99b750a2abfff0cbfce96dba547fdc4ac9cf81221d2d02e146e2093aeb550da1f5db"
 
 [update]
 [update.modrinth]
 mod-id = "Sza3GgEL"
-version = "IDR4lPuz"
+version = "MgD655V5"

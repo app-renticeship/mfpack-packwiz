@@ -9,5 +9,6 @@ mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
+release-channel = "release"
 file-id = 9289316
 project-id = 316582

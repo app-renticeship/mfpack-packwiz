@@ -2,6 +2,8 @@
 README.md
 index.html
 status.json
+channel-overrides.json
+scripts/**
 .nojekyll
 .git/**
 .github/**

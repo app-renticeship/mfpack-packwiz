@@ -144,9 +144,22 @@
       <p class="hint">Mods update ≠ loader update. Use this only after a boot error like “requires neoforge 21.1.xxx or above”, or when scan notes a newer 21.1 patch.</p>
     </div>
 
+    <div class="panel">
+      <h2>Update channel</h2>
+      <div class="token-row">
+        <label for="channel" class="hint" style="margin:0">Max instability</label>
+        <select id="channel" style="background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:0.55rem 0.7rem;font:inherit">
+          <option value="release" selected>release (stable only) — default</option>
+          <option value="beta">beta (stable + beta)</option>
+          <option value="alpha">alpha (stable + beta + alpha)</option>
+        </select>
+      </div>
+      <p class="hint">Daily auto-update always uses <b>release</b>. Create: Lanterns is allowlisted for alpha in <code>channel-overrides.json</code>.</p>
+    </div>
+
     <div class="actions">
       <button class="primary" id="btnScan" type="button">Scan for updates</button>
-      <button class="primary" id="btnUpdate" type="button" disabled title="Set a GitHub token below (maintainers)">Update mods only</button>
+      <button class="primary" id="btnUpdate" type="button" disabled title="Set a GitHub token below (maintainers)">Update mods</button>
       <a class="btn ghost" href="https://github.com/app-renticeship/mfpack-packwiz/actions/workflows/update-mods.yml" target="_blank" rel="noopener">Actions →</a>
       <a class="btn ghost" id="packLink" href="./pack.toml">pack.toml</a>
     </div>
@@ -444,9 +457,10 @@
     }
 
     function triggerUpdate() {
+      const channel = $("channel").value || "release";
       return dispatchWorkflow(
-        { update_mods: true, bump_neoforge: false },
-        "mod update"
+        { update_mods: true, bump_neoforge: false, channel },
+        `mod update (${channel})`
       );
     }
 

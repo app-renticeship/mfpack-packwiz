@@ -3,16 +3,24 @@ name: Update mods
 on:
   workflow_dispatch:
     inputs:
+      channel:
+        description: "Max release channel (release=stable only)"
+        type: choice
+        options:
+          - release
+          - beta
+          - alpha
+        default: release
       bump_neoforge:
-        description: "Also bump NeoForge to latest 21.1.x (same MC — safer than absolute latest)"
+        description: "Also bump NeoForge to latest 21.1.x (same MC)"
         type: boolean
         default: false
       update_mods:
-        description: "Run packwiz update --all"
+        description: "Run channel-aware mod updates"
         type: boolean
         default: true
   schedule:
-    # Mods daily; NeoForge is NOT auto-bumped on schedule (compat safety)
+    # Daily stable-only mod updates; NeoForge not auto-bumped
     - cron: "0 12 * * *"
 
 permissions:
@@ -35,6 +43,11 @@ jobs:
         with:
           go-version: "1.24.x"
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
 
@@ -45,10 +58,8 @@ jobs:
           META=$(curl -fsSL https://maven.neoforged.net/releases/net/neoforged/neoforge/maven-metadata.xml)
           LATEST_211=$(echo "$META" | grep -oE '21\.1\.[0-9]+' | sort -t. -k3 -n | tail -1)
           CURRENT=$(sed -n 's/^neoforge *= *"\([^"]*\)".*/\1/p' pack.toml | head -1)
-          MC=$(sed -n 's/^minecraft *= *"\([^"]*\)".*/\1/p' pack.toml | head -1)
           echo "latest_211=$LATEST_211" >> "$GITHUB_OUTPUT"
           echo "current=$CURRENT" >> "$GITHUB_OUTPUT"
-          echo "mc=$MC" >> "$GITHUB_OUTPUT"
           echo "Current NeoForge=$CURRENT  latest 21.1.x=$LATEST_211"
 
       - name: Bump NeoForge (optional)
@@ -58,27 +69,26 @@ jobs:
           export PATH="$PATH:$(go env GOPATH)/bin"
           TARGET="${{ steps.nf.outputs.latest_211 }}"
           CURRENT="${{ steps.nf.outputs.current }}"
-          if [ -z "$TARGET" ]; then
-            echo "Could not resolve latest 21.1.x"; exit 1
-          fi
-          if [ "$CURRENT" = "$TARGET" ]; then
-            echo "NeoForge already at $TARGET"
-          else
+          if [ "$CURRENT" != "$TARGET" ]; then
             packwiz migrate loader "$TARGET" -y
-            echo "Bumped NeoForge $CURRENT → $TARGET"
+          else
+            echo "NeoForge already at $TARGET"
           fi
 
-      - name: Update mods
+      - name: Update mods (channel-aware)
         if: ${{ github.event_name == 'schedule' || inputs.update_mods }}
+        env:
+          CHANNEL: ${{ github.event_name == 'schedule' && 'release' || inputs.channel || 'release' }}
         run: |
           set -euo pipefail
           export PATH="$PATH:$(go env GOPATH)/bin"
-          packwiz update --all -y
-          packwiz refresh
+          echo "Updating with channel=$CHANNEL"
+          python3 scripts/update_channel.py --channel "$CHANNEL"
 
       - name: Write status.json for Pages
         env:
           NF_LATEST: ${{ steps.nf.outputs.latest_211 }}
+          CHANNEL: ${{ github.event_name == 'schedule' && 'release' || inputs.channel || 'release' }}
         run: |
           set -euo pipefail
           python3 - <<'PY'
@@ -86,13 +96,13 @@ jobs:
           pack = pathlib.Path("pack.toml").read_text(encoding="utf-8")
           current = re.search(r'^neoforge\s*=\s*"([^"]+)"', pack, re.M).group(1)
           mc = re.search(r'^minecraft\s*=\s*"([^"]+)"', pack, re.M).group(1)
-          latest = os.environ.get("NF_LATEST", "")
           pathlib.Path("status.json").write_text(json.dumps({
             "minecraft": mc,
             "neoforge": current,
-            "neoforge_latest_same_mc": latest,
+            "neoforge_latest_same_mc": os.environ.get("NF_LATEST", ""),
             "neoforge_line": "21.1.x",
-            "policy": "Pin MC 1.21.1 + NeoForge 21.1.x. Update mods freely. Bump NeoForge only within 21.1.x when mods require it — never jump to absolute NeoForge latest (other MC).",
+            "last_update_channel": os.environ.get("CHANNEL", "release"),
+            "policy": "Default updates use channel=release (stable only). Maintainers can choose beta/alpha on the Pages console. Create: Lanterns is allowlisted for alpha via channel-overrides.json. NeoForge only bumps within 21.1.x.",
             "checked_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
           }, indent=2) + "\n", encoding="utf-8")
           PY
@@ -105,27 +115,15 @@ jobs:
           git add -A
           if git diff --staged --quiet; then
             echo "No changes."
-            echo "updated=false" >> "$GITHUB_ENV"
           else
-            MSG="chore: packwiz update"
-            if git diff --staged --name-only | grep -q pack.toml; then
-              MSG="chore: packwiz update (loader/mods)"
-            fi
-            git commit -m "$MSG ($(date -u +%Y-%m-%d))"
+            git commit -m "chore: packwiz channel update ($(date -u +%Y-%m-%d))"
             git push
-            echo "updated=true" >> "$GITHUB_ENV"
           fi
 
       - name: Summary
         run: |
           {
             echo "## Packwiz update"
-            echo "- NeoForge pinned: \`${{ steps.nf.outputs.current }}\` → now in pack.toml after job"
-            echo "- Latest 21.1.x: \`${{ steps.nf.outputs.latest_211 }}\`"
-            echo "- Bump NeoForge requested: \`${{ inputs.bump_neoforge || false }}\`"
-            if [ "${updated:-false}" = "true" ]; then
-              echo "- Pushed changes to \`master\`."
-            else
-              echo "- Already up to date."
-            fi
+            echo "- Channel: \`${{ inputs.channel || 'release' }}\`"
+            echo "- NeoForge: \`${{ steps.nf.outputs.current }}\` (latest 21.1.x \`${{ steps.nf.outputs.latest_211 }}\`)"
           } >> "$GITHUB_STEP_SUMMARY"
