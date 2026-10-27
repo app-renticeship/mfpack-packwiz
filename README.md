@@ -5,7 +5,7 @@ NeoForge **1.21.1** auto-updating pack for MFServer (Modrinth + CurseForge, incl
 ## Pack URL
 
 ```
-https://raw.githubusercontent.com/app-renticeship/mfpack-packwiz/master/pack.toml
+https://app-renticeship.github.io/mfpack-packwiz/pack.toml
 ```
 
 (Also: https://app-renticeship.github.io/mfpack-packwiz/pack.toml )
@@ -17,7 +17,7 @@ Your instance pre-launch already runs packwiz-installer. On every Play, mods syn
 To wire a fresh instance: put `packwiz-installer-bootstrap.jar` in `minecraft/`, enable Custom Commands, pre-launch:
 
 ```
-"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/app-renticeship/mfpack-packwiz/master/pack.toml
+"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://app-renticeship.github.io/mfpack-packwiz/pack.toml
 ```
 
 ## Server (Pelican)
@@ -37,3 +37,4 @@ packwiz update --all
 packwiz refresh
 git add -A && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "chore: update mods" && git push
 ```
+
