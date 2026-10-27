@@ -1,16 +1,13 @@
-filename = 'reliable_remover-3.5.3+1.21.1-neoforge.jar'
-name = 'Reliable Remover'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Reliable Remover"
+filename = "reliable_remover-3.8.3+1.21.1-neoforge.jar"
+side = "both"
 
 [download]
-hash = '616097fd8cd19f1746e567ed82de028fd3ab9e4d19ec71608e9e909cb82982202fb0ef83d4c5c3aecbafd865d7a485e49dee0fde23dd4bcd070ad23d77cef4dc'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/pLxsKvNt/versions/tUMtmlJf/reliable_remover-3.5.3%2B1.21.1-neoforge.jar'
+url = "https://cdn.modrinth.com/data/pLxsKvNt/versions/zNTpRJOJ/reliable_remover-3.8.3%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "a0a887c56281b640cab63cd59ddf58d4a4ea571fe06ebd77b1056062946e1cd4a87790747becb8895d2d50a07d64468b53f4663a3a5f79133251aa22a70241b4"
 
+[update]
 [update.modrinth]
-mod-id = 'pLxsKvNt'
-version = 'tUMtmlJf'
+mod-id = "pLxsKvNt"
+version = "zNTpRJOJ"

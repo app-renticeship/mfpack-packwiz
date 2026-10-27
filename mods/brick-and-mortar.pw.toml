@@ -1,16 +1,13 @@
-filename = 'brick_and_mortar-neoforge-1.21.1-1.1.0.jar'
-name = 'Brick & Mortar'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Brick & Mortar"
+filename = "brick_and_mortar-neoforge-1.21.1-1.3.1.jar"
+side = "both"
 
 [download]
-hash = 'bcbe7ace8ca0de7bb6aef3b1bd52e408442564076ae70a8f1a847b08b4495612edb6f7a44c9f1641b8831309cdd548398ba6520ce187a3766f2ebdd8bb514695'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/ntRJD9NS/versions/fY5ANmQJ/brick_and_mortar-neoforge-1.21.1-1.1.0.jar'
+url = "https://cdn.modrinth.com/data/ntRJD9NS/versions/8wAguQz5/brick_and_mortar-neoforge-1.21.1-1.3.1.jar"
+hash-format = "sha512"
+hash = "e688821f5b306b0792270cd2e8c6cf1657ae5b054f2d0e2e42d2dcae63d18c7b0976c0cdf7edf80f649dd57e3c0944190d9528f5159c6aaa0f16f390bd2b4f81"
 
+[update]
 [update.modrinth]
-mod-id = 'ntRJD9NS'
-version = 'fY5ANmQJ'
+mod-id = "ntRJD9NS"
+version = "8wAguQz5"

@@ -1,16 +1,13 @@
-filename = 'create_winery-2.0.2-neoforge-1.21.1.jar'
-name = 'Create: Winery'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
+name = "Create: Winery"
+filename = "create_winery-2.0.3-neoforge-1.21.1.jar"
+side = "both"
 
 [download]
-hash = '8812fd4b3299d229c6edfc8a46a8c93610a2c857793a0ffb04538edf01466cf359a8afc1f78f51d6ff8b61352d52ec231deb2a49efd96d69b4a6885987ba7da7'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/zBuk6egG/versions/vTUNDdDM/create_winery-2.0.2-neoforge-1.21.1.jar'
+url = "https://cdn.modrinth.com/data/zBuk6egG/versions/mbnef0lU/create_winery-2.0.3-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "f27194287c41172e5f4f3c497c032537945f03e22b84993527b3efe3a6c60cf0371a7bc4121e0c7024ee0d3484d42e70996900d5d8b4b113135097120d4846ca"
 
+[update]
 [update.modrinth]
-mod-id = 'zBuk6egG'
-version = 'vTUNDdDM'
+mod-id = "zBuk6egG"
+version = "mbnef0lU"

@@ -1,16 +1,13 @@
-filename = 'createornithopterglider-1.2.0-1.21.1.jar'
-name = 'Create: Ornithopter Glider'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Create: Ornithopter Glider"
+filename = "createornithopterglider-1.2.1-1.21.1.jar"
+side = "both"
 
 [download]
-hash = '5e6adb3ce0058ef9b835c2161430c0e76a2219dcc0b0ade21957ff7e90c986d1fd6d854984d2aea45706a5e1e956b5ca9e8d1615916dcf92f12ff2254a2a7a20'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/A30Sq5Gt/versions/rbDbxAY3/createornithopterglider-1.2.0-1.21.1.jar'
+url = "https://cdn.modrinth.com/data/A30Sq5Gt/versions/DFrFDlu7/createornithopterglider-1.2.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "65827d4cbe05924936cdc65249c38c05006dbe1a3c179518ec8a6de5cf53373b9b3e81d40586b6441b6d83cc53e1ffee7b196c8bf687d18ffdebed0dbb9041b4"
 
+[update]
 [update.modrinth]
-mod-id = 'A30Sq5Gt'
-version = 'rbDbxAY3'
+mod-id = "A30Sq5Gt"
+version = "DFrFDlu7"

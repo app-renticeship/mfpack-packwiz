@@ -1,16 +1,13 @@
-filename = 'reeses-sodium-options-neoforge-2.0.5+mc1.21.1.jar'
 name = "Reese's Sodium Options"
-side = 'client'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'alpha'
+filename = "reeses-sodium-options-neoforge-2.2.4+mc1.21.1.jar"
+side = "client"
 
 [download]
-hash = '033e1e52643dd06575bd67c5c9203c6db141981b33d0b6201e6b0bc8bd6cc0994856277509bf6750a2f3296c849b4ea5994832a78171b920901ebdccf5ddcd3a'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/Bh37bMuy/versions/Pv76GJbN/reeses-sodium-options-neoforge-2.0.5%2Bmc1.21.1.jar'
+url = "https://cdn.modrinth.com/data/Bh37bMuy/versions/XjF2IkL8/reeses-sodium-options-neoforge-2.2.4%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "a99d41a41ca83376c4fa29ed22a99e98288a7e9a4749fbf6d3724b9804b8e66648e267c6851a53d040069fdc2d889f8205cbb444bee10a35be840d13fc9ed477"
 
+[update]
 [update.modrinth]
-mod-id = 'Bh37bMuy'
-version = 'Pv76GJbN'
+mod-id = "Bh37bMuy"
+version = "XjF2IkL8"

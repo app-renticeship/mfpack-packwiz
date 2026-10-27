@@ -1,16 +1,13 @@
-filename = 'ParticleEffects-1.4.0+1.21.1+neoforge.jar'
-name = 'Particle Effects'
-side = 'client'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Particle Effects"
+filename = "ParticleEffects-1.6.0+1.21.1+neoforge.jar"
+side = "client"
 
 [download]
-hash = '39e7f7e4abf02288d1fa831bb681725a726f12eb3dd96a5080163a4284533d2befbf13003515eaa5f9b13c38bd137793af0cb86366c65c9be4b1cd54d4acf5d8'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/PLAGcSFJ/versions/ewh5dAkH/ParticleEffects-1.4.0%2B1.21.1%2Bneoforge.jar'
+url = "https://cdn.modrinth.com/data/PLAGcSFJ/versions/HVllSdtX/ParticleEffects-1.6.0%2B1.21.1%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "f6076746fde55d438787d421e1276ecb4fa2117bfc8b5c29b3166f92baa8a23374b1e860f18a7fa9c3f385eb3db4d84260f42daf0efaaf5b8047e790481c5a00"
 
+[update]
 [update.modrinth]
-mod-id = 'PLAGcSFJ'
-version = 'ewh5dAkH'
+mod-id = "PLAGcSFJ"
+version = "HVllSdtX"

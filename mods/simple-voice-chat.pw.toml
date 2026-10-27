@@ -1,16 +1,13 @@
-filename = 'voicechat-neoforge-1.21.1-2.6.18.jar'
-name = 'Simple Voice Chat'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Simple Voice Chat"
+filename = "voicechat-neoforge-1.21.1-2.6.26.jar"
+side = "both"
 
 [download]
-hash = '9990a758a9c1044af1dce3b96feaf7eeab91a8180fbf9e77388c1ee9983c2c0919710d87b917eb815457d926f00e68557c6a85eb8193d895ac8fe78fd7abb4c1'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/9eGKb6K1/versions/eFhbQnrh/voicechat-neoforge-1.21.1-2.6.18.jar'
+url = "https://cdn.modrinth.com/data/9eGKb6K1/versions/BdfNq5zU/voicechat-neoforge-1.21.1-2.6.26.jar"
+hash-format = "sha512"
+hash = "919033cadb14715630d2904b682daa063de8b4a7482fe75559fc20a6b7c7e03c2f27e18770a5102d35e5ecc7539f64bf8f44039fd7eeea406547f1d748145edf"
 
+[update]
 [update.modrinth]
-mod-id = '9eGKb6K1'
-version = 'eFhbQnrh'
+mod-id = "9eGKb6K1"
+version = "BdfNq5zU"

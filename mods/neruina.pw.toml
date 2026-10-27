@@ -1,16 +1,13 @@
-filename = 'neruina-3.3.3+1.21.1-neoforge.jar'
-name = 'Neruina - Ticking Entity Fixer'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
-x-prismlauncher-release-type = 'release'
+name = "Neruina - Ticking Entity Fixer"
+filename = "neruina-3.3.5+1.21.1-neoforge.jar"
+side = "both"
 
 [download]
-hash = 'a1fe83aa8cb124531254e65f2fb4e9ad221761bc4898e3a276389bae34681e9707e686d05436d42aedf4c201bad48043dc25cd32a6ebb2fa2d4c8463d0367a41'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/1s5x833P/versions/QAvQAcGh/neruina-3.3.3%2B1.21.1-neoforge.jar'
+url = "https://cdn.modrinth.com/data/1s5x833P/versions/zGwTcpmb/neruina-3.3.5%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "b1a36e579419e194afb92f46f2831994b44a08ccba21cd6293dc314f3616edd3fe5c2721ed6195ad6a22b6046b106be03f0f64da82173615ccc7b9925ad8d38c"
 
+[update]
 [update.modrinth]
-mod-id = '1s5x833P'
-version = 'QAvQAcGh'
+mod-id = "1s5x833P"
+version = "zGwTcpmb"

@@ -1,16 +1,13 @@
-filename = 'Companion-1.21.1-NeoForge-6.2.1.jar'
-name = 'Companion 🐕'
-side = 'server'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
+name = "Companion 🐕"
+filename = "Companion-1.21.1-NeoForge-6.3.0.jar"
+side = "server"
 
 [download]
-hash = '07d0a05dbfe5eaa4add8787e97ad5c700d3675479cefec42062651ef3431388807641226191d0b5bb353524fa0c4350df8ea0909a767b6d29148c351a78ae332'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/4w0EzGRW/versions/6xRYHfEK/Companion-1.21.1-NeoForge-6.2.1.jar'
+url = "https://cdn.modrinth.com/data/4w0EzGRW/versions/PfXPQBGy/Companion-1.21.1-NeoForge-6.3.0.jar"
+hash-format = "sha512"
+hash = "bdc3b9d19c3650366404a6c4e0959b19ce9759a0861b5df05262eaf9af3ae6b0ed931dfe62b9cf61fe2b92f21bd9ea320822512af8cd27636edcc0010b2ddc7c"
 
+[update]
 [update.modrinth]
-mod-id = '4w0EzGRW'
-version = '6xRYHfEK'
+mod-id = "4w0EzGRW"
+version = "PfXPQBGy"

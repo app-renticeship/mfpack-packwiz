@@ -1,16 +1,13 @@
-filename = 'creategarnished-0.1.7.4+1.21.1-neoforged.jar'
-name = 'Create: Garnished Reworked'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.10', '1.21.11', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9' ]
-x-prismlauncher-release-type = 'release'
+name = "Create: Garnished Reworked"
+filename = "creategarnished-april-foods-26-neoforged.jar"
+side = "both"
 
 [download]
-hash = 'f4b730398a19ea24b5de15d8b9f8eeaab9bd158f2fbfc32d7a43f856c7c6d18740b3b3c628beaf1dfc795ce40e1d8adb74653508ac1e136511b42506224b5053'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/f1wEzr0F/versions/wxWA2IgN/creategarnished-0.1.7.4%2B1.21.1-neoforged.jar'
+url = "https://cdn.modrinth.com/data/f1wEzr0F/versions/ODnfYWc7/creategarnished-april-foods-26-neoforged.jar"
+hash-format = "sha512"
+hash = "587a5449ea1f22874b53ede8e3d3bab225560b5586530c6d0a67b167644dfcbc2d0640d913b1711c1221d617def7df836f284e7925346eceac92a05790673067"
 
+[update]
 [update.modrinth]
-mod-id = 'f1wEzr0F'
-version = 'wxWA2IgN'
+mod-id = "f1wEzr0F"
+version = "ODnfYWc7"
