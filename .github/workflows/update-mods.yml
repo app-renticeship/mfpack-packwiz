@@ -1,0 +1,65 @@
+name: Update mods
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every day 12:00 UTC — catches Create: Lanterns-style frequent alphas
+    - cron: "0 12 * * *"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: update-mods
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.24.x"
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Update mods
+        run: |
+          set -euo pipefail
+          export PATH="$PATH:$(go env GOPATH)/bin"
+          packwiz update --all -y
+          packwiz refresh
+
+      - name: Commit & push if changed
+        run: |
+          set -euo pipefail
+          git config user.name "mfpack-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No mod updates."
+            echo "updated=false" >> "$GITHUB_ENV"
+          else
+            git commit -m "chore: packwiz update mods ($(date -u +%Y-%m-%d))"
+            git push
+            echo "updated=true" >> "$GITHUB_ENV"
+          fi
+
+      - name: Summary
+        run: |
+          {
+            echo "## Packwiz update"
+            if [ "${updated:-false}" = "true" ]; then
+              echo "Pushed new mod versions to \`master\`."
+            else
+              echo "Already up to date."
+            fi
+            echo ""
+            echo "Pack URL: https://app-renticeship.github.io/mfpack-packwiz/pack.toml"
+          } >> "$GITHUB_STEP_SUMMARY"

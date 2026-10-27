@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Illustrious MFPack — Updates</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0f1410;
+      --bg2: #182018;
+      --ink: #e8efe6;
+      --muted: #9aab96;
+      --line: #2a382c;
+      --accent: #c4a35a;
+      --accent-ink: #1a1508;
+      --ok: #7dba6c;
+      --warn: #e0a35a;
+      --bad: #e07070;
+      --card: #141c15;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: "Instrument Sans", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, #243224 0%, transparent 55%),
+        radial-gradient(900px 500px at 100% 0%, #2a2418 0%, transparent 50%),
+        var(--bg);
+      line-height: 1.45;
+    }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    .brand {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.35rem;
+    }
+    .brand span { color: var(--accent); }
+    .lede { color: var(--muted); margin: 0 0 1.75rem; max-width: 40rem; }
+    .meta {
+      display: flex; flex-wrap: wrap; gap: 0.5rem 1rem;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.8rem; color: var(--muted);
+      margin-bottom: 1.75rem;
+    }
+    .meta b { color: var(--ink); font-weight: 500; }
+    .actions {
+      display: flex; flex-wrap: wrap; gap: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+    button, .btn {
+      appearance: none; border: 0; cursor: pointer;
+      font: inherit; font-weight: 600;
+      padding: 0.7rem 1.1rem; border-radius: 4px;
+      text-decoration: none; display: inline-flex; align-items: center; gap: 0.45rem;
+    }
+    .primary { background: var(--accent); color: var(--accent-ink); }
+    .primary:hover { filter: brightness(1.06); }
+    .primary:disabled { opacity: 0.45; cursor: not-allowed; filter: none; }
+    .ghost {
+      background: transparent; color: var(--ink);
+      outline: 1px solid var(--line);
+    }
+    .ghost:hover { background: var(--bg2); }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 1rem 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .panel h2 {
+      margin: 0 0 0.65rem; font-size: 0.95rem;
+      text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted);
+    }
+    .token-row { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+    input[type="password"], input[type="text"] {
+      flex: 1; min-width: 220px;
+      background: var(--bg); color: var(--ink);
+      border: 1px solid var(--line); border-radius: 4px;
+      padding: 0.65rem 0.75rem; font: inherit;
+      font-family: "IBM Plex Mono", monospace; font-size: 0.85rem;
+    }
+    .hint { font-size: 0.85rem; color: var(--muted); margin: 0.55rem 0 0; }
+    .hint a { color: var(--accent); }
+    #status {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.85rem; min-height: 1.3em;
+      margin: 0.5rem 0 1rem; color: var(--muted);
+    }
+    #status.ok { color: var(--ok); }
+    #status.warn { color: var(--warn); }
+    #status.bad { color: #e07070; }
+    table {
+      width: 100%; border-collapse: collapse; font-size: 0.92rem;
+    }
+    th, td {
+      text-align: left; padding: 0.55rem 0.4rem;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; font-size: 0.78rem;
+      text-transform: uppercase; letter-spacing: 0.04em; }
+    .tag {
+      display: inline-block; font-size: 0.72rem; font-weight: 600;
+      padding: 0.12rem 0.4rem; border-radius: 3px;
+      font-family: "IBM Plex Mono", monospace;
+    }
+    .tag.mr { background: #1e3d2a; color: #9fd49a; }
+    .tag.cf { background: #3d2a14; color: #e0b57a; }
+    .tag.up { background: #3a2a10; color: var(--warn); }
+    .empty { color: var(--muted); padding: 1rem 0; }
+    footer { margin-top: 2rem; color: var(--muted); font-size: 0.85rem; }
+    footer a { color: var(--accent); }
+    details.maintainer summary {
+      cursor: pointer; color: var(--muted); font-size: 0.9rem;
+      margin-bottom: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="brand">Illustrious <span>MFPack</span></h1>
+    <p class="lede">
+      Packwiz auto-update console. Scan for newer Modrinth builds here;
+      Apply runs packwiz on GitHub Actions (Modrinth + CurseForge, including Create: Lanterns).
+    </p>
+
+    <div class="meta" id="meta">
+      <div>Loading pack…</div>
+    </div>
+
+    <div class="actions">
+      <button class="primary" id="btnScan" type="button">Scan for updates</button>
+      <button class="primary" id="btnUpdate" type="button" disabled title="Set a GitHub token below (maintainers)">Update available mods</button>
+      <a class="btn ghost" href="https://github.com/app-renticeship/mfpack-packwiz/actions/workflows/update-mods.yml" target="_blank" rel="noopener">Actions →</a>
+      <a class="btn ghost" id="packLink" href="./pack.toml">pack.toml</a>
+    </div>
+    <p id="status"></p>
+
+    <div class="panel">
+      <h2>Updates found</h2>
+      <div id="results"><p class="empty">Run a scan to list Modrinth mods with newer versions. CurseForge (Create: Lanterns, etc.) is updated when you hit Update.</p></div>
+    </div>
+
+    <details class="maintainer panel" open>
+      <summary>Maintainer — GitHub token (stored only in this browser)</summary>
+      <div class="token-row">
+        <input id="token" type="password" placeholder="ghp_… or github_pat_… (repo + workflow scope)" autocomplete="off" />
+        <button class="ghost" id="btnSaveToken" type="button">Save</button>
+        <button class="ghost" id="btnClearToken" type="button">Clear</button>
+      </div>
+      <p class="hint">
+        Needs permission to dispatch workflows on
+        <a href="https://github.com/app-renticeship/mfpack-packwiz" target="_blank" rel="noopener">app-renticeship/mfpack-packwiz</a>.
+        Fine-grained: Contents read, Actions write (or classic <code>repo</code> + <code>workflow</code>).
+        Players do not need this — Prism syncs on launch.
+      </p>
+    </details>
+
+    <div class="panel">
+      <h2>Recent update runs</h2>
+      <div id="runs"><p class="empty">Loading…</p></div>
+    </div>
+
+    <footer>
+      Clients sync with packwiz-installer on launch.
+      Source: <a href="https://github.com/app-renticeship/mfpack-packwiz">github.com/app-renticeship/mfpack-packwiz</a>
+    </footer>
+  </div>
+
+  <script>
+    const REPO = "app-renticeship/mfpack-packwiz";
+    const WORKFLOW = "update-mods.yml";
+    const BRANCH = "master";
+    const TOKEN_KEY = "mfpack.gh.token";
+
+    const $ = (id) => document.getElementById(id);
+    const status = (msg, kind) => {
+      const el = $("status");
+      el.textContent = msg;
+      el.className = kind || "";
+    };
+
+    function getToken() {
+      return (localStorage.getItem(TOKEN_KEY) || $("token").value || "").trim();
+    }
+
+    function refreshUpdateButton() {
+      $("btnUpdate").disabled = !getToken();
+    }
+
+    async function loadPack() {
+      const pack = await fetch("./pack.toml", { cache: "no-store" }).then((r) => r.text());
+      const name = (pack.match(/^name\s*=\s*"([^"]+)"/m) || [])[1] || "MFPack";
+      const version = (pack.match(/^version\s*=\s*"([^"]+)"/m) || [])[1] || "?";
+      const mc = (pack.match(/minecraft\s*=\s*"([^"]+)"/) || [])[1] || "?";
+      const neo = (pack.match(/neoforge\s*=\s*"([^"]+)"/) || [])[1] || "?";
+      $("meta").innerHTML = `
+        <div><b>${name}</b></div>
+        <div>pack <b>${version}</b></div>
+        <div>MC <b>${mc}</b></div>
+        <div>NeoForge <b>${neo}</b></div>`;
+      return { mc, neo };
+    }
+
+    async function loadIndexFiles() {
+      const idx = await fetch("./index.toml", { cache: "no-store" }).then((r) => r.text());
+      const files = [];
+      for (const m of idx.matchAll(/file\s*=\s*"([^"]+)"/g)) {
+        if (m[1].endsWith(".pw.toml")) files.push(m[1]);
+      }
+      return files;
+    }
+
+    function parseTomlLite(text) {
+      const name = (text.match(/^name\s*=\s*['"]([^'"]+)['"]/m) || text.match(/^name\s*=\s*"([^"]+)"/m) || [])[1];
+      const filename = (text.match(/^filename\s*=\s*['"]([^'"]+)['"]/m) || [])[1];
+      const mrId = (text.match(/\[update\.modrinth\][\s\S]*?mod-id\s*=\s*['"]([^'"]+)['"]/) ||
+        text.match(/mod-id\s*=\s*['"]([^'"]+)['"]\s*\n\s*version\s*=\s*['"]([^'"]+)['"]/))?.[1];
+      const mrVer = (text.match(/\[update\.modrinth\][\s\S]*?version\s*=\s*['"]([^'"]+)['"]/) ||
+        text.match(/mod-id\s*=\s*['"][^'"]+['"]\s*\n\s*version\s*=\s*['"]([^'"]+)['"]/))?.[1]
+        || (text.match(/\[update\.modrinth\][\s\S]*?version\s*=\s*['"]([^'"]+)['"]/) || [])[1];
+      // Prism style [update.modrinth] then mod-id / version
+      let modrinthId = null, modrinthVersion = null;
+      const mrBlock = text.match(/\[update\.modrinth\]([\s\S]*?)(?=\n\[|$)/);
+      if (mrBlock) {
+        modrinthId = (mrBlock[1].match(/mod-id\s*=\s*['"]([^'"]+)['"]/) || [])[1];
+        modrinthVersion = (mrBlock[1].match(/version\s*=\s*['"]([^'"]+)['"]/) || [])[1];
+      }
+      let cfProject = null, cfFile = null;
+      const cfBlock = text.match(/\[update\.curseforge\]([\s\S]*?)(?=\n\[|$)/);
+      if (cfBlock) {
+        cfProject = (cfBlock[1].match(/project-id\s*=\s*(\d+)/) || [])[1];
+        cfFile = (cfBlock[1].match(/file-id\s*=\s*(\d+)/) || [])[1];
+      }
+      return {
+        name: name || filename || "?",
+        filename,
+        modrinthId,
+        modrinthVersion,
+        cfProject,
+        cfFile,
+      };
+    }
+
+    async function fetchModMeta(path) {
+      const text = await fetch("./" + path, { cache: "no-store" }).then((r) => r.text());
+      return { path, ...parseTomlLite(text) };
+    }
+
+    async function latestModrinth(modId, mc, loaders = ["neoforge"]) {
+      const params = new URLSearchParams({
+        loaders: JSON.stringify(loaders),
+        game_versions: JSON.stringify([mc]),
+      });
+      const url = `https://api.modrinth.com/v2/project/${encodeURIComponent(modId)}/version?${params}`;
+      const versions = await fetch(url).then((r) => {
+        if (!r.ok) throw new Error("modrinth " + r.status);
+        return r.json();
+      });
+      if (!versions.length) return null;
+      return versions[0];
+    }
+
+    async function scan() {
+      $("btnScan").disabled = true;
+      status("Loading pack index…");
+      try {
+        const { mc } = await loadPack();
+        const files = await loadIndexFiles();
+        status(`Scanning ${files.length} mods (Modrinth)…`);
+        const metas = [];
+        const chunk = 12;
+        for (let i = 0; i < files.length; i += chunk) {
+          const slice = files.slice(i, i + chunk);
+          const part = await Promise.all(slice.map(fetchModMeta));
+          metas.push(...part);
+          status(`Scanning ${Math.min(i + chunk, files.length)} / ${files.length}…`);
+        }
+
+        const mrMods = metas.filter((m) => m.modrinthId);
+        const cfMods = metas.filter((m) => m.cfProject);
+        const updates = [];
+        let checked = 0;
+        for (let i = 0; i < mrMods.length; i += chunk) {
+          const slice = mrMods.slice(i, i + chunk);
+          const results = await Promise.all(
+            slice.map(async (m) => {
+              try {
+                const latest = await latestModrinth(m.modrinthId, mc);
+                checked++;
+                if (!latest) return null;
+                if (latest.id !== m.modrinthVersion) {
+                  return {
+                    name: m.name,
+                    source: "modrinth",
+                    current: m.modrinthVersion,
+                    latest: latest.id,
+                    latestName: latest.version_number,
+                    filename: latest.files?.[0]?.filename || m.filename,
+                  };
+                }
+              } catch (_) { /* ignore single failures */ }
+              return null;
+            })
+          );
+          updates.push(...results.filter(Boolean));
+          status(`Checked Modrinth ${Math.min(i + chunk, mrMods.length)} / ${mrMods.length}…`);
+        }
+
+        renderResults(updates, { mr: mrMods.length, cf: cfMods.length, checked });
+        if (updates.length) {
+          status(`${updates.length} Modrinth update(s) available. CurseForge mods update when you press Update.`, "warn");
+        } else {
+          status(`Modrinth up to date (${checked} checked). CurseForge still refreshed on Update.`, "ok");
+        }
+      } catch (e) {
+        status(String(e.message || e), "bad");
+      } finally {
+        $("btnScan").disabled = false;
+      }
+    }
+
+    function renderResults(updates, counts) {
+      const el = $("results");
+      if (!updates.length) {
+        el.innerHTML = `<p class="empty">No Modrinth updates found (${counts.mr} Modrinth / ${counts.cf} CurseForge in pack).</p>`;
+        return;
+      }
+      el.innerHTML = `
+        <table>
+          <thead><tr><th>Mod</th><th>Source</th><th>Latest</th><th></th></tr></thead>
+          <tbody>
+            ${updates
+              .map(
+                (u) => `<tr>
+                <td>${escapeHtml(u.name)}</td>
+                <td><span class="tag mr">modrinth</span></td>
+                <td><code>${escapeHtml(u.latestName || u.latest)}</code></td>
+                <td><span class="tag up">update</span></td>
+              </tr>`
+              )
+              .join("")}
+          </tbody>
+        </table>`;
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    async function triggerUpdate() {
+      const token = getToken();
+      if (!token) {
+        status("Add a GitHub token first (maintainer section).", "warn");
+        return;
+      }
+      $("btnUpdate").disabled = true;
+      status("Dispatching packwiz update workflow…");
+      try {
+        const res = await fetch(
+          `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
+          {
+            method: "POST",
+            headers: {
+              Accept: "application/vnd.github+json",
+              Authorization: `Bearer ${token}`,
+              "X-GitHub-Api-Version": "2022-11-28",
+            },
+            body: JSON.stringify({ ref: BRANCH }),
+          }
+        );
+        if (res.status === 204 || res.status === 200) {
+          status("Update started. Refresh runs below in a few seconds…", "ok");
+          setTimeout(loadRuns, 4000);
+          setTimeout(loadRuns, 15000);
+        } else {
+          const body = await res.text();
+          status(`GitHub ${res.status}: ${body || res.statusText}`, "bad");
+        }
+      } catch (e) {
+        status(String(e.message || e), "bad");
+      } finally {
+        refreshUpdateButton();
+      }
+    }
+
+    async function loadRuns() {
+      const el = $("runs");
+      try {
+        const res = await fetch(
+          `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/runs?per_page=5`,
+          { headers: { Accept: "application/vnd.github+json" } }
+        );
+        if (!res.ok) throw new Error("runs " + res.status);
+        const data = await res.json();
+        if (!data.workflow_runs?.length) {
+          el.innerHTML = `<p class="empty">No runs yet. Click Update available mods.</p>`;
+          return;
+        }
+        el.innerHTML = `<table><thead><tr><th>When</th><th>Status</th><th>Event</th><th></th></tr></thead><tbody>
+          ${data.workflow_runs
+            .map((r) => {
+              const when = new Date(r.created_at).toLocaleString();
+              const st = r.conclusion || r.status;
+              return `<tr>
+                <td>${escapeHtml(when)}</td>
+                <td><code>${escapeHtml(st)}</code></td>
+                <td>${escapeHtml(r.event)}</td>
+                <td><a href="${r.html_url}" target="_blank" rel="noopener">log</a></td>
+              </tr>`;
+            })
+            .join("")}
+        </tbody></table>`;
+      } catch (e) {
+        el.innerHTML = `<p class="empty">${escapeHtml(e.message || e)}</p>`;
+      }
+    }
+
+    $("btnScan").addEventListener("click", scan);
+    $("btnUpdate").addEventListener("click", triggerUpdate);
+    $("btnSaveToken").addEventListener("click", () => {
+      const t = $("token").value.trim();
+      if (t) localStorage.setItem(TOKEN_KEY, t);
+      refreshUpdateButton();
+      status(t ? "Token saved in this browser only." : "Empty token.", t ? "ok" : "warn");
+    });
+    $("btnClearToken").addEventListener("click", () => {
+      localStorage.removeItem(TOKEN_KEY);
+      $("token").value = "";
+      refreshUpdateButton();
+      status("Token cleared.", "ok");
+    });
+    $("token").value = localStorage.getItem(TOKEN_KEY) || "";
+    $("token").addEventListener("input", refreshUpdateButton);
+
+    refreshUpdateButton();
+    loadPack().catch((e) => status(String(e), "bad"));
+    loadRuns();
+  </script>
+</body>
+</html>
