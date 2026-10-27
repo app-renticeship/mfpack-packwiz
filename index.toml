@@ -1484,3 +1484,8 @@ metafile = true
 file = "mods/simply-jetpacks-2.pw.toml"
 hash = "a042c152a15768f64b283c8b0ab407fc7051782923e9bd14f6e1aed18ec4c035"
 metafile = true
+
+[[files]]
+file = "mods/mfjeicompat.pw.toml"
+hash = "f1c753926528f3745be538708289fbe021ac7c9785b25538ecbce5415bbc1f34"
+metafile = true

@@ -1,0 +1,8 @@
+name = "MF JEI Compat"
+filename = "mfjeicompat-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/mfjeicompat-1.0.0.jar"
+hash-format = "sha256"
+hash = "8fdb3f2d78b6119357bd8c4a1ee8d17cba1f745bf4db181b88d97fe1ae4ade59"
