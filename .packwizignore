@@ -1,4 +1,6 @@
-﻿README.md
+﻿# Ignore non-pack files
+README.md
 .git/**
 .gitignore
+.packwizignore
 packwiz-installer-bootstrap.jar

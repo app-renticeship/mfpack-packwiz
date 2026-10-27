@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md.bak"
-hash = "5fc54d92a098a0aae0564851b9a22b6ed2b4ab60dadf95d745a95465e173567d"
-
-[[files]]
 file = "mods/aeroclaims.pw.toml"
 hash = "9c3b44eab3d409a3250541b58782623f1542e1a79e44faf04c07e869a4a8db7e"
 metafile = true
