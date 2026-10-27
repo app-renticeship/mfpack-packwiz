@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "fe80befdb33b295a12c91bfd27d036ced333c05382cb5321c5aa9068486949ce"
+hash = "5fc54d92a098a0aae0564851b9a22b6ed2b4ab60dadf95d745a95465e173567d"
 
 [[files]]
 file = "mods/aeroclaims.pw.toml"
@@ -1413,7 +1413,3 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "c441024257333ee0531b7a1d8e162e5b890adbe4b7e323b15c955e51158b8695"
 metafile = true
-
-[[files]]
-file = "packwiz-installer-bootstrap.jar"
-hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
