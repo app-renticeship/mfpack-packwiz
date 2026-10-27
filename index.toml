@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/carry-on.pw.toml"
-hash = "29224f52b512ee02dd5a6eaaa07278cc31d8f28462d5c0a7f407a7a2c4b0cff2"
+hash = "cb716be22ee98d1708e53b5c043c6042fec44660a3d7974304121138f1a7b841"
 metafile = true
 
 [[files]]
