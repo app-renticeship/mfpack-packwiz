@@ -1,6 +1,6 @@
 name = "The Illustrious MFPack"
 author = "MFServer"
-version = "1.0.8-packwiz"
+version = "1.0.8-nf265"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -10,7 +10,7 @@ hash = "2102bb3b8cd80093144bf888f968404a16e2a9bf3cc2f94884f6384c9304b26b"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.256"
+neoforge = "21.1.265"
 
 [options]
 acceptable-game-versions = ["1.21.1", "1.21"]
