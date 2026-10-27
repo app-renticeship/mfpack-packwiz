@@ -1487,5 +1487,5 @@ metafile = true
 
 [[files]]
 file = "mods/mfjeicompat.pw.toml"
-hash = "f1c753926528f3745be538708289fbe021ac7c9785b25538ecbce5415bbc1f34"
+hash = "a3da45c02def8647fff852b7d247768d70b20d96ad83033a7f859aa7930198cb"
 metafile = true
