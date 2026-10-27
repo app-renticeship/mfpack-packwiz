@@ -1,0 +1,16 @@
+filename = 'rolling-tones-0.2.2.jar'
+name = 'Create: Rolling Tones'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '737f119adaa07b0d885bc72705b0220d575f6ffc0d17f85f402bacee7ab4c2a0560bf65d77135fd85609510eb2526664e6e179b37eb64c029747cfe93fda0494'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eMSbM34C/versions/6QNmBE48/rolling-tones-0.2.2.jar'
+
+[update.modrinth]
+mod-id = 'eMSbM34C'
+version = '6QNmBE48'

@@ -1,0 +1,16 @@
+filename = 'create_wrapped-1.0.3-neoforge-1.21.1.jar'
+name = 'Create: Wrapped'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bbe850805f4ba30bc6828972cdf2ace69506bb03df907b97f62468e19385824973525aad3d38d0279d13835bdca08a9c13e42101a52f967839bf63e186f349f2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/93UfVKfq/versions/nIjl2se6/create_wrapped-1.0.3-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '93UfVKfq'
+version = 'nIjl2se6'

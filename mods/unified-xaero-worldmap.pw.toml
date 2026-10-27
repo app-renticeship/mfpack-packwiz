@@ -1,0 +1,13 @@
+name = "Unified Xaero Worldmap"
+filename = "unified-xaero-worldmap-2.0.4+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "536ac800d1bcc0ac144306e7dc1274bda88c945b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9232540
+project-id = 1704237

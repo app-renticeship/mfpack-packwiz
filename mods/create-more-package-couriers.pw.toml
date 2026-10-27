@@ -1,0 +1,16 @@
+filename = 'cmpackagecouriers-neoforge-2.3.0.jar'
+name = 'Create More: Package Couriers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b5a96cbeb8fd6db72a3cfe2f60c68b13503f207aad080a8d9011364212a051801cf9ed2b25ecccd8423b660a156815203ab8bcd6c8b6152ccc699aa1f91e12ff'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GRqrodjM/versions/rv1JwLWn/cmpackagecouriers-neoforge-2.3.0.jar'
+
+[update.modrinth]
+mod-id = 'GRqrodjM'
+version = 'rv1JwLWn'

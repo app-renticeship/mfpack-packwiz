@@ -1,0 +1,16 @@
+filename = 'create_generators-1.2.5-neoforge-1.21.1.jar'
+name = 'Create: Easy Stone Generators'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8085cfd285e090b80e8a3724314620cb2ff7bc21a8bbb29b8397ccdbfccefb2b24215e1e609fc7a5e9a211767447156647b02c83fb00366a4f4eadf4e4a61cac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aeW9oim1/versions/V6LRJNSI/create_generators-1.2.5-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'aeW9oim1'
+version = 'V6LRJNSI'

@@ -1,0 +1,13 @@
+name = "Create Kart"
+filename = "create_kart-3.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4d3d3f6aee344fbcd581f98a83baf2110ae4f421"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9221285
+project-id = 1148009

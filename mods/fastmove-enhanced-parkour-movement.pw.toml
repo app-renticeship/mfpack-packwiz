@@ -1,0 +1,13 @@
+name = "FastMove: Enhanced - Better Movement"
+filename = "FastMove-Enhanced-NeoForge-1.21.1-v1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e8344c0330b1ffd426650d19307a94cfc50171a0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8852539
+project-id = 1583251

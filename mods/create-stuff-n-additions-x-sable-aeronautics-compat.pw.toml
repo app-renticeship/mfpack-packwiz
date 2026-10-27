@@ -1,0 +1,16 @@
+filename = 'sable_sa_compat-1.0.4.jar'
+name = "Create Stuff 'N Additions x Sable & Aeronautics Compat"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f0b4ecbaaaa1886e392901fc6e131873536af04b51c3dc43b67bcd276f32dcaed07ea9cb19767f62e0d1e91e5b7af6cdb90a8e8e825fea2dc3b1ed885ec957f4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gsAqDfOu/versions/iGTmXDCM/sable_sa_compat-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'gsAqDfOu'
+version = 'iGTmXDCM'

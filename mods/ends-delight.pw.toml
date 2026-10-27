@@ -1,0 +1,16 @@
+filename = 'ends_delight-2.6+neoforge.1.21.1.jar'
+name = "End's Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '7da506c246d8d2cfef17459c83a94653ddf1cc0272df668f57a8b385e1f6a1bce8e99d0c20ca4a3f94c4bb7fe489d6617a40e388b3c9af821c167b810a5e0256'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yHN0njMr/versions/La8SvoPm/ends_delight-2.6%2Bneoforge.1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'yHN0njMr'
+version = 'La8SvoPm'

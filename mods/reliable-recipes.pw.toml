@@ -1,0 +1,16 @@
+filename = 'reliable_recipes-3.5.1+1.21.1-neoforge.jar'
+name = 'Reliable Recipes'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3aa8b5ba2257909b07f63686545bf29085790011b1c8a792a991c6d56b06cedf3939f9e878ae8f17eb095777a3604ec7e38f7ffd1f9842b16d6a94ddf59aba65'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Hl4ARA1z/versions/v3t15mzv/reliable_recipes-3.5.1%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'Hl4ARA1z'
+version = 'v3t15mzv'

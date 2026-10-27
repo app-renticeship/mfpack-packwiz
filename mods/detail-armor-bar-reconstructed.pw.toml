@@ -1,0 +1,16 @@
+filename = 'DetailArmorBarReconstructed-5.0.1+1.21.1-neoforge.jar'
+name = 'Detail Armor Bar Reconstructed'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '50806005d39ed6190b0d345dbf768215a38bfd270ebd6ced638686cdec622b7f63deb9751c7d55257617f94cc38ce97d0e8d20a7762eccd352b55f490a806bc4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Si9Uim4y/versions/xr7ggK3t/DetailArmorBarReconstructed-5.0.1%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'Si9Uim4y'
+version = 'xr7ggK3t'

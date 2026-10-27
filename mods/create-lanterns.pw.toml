@@ -1,0 +1,13 @@
+name = "Create: Lanterns"
+filename = "createlanterns-alpha-20.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d07d94cf58b0271e420ae1898c29b3af92bc155c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9321315
+project-id = 1752310

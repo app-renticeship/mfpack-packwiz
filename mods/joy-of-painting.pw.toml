@@ -1,0 +1,16 @@
+filename = 'xercapaint-neoforge-1.21.1-2.0.1.jar'
+name = 'Joy of Painting'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a79e8f5af0a744492a09e1be417a76f4d4a03786b80d9b9fad298480c09a443a2a1ac54826d42fa8d6b5d1c4b4edc8dc227ba2aa642e7ffb3993bbfbf99c971a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YOs4tZea/versions/73U02HbA/xercapaint-neoforge-1.21.1-2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'YOs4tZea'
+version = '73U02HbA'
