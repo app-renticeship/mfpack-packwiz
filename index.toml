@@ -1474,3 +1474,8 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "ef15c0a0a5afcf7b11376da33b893a87b8522bef65bdb36fa17d5d6eea810e9f"
 metafile = true
+
+[[files]]
+file = "config/distanthorizons-client.pw.toml"
+hash = "7c34f8be55a216f1bc0f688a5ebce5903b003c66a3fbe92c54096a0d53418946"
+metafile = true

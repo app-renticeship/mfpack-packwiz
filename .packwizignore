@@ -10,3 +10,4 @@ scripts/**
 .gitignore
 .packwizignore
 packwiz-installer-bootstrap.jar
+files/**

@@ -1,0 +1,8 @@
+name = "Distant Horizons client settings"
+filename = "DistantHorizons.toml"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/DistantHorizons.toml"
+hash-format = "sha256"
+hash = "a68d3c417d80500869c861f13f73cd2df0e2ef77d58ee27be4a8808fe3242a33"
