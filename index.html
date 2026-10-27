@@ -126,25 +126,35 @@
   <div class="wrap">
     <h1 class="brand">Illustrious <span>MFPack</span></h1>
     <p class="lede">
-      Packwiz auto-update console. Scan for newer Modrinth builds here;
-      Apply runs packwiz on GitHub Actions (Modrinth + CurseForge, including Create: Lanterns).
+      Safe update policy: keep <b>MC 1.21.1</b> + <b>NeoForge 21.1.x</b>.
+      Update mods often; bump NeoForge only within 21.1.x when mods require it —
+      never jump to absolute NeoForge “latest” (that can be a different Minecraft).
     </p>
 
     <div class="meta" id="meta">
       <div>Loading pack…</div>
     </div>
 
+    <div class="panel" id="loaderPanel">
+      <h2>Loader (NeoForge)</h2>
+      <div id="loaderStatus"><p class="empty">Loading…</p></div>
+      <div class="actions" style="margin:0.75rem 0 0">
+        <button class="ghost" id="btnBumpNf" type="button" disabled title="Maintainer token required">Bump NeoForge to latest 21.1.x</button>
+      </div>
+      <p class="hint">Mods update ≠ loader update. Use this only after a boot error like “requires neoforge 21.1.xxx or above”, or when scan notes a newer 21.1 patch.</p>
+    </div>
+
     <div class="actions">
       <button class="primary" id="btnScan" type="button">Scan for updates</button>
-      <button class="primary" id="btnUpdate" type="button" disabled title="Set a GitHub token below (maintainers)">Update available mods</button>
+      <button class="primary" id="btnUpdate" type="button" disabled title="Set a GitHub token below (maintainers)">Update mods only</button>
       <a class="btn ghost" href="https://github.com/app-renticeship/mfpack-packwiz/actions/workflows/update-mods.yml" target="_blank" rel="noopener">Actions →</a>
       <a class="btn ghost" id="packLink" href="./pack.toml">pack.toml</a>
     </div>
     <p id="status"></p>
 
     <div class="panel">
-      <h2>Updates found</h2>
-      <div id="results"><p class="empty">Run a scan to list Modrinth mods with newer versions. CurseForge (Create: Lanterns, etc.) is updated when you hit Update.</p></div>
+      <h2>Mod updates found</h2>
+      <div id="results"><p class="empty">Run a scan to list Modrinth mods with newer versions (filtered to your MC). CurseForge updates apply when you hit Update mods.</p></div>
     </div>
 
     <details class="maintainer panel" open>
@@ -191,7 +201,44 @@
     }
 
     function refreshUpdateButton() {
-      $("btnUpdate").disabled = !getToken();
+      const ok = !!getToken();
+      $("btnUpdate").disabled = !ok;
+      $("btnBumpNf").disabled = !ok;
+    }
+
+    function cmpSemver(a, b) {
+      const pa = String(a).split(".").map((x) => parseInt(x, 10) || 0);
+      const pb = String(b).split(".").map((x) => parseInt(x, 10) || 0);
+      const n = Math.max(pa.length, pb.length);
+      for (let i = 0; i < n; i++) {
+        const d = (pa[i] || 0) - (pb[i] || 0);
+        if (d) return d;
+      }
+      return 0;
+    }
+
+    async function loadLoaderStatus(packNeo) {
+      const el = $("loaderStatus");
+      let latest = null;
+      let checked = null;
+      try {
+        const st = await fetch("./status.json", { cache: "no-store" }).then((r) =>
+          r.ok ? r.json() : null
+        );
+        if (st) {
+          latest = st.neoforge_latest_same_mc || null;
+          checked = st.checked_at || null;
+          if (st.neoforge) packNeo = st.neoforge;
+        }
+      } catch (_) {}
+      const behind = latest && packNeo && cmpSemver(latest, packNeo) > 0;
+      el.innerHTML = `
+        <p style="margin:0">
+          Pinned <code>${escapeHtml(packNeo || "?")}</code>
+          · latest same line (21.1.x) <code>${escapeHtml(latest || "run an update once to refresh")}</code>
+          ${behind ? ' <span class="tag up">patch available</span>' : latest ? ' <span class="tag mr">current</span>' : ""}
+        </p>
+        ${checked ? `<p class="hint" style="margin:0.4rem 0 0">status.json checked ${escapeHtml(checked)}</p>` : ""}`;
     }
 
     async function loadPack() {
@@ -205,6 +252,7 @@
         <div>pack <b>${version}</b></div>
         <div>MC <b>${mc}</b></div>
         <div>NeoForge <b>${neo}</b></div>`;
+      await loadLoaderStatus(neo);
       return { mc, neo };
     }
 
@@ -358,14 +406,15 @@
         .replace(/"/g, "&quot;");
     }
 
-    async function triggerUpdate() {
+    async function dispatchWorkflow(inputs, label) {
       const token = getToken();
       if (!token) {
         status("Add a GitHub token first (maintainer section).", "warn");
         return;
       }
       $("btnUpdate").disabled = true;
-      status("Dispatching packwiz update workflow…");
+      $("btnBumpNf").disabled = true;
+      status(`Dispatching ${label}…`);
       try {
         const res = await fetch(
           `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
@@ -376,11 +425,11 @@
               Authorization: `Bearer ${token}`,
               "X-GitHub-Api-Version": "2022-11-28",
             },
-            body: JSON.stringify({ ref: BRANCH }),
+            body: JSON.stringify({ ref: BRANCH, inputs }),
           }
         );
         if (res.status === 204 || res.status === 200) {
-          status("Update started. Refresh runs below in a few seconds…", "ok");
+          status(`${label} started. Check runs below…`, "ok");
           setTimeout(loadRuns, 4000);
           setTimeout(loadRuns, 15000);
         } else {
@@ -392,6 +441,27 @@
       } finally {
         refreshUpdateButton();
       }
+    }
+
+    function triggerUpdate() {
+      return dispatchWorkflow(
+        { update_mods: true, bump_neoforge: false },
+        "mod update"
+      );
+    }
+
+    function triggerBumpNf() {
+      if (
+        !confirm(
+          "Bump NeoForge to the latest 21.1.x patch only (same Minecraft 1.21.1)?\n\nThis does not jump to NeoForge 26 / other MC versions."
+        )
+      ) {
+        return;
+      }
+      return dispatchWorkflow(
+        { update_mods: false, bump_neoforge: true },
+        "NeoForge 21.1.x bump"
+      );
     }
 
     async function loadRuns() {
@@ -428,6 +498,7 @@
 
     $("btnScan").addEventListener("click", scan);
     $("btnUpdate").addEventListener("click", triggerUpdate);
+    $("btnBumpNf").addEventListener("click", triggerBumpNf);
     $("btnSaveToken").addEventListener("click", () => {
       const t = $("token").value.trim();
       if (t) localStorage.setItem(TOKEN_KEY, t);

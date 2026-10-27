@@ -1,0 +1,8 @@
+{
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.265",
+  "neoforge_latest_same_mc": "21.1.265",
+  "neoforge_line": "21.1.x",
+  "policy": "Pin MC 1.21.1 + NeoForge 21.1.x. Update mods freely. Bump NeoForge only within 21.1.x when mods require it — never jump to absolute NeoForge latest (other MC).",
+  "checked_at": "2026-10-27T12:45:00Z"
+}

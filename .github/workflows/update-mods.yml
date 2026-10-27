@@ -2,8 +2,17 @@ name: Update mods
 
 on:
   workflow_dispatch:
+    inputs:
+      bump_neoforge:
+        description: "Also bump NeoForge to latest 21.1.x (same MC — safer than absolute latest)"
+        type: boolean
+        default: false
+      update_mods:
+        description: "Run packwiz update --all"
+        type: boolean
+        default: true
   schedule:
-    # Every day 12:00 UTC — catches Create: Lanterns-style frequent alphas
+    # Mods daily; NeoForge is NOT auto-bumped on schedule (compat safety)
     - cron: "0 12 * * *"
 
 permissions:
@@ -29,12 +38,64 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
 
+      - name: Resolve NeoForge latest 21.1.x
+        id: nf
+        run: |
+          set -euo pipefail
+          META=$(curl -fsSL https://maven.neoforged.net/releases/net/neoforged/neoforge/maven-metadata.xml)
+          LATEST_211=$(echo "$META" | grep -oE '21\.1\.[0-9]+' | sort -t. -k3 -n | tail -1)
+          CURRENT=$(sed -n 's/^neoforge *= *"\([^"]*\)".*/\1/p' pack.toml | head -1)
+          MC=$(sed -n 's/^minecraft *= *"\([^"]*\)".*/\1/p' pack.toml | head -1)
+          echo "latest_211=$LATEST_211" >> "$GITHUB_OUTPUT"
+          echo "current=$CURRENT" >> "$GITHUB_OUTPUT"
+          echo "mc=$MC" >> "$GITHUB_OUTPUT"
+          echo "Current NeoForge=$CURRENT  latest 21.1.x=$LATEST_211"
+
+      - name: Bump NeoForge (optional)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.bump_neoforge }}
+        run: |
+          set -euo pipefail
+          export PATH="$PATH:$(go env GOPATH)/bin"
+          TARGET="${{ steps.nf.outputs.latest_211 }}"
+          CURRENT="${{ steps.nf.outputs.current }}"
+          if [ -z "$TARGET" ]; then
+            echo "Could not resolve latest 21.1.x"; exit 1
+          fi
+          if [ "$CURRENT" = "$TARGET" ]; then
+            echo "NeoForge already at $TARGET"
+          else
+            packwiz migrate loader "$TARGET" -y
+            echo "Bumped NeoForge $CURRENT → $TARGET"
+          fi
+
       - name: Update mods
+        if: ${{ github.event_name == 'schedule' || inputs.update_mods }}
         run: |
           set -euo pipefail
           export PATH="$PATH:$(go env GOPATH)/bin"
           packwiz update --all -y
           packwiz refresh
+
+      - name: Write status.json for Pages
+        env:
+          NF_LATEST: ${{ steps.nf.outputs.latest_211 }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, datetime, re, pathlib, os
+          pack = pathlib.Path("pack.toml").read_text(encoding="utf-8")
+          current = re.search(r'^neoforge\s*=\s*"([^"]+)"', pack, re.M).group(1)
+          mc = re.search(r'^minecraft\s*=\s*"([^"]+)"', pack, re.M).group(1)
+          latest = os.environ.get("NF_LATEST", "")
+          pathlib.Path("status.json").write_text(json.dumps({
+            "minecraft": mc,
+            "neoforge": current,
+            "neoforge_latest_same_mc": latest,
+            "neoforge_line": "21.1.x",
+            "policy": "Pin MC 1.21.1 + NeoForge 21.1.x. Update mods freely. Bump NeoForge only within 21.1.x when mods require it — never jump to absolute NeoForge latest (other MC).",
+            "checked_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+          }, indent=2) + "\n", encoding="utf-8")
+          PY
 
       - name: Commit & push if changed
         run: |
@@ -43,10 +104,14 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           if git diff --staged --quiet; then
-            echo "No mod updates."
+            echo "No changes."
             echo "updated=false" >> "$GITHUB_ENV"
           else
-            git commit -m "chore: packwiz update mods ($(date -u +%Y-%m-%d))"
+            MSG="chore: packwiz update"
+            if git diff --staged --name-only | grep -q pack.toml; then
+              MSG="chore: packwiz update (loader/mods)"
+            fi
+            git commit -m "$MSG ($(date -u +%Y-%m-%d))"
             git push
             echo "updated=true" >> "$GITHUB_ENV"
           fi
@@ -55,11 +120,12 @@ jobs:
         run: |
           {
             echo "## Packwiz update"
+            echo "- NeoForge pinned: \`${{ steps.nf.outputs.current }}\` → now in pack.toml after job"
+            echo "- Latest 21.1.x: \`${{ steps.nf.outputs.latest_211 }}\`"
+            echo "- Bump NeoForge requested: \`${{ inputs.bump_neoforge || false }}\`"
             if [ "${updated:-false}" = "true" ]; then
-              echo "Pushed new mod versions to \`master\`."
+              echo "- Pushed changes to \`master\`."
             else
-              echo "Already up to date."
+              echo "- Already up to date."
             fi
-            echo ""
-            echo "Pack URL: https://app-renticeship.github.io/mfpack-packwiz/pack.toml"
           } >> "$GITHUB_STEP_SUMMARY"

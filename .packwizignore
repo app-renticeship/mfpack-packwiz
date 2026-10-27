@@ -1,6 +1,7 @@
 ﻿# Ignore non-pack files
 README.md
 index.html
+status.json
 .nojekyll
 .git/**
 .github/**
