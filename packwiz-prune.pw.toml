@@ -1,0 +1,8 @@
+name = "MFPack packwiz prune"
+filename = "packwiz-prune.ps1"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/packwiz-prune.ps1"
+hash-format = "sha256"
+hash = "978924665d3ee1b91f7c36ab5317b61cfa11b48d65f03af9050737d69efb20f7"

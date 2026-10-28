@@ -1501,6 +1501,16 @@ hash = "ef15c0a0a5afcf7b11376da33b893a87b8522bef65bdb36fa17d5d6eea810e9f"
 metafile = true
 
 [[files]]
+file = "packwiz-prelaunch.pw.toml"
+hash = "1d835aaef1dca6370b52d6336e182e93b6dd17d0a59bad31ee1c6e0fc649e546"
+metafile = true
+
+[[files]]
+file = "packwiz-prune.pw.toml"
+hash = "53c0e812d39b654470c799f09b4bec7b5824f7cd98381496b6070de5dc6549d0"
+metafile = true
+
+[[files]]
 file = "resourcepacks/visual-effects-plus.pw.toml"
 hash = "493abc9d76cf4cef6f369ee03f3378e9ddc17c48faa8172a8ef8f78c1f96e2a0"
 metafile = true
