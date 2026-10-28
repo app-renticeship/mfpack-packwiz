@@ -261,6 +261,11 @@ hash = "914f2efb2afa0113d5936b0e721fb5c291abb9c2e66944f33fc33be8e33c8a89"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-curios-compat.pw.toml"
+hash = "371c8bbccb0e9743fa70f4141c967012d54d4bf71d6cd457eff2ed3151429ca8"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-encased-fluid-pipes.pw.toml"
 hash = "16610bac1b4e7b8bd99fc4a42cc565e0df10f15e47d9180b34f1e91dcbff8076"
 metafile = true
