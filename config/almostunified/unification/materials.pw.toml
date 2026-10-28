@@ -1,0 +1,8 @@
+name = "Almost Unified unification config (MFPack)"
+filename = "materials.json"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/almostunified/materials.json"
+hash-format = "sha256"
+hash = "4940aeeccda28ff3939ef3c07e124eeaeb2164d6e66a10adb3d5a1ded03101a6"

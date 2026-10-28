@@ -1494,3 +1494,8 @@ metafile = true
 file = "config/createaddition-client.pw.toml"
 hash = "bb80bdd5b62dc94c41609c53428c2b4fb9b6ac029aa4b8bc47c3d69a4b3f5bdd"
 metafile = true
+
+[[files]]
+file = "config/almostunified/unification/materials.pw.toml"
+hash = "e280fe5bedb556510dc219c2fd91819bba9e398b778041c48e0d48f8704e426c"
+metafile = true
