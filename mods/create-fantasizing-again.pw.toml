@@ -1,16 +1,13 @@
-filename = 'create_fantasizing-1.21.1-1.2.0-b3.jar'
-name = 'Create: Fantasizing Again'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
+name = "Create: Fantasizing Again"
+filename = "create_fantasizing-1.21.1-1.1.3.jar"
+side = "both"
 
 [download]
-hash = '08dc4875221c66586ee16f598f6b8e5ba4cb85d767ded14a9d61d9b89b0bebbf3a74e4c3beff44ee5b13a99c1930ac0288073ddfa9a6c11804d081222c314903'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/UvrmqS41/versions/xaayBxRe/create_fantasizing-1.21.1-1.2.0-b3.jar'
+url = "https://cdn.modrinth.com/data/UvrmqS41/versions/A3T1uMzC/create_fantasizing-1.21.1-1.1.3.jar"
+hash-format = "sha512"
+hash = "97c910ff9d51e0ffa6f00147cae9aa8f6f280948c358ff6b90f11a5fdf2b11c50c37c93c45fc5043ae751de29ec4a7dd490ec3f2417769fbe2f75e363fcba87a"
 
+[update]
 [update.modrinth]
-mod-id = 'UvrmqS41'
-version = 'xaayBxRe'
+mod-id = "UvrmqS41"
+version = "A3T1uMzC"

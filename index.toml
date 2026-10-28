@@ -1,6 +1,21 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/almostunified/unification/materials.pw.toml"
+hash = "e280fe5bedb556510dc219c2fd91819bba9e398b778041c48e0d48f8704e426c"
+metafile = true
+
+[[files]]
+file = "config/createaddition-client.pw.toml"
+hash = "bb80bdd5b62dc94c41609c53428c2b4fb9b6ac029aa4b8bc47c3d69a4b3f5bdd"
+metafile = true
+
+[[files]]
+file = "config/distanthorizons-client.pw.toml"
+hash = "7c34f8be55a216f1bc0f688a5ebce5903b003c66a3fbe92c54096a0d53418946"
+metafile = true
+
+[[files]]
 file = "mods/aeroclaims.pw.toml"
 hash = "78137effbcf3f8d93f64aa10f365a225b8439c0a0f49ea61cd99d4d6836aaeb1"
 metafile = true
@@ -22,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "8ae41d3a92b5eb712cbb0d8acfd9fa86a49fee510d3d029a592044bc5b959214"
+hash = "dd5bc213fca1181448f7b459075fff96df2839b0d4c46a301a66cd43383f5901"
 metafile = true
 
 [[files]]
@@ -192,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/companion.pw.toml"
-hash = "0bd9db4142421a6837ab30c020f59e56571e96d1329c6cc1b8d9a4c757b1d59f"
+hash = "f96049d210cbb1f4743baea5b5cc4d35932bbfda172eed1a1af8b1b662a6d6d3"
 metafile = true
 
 [[files]]
@@ -387,7 +402,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
+hash = "9632e3a695f69473d879e285e46007fd5037cb5abc8db02a8bec79689864d0fc"
 metafile = true
 
 [[files]]
@@ -407,12 +422,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-fantasizing-again.pw.toml"
-hash = "8d0222d15504caa0a7051561880607161e37f575772453b112518a8bc4453555"
+hash = "d54f2dd43fadaeb23ab3871757f598b749dd6a70321e3caf61ac9024b2f6aba5"
 metafile = true
 
 [[files]]
 file = "mods/create-fast-schematic-cannon.pw.toml"
-hash = "fa174ec257cb0fdbf3e4130a2d37fd44fab48a4b2fd03d2985189f54d68cf50b"
+hash = "4ae12eddd34252c6e344dd3fcc91d3d701b5cd56cdd2cea7f16fd341527cfb2e"
 metafile = true
 
 [[files]]
@@ -452,7 +467,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-lanterns.pw.toml"
-hash = "4f8e14a1969c81d4366dbae137d92eb77e93ae2ae01693bd44005a7b70b6ef20"
+hash = "45a692870cac5af8cf6096be4ba4c4d8700659d68392fd8724d87cfa589ecb48"
 metafile = true
 
 [[files]]
@@ -627,7 +642,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
+hash = "350357b34feae2f0971d114ba856e4915e508efec110eea5ebdeac419d515e08"
 metafile = true
 
 [[files]]
@@ -782,7 +797,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "875d85990bd50cc8dd7bc3e1699b722e7aa1a78704a6ade47952e7e971daf951"
+hash = "9ab20de2d63037f055d6b614013389e0198068bab536dfd62eebd913e5222fe1"
 metafile = true
 
 [[files]]
@@ -1016,6 +1031,11 @@ hash = "8691a6080607f512d7adbbc1c17911ba83db273a5b5f113711fd8408b8d6a9df"
 metafile = true
 
 [[files]]
+file = "mods/mfjeicompat.pw.toml"
+hash = "a3da45c02def8647fff852b7d247768d70b20d96ad83033a7f859aa7930198cb"
+metafile = true
+
+[[files]]
 file = "mods/miners-delight.pw.toml"
 hash = "45a2bb1fee63f277d2a3f1f790219f78eae569bc5683df4670a6c85043be700d"
 metafile = true
@@ -1142,12 +1162,12 @@ metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
-hash = "d935e4ce118d15c88b10809df85e801f0e9577855f870f3c28e5a0bd5e7fecf6"
+hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "c1eb1fb7df6b50b79a650ea3dacc4b914adf525b2ebf52cf5cce5449a62bed8c"
+hash = "6b6dfd13bcd0676529c9f4145b06bc38c5b2df2993c568e1b5b6c65fd8b84dc3"
 metafile = true
 
 [[files]]
@@ -1267,7 +1287,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "852ba399cf42709a5a22cf946e6a20c0d5e77d2990d98478e3e826a69154ff24"
+hash = "8eae737eb20a0488e9b57b6a59f0681d142732bcb22fc896ad4e5ff924ec5683"
+metafile = true
+
+[[files]]
+file = "mods/simply-jetpacks-2.pw.toml"
+hash = "a042c152a15768f64b283c8b0ab407fc7051782923e9bd14f6e1aed18ec4c035"
 metafile = true
 
 [[files]]
@@ -1352,7 +1377,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "f8c0db3b60fb84898411efc4c19234c6a20e6cd21ffa9238ccdce71b5fb35dc5"
+hash = "5e8133fa52350f0b4a468c0db32aef9ab0abfdc88765c9a2baac4f9422e13493"
 metafile = true
 
 [[files]]
@@ -1473,31 +1498,6 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "ef15c0a0a5afcf7b11376da33b893a87b8522bef65bdb36fa17d5d6eea810e9f"
-metafile = true
-
-[[files]]
-file = "config/distanthorizons-client.pw.toml"
-hash = "7c34f8be55a216f1bc0f688a5ebce5903b003c66a3fbe92c54096a0d53418946"
-metafile = true
-
-[[files]]
-file = "mods/simply-jetpacks-2.pw.toml"
-hash = "a042c152a15768f64b283c8b0ab407fc7051782923e9bd14f6e1aed18ec4c035"
-metafile = true
-
-[[files]]
-file = "mods/mfjeicompat.pw.toml"
-hash = "a3da45c02def8647fff852b7d247768d70b20d96ad83033a7f859aa7930198cb"
-metafile = true
-
-[[files]]
-file = "config/createaddition-client.pw.toml"
-hash = "bb80bdd5b62dc94c41609c53428c2b4fb9b6ac029aa4b8bc47c3d69a4b3f5bdd"
-metafile = true
-
-[[files]]
-file = "config/almostunified/unification/materials.pw.toml"
-hash = "e280fe5bedb556510dc219c2fd91819bba9e398b778041c48e0d48f8704e426c"
 metafile = true
 
 [[files]]
