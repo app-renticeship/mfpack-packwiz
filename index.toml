@@ -1502,12 +1502,12 @@ metafile = true
 
 [[files]]
 file = "packwiz-prelaunch.pw.toml"
-hash = "1d835aaef1dca6370b52d6336e182e93b6dd17d0a59bad31ee1c6e0fc649e546"
+hash = "9b0a59f1c01f31e7b77e6dc2b5cca0d677fdc2d8efb67b773ca81c65df573c55"
 metafile = true
 
 [[files]]
 file = "packwiz-prune.pw.toml"
-hash = "53c0e812d39b654470c799f09b4bec7b5824f7cd98381496b6070de5dc6549d0"
+hash = "c6f7bf210e518410329cb18a90c59b57d9909340ae47c1124669823dc4329aee"
 metafile = true
 
 [[files]]

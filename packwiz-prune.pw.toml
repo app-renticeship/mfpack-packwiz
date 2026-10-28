@@ -5,4 +5,4 @@ side = "client"
 [download]
 url = "https://app-renticeship.github.io/mfpack-packwiz/files/packwiz-prune.ps1"
 hash-format = "sha256"
-hash = "978924665d3ee1b91f7c36ab5317b61cfa11b48d65f03af9050737d69efb20f7"
+hash = "da562b2b4c51e2862316f1efe5ae38c1593c895441b6cb232f4be89c8cbd01d7"
