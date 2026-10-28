@@ -1,5 +1,18 @@
 {
-  "create-lanterns": "alpha",
-  "1752310": "alpha",
-  "_comment": "Keys can be packwiz stem, Modrinth mod-id, or CurseForge project-id. Value is the max channel allowed for that mod even when the global channel is stricter — use for projects that only ship alpha/beta (e.g. Create: Lanterns)."
+    "_comment":  "Keys: packwiz stem, Modrinth mod-id, or CurseForge project-id. Value = max channel when global is stricter. Stops release cron from downgrading intentional betas.",
+    "create-lanterns":  "alpha",
+    "1752310":  "alpha",
+    "companion":  "beta",
+    "4w0EzGRW":  "beta",
+    "create-enchantment-industry":  "beta",
+    "JWGBpFUP":  "beta",
+    "create-fantasizing-again":  "beta",
+    "create-fast-schematic-cannon":  "beta",
+    "DebMSCVn":  "beta",
+    "createaddition":  "beta",
+    "kU1G12Nn":  "beta",
+    "flerovium":  "beta",
+    "4Rh1Mobu":  "beta",
+    "simple-voice-chat":  "beta",
+    "9eGKb6K1":  "beta"
 }

@@ -207,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/companion.pw.toml"
-hash = "f96049d210cbb1f4743baea5b5cc4d35932bbfda172eed1a1af8b1b662a6d6d3"
+hash = "0bd9db4142421a6837ab30c020f59e56571e96d1329c6cc1b8d9a4c757b1d59f"
 metafile = true
 
 [[files]]
@@ -402,7 +402,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "9632e3a695f69473d879e285e46007fd5037cb5abc8db02a8bec79689864d0fc"
+hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
 metafile = true
 
 [[files]]
@@ -422,12 +422,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-fantasizing-again.pw.toml"
-hash = "d54f2dd43fadaeb23ab3871757f598b749dd6a70321e3caf61ac9024b2f6aba5"
+hash = "4964e3e887a6c2278cbf6e8c70f8f770f1bb714d199e6428a0d8891815953444"
 metafile = true
 
 [[files]]
 file = "mods/create-fast-schematic-cannon.pw.toml"
-hash = "4ae12eddd34252c6e344dd3fcc91d3d701b5cd56cdd2cea7f16fd341527cfb2e"
+hash = "fa174ec257cb0fdbf3e4130a2d37fd44fab48a4b2fd03d2985189f54d68cf50b"
 metafile = true
 
 [[files]]
@@ -642,7 +642,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "350357b34feae2f0971d114ba856e4915e508efec110eea5ebdeac419d515e08"
+hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
 metafile = true
 
 [[files]]
@@ -797,7 +797,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "9ab20de2d63037f055d6b614013389e0198068bab536dfd62eebd913e5222fe1"
+hash = "875d85990bd50cc8dd7bc3e1699b722e7aa1a78704a6ade47952e7e971daf951"
 metafile = true
 
 [[files]]
@@ -1287,7 +1287,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "8eae737eb20a0488e9b57b6a59f0681d142732bcb22fc896ad4e5ff924ec5683"
+hash = "852ba399cf42709a5a22cf946e6a20c0d5e77d2990d98478e3e826a69154ff24"
 metafile = true
 
 [[files]]
