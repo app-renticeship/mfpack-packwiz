@@ -1,8 +1,8 @@
-name = "Create Crafts & Additions settings (alternator efficiency 0.9)"
+name = "Create Crafts & Additions settings (alternator efficiency 0.75, mod default)"
 filename = "createaddition-common.toml"
 side = "client"
 
 [download]
 url = "https://app-renticeship.github.io/mfpack-packwiz/files/createaddition-common.toml"
 hash-format = "sha256"
-hash = "cf4953f95bdc238c2f7cf571759dd1e3360bb1f431d2e93fbc5f22ad9be25d06"
+hash = "084dce8fbf4639f4cc9c7037a13d8c72e2e8bb3acd16e7762842ec70fac77371"

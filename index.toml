@@ -1492,5 +1492,5 @@ metafile = true
 
 [[files]]
 file = "config/createaddition-client.pw.toml"
-hash = "bb2b7d8b1387152b587eda6260a352a28dc840b1adf78a8b3411fa07e305985c"
+hash = "bb80bdd5b62dc94c41609c53428c2b4fb9b6ac029aa4b8bc47c3d69a4b3f5bdd"
 metafile = true
