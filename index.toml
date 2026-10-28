@@ -1489,3 +1489,8 @@ metafile = true
 file = "mods/mfjeicompat.pw.toml"
 hash = "a3da45c02def8647fff852b7d247768d70b20d96ad83033a7f859aa7930198cb"
 metafile = true
+
+[[files]]
+file = "config/createaddition-client.pw.toml"
+hash = "bb2b7d8b1387152b587eda6260a352a28dc840b1adf78a8b3411fa07e305985c"
+metafile = true
