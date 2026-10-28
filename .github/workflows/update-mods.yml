@@ -19,9 +19,9 @@ on:
         description: "Run channel-aware mod updates"
         type: boolean
         default: true
-  schedule:
-    # Daily stable-only mod updates; NeoForge not auto-bumped
-    - cron: "0 12 * * *"
+  # Auto schedule disabled — release-channel cron was yanking intentional
+  # betas (CEI, Crafts & Additions, etc.) and desyncing clients/server.
+  # Run manually via Actions → Update mods when you want an update.
 
 permissions:
   contents: write
@@ -102,7 +102,7 @@ jobs:
             "neoforge_latest_same_mc": os.environ.get("NF_LATEST", ""),
             "neoforge_line": "21.1.x",
             "last_update_channel": os.environ.get("CHANNEL", "release"),
-            "policy": "Default updates use channel=release (stable only). Maintainers can choose beta/alpha on the Pages console. Create: Lanterns is allowlisted for alpha via channel-overrides.json. NeoForge only bumps within 21.1.x.",
+            "policy": "Scheduled auto-updates are OFF. Run workflow_dispatch manually when updating. Prefer channel=beta (or per-mod overrides in channel-overrides.json) so intentional betas are not yanked to older stables. NeoForge only bumps within 21.1.x when bump_neoforge is checked.",
             "checked_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
           }, indent=2) + "\n", encoding="utf-8")
           PY
