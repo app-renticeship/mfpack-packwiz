@@ -1,8 +1,8 @@
-name = "Visual Effects+ (MFPack Lite v3)"
+name = "Visual Effects+ (MFPack Lite v4)"
 filename = "Visual Effects+.zip"
 side = "client"
 
 [download]
-url = "https://app-renticeship.github.io/mfpack-packwiz/files/visual-effects-plus-lite-v3.zip"
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/visual-effects-plus-lite-v4.zip"
 hash-format = "sha256"
-hash = "adbe3bd650f66e3e46394b97b0e6f85c9071a4220652d5189e584c77766659fb"
+hash = "2c59d406de36db4afb415f67866ff4ee9090e5108b81b74b5bd519b176b809b7"
