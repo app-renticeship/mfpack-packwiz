@@ -1276,11 +1276,6 @@ hash = "f73fcd8593e21f6986581b81bfc17ceea88fead7dcecb64d8a85be32bc7bdd68"
 metafile = true
 
 [[files]]
-file = "mods/seamless-sleep.pw.toml"
-hash = "9d8f8f2cfc551caceb17b1a6b026d2a4d0c9ace432f1cabc34935419eb1b0c73"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "dbf910b625622730bd57e4d0512ab0cc5348e1005f003b8bcd21d4266e753b5e"
 metafile = true
