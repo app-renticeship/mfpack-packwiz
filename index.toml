@@ -1151,6 +1151,11 @@ hash = "b260f1e03fae1a2fb1dcd22e9dfc528f1083523aebf19d49419e98bf4da72b2f"
 metafile = true
 
 [[files]]
+file = "mods/omnidirectional-movement.pw.toml"
+hash = "683f9792f6d4fd16977a8575beee5d660418d46e2b0359b1fc62687ac88a88f3"
+metafile = true
+
+[[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "299ed58980f5c02afbaabcc52d5e573e8b8ab0c2c30fd688d6d7e86e7ac6bf6d"
 metafile = true

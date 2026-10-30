@@ -1,0 +1,14 @@
+name = "Omnidirectional Movement"
+filename = "omni-1.2-OVERHAUL+1.21.1-neoforge.jar"
+side = "client"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "c228440c5dfc01ce92a82a79ca6782b244185076"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8377314
+project-id = 1078165
