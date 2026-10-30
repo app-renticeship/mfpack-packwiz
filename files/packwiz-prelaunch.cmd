@@ -9,10 +9,13 @@ if not defined INST_JAVA (
 )
 
 echo [mfpack] ensuring Java 25 for faster NeoForge module resolve
-powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0mfpack-java25.ps1"
-if errorlevel 1 (
-  echo [mfpack] relaunch required after Java 25 switch
-  exit /b 1
+if exist "%~dp0mfpack-java25.ps1" (
+  powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0mfpack-java25.ps1"
+  if errorlevel 1 (
+    echo [mfpack] WARN: Java 25 helper failed - continuing on current Java
+  )
+) else (
+  echo [mfpack] mfpack-java25.ps1 not synced yet - skipping
 )
 
 set "PACK_URL=https://app-renticeship.github.io/mfpack-packwiz/pack.toml"

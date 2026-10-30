@@ -129,8 +129,7 @@ if ($currentMajor -ge 25) {
   exit 0
 }
 
-Write-Host ''
-Write-Host '[mfpack] Java 25 is now set for this instance.'
-Write-Host '[mfpack] Prism already started this launch on an older Java — click Play once more.'
-Write-Host ''
-exit 1
+# Do not exit non-zero: Prism treats that as a failed Pre-Launch (code 255).
+# This launch keeps INST_JAVA (already chosen); the next Play uses Java 25.
+Write-Host '[mfpack] Java 25 pinned for next launch (this Play still uses the current Java).'
+exit 0

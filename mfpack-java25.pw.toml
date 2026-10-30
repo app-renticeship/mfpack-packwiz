@@ -5,4 +5,4 @@ side = "client"
 [download]
 url = "https://app-renticeship.github.io/mfpack-packwiz/files/mfpack-java25.ps1"
 hash-format = "sha256"
-hash = "405b68d53d1f52e23334a8860c0eabfd6c738b41a4396323846599e82cf1d303"
+hash = "c85407ffb7f658c69e2794b5fcd6fa974df3867e2dd3ece555930bc1d55e6392"

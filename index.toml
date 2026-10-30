@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mfpack-java25.pw.toml"
-hash = "3bd21ef2f5004c9959132d454afc2582c420aaa15db127a1ec7cc6b98307958e"
+hash = "dffcc6e96641ca14ceb4f83cc54b446129199d965c763557ac54d0f64f580f00"
 metafile = true
 
 [[files]]
@@ -1557,7 +1557,7 @@ metafile = true
 
 [[files]]
 file = "packwiz-prelaunch.pw.toml"
-hash = "111f3bace44e9527438e3e9b68642b0ea00d4e9befbc1bf081e0f7969ca99a4e"
+hash = "1c9e6d7693c37519a5ae0b4ce6d881ed3299dc3761640db69da93e701650514a"
 metafile = true
 
 [[files]]
