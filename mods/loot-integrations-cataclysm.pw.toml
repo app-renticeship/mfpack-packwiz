@@ -1,0 +1,14 @@
+name = "Loot Integrations: L_Ender's Cataclysm"
+filename = "lootintegrations_cataclysm-1.2.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "75b5e36c11aa16cf0d6c38fcb8cfa2afc31a2bb7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7920425
+project-id = 1134260

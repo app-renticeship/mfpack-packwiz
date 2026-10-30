@@ -961,6 +961,11 @@ hash = "b74fac93bdcc09fdb6e8fb3bb8c2217bb8433469bf73f9db2e655396c3d017d8"
 metafile = true
 
 [[files]]
+file = "mods/l_enders-cataclysm.pw.toml"
+hash = "cddcd5e874139b9dd065e877207b6d6b3b7aa4b1aa7a2805a6ce1c767885844a"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
@@ -968,6 +973,11 @@ metafile = true
 [[files]]
 file = "mods/leaky.pw.toml"
 hash = "865d6d6f7130bb022641eaf9145e3d39070526e60e6a757a74ee58c609ab12cd"
+metafile = true
+
+[[files]]
+file = "mods/lionfish-api.pw.toml"
+hash = "c396a5dde55e48a76c3fb31f426c46bad25cc7fb4bff124e4543da9e26e20ee2"
 metafile = true
 
 [[files]]
@@ -988,6 +998,11 @@ metafile = true
 [[files]]
 file = "mods/lodestonelib.pw.toml"
 hash = "afa7a9108f1524c5ca136746979c593f9804b4469c62f1ad38d97dad107242e3"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-cataclysm.pw.toml"
+hash = "28c5e5e5720f94429a24f2e9caa92294f7e39eb897f0ec8f21797834dfda779c"
 metafile = true
 
 [[files]]
