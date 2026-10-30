@@ -1,0 +1,8 @@
+name = "Omnidirectional Movement settings"
+filename = "omni.properties"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/omni.properties"
+hash-format = "sha256"
+hash = "b1644411768537a7cbb0bc2157293807d37df551bbd3a4ff81a81f08e57d5859"

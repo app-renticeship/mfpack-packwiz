@@ -16,6 +16,11 @@ hash = "7c34f8be55a216f1bc0f688a5ebce5903b003c66a3fbe92c54096a0d53418946"
 metafile = true
 
 [[files]]
+file = "config/omni.pw.toml"
+hash = "8d70542a320572da49af7802c482b1665e3149933207cf9bfea6c41d0080fe71"
+metafile = true
+
+[[files]]
 file = "mods/aeroclaims.pw.toml"
 hash = "78137effbcf3f8d93f64aa10f365a225b8439c0a0f49ea61cd99d4d6836aaeb1"
 metafile = true
