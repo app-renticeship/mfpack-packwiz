@@ -71,15 +71,12 @@ function Set-InstanceJava25([string]$instanceCfg, [string]$javawPath) {
   $raw = Set-Key $raw 'OverrideJavaLocation' 'true'
   $raw = Set-Key $raw 'AutomaticJava' 'false'
   $raw = Set-Key $raw 'IgnoreJavaCompatibility' 'true'
+  $raw = Set-Key $raw 'OverrideJavaArgs' 'true'
   $raw = Set-Key $raw 'JavaPath' $javawPath
-  # -XX:+ZGenerational is removed/invalid on JDK 25+ (ZGC is generational by default)
-  if ($raw -match '(?m)^JvmArgs=') {
-    $raw = [regex]::Replace($raw, '(?m)^JvmArgs=(.*)$', {
-      param($m)
-      $line = $m.Groups[1].Value -replace '\s*-XX:\+ZGenerational', ''
-      "JvmArgs=$line"
-    })
-  }
+  # Java 25 client defaults: ZGC (generational by default - never pass +ZGenerational),
+  # compact headers, and Windows-friendly ZGC tuning. Keep -Dfile.encoding if present elsewhere.
+  $jvm = '"-XX:+UseZGC -XX:+UseCompactObjectHeaders -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseDynamicNumberOfGCThreads -XX:ZUncommitDelay=300 -Dfile.encoding=UTF-8"'
+  $raw = Set-Key $raw 'JvmArgs' $jvm
   # Atomic-ish write
   $tmp = $instanceCfg + '.mfpack-tmp'
   Set-Content -LiteralPath $tmp -Value $raw -NoNewline
