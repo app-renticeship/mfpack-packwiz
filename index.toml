@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "e6c3ccb32aece186b98b0bf470c96728baa6703a0595f76b1d4026bbef3876a9"
+hash = "277ecec8f0865b0fbf473c52f71c672e7adc053356b4d674f5d992ba9767a511"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "dd5bc213fca1181448f7b459075fff96df2839b0d4c46a301a66cd43383f5901"
+hash = "aef2b0ee3884d9da84c099557f8f7529f965513d269d450f1f9f8e8cc78b5a47"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "8f518d4596d5b0facac4b67803561fc0e44ea00f96222c0b8ee11de8da652fb6"
+hash = "623c7a7f11b2d9d083f81bf47382260c924c47eeb64c8ec921af1c445a2f7d7b"
 metafile = true
 
 [[files]]
@@ -467,7 +467,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-lanterns.pw.toml"
-hash = "45a692870cac5af8cf6096be4ba4c4d8700659d68392fd8724d87cfa589ecb48"
+hash = "cff3d35a7764695625f255ff4314a51e4969d2037622b83bfbc68762dc3eb111"
 metafile = true
 
 [[files]]
@@ -497,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-more-package-couriers.pw.toml"
-hash = "8a565f0dd6c977e79f67652681f993a4d324e831d8c6be604ee0e3afb60e1071"
+hash = "1cea408bb6fd1482deaca6ce343fca5c8a3dc4235cb322cc50af8664b4a38c10"
 metafile = true
 
 [[files]]
@@ -1167,7 +1167,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "6b6dfd13bcd0676529c9f4145b06bc38c5b2df2993c568e1b5b6c65fd8b84dc3"
+hash = "aa52eacff41b30db6ab569109294550bf971f3caec2077c9ba9f0d55514294c9"
 metafile = true
 
 [[files]]
@@ -1222,7 +1222,7 @@ metafile = true
 
 [[files]]
 file = "mods/reliable-recipes.pw.toml"
-hash = "2e6827fc1cef6837bda3a621da32a6e794584cc1e7ad73581453e03f9df60c10"
+hash = "317fe981b1901b4d313714e86ffe042cf6f758432fead6d3ccde27146b206b52"
 metafile = true
 
 [[files]]
@@ -1282,7 +1282,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "852ba399cf42709a5a22cf946e6a20c0d5e77d2990d98478e3e826a69154ff24"
+hash = "6f9502735fcac7a35468358e2aa0fd9333b12df885db3325c472d298ce315a72"
 metafile = true
 
 [[files]]
