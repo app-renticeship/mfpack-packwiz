@@ -1067,7 +1067,7 @@ metafile = true
 
 [[files]]
 file = "mods/mftitle.pw.toml"
-hash = "abaafd11a04ab3ae8a93bb2a8e2fc176309e5c35e8567ec1d16de3883a7276cf"
+hash = "867d9d67c5333bcbffedf3dc5739772e1516b86a1ab1662858bbd4c52fe96edb"
 metafile = true
 
 [[files]]
