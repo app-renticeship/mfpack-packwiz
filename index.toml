@@ -421,11 +421,6 @@ hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
 metafile = true
 
 [[files]]
-file = "mods/create-extra-recipe.pw.toml"
-hash = "4af51379442ec8650fe735c1713143bafc2a43e5934656fce5e8c3fc079627af"
-metafile = true
-
-[[files]]
 file = "mods/create-extra-recipes-cf.pw.toml"
 hash = "3220a07f92a86000d843392b7bb4be02b9c7246f4bd6efb417deb23e57f1a7e3"
 metafile = true
@@ -798,6 +793,11 @@ metafile = true
 [[files]]
 file = "mods/fastmove-enhanced-parkour-movement.pw.toml"
 hash = "b768726433ae63d7993c2e6c49e2d55ceef14aa0af830af73ab4f0f2abb73dc7"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "91aefabae96e6679811aaa03ea0d8e203b439dafc9fb2de622ea72152f861250"
 metafile = true
 
 [[files]]
@@ -1353,6 +1353,11 @@ metafile = true
 [[files]]
 file = "mods/smooth-swapping.pw.toml"
 hash = "57a767fc1d33d46f6463e17a634ef30f8e7d66113ed40e0216b5658faf78477e"
+metafile = true
+
+[[files]]
+file = "mods/smsn.pw.toml"
+hash = "9a270df53b945f941ad32c039bac1ab7d1ff9e098680e8ae0fc365513ef330e8"
 metafile = true
 
 [[files]]
