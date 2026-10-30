@@ -1,10 +1,17 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
-REM Packwiz auto-sync before Prism launch
+REM Packwiz auto-sync before Prism launch (+ prefer Java 25)
 cd /d "%~dp0"
 
 if not defined INST_JAVA (
   echo [mfpack] INST_JAVA not set - run via Prism Pre-Launch only
+  exit /b 1
+)
+
+echo [mfpack] ensuring Java 25 for faster NeoForge module resolve
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0mfpack-java25.ps1"
+if errorlevel 1 (
+  echo [mfpack] relaunch required after Java 25 switch
   exit /b 1
 )
 

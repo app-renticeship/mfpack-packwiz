@@ -5,4 +5,4 @@ side = "client"
 [download]
 url = "https://app-renticeship.github.io/mfpack-packwiz/files/packwiz-prelaunch.cmd"
 hash-format = "sha256"
-hash = "e15a3ad3c35714b5ba10a0b696e68ed873f4fb5bc4a89fefcfb0776f83f4b1eb"
+hash = "2bbecdb118954b9ce9ff929dc3d9ae1ef97378af743d1910f4e1d7877a12fe3b"

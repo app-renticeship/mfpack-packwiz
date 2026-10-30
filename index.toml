@@ -21,6 +21,11 @@ hash = "8d70542a320572da49af7802c482b1665e3149933207cf9bfea6c41d0080fe71"
 metafile = true
 
 [[files]]
+file = "mfpack-java25.pw.toml"
+hash = "3bd21ef2f5004c9959132d454afc2582c420aaa15db127a1ec7cc6b98307958e"
+metafile = true
+
+[[files]]
 file = "mods/aeroclaims.pw.toml"
 hash = "78137effbcf3f8d93f64aa10f365a225b8439c0a0f49ea61cd99d4d6836aaeb1"
 metafile = true
@@ -418,6 +423,11 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
+metafile = true
+
+[[files]]
+file = "mods/create-extra-recipe.pw.toml"
+hash = "4af51379442ec8650fe735c1713143bafc2a43e5934656fce5e8c3fc079627af"
 metafile = true
 
 [[files]]
@@ -1547,7 +1557,7 @@ metafile = true
 
 [[files]]
 file = "packwiz-prelaunch.pw.toml"
-hash = "9b0a59f1c01f31e7b77e6dc2b5cca0d677fdc2d8efb67b773ca81c65df573c55"
+hash = "111f3bace44e9527438e3e9b68642b0ea00d4e9befbc1bf081e0f7969ca99a4e"
 metafile = true
 
 [[files]]

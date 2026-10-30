@@ -1,0 +1,14 @@
+name = "Create: Extra Recipe"
+filename = "create_extra_recipes-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8767879096a7066a5fba7d1952ff10986f7366ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+release-channel = "release"
+file-id = 9268164
+project-id = 1646855
