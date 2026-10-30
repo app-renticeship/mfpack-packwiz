@@ -1066,6 +1066,11 @@ hash = "a3da45c02def8647fff852b7d247768d70b20d96ad83033a7f859aa7930198cb"
 metafile = true
 
 [[files]]
+file = "mods/mftitle.pw.toml"
+hash = "b9af794c610d83ab2e3f7644f7aeb5ba3365f4a2f8919f5f15afc310433eee5e"
+metafile = true
+
+[[files]]
 file = "mods/miners-delight.pw.toml"
 hash = "45a2bb1fee63f277d2a3f1f790219f78eae569bc5683df4670a6c85043be700d"
 metafile = true
