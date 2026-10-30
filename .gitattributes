@@ -12,3 +12,6 @@
 *.ps1 text eol=lf
 *.cmd text eol=lf
 
+# Packwiz-served scripts: hashes must match GitHub Pages (LF)
+files/*.cmd text eol=lf
+files/*.ps1 text eol=lf
