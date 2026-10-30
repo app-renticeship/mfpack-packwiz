@@ -66,8 +66,18 @@ hash = "7217d31d65e588210ff52bcf7cb7a17aebf7c3119d03d6d7792695c58733788a"
 metafile = true
 
 [[files]]
+file = "mods/ars-additions.pw.toml"
+hash = "d9fede12c201d69b61cb827b25c57ac1b815d011935f4ea2ec9e0f9afe2bcbc7"
+metafile = true
+
+[[files]]
 file = "mods/ars-creo.pw.toml"
 hash = "181eeff68e57b3b894948904e24c91d6ed465e83fdaad5ab66a36d3c36359172"
+metafile = true
+
+[[files]]
+file = "mods/ars-elemental.pw.toml"
+hash = "a7bf2209eecfa4703952274e1a914389f6c928cdf6509e3c1ff07a600a1aa0e8"
 metafile = true
 
 [[files]]
@@ -1118,6 +1128,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "1d2ce76b72b27a4ffa9cca38675be5f0b0d8c86f871b97cd8d5d3483bd85e077"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-glyphs.pw.toml"
+hash = "b260f1e03fae1a2fb1dcd22e9dfc528f1083523aebf19d49419e98bf4da72b2f"
 metafile = true
 
 [[files]]
