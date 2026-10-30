@@ -1,8 +1,8 @@
 name = "MF Title"
-filename = "mftitle-1.0.0.jar"
+filename = "mftitle-1.0.1.jar"
 side = "client"
 
 [download]
-url = "https://app-renticeship.github.io/mfpack-packwiz/files/mftitle-1.0.0.jar"
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/mftitle-1.0.1.jar"
 hash-format = "sha256"
-hash = "9976bd58efefe478918fa84187cef524396622446b4527db7ed443d0126fc46c"
+hash = "79791e253a41fe8456fcec2766e79a84e84ff22407e5be687430f0213c9eed8a"
