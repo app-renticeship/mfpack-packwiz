@@ -6,6 +6,11 @@ hash = "e280fe5bedb556510dc219c2fd91819bba9e398b778041c48e0d48f8704e426c"
 metafile = true
 
 [[files]]
+file = "config/configureddefaults-options.pw.toml"
+hash = "8308840df03fe3d3ae1429212c64452c05f2b6a23db33cefe26b00af0b6e0cb5"
+metafile = true
+
+[[files]]
 file = "config/createaddition-client.pw.toml"
 hash = "bb80bdd5b62dc94c41609c53428c2b4fb9b6ac029aa4b8bc47c3d69a4b3f5bdd"
 metafile = true
@@ -28,6 +33,11 @@ metafile = true
 [[files]]
 file = "mfpack-java25.pw.toml"
 hash = "60172363726bbada507ad47429a832735e111c5d1c607b341f7113ba8b256d55"
+metafile = true
+
+[[files]]
+file = "mfpack-keybinds.pw.toml"
+hash = "120b3649eebf70d902ddd85f3dea1440fa0d918f8ef0e5f7842cbef92c86893f"
 metafile = true
 
 [[files]]
@@ -1086,13 +1096,8 @@ hash = "8691a6080607f512d7adbbc1c17911ba83db273a5b5f113711fd8408b8d6a9df"
 metafile = true
 
 [[files]]
-file = "mods/mfjeicompat.pw.toml"
-hash = "14ff8d6ad11322f1b4e3b15be5640a144c69835fd289d89316ab6595544f9625"
-metafile = true
-
-[[files]]
-file = "mods/mftitle.pw.toml"
-hash = "924917d6a04dec060484d031f4d29bdda73c324c094c1e05261d28c3e41ae490"
+file = "mods/mfcore.pw.toml"
+hash = "795a8c6406c602bf6d4efcbc1b7185ff49919e0b3d36656b4c6379a3a316eec4"
 metafile = true
 
 [[files]]
@@ -1583,14 +1588,4 @@ metafile = true
 [[files]]
 file = "resourcepacks/visual-effects-plus.pw.toml"
 hash = "1e3dc7c189d87bfba7e642323f8df510ae693a4d143f470a5c55fc449072411a"
-metafile = true
-
-[[files]]
-file = "config/configureddefaults-options.pw.toml"
-hash = "8308840df03fe3d3ae1429212c64452c05f2b6a23db33cefe26b00af0b6e0cb5"
-metafile = true
-
-[[files]]
-file = "mfpack-keybinds.pw.toml"
-hash = "120b3649eebf70d902ddd85f3dea1440fa0d918f8ef0e5f7842cbef92c86893f"
 metafile = true
