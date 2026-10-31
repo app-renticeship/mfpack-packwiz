@@ -1077,7 +1077,7 @@ metafile = true
 
 [[files]]
 file = "mods/mftitle.pw.toml"
-hash = "3e6bed021f6513e4a359b39b2d6b6e564029982159ff4c7a9aa8aa18eeb4c786"
+hash = "b54e1631a8a85edd799ae1b237774f799cf0c85f37cc3fbe2c085451da63889c"
 metafile = true
 
 [[files]]
@@ -1568,24 +1568,4 @@ metafile = true
 [[files]]
 file = "resourcepacks/visual-effects-plus.pw.toml"
 hash = "1e3dc7c189d87bfba7e642323f8df510ae693a4d143f470a5c55fc449072411a"
-metafile = true
-
-[[files]]
-file = "mods/simple-custom-early-loading.pw.toml"
-hash = "8c803770fc4de19234553a8cd675c9bb930856c1407a52136ee15eff158abb4d"
-metafile = true
-
-[[files]]
-file = "config/tiger-sleep.pw.toml"
-hash = "e343d7811df7eef2e882818112ee69094d124c15995405ccdb98318f8b93676d"
-metafile = true
-
-[[files]]
-file = "config/simple-custom-early-loading.pw.toml"
-hash = "e877cebe64620a5ba5e8eb09b2a834e08566a5c3e4e221f74fabb89120be5d53"
-metafile = true
-
-[[files]]
-file = "config/fml.pw.toml"
-hash = "5ac469f810b14bd88a471b9c7d3e957454644834153dec56e8fccefd24e70aa0"
 metafile = true

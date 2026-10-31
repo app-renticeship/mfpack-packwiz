@@ -1,12 +1,12 @@
 name = "The Illustrious MFPack"
 author = "MFServer"
-version = "1.0.9-nf265"
+version = "1.0.10-nf265"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ab71cd0ba5f0102a48150f7ab1024a1ad034b7f93912c3eea71bc788595bf378"
+hash = "9688448b9c0d85fc141aad48cd49271710eebd7f910ec77166770465167e3914"
 
 [versions]
 minecraft = "1.21.1"

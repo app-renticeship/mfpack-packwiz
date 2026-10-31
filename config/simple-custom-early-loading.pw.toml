@@ -1,8 +1,0 @@
-name = "Simple Custom Early Loading config"
-filename = "config/simple-custom-early-loading.json"
-side = "client"
-
-[download]
-url = "https://app-renticeship.github.io/mfpack-packwiz/files/simple-custom-early-loading.json"
-hash-format = "sha256"
-hash = "703f25570f55f6791a0e084fff4821dbece1c33c1ad0260d5fa8c5bf4f604904"
