@@ -1,0 +1,8 @@
+name = "NeoForge FML early window (tiger splash provider)"
+filename = "config/fml.toml"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/fml.toml"
+hash-format = "sha256"
+hash = "b9e6dc53578be37c051373b520aff6d451b2dd639c8f6525a1bddcd1ef9f26aa"

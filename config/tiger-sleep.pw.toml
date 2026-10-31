@@ -1,0 +1,8 @@
+name = "Tiger sleep early-loading splash"
+filename = "config/simple-custom-early-loading/tiger-sleep.png"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/tiger-sleep.png"
+hash-format = "sha256"
+hash = "e6860f412f94f3f0958d6893ec9534fce633f796c12eb22cf7336a932e6415d2"
