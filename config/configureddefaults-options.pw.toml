@@ -1,0 +1,8 @@
+name = "Configured Defaults keybinds (unbind FTB map from M)"
+filename = "configureddefaults/options.txt"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/configureddefaults-options.txt"
+hash-format = "sha256"
+hash = "5f9323564a1b804366056a6500dcbbed2ca2f394c96afaca1dd0bdb21d1eb672"

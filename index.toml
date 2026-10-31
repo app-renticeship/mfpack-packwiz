@@ -1572,7 +1572,7 @@ metafile = true
 
 [[files]]
 file = "packwiz-prelaunch.pw.toml"
-hash = "4528687e112dcc31e2a3d5b42d040112ec44d092f08465a647ecafaded0d8ee2"
+hash = "204b3dcbe9e7936be5fb0a4bf17a2b37f0d89bf7abbd2938a711692dd04d930f"
 metafile = true
 
 [[files]]
@@ -1583,4 +1583,14 @@ metafile = true
 [[files]]
 file = "resourcepacks/visual-effects-plus.pw.toml"
 hash = "1e3dc7c189d87bfba7e642323f8df510ae693a4d143f470a5c55fc449072411a"
+metafile = true
+
+[[files]]
+file = "config/configureddefaults-options.pw.toml"
+hash = "4bce4376e384f8a9b4dee24e2d199777d5d572c6eb8c016b3dd5af4207b0d55d"
+metafile = true
+
+[[files]]
+file = "mfpack-keybinds.pw.toml"
+hash = "29669e285c6d3e3a6cf66c9fa140a054d311504263bc15627f1a30118578d1ca"
 metafile = true

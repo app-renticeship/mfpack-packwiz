@@ -3,6 +3,11 @@ setlocal EnableExtensions EnableDelayedExpansion
 REM Packwiz auto-sync before Prism launch (+ prefer Java 25)
 cd /d "%~dp0"
 
+echo [mfpack] applying pack keybind defaults
+if exist "%~dp0mfpack-keybinds.ps1" (
+  powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0mfpack-keybinds.ps1"
+)
+
 if not defined INST_JAVA (
   echo [mfpack] INST_JAVA not set - run via Prism Pre-Launch only
   exit /b 1

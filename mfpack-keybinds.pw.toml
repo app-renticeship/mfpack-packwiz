@@ -1,0 +1,8 @@
+name = "MFPack keybind enforcer"
+filename = "mfpack-keybinds.ps1"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/mfpack-keybinds.ps1"
+hash-format = "sha256"
+hash = "d0252199ce21bbe04aaa6a9a99bd6cb41084b16440d74bc1482175be6ab6616f"
