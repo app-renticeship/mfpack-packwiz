@@ -11,3 +11,6 @@ scripts/**
 .packwizignore
 packwiz-installer-bootstrap.jar
 files/**
+
+updates.json
+.update-summary

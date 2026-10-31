@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Illustrious MFPack — Updates</title>
+  <title>MFPack Updates</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -120,19 +120,58 @@
       cursor: pointer; color: var(--muted); font-size: 0.9rem;
       margin-bottom: 0.75rem;
     }
+      .filters { display:flex; flex-wrap:wrap; gap:0.5rem 0.75rem; align-items:center; margin-bottom:0.75rem; }
+    .filters input[type="text"] { flex:1; min-width:180px; }
+    select { background:var(--bg); color:var(--ink); border:1px solid var(--line); border-radius:4px; padding:0.5rem 0.6rem; font:inherit; }
+    .filters label { font-size:0.85rem; color:var(--muted); display:inline-flex; gap:0.35rem; align-items:center; }
+    td code { font-family:"IBM Plex Mono", monospace; font-size:0.8rem; word-break:break-all; }
+    td small { color:var(--muted); display:block; font-size:0.75rem; }
+    .tag.pin { background:#2c2c3d; color:#b4b4e8; }
+    .tag.man { background:#262626; color:#aaa; }
+    .tag.beta { background:#3a2a10; color:var(--warn); }
+    .tag.alpha { background:#3d1c1c; color:var(--bad); }
+    .tag.release { background:#1e3d2a; color:var(--ok); }
+    button.small { padding:0.35rem 0.7rem; font-size:0.85rem; }
+    .tablewrap { overflow-x:auto; }
+    td a { color:var(--ink); text-decoration:none; } td a:hover { color:var(--accent); }
   </style>
 </head>
 <body>
   <div class="wrap">
     <h1 class="brand">Illustrious <span>MFPack</span></h1>
     <p class="lede">
-      Safe update policy: keep <b>MC 1.21.1</b> + <b>NeoForge 21.1.x</b>.
-      Update mods often; bump NeoForge only within 21.1.x when mods require it —
-      never jump to absolute NeoForge “latest” (that can be a different Minecraft).
+      Nothing updates on its own. A scan lists every mod with a newer file on Modrinth or CurseForge;
+      you update them <b>one at a time</b>. Players get it on their next launch, the server on its next boot.
+      MC <b>1.21.1</b> and NeoForge <b>21.1.x</b> stay fixed.
     </p>
 
-    <div class="meta" id="meta">
-      <div>Loading pack…</div>
+    <div class="meta" id="meta"><div>Loading pack…</div></div>
+
+    <div class="panel">
+      <h2>Mods</h2>
+      <div class="filters">
+        <input id="q" type="text" placeholder="Filter by name…" autocomplete="off" />
+        <select id="source">
+          <option value="">Modrinth + CurseForge</option>
+          <option value="modrinth">Modrinth only</option>
+          <option value="curseforge">CurseForge only</option>
+        </select>
+        <select id="channel" title="Which release types to offer">
+          <option value="auto" selected>Each mod's own channel</option>
+          <option value="release">release only</option>
+          <option value="beta">up to beta</option>
+          <option value="alpha">up to alpha</option>
+        </select>
+        <label><input id="onlyUpd" type="checkbox" checked /> only with updates</label>
+      </div>
+      <div class="actions" style="margin:0 0 0.5rem">
+        <button class="ghost small" id="btnScan" type="button" disabled title="Maintainer token required">Scan now</button>
+        <span class="hint" id="scanned" style="margin:0;align-self:center"></span>
+      </div>
+      <p id="status"></p>
+      <div class="tablewrap" id="results"><p class="empty">Loading updates.json…</p></div>
+      <p class="hint">Update changes only that mod's file; its <code>pin</code> and side stay. New dependencies of an
+        updated mod are not added automatically, so check its page. A pinned mod was frozen on purpose (see the pin notes).</p>
     </div>
 
     <div class="panel" id="loaderPanel">
@@ -141,33 +180,7 @@
       <div class="actions" style="margin:0.75rem 0 0">
         <button class="ghost" id="btnBumpNf" type="button" disabled title="Maintainer token required">Bump NeoForge to latest 21.1.x</button>
       </div>
-      <p class="hint">Mods update ≠ loader update. Use this only after a boot error like “requires neoforge 21.1.xxx or above”, or when scan notes a newer 21.1 patch.</p>
-    </div>
-
-    <div class="panel">
-      <h2>Update channel</h2>
-      <div class="token-row">
-        <label for="channel" class="hint" style="margin:0">Max instability</label>
-        <select id="channel" style="background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:0.55rem 0.7rem;font:inherit">
-          <option value="release" selected>release (stable only) — default</option>
-          <option value="beta">beta (stable + beta)</option>
-          <option value="alpha">alpha (stable + beta + alpha)</option>
-        </select>
-      </div>
-      <p class="hint">Daily auto-update always uses <b>release</b>. Create: Lanterns is allowlisted for alpha in <code>channel-overrides.json</code>.</p>
-    </div>
-
-    <div class="actions">
-      <button class="primary" id="btnScan" type="button">Scan for updates</button>
-      <button class="primary" id="btnUpdate" type="button" disabled title="Set a GitHub token below (maintainers)">Update mods</button>
-      <a class="btn ghost" href="https://github.com/app-renticeship/mfpack-packwiz/actions/workflows/update-mods.yml" target="_blank" rel="noopener">Actions →</a>
-      <a class="btn ghost" id="packLink" href="./pack.toml">pack.toml</a>
-    </div>
-    <p id="status"></p>
-
-    <div class="panel">
-      <h2>Mod updates found</h2>
-      <div id="results"><p class="empty">Run a scan to list Modrinth mods with newer versions (filtered to your MC). CurseForge updates apply when you hit Update mods.</p></div>
+      <p class="hint">Only after a boot error like “requires neoforge 21.1.xxx or above”.</p>
     </div>
 
     <details class="maintainer panel" open>
@@ -186,13 +199,13 @@
     </details>
 
     <div class="panel">
-      <h2>Recent update runs</h2>
+      <h2>Recent runs <a class="hint" style="float:right;text-transform:none;letter-spacing:0" href="https://github.com/app-renticeship/mfpack-packwiz/actions/workflows/update-mods.yml" target="_blank" rel="noopener">Actions →</a></h2>
       <div id="runs"><p class="empty">Loading…</p></div>
     </div>
 
     <footer>
-      Clients sync with packwiz-installer on launch.
-      Source: <a href="https://github.com/app-renticeship/mfpack-packwiz">github.com/app-renticeship/mfpack-packwiz</a>
+      Clients sync with packwiz-installer on launch. <a href="./pack.toml">pack.toml</a> ·
+      <a href="https://github.com/app-renticeship/mfpack-packwiz">source</a>
     </footer>
   </div>
 
@@ -201,335 +214,168 @@
     const WORKFLOW = "update-mods.yml";
     const BRANCH = "master";
     const TOKEN_KEY = "mfpack.gh.token";
-
+    const CH = ["release", "beta", "alpha"];
     const $ = (id) => document.getElementById(id);
-    const status = (msg, kind) => {
-      const el = $("status");
-      el.textContent = msg;
-      el.className = kind || "";
-    };
+    let DATA = null;
+    const queued = new Set();
 
-    function getToken() {
-      return (localStorage.getItem(TOKEN_KEY) || $("token").value || "").trim();
-    }
+    const status = (msg, kind) => { const el = $("status"); el.textContent = msg; el.className = kind || ""; };
+    const escapeHtml = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    const store = { get(k) { try { return localStorage.getItem(k); } catch (_) { return null; } },
+                    set(k, v) { try { localStorage.setItem(k, v); } catch (_) {} },
+                    del(k) { try { localStorage.removeItem(k); } catch (_) {} } };
+    const getToken = () => (store.get(TOKEN_KEY) || $("token").value || "").trim();
 
-    function refreshUpdateButton() {
+    function refreshButtons() {
       const ok = !!getToken();
-      $("btnUpdate").disabled = !ok;
+      $("btnScan").disabled = !ok;
       $("btnBumpNf").disabled = !ok;
+      document.querySelectorAll("button[data-upd]").forEach((b) => (b.disabled = !ok || queued.has(b.dataset.upd)));
     }
 
     function cmpSemver(a, b) {
-      const pa = String(a).split(".").map((x) => parseInt(x, 10) || 0);
-      const pb = String(b).split(".").map((x) => parseInt(x, 10) || 0);
-      const n = Math.max(pa.length, pb.length);
-      for (let i = 0; i < n; i++) {
-        const d = (pa[i] || 0) - (pb[i] || 0);
-        if (d) return d;
-      }
+      const pa = String(a).split(".").map((x) => parseInt(x, 10) || 0), pb = String(b).split(".").map((x) => parseInt(x, 10) || 0);
+      for (let i = 0; i < Math.max(pa.length, pb.length); i++) { const d = (pa[i] || 0) - (pb[i] || 0); if (d) return d; }
       return 0;
-    }
-
-    async function loadLoaderStatus(packNeo) {
-      const el = $("loaderStatus");
-      let latest = null;
-      let checked = null;
-      try {
-        const st = await fetch("./status.json", { cache: "no-store" }).then((r) =>
-          r.ok ? r.json() : null
-        );
-        if (st) {
-          latest = st.neoforge_latest_same_mc || null;
-          checked = st.checked_at || null;
-          if (st.neoforge) packNeo = st.neoforge;
-        }
-      } catch (_) {}
-      const behind = latest && packNeo && cmpSemver(latest, packNeo) > 0;
-      el.innerHTML = `
-        <p style="margin:0">
-          Pinned <code>${escapeHtml(packNeo || "?")}</code>
-          · latest same line (21.1.x) <code>${escapeHtml(latest || "run an update once to refresh")}</code>
-          ${behind ? ' <span class="tag up">patch available</span>' : latest ? ' <span class="tag mr">current</span>' : ""}
-        </p>
-        ${checked ? `<p class="hint" style="margin:0.4rem 0 0">status.json checked ${escapeHtml(checked)}</p>` : ""}`;
     }
 
     async function loadPack() {
       const pack = await fetch("./pack.toml", { cache: "no-store" }).then((r) => r.text());
-      const name = (pack.match(/^name\s*=\s*"([^"]+)"/m) || [])[1] || "MFPack";
-      const version = (pack.match(/^version\s*=\s*"([^"]+)"/m) || [])[1] || "?";
-      const mc = (pack.match(/minecraft\s*=\s*"([^"]+)"/) || [])[1] || "?";
-      const neo = (pack.match(/neoforge\s*=\s*"([^"]+)"/) || [])[1] || "?";
-      $("meta").innerHTML = `
-        <div><b>${name}</b></div>
-        <div>pack <b>${version}</b></div>
-        <div>MC <b>${mc}</b></div>
-        <div>NeoForge <b>${neo}</b></div>`;
-      await loadLoaderStatus(neo);
-      return { mc, neo };
+      const g = (re) => (pack.match(re) || [])[1] || "?";
+      const neo = g(/neoforge\s*=\s*"([^"]+)"/);
+      $("meta").innerHTML = `<div><b>${escapeHtml(g(/^name\s*=\s*"([^"]+)"/m))}</b></div><div>pack <b>${escapeHtml(g(/^version\s*=\s*"([^"]+)"/m))}</b></div>
+        <div>MC <b>${escapeHtml(g(/minecraft\s*=\s*"([^"]+)"/))}</b></div><div>NeoForge <b>${escapeHtml(neo)}</b></div>`;
+      let latest = null;
+      try { const st = await fetch("./status.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)); latest = st?.neoforge_latest_same_mc; } catch (_) {}
+      const behind = latest && cmpSemver(latest, neo) > 0;
+      $("loaderStatus").innerHTML = `<p style="margin:0">Pinned <code>${escapeHtml(neo)}</code> · latest 21.1.x <code>${escapeHtml(latest || "?")}</code>
+        ${behind ? '<span class="tag up">patch available</span>' : latest ? '<span class="tag mr">current</span>' : ""}</p>`;
     }
 
-    async function loadIndexFiles() {
-      const idx = await fetch("./index.toml", { cache: "no-store" }).then((r) => r.text());
-      const files = [];
-      for (const m of idx.matchAll(/file\s*=\s*"([^"]+)"/g)) {
-        if (m[1].endsWith(".pw.toml")) files.push(m[1]);
-      }
-      return files;
-    }
-
-    function parseTomlLite(text) {
-      const name = (text.match(/^name\s*=\s*['"]([^'"]+)['"]/m) || text.match(/^name\s*=\s*"([^"]+)"/m) || [])[1];
-      const filename = (text.match(/^filename\s*=\s*['"]([^'"]+)['"]/m) || [])[1];
-      const mrId = (text.match(/\[update\.modrinth\][\s\S]*?mod-id\s*=\s*['"]([^'"]+)['"]/) ||
-        text.match(/mod-id\s*=\s*['"]([^'"]+)['"]\s*\n\s*version\s*=\s*['"]([^'"]+)['"]/))?.[1];
-      const mrVer = (text.match(/\[update\.modrinth\][\s\S]*?version\s*=\s*['"]([^'"]+)['"]/) ||
-        text.match(/mod-id\s*=\s*['"][^'"]+['"]\s*\n\s*version\s*=\s*['"]([^'"]+)['"]/))?.[1]
-        || (text.match(/\[update\.modrinth\][\s\S]*?version\s*=\s*['"]([^'"]+)['"]/) || [])[1];
-      // Prism style [update.modrinth] then mod-id / version
-      let modrinthId = null, modrinthVersion = null;
-      const mrBlock = text.match(/\[update\.modrinth\]([\s\S]*?)(?=\n\[|$)/);
-      if (mrBlock) {
-        modrinthId = (mrBlock[1].match(/mod-id\s*=\s*['"]([^'"]+)['"]/) || [])[1];
-        modrinthVersion = (mrBlock[1].match(/version\s*=\s*['"]([^'"]+)['"]/) || [])[1];
-      }
-      let cfProject = null, cfFile = null;
-      const cfBlock = text.match(/\[update\.curseforge\]([\s\S]*?)(?=\n\[|$)/);
-      if (cfBlock) {
-        cfProject = (cfBlock[1].match(/project-id\s*=\s*(\d+)/) || [])[1];
-        cfFile = (cfBlock[1].match(/file-id\s*=\s*(\d+)/) || [])[1];
-      }
-      return {
-        name: name || filename || "?",
-        filename,
-        modrinthId,
-        modrinthVersion,
-        cfProject,
-        cfFile,
-      };
-    }
-
-    async function fetchModMeta(path) {
-      const text = await fetch("./" + path, { cache: "no-store" }).then((r) => r.text());
-      return { path, ...parseTomlLite(text) };
-    }
-
-    async function latestModrinth(modId, mc, loaders = ["neoforge"]) {
-      const params = new URLSearchParams({
-        loaders: JSON.stringify(loaders),
-        game_versions: JSON.stringify([mc]),
-      });
-      const url = `https://api.modrinth.com/v2/project/${encodeURIComponent(modId)}/version?${params}`;
-      const versions = await fetch(url).then((r) => {
-        if (!r.ok) throw new Error("modrinth " + r.status);
-        return r.json();
-      });
-      if (!versions.length) return null;
-      return versions[0];
-    }
-
-    async function scan() {
-      $("btnScan").disabled = true;
-      status("Loading pack index…");
+    async function loadUpdates() {
       try {
-        const { mc } = await loadPack();
-        const files = await loadIndexFiles();
-        status(`Scanning ${files.length} mods (Modrinth)…`);
-        const metas = [];
-        const chunk = 12;
-        for (let i = 0; i < files.length; i += chunk) {
-          const slice = files.slice(i, i + chunk);
-          const part = await Promise.all(slice.map(fetchModMeta));
-          metas.push(...part);
-          status(`Scanning ${Math.min(i + chunk, files.length)} / ${files.length}…`);
-        }
-
-        const mrMods = metas.filter((m) => m.modrinthId);
-        const cfMods = metas.filter((m) => m.cfProject);
-        const updates = [];
-        let checked = 0;
-        for (let i = 0; i < mrMods.length; i += chunk) {
-          const slice = mrMods.slice(i, i + chunk);
-          const results = await Promise.all(
-            slice.map(async (m) => {
-              try {
-                const latest = await latestModrinth(m.modrinthId, mc);
-                checked++;
-                if (!latest) return null;
-                if (latest.id !== m.modrinthVersion) {
-                  return {
-                    name: m.name,
-                    source: "modrinth",
-                    current: m.modrinthVersion,
-                    latest: latest.id,
-                    latestName: latest.version_number,
-                    filename: latest.files?.[0]?.filename || m.filename,
-                  };
-                }
-              } catch (_) { /* ignore single failures */ }
-              return null;
-            })
-          );
-          updates.push(...results.filter(Boolean));
-          status(`Checked Modrinth ${Math.min(i + chunk, mrMods.length)} / ${mrMods.length}…`);
-        }
-
-        renderResults(updates, { mr: mrMods.length, cf: cfMods.length, checked });
-        if (updates.length) {
-          status(`${updates.length} Modrinth update(s) available. CurseForge mods update when you press Update.`, "warn");
-        } else {
-          status(`Modrinth up to date (${checked} checked). CurseForge still refreshed on Update.`, "ok");
-        }
+        const r = await fetch("./updates.json", { cache: "no-store" });
+        if (!r.ok) throw new Error("no scan yet (updates.json " + r.status + ") — press Scan now");
+        DATA = await r.json();
+        $("scanned").textContent = "Last scan " + new Date(DATA.scanned_at).toLocaleString();
+        render();
       } catch (e) {
-        status(String(e.message || e), "bad");
-      } finally {
-        $("btnScan").disabled = false;
+        $("results").innerHTML = `<p class="empty">${escapeHtml(e.message || e)}</p>`;
       }
     }
 
-    function renderResults(updates, counts) {
-      const el = $("results");
-      if (!updates.length) {
-        el.innerHTML = `<p class="empty">No Modrinth updates found (${counts.mr} Modrinth / ${counts.cf} CurseForge in pack).</p>`;
-        return;
-      }
-      el.innerHTML = `
-        <table>
-          <thead><tr><th>Mod</th><th>Source</th><th>Latest</th><th></th></tr></thead>
-          <tbody>
-            ${updates
-              .map(
-                (u) => `<tr>
-                <td>${escapeHtml(u.name)}</td>
-                <td><span class="tag mr">modrinth</span></td>
-                <td><code>${escapeHtml(u.latestName || u.latest)}</code></td>
-                <td><span class="tag up">update</span></td>
-              </tr>`
-              )
-              .join("")}
-          </tbody>
-        </table>`;
+    function offer(m) {
+      if (!m.latest) return null;
+      const sel = $("channel").value;
+      const ch = sel === "auto" ? (m.channel || "release") : sel;
+      return m.latest[ch] ? { ...m.latest[ch], channel: ch } : null;
     }
 
-    function escapeHtml(s) {
-      return String(s)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;");
+    function projectUrl(m) {
+      if (m.source === "modrinth") return `https://modrinth.com/mod/${encodeURIComponent(m.project)}`;
+      if (m.source === "curseforge") return `https://www.curseforge.com/projects/${encodeURIComponent(m.project)}`;
+      return null;
     }
 
-    async function dispatchWorkflow(inputs, label) {
+    function render() {
+      if (!DATA) return;
+      const q = $("q").value.trim().toLowerCase(), src = $("source").value, only = $("onlyUpd").checked;
+      let rows = DATA.mods.map((m) => ({ m, o: offer(m) }))
+        .filter(({ m, o }) => (!q || m.name.toLowerCase().includes(q) || m.slug.includes(q))
+          && (!src || m.source === src) && (!only || o || m.error));
+      rows.sort((a, b) => (!!b.o - !!a.o) || a.m.name.localeCompare(b.m.name));
+      const nUpd = DATA.mods.filter((m) => offer(m)).length;
+      const counts = { modrinth: 0, curseforge: 0, manual: 0 };
+      DATA.mods.forEach((m) => (counts[m.source] = (counts[m.source] || 0) + 1));
+      status(`${nUpd} update(s) available · ${counts.modrinth} Modrinth, ${counts.curseforge} CurseForge, ${counts.manual || 0} manual`, nUpd ? "warn" : "ok");
+      if (!rows.length) { $("results").innerHTML = `<p class="empty">Nothing to show with these filters.</p>`; return; }
+      $("results").innerHTML = `<table><thead><tr><th>Mod</th><th>Source</th><th>Installed</th><th>Available</th><th></th></tr></thead><tbody>
+        ${rows.map(({ m, o }) => {
+          const url = projectUrl(m);
+          const srcTag = m.source === "modrinth" ? '<span class="tag mr">modrinth</span>'
+            : m.source === "curseforge" ? '<span class="tag cf">curseforge</span>' : '<span class="tag man">manual</span>';
+          const key = `${m.slug}@${o?.id}`;
+          const btn = o ? `<button class="primary small" data-upd="${escapeHtml(key)}" data-name="${escapeHtml(m.name)}" data-ver="${escapeHtml(o.version)}" data-pin="${m.pinned ? 1 : 0}" type="button">${queued.has(key) ? "Queued" : "Update"}</button>` : "";
+          return `<tr>
+            <td>${url ? `<a href="${url}" target="_blank" rel="noopener">${escapeHtml(m.name)}</a>` : escapeHtml(m.name)}
+              ${m.pinned ? ' <span class="tag pin">pinned</span>' : ""}<small>${escapeHtml(m.side)} · ${escapeHtml(m.channel)} channel</small></td>
+            <td>${srcTag}</td>
+            <td><code>${escapeHtml(m.current)}</code>${m.current_date ? `<small>${escapeHtml(m.current_date)}</small>` : ""}</td>
+            <td>${m.error ? `<small>scan error: ${escapeHtml(m.error)}</small>` : o ? `<code>${escapeHtml(o.version)}</code>
+              <small><span class="tag ${escapeHtml(o.type)}">${escapeHtml(o.type)}</span> ${escapeHtml(o.date)}</small>` : m.source === "manual" ? "<small>update by hand</small>" : "<small>up to date</small>"}</td>
+            <td>${btn}</td></tr>`;
+        }).join("")}</tbody></table>`;
+      refreshButtons();
+    }
+
+    async function dispatch(inputs, label) {
       const token = getToken();
-      if (!token) {
-        status("Add a GitHub token first (maintainer section).", "warn");
-        return;
-      }
-      $("btnUpdate").disabled = true;
-      $("btnBumpNf").disabled = true;
-      status(`Dispatching ${label}…`);
+      if (!token) { status("Add a GitHub token first (maintainer section).", "warn"); return false; }
+      status(`Starting ${label}…`);
       try {
-        const res = await fetch(
-          `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
-          {
-            method: "POST",
-            headers: {
-              Accept: "application/vnd.github+json",
-              Authorization: `Bearer ${token}`,
-              "X-GitHub-Api-Version": "2022-11-28",
-            },
-            body: JSON.stringify({ ref: BRANCH, inputs }),
-          }
-        );
+        const res = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`, {
+          method: "POST",
+          headers: { Accept: "application/vnd.github+json", Authorization: `Bearer ${token}`, "X-GitHub-Api-Version": "2022-11-28" },
+          body: JSON.stringify({ ref: BRANCH, inputs }),
+        });
         if (res.status === 204 || res.status === 200) {
-          status(`${label} started. Check runs below…`, "ok");
-          setTimeout(loadRuns, 4000);
-          setTimeout(loadRuns, 15000);
-        } else {
-          const body = await res.text();
-          status(`GitHub ${res.status}: ${body || res.statusText}`, "bad");
+          status(`${label} started. It takes about 2–3 minutes; this page shows the result after a reload.`, "ok");
+          setTimeout(loadRuns, 4000); setTimeout(loadRuns, 20000);
+          return true;
         }
-      } catch (e) {
-        status(String(e.message || e), "bad");
-      } finally {
-        refreshUpdateButton();
-      }
+        status(`GitHub ${res.status}: ${(await res.text()) || res.statusText}`, "bad");
+      } catch (e) { status(String(e.message || e), "bad"); }
+      return false;
     }
 
-    function triggerUpdate() {
-      const channel = $("channel").value || "release";
-      return dispatchWorkflow(
-        { update_mods: true, bump_neoforge: false, channel },
-        `mod update (${channel})`
-      );
-    }
-
-    function triggerBumpNf() {
-      if (
-        !confirm(
-          "Bump NeoForge to the latest 21.1.x patch only (same Minecraft 1.21.1)?\n\nThis does not jump to NeoForge 26 / other MC versions."
-        )
-      ) {
-        return;
-      }
-      return dispatchWorkflow(
-        { update_mods: false, bump_neoforge: true },
-        "NeoForge 21.1.x bump"
-      );
-    }
+    $("results").addEventListener("click", async (ev) => {
+      const b = ev.target.closest("button[data-upd]");
+      if (!b || b.disabled) return;
+      const { upd, name, ver, pin } = b.dataset;
+      const msg = pin === "1"
+        ? `${name} is PINNED — it was frozen on purpose (often because a newer version broke something).\n\nUpdate it to ${ver} anyway? The pin stays.`
+        : `Update ${name} to ${ver}?`;
+      if (!confirm(msg)) return;
+      b.disabled = true;
+      if (await dispatch({ mode: "update", mods: upd, bump_neoforge: false }, `update of ${name}`)) {
+        queued.add(upd); b.textContent = "Queued";
+      } else refreshButtons();
+    });
+    $("btnScan").addEventListener("click", () => dispatch({ mode: "scan", mods: "", bump_neoforge: false }, "scan"));
+    $("btnBumpNf").addEventListener("click", () => {
+      if (confirm("Bump NeoForge to the latest 21.1.x patch only (same Minecraft 1.21.1)?"))
+        dispatch({ mode: "scan", mods: "", bump_neoforge: true }, "NeoForge 21.1.x bump");
+    });
+    ["q", "source", "channel", "onlyUpd"].forEach((id) => $(id).addEventListener("input", render));
 
     async function loadRuns() {
       const el = $("runs");
       try {
-        const res = await fetch(
-          `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/runs?per_page=5`,
-          { headers: { Accept: "application/vnd.github+json" } }
-        );
+        const res = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/runs?per_page=6`, { headers: { Accept: "application/vnd.github+json" } });
         if (!res.ok) throw new Error("runs " + res.status);
         const data = await res.json();
-        if (!data.workflow_runs?.length) {
-          el.innerHTML = `<p class="empty">No runs yet. Click Update available mods.</p>`;
-          return;
-        }
-        el.innerHTML = `<table><thead><tr><th>When</th><th>Status</th><th>Event</th><th></th></tr></thead><tbody>
-          ${data.workflow_runs
-            .map((r) => {
-              const when = new Date(r.created_at).toLocaleString();
-              const st = r.conclusion || r.status;
-              return `<tr>
-                <td>${escapeHtml(when)}</td>
-                <td><code>${escapeHtml(st)}</code></td>
-                <td>${escapeHtml(r.event)}</td>
-                <td><a href="${r.html_url}" target="_blank" rel="noopener">log</a></td>
-              </tr>`;
-            })
-            .join("")}
+        if (!data.workflow_runs?.length) { el.innerHTML = `<p class="empty">No runs yet.</p>`; return; }
+        el.innerHTML = `<table><thead><tr><th>When</th><th>Status</th><th>Run</th><th></th></tr></thead><tbody>
+          ${data.workflow_runs.map((r) => `<tr><td>${escapeHtml(new Date(r.created_at).toLocaleString())}</td>
+            <td><code>${escapeHtml(r.conclusion || r.status)}</code></td><td>${escapeHtml(r.display_title || r.event)}</td>
+            <td><a href="${escapeHtml(r.html_url)}" target="_blank" rel="noopener">log</a></td></tr>`).join("")}
         </tbody></table>`;
-      } catch (e) {
-        el.innerHTML = `<p class="empty">${escapeHtml(e.message || e)}</p>`;
-      }
+      } catch (e) { el.innerHTML = `<p class="empty">${escapeHtml(e.message || e)}</p>`; }
     }
 
-    $("btnScan").addEventListener("click", scan);
-    $("btnUpdate").addEventListener("click", triggerUpdate);
-    $("btnBumpNf").addEventListener("click", triggerBumpNf);
     $("btnSaveToken").addEventListener("click", () => {
       const t = $("token").value.trim();
-      if (t) localStorage.setItem(TOKEN_KEY, t);
-      refreshUpdateButton();
+      if (t) store.set(TOKEN_KEY, t);
+      refreshButtons();
       status(t ? "Token saved in this browser only." : "Empty token.", t ? "ok" : "warn");
     });
-    $("btnClearToken").addEventListener("click", () => {
-      localStorage.removeItem(TOKEN_KEY);
-      $("token").value = "";
-      refreshUpdateButton();
-      status("Token cleared.", "ok");
-    });
-    $("token").value = localStorage.getItem(TOKEN_KEY) || "";
-    $("token").addEventListener("input", refreshUpdateButton);
+    $("btnClearToken").addEventListener("click", () => { store.del(TOKEN_KEY); $("token").value = ""; refreshButtons(); status("Token cleared.", "ok"); });
+    $("token").value = store.get(TOKEN_KEY) || "";
+    $("token").addEventListener("input", refreshButtons);
 
-    refreshUpdateButton();
+    refreshButtons();
     loadPack().catch((e) => status(String(e), "bad"));
+    loadUpdates();
     loadRuns();
   </script>
 </body>

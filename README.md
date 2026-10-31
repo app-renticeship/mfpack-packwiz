@@ -1,6 +1,6 @@
 ﻿# The Illustrious MFPack (packwiz)
 
-NeoForge **1.21.1** auto-updating pack for MFServer (Modrinth + CurseForge, including [Create: Lanterns](https://www.curseforge.com/minecraft/mc-mods/create-lanterns)).
+NeoForge **1.21.1** pack for MFServer (Modrinth + CurseForge, including [Create: Lanterns](https://www.curseforge.com/minecraft/mc-mods/create-lanterns)).
 
 ## Pack URL
 
@@ -30,10 +30,15 @@ bash .mfpack-update/start.sh
 
 ## Maintainers
 
+Mods never update on their own and there is no whole-pack update. The [Pages console](https://app-renticeship.github.io/mfpack-packwiz/)
+lists every mod with a newer Modrinth or CurseForge file (from `updates.json`, written by a scan) and updates them one at a time
+through the *Update mods* workflow (`mode=update`, `mods=slug@version`). Don't run `packwiz update --all`.
+
+Adding a mod by hand:
+
 ```
 packwiz curseforge add <slug-or-cf-url> -y
 packwiz modrinth add <slug-or-url> -y
-packwiz update --all
 packwiz refresh
 git add -A && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "chore: update mods" && git push
 ```

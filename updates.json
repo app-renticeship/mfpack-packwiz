@@ -1,0 +1,5345 @@
+{
+ "scanned_at": "2026-10-31T06:11:52Z",
+ "minecraft": "1.21.1",
+ "mods": [
+  {
+   "slug": "aeroclaims",
+   "name": "Create Aeronautics: Claims",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.9.5",
+   "source": "modrinth",
+   "project": "CwZ8q37q",
+   "current_id": "GBQG9g6R",
+   "current_date": "2026-10-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "all-of-create-core",
+   "name": "All of Create Core",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "Aoc_Core_1.21_v2.jar",
+   "source": "curseforge",
+   "project": "1288893",
+   "current_id": "8210441",
+   "current_date": "2026-06-07",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "alltheleaks",
+   "name": "AllTheLeaks (Memory Leak Fix)",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "alltheleaks-1.1.14+1.21.1-neoforge.jar",
+   "source": "curseforge",
+   "project": "1091339",
+   "current_id": "9360134",
+   "current_date": "2026-10-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "almostunified",
+   "name": "Almost Unified",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-1.4.2+neoforge",
+   "source": "modrinth",
+   "project": "sdaSaQEz",
+   "current_id": "e8iYxxI3",
+   "current_date": "2026-05-22",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "amendments",
+   "name": "Amendments",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21-2.2.5",
+   "source": "modrinth",
+   "project": "6iTJugQR",
+   "current_id": "Fjkt65h2",
+   "current_date": "2026-10-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "another-furniture",
+   "name": "Another Furniture",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "4.0.3",
+   "source": "modrinth",
+   "project": "ulloLmqG",
+   "current_id": "cugGiMKt",
+   "current_date": "2026-09-23",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "appleskin",
+   "name": "AppleSkin",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.9+mc1.21",
+   "source": "modrinth",
+   "project": "EsAfCjCV",
+   "current_id": "uAKA6Laj",
+   "current_date": "2026-04-01",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "aquaculture",
+   "name": "Aquaculture 2",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.7.21",
+   "source": "modrinth",
+   "project": "Vl1uNAuy",
+   "current_id": "5pbz0ETj",
+   "current_date": "2026-04-09",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "architectury-api",
+   "name": "Architectury API",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "13.0.11+neoforge",
+   "source": "modrinth",
+   "project": "lhGA9TYQ",
+   "current_id": "1IiqEQGl",
+   "current_date": "2026-07-23",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "armor-statues",
+   "name": "Armor Statues",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "v21.1.0-1.21.1-NeoForge",
+   "source": "modrinth",
+   "project": "bbGCtEvb",
+   "current_id": "SGpwIu7v",
+   "current_date": "2024-09-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ars-additions",
+   "name": "Ars Additions",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "21.3.0",
+   "source": "modrinth",
+   "project": "GYK6Gk8R",
+   "current_id": "aQ0r5GD2",
+   "current_date": "2026-02-18",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ars-creo",
+   "name": "Ars Creo",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "5.4.0",
+   "source": "modrinth",
+   "project": "fZ324GMc",
+   "current_id": "LqOllHms",
+   "current_date": "2026-05-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ars-elemental",
+   "name": "Ars Elemental",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "ars_elemental-1.21.1-0.7.10.4.jar",
+   "source": "curseforge",
+   "project": "561470",
+   "current_id": "9057244",
+   "current_date": "2026-10-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ars-nouveau",
+   "name": "Ars Nouveau",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "5.13.3",
+   "source": "modrinth",
+   "project": "TKB6INcv",
+   "current_id": "yWDnir1o",
+   "current_date": "2026-10-03",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "arsdelight",
+   "name": "Ars Nouveau",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.2.5",
+   "source": "modrinth",
+   "project": "BwbT0OZE",
+   "current_id": "JtS0qjOn",
+   "current_date": "2026-10-06",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "artifacts",
+   "name": "Artifacts",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "13.2.5",
+   "source": "modrinth",
+   "project": "P0Mu4wcQ",
+   "current_id": "lMfuK0o7",
+   "current_date": "2026-09-02",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "asynclogger",
+   "name": "Async Logger",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.2.3+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "zvNzKfGF",
+   "current_id": "z6QoWGKq",
+   "current_date": "2026-10-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "asyncparticles",
+   "name": "AsyncParticles",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "21.1.4.10",
+   "source": "modrinth",
+   "project": "c3onkd5k",
+   "current_id": "qLpoOaqY",
+   "current_date": "2026-10-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "azimuth-api",
+   "name": "Azimuth API",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.4.10",
+   "source": "modrinth",
+   "project": "RpH8tmT1",
+   "current_id": "dxtZVosY",
+   "current_date": "2026-10-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "backpacked",
+   "name": "Backpacked",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "Backpacked 3.0.5",
+   "source": "curseforge",
+   "project": "352835",
+   "current_id": "7866688",
+   "current_date": "2026-04-03",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "bad-wither-no-cookie",
+   "name": "Bad Wither No Cookie - Reloaded",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.20.4",
+   "source": "modrinth",
+   "project": "lL2MtE37",
+   "current_id": "FRuLJsBp",
+   "current_date": "2026-05-23",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "badoptimizations",
+   "name": "BadOptimizations",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.4.1",
+   "source": "modrinth",
+   "project": "g96Z4WVZ",
+   "current_id": "S2qthD5S",
+   "current_date": "2025-12-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "balm",
+   "name": "Balm",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "balm-neoforge-1.21.1-21.0.66.jar",
+   "source": "curseforge",
+   "project": "531761",
+   "current_id": "8969738",
+   "current_date": "2026-09-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "bbrb",
+   "name": "Better Biome Reblend",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.5.2",
+   "source": "modrinth",
+   "project": "Xh8hkQmD",
+   "current_id": "HZlLCOct",
+   "current_date": "2025-04-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "bellsandwhistles",
+   "name": "Create: Bells & Whistles",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "v0.4.7-1.21.1",
+   "source": "modrinth",
+   "project": "gJ5afkVv",
+   "current_id": "w0mifib8",
+   "current_date": "2025-03-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "blocks-bogies",
+   "name": "Create: Blocks & Bogies",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.8-1.21.1",
+   "source": "modrinth",
+   "project": "j4ARnQwY",
+   "current_id": "nC19ZMKK",
+   "current_date": "2026-08-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "bookshelf-lib",
+   "name": "Bookshelf",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "21.1.81",
+   "source": "modrinth",
+   "project": "uy4Cnpcm",
+   "current_id": "1sdJl7J1",
+   "current_date": "2026-02-10",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "brick-and-mortar",
+   "name": "Brick & Mortar",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.3.1-1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "ntRJD9NS",
+   "current_id": "8wAguQz5",
+   "current_date": "2026-10-18",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "c2me-neoforge",
+   "name": "Concurrent Chunk Management Engine (NeoForge)",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "0.3.0+alpha.0.93+1.21.1",
+   "source": "modrinth",
+   "project": "COlSi5iR",
+   "current_id": "KmfiVd28",
+   "current_date": "2026-05-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": {
+     "id": "VACgDPOc",
+     "version": "0.4.0-alpha.0.124+1.21.1",
+     "type": "alpha",
+     "date": "2026-10-27"
+    }
+   }
+  },
+  {
+   "slug": "caelus",
+   "name": "Caelus API",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "7.0.1+1.21.1",
+   "source": "modrinth",
+   "project": "40FYwb4z",
+   "current_id": "KsfI4QsR",
+   "current_date": "2024-09-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "carry-on",
+   "name": "Carry On",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "2.2.5",
+   "source": "modrinth",
+   "project": "joEfVgkn",
+   "current_id": "9u0z3vZD",
+   "current_date": "2026-07-06",
+   "latest": {
+    "release": {
+     "id": "PV8oLZ1q",
+     "version": "2.2.6",
+     "type": "release",
+     "date": "2026-07-26"
+    },
+    "beta": {
+     "id": "PV8oLZ1q",
+     "version": "2.2.6",
+     "type": "release",
+     "date": "2026-07-26"
+    },
+    "alpha": {
+     "id": "PV8oLZ1q",
+     "version": "2.2.6",
+     "type": "release",
+     "date": "2026-07-26"
+    }
+   }
+  },
+  {
+   "slug": "carryon-aeronautics-compat",
+   "name": "Carry On + Create Aeronautics Compat",
+   "side": "server",
+   "pinned": true,
+   "channel": "release",
+   "current": "1.1.1",
+   "source": "modrinth",
+   "project": "MpnDZ1Lx",
+   "current_id": "z7xbAdje",
+   "current_date": "2026-05-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "cerulean-advancements",
+   "name": "Cerulean",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "neoforge-1.21.1-1.0.0",
+   "source": "modrinth",
+   "project": "dv57xmf9",
+   "current_id": "i5PXO3P7",
+   "current_date": "2025-05-03",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "chat-heads",
+   "name": "Chat Heads",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.15.7",
+   "source": "modrinth",
+   "project": "Wb5oqrBJ",
+   "current_id": "ZPylso9i",
+   "current_date": "2026-08-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "chimes",
+   "name": "Chimes",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.1.1",
+   "source": "modrinth",
+   "project": "mjGOuygR",
+   "current_id": "KIYfGvje",
+   "current_date": "2026-10-02",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "chunk-activity-tracker",
+   "name": "Chunk Activity Tracker",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "neoforge-1.21.1-1.0.1",
+   "source": "modrinth",
+   "project": "BNuR43mM",
+   "current_id": "ezAcslcX",
+   "current_date": "2025-02-06",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "cloth-config",
+   "name": "Cloth Config API",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "15.0.140+neoforge",
+   "source": "modrinth",
+   "project": "9s6osm5g",
+   "current_id": "izKINKFg",
+   "current_date": "2024-09-16",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "clumps",
+   "name": "Clumps",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "19.0.0.1",
+   "source": "modrinth",
+   "project": "Wnxd13zP",
+   "current_id": "jo7lDoK4",
+   "current_date": "2024-08-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "collective",
+   "name": "Collective",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-8.69-fabric+forge+neo",
+   "source": "modrinth",
+   "project": "e0M1UDsY",
+   "current_id": "DjCiHvZ6",
+   "current_date": "2026-10-29",
+   "latest": {
+    "release": {
+     "id": "AyOGVoeq",
+     "version": "1.21.1-8.71-fabric+forge+neo",
+     "type": "release",
+     "date": "2026-10-30"
+    },
+    "beta": {
+     "id": "AyOGVoeq",
+     "version": "1.21.1-8.71-fabric+forge+neo",
+     "type": "release",
+     "date": "2026-10-30"
+    },
+    "alpha": {
+     "id": "AyOGVoeq",
+     "version": "1.21.1-8.71-fabric+forge+neo",
+     "type": "release",
+     "date": "2026-10-30"
+    }
+   }
+  },
+  {
+   "slug": "comforts",
+   "name": "Comforts",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "9.0.5+1.21.1",
+   "source": "modrinth",
+   "project": "SaCpeal4",
+   "current_id": "3kpPjcTc",
+   "current_date": "2026-01-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "companion",
+   "name": "Companion \ud83d\udc15",
+   "side": "server",
+   "pinned": false,
+   "channel": "beta",
+   "current": "6.3.0+neoforge",
+   "source": "modrinth",
+   "project": "4w0EzGRW",
+   "current_id": "PfXPQBGy",
+   "current_date": "2026-09-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "configurable",
+   "name": "Configurable",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.5.3",
+   "source": "modrinth",
+   "project": "lGffrQ3O",
+   "current_id": "lycKbfGw",
+   "current_date": "2026-10-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "configured-defaults",
+   "name": "Configured Defaults",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "v21.1.3-1.21.1-NeoForge",
+   "source": "modrinth",
+   "project": "SISoSFPP",
+   "current_id": "HJxTPhTM",
+   "current_date": "2025-01-06",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "connectivity",
+   "name": "Connectivity",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "connectivity-1.21.1-7.7.jar",
+   "source": "curseforge",
+   "project": "470193",
+   "current_id": "9008904",
+   "current_date": "2026-09-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "continuity",
+   "name": "Continuity",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.0+1.21.neoforge",
+   "source": "modrinth",
+   "project": "1IjD5062",
+   "current_id": "eXGUs5sy",
+   "current_date": "2024-12-10",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "controlling",
+   "name": "Controlling",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "19.0.5",
+   "source": "modrinth",
+   "project": "xv94TkTM",
+   "current_id": "FaNppCJJ",
+   "current_date": "2025-03-30",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "copycats-plus-aeronautics-weight",
+   "name": "Copycats+ aeronautics weight",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.1",
+   "source": "modrinth",
+   "project": "wjpmYU1u",
+   "current_id": "wsXjRa7l",
+   "current_date": "2026-05-07",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "copycats",
+   "name": "Create: Copycats+",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.9+mc.1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "UT2M39wf",
+   "current_id": "bPYeUWZx",
+   "current_date": "2026-09-06",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "corpse",
+   "name": "Corpse",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "[NEOFORGE][1.21.1] Corpse 1.21.1-1.1.22",
+   "source": "curseforge",
+   "project": "316582",
+   "current_id": "9289316",
+   "current_date": "2026-10-22",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "crash-assistant",
+   "name": "Crash Assistant",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.11.12",
+   "source": "modrinth",
+   "project": "ix1qq8Ux",
+   "current_id": "18SR4EJw",
+   "current_date": "2026-08-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aeronautics-climbable-rope",
+   "name": "Climbable Ropes for Create Aeronautics",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.2.0",
+   "source": "modrinth",
+   "project": "jImqv1M5",
+   "current_id": "TTGedLb3",
+   "current_date": "2026-10-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aeronautics-curios-compat",
+   "name": "Create Aeronautics: Curios Compat",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "CreateAeronauticsCuriosLinkedTypewriter-1.21.1-1.0.2.jar",
+   "source": "curseforge",
+   "project": "1532194",
+   "current_id": "8263132",
+   "current_date": "2026-06-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aeronautics-encased-fluid-pipes",
+   "name": "Create Aeronautics: Encased Fluid Pipes",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.7",
+   "source": "modrinth",
+   "project": "DdAlVT8M",
+   "current_id": "pKFEfjEB",
+   "current_date": "2026-06-07",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aeronautics-gadgets-and-gizmos",
+   "name": "Create Aeronautics: Gadgets & Gizmos",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "1.2.10",
+   "source": "modrinth",
+   "project": "Sza3GgEL",
+   "current_id": "MgD655V5",
+   "current_date": "2026-10-12",
+   "latest": {
+    "release": null,
+    "beta": {
+     "id": "IDR4lPuz",
+     "version": "2.0.0-Pre-Release-5",
+     "type": "release",
+     "date": "2026-10-25"
+    },
+    "alpha": {
+     "id": "IDR4lPuz",
+     "version": "2.0.0-Pre-Release-5",
+     "type": "release",
+     "date": "2026-10-25"
+    }
+   }
+  },
+  {
+   "slug": "create-aeronautics-throwable-rope-connector",
+   "name": "Create Aeronautics: Throwable Rope Connector",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.4.3",
+   "source": "modrinth",
+   "project": "9xiCbKmM",
+   "current_id": "EDzeTV17",
+   "current_date": "2026-08-10",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aeronautics-toolgun",
+   "name": "Create Aeronautics: Toolgun",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.3.6",
+   "source": "modrinth",
+   "project": "5fUBLqeW",
+   "current_id": "pcD0Yutw",
+   "current_date": "2026-08-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aeronautics-transmission-linkage",
+   "name": "Create Aeronautics: Transmission & Linkage",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.2.8",
+   "source": "modrinth",
+   "project": "Y1dq5ioE",
+   "current_id": "FCZZ3ED4",
+   "current_date": "2026-09-02",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aeronautics-x-curios-api-compat",
+   "name": "Create Aeronautics x Curios API Compat",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "createaeronauticscurios-neoforge-1.21.1-2.3",
+   "source": "curseforge",
+   "project": "1532334",
+   "current_id": "9076258",
+   "current_date": "2026-10-06",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aeronautics",
+   "name": "Create Aeronautics",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "Create Aeronautics 1.3.2 for mc1.21.1",
+   "source": "curseforge",
+   "project": "676721",
+   "current_id": "8763471",
+   "current_date": "2026-08-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aeroworks",
+   "name": "Create: Aeroworks",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.5.0+mc1.21.1",
+   "source": "curseforge",
+   "project": "1522473",
+   "current_id": "8743051",
+   "current_date": "2026-08-27",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-aquatic-ambitions",
+   "name": "Create: Aquatic Ambitions",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-6.0.10-2.0.4",
+   "source": "modrinth",
+   "project": "9SyaPzp7",
+   "current_id": "DoI3PpXj",
+   "current_date": "2026-07-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-ballast",
+   "name": "Create: Ballast",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.1.1",
+   "source": "modrinth",
+   "project": "5ypXYrfG",
+   "current_id": "XzlV3NlT",
+   "current_date": "2026-09-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-big-cannons",
+   "name": "Create Big Cannons",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "5.11.7",
+   "source": "modrinth",
+   "project": "GWp4jCJj",
+   "current_id": "bOiDu0LS",
+   "current_date": "2026-06-22",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-bits-n-bobs",
+   "name": "Create: Bits ",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.3.5",
+   "source": "modrinth",
+   "project": "T8bvmqVZ",
+   "current_id": "g9Lmjjc5",
+   "current_date": "2026-09-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-blaze-burner-fuels",
+   "name": "Create: Blaze Burner Fuels",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.2",
+   "source": "modrinth",
+   "project": "f3wjDYg6",
+   "current_id": "5Lq5c5Tl",
+   "current_date": "2026-01-11",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-cafe",
+   "name": "Create Cafe",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.4.3",
+   "source": "modrinth",
+   "project": "O3hKBfwC",
+   "current_id": "5CZzXBed",
+   "current_date": "2026-01-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-central-kitchen",
+   "name": "Create: Central Kitchen",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.6.2b",
+   "source": "modrinth",
+   "project": "btq68HMO",
+   "current_id": "qZxkZR8W",
+   "current_date": "2026-10-09",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-chocolate-fountain",
+   "name": "Create: Chocolate Fountain",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-1.1.0",
+   "source": "modrinth",
+   "project": "uAn01eey",
+   "current_id": "mBNDwtat",
+   "current_date": "2026-02-20",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-coasters-simulated",
+   "name": "Create: Coasters Simulated",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.1.5",
+   "source": "modrinth",
+   "project": "W1ZUfWdr",
+   "current_id": "PGhQoSBq",
+   "current_date": "2026-08-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-confectionery",
+   "name": "Create Confectionery",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.3.b",
+   "source": "modrinth",
+   "project": "WPE5gRs9",
+   "current_id": "ndnETBEN",
+   "current_date": "2026-08-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-connected",
+   "name": "Create: Connected",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "create_connected 1.3.3-mc1.21.1",
+   "source": "curseforge",
+   "project": "947914",
+   "current_id": "8777573",
+   "current_date": "2026-08-31",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-copper-splashing",
+   "name": "Create: Copper Splashing",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "coppersplashing_1.21.1_v1.jar",
+   "source": "curseforge",
+   "project": "1266798",
+   "current_id": "7370476",
+   "current_date": "2025-12-23",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-deco",
+   "name": "Create Deco",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.1.3",
+   "source": "modrinth",
+   "project": "sMvUb4Rb",
+   "current_id": "qrcMVoBD",
+   "current_date": "2026-04-18",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-deep-dark",
+   "name": "Create: Deep Dark",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.2",
+   "source": "modrinth",
+   "project": "knrLSB8n",
+   "current_id": "3tduJc4Y",
+   "current_date": "2026-02-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-design-n-decor",
+   "name": "Create: Design n",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.2b",
+   "source": "modrinth",
+   "project": "x49wilh8",
+   "current_id": "uQsIRky8",
+   "current_date": "2026-05-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-diesel-generators",
+   "name": "Create: Diesel Generators",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-1.3.15",
+   "source": "modrinth",
+   "project": "ZM3tt6p1",
+   "current_id": "UoPH8lO1",
+   "current_date": "2026-07-30",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-dragons-plus",
+   "name": "Create: Dragons Plus",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.11.9",
+   "source": "modrinth",
+   "project": "dzb1a5WV",
+   "current_id": "b0u9vk8C",
+   "current_date": "2026-09-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-dreams-and-desires",
+   "name": "Create: Dreams & Desires",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.3a-BETA",
+   "source": "modrinth",
+   "project": "JmybsfWs",
+   "current_id": "bqMxf6Ua",
+   "current_date": "2026-05-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-encased",
+   "name": "Create Encased",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-1.10.0-fix1",
+   "source": "modrinth",
+   "project": "hSSqdyU1",
+   "current_id": "pld6Eng9",
+   "current_date": "2026-10-26",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-enchantment-industry",
+   "name": "Create: Enchantment Industry",
+   "side": "both",
+   "pinned": false,
+   "channel": "beta",
+   "current": "2.5.4b",
+   "source": "modrinth",
+   "project": "JWGBpFUP",
+   "current_id": "L6VSDdC4",
+   "current_date": "2026-10-09",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-extra-recipe",
+   "name": "Create: Extra Recipe",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "v1.5.0",
+   "source": "curseforge",
+   "project": "1646855",
+   "current_id": "9268164",
+   "current_date": "2026-10-20",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-extra-recipes-cf",
+   "name": "Create Extra Recipes",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "extra_create_recipes_1.21.1_v1.jar",
+   "source": "curseforge",
+   "project": "1266786",
+   "current_id": "7370449",
+   "current_date": "2025-12-23",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-factory",
+   "name": "Create: Factory",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.7b-1.21.1",
+   "source": "modrinth",
+   "project": "j6Zt3N7W",
+   "current_id": "OA9Dvj5m",
+   "current_date": "2026-08-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-fantasizing-again",
+   "name": "Create: Fantasizing Again",
+   "side": "both",
+   "pinned": false,
+   "channel": "beta",
+   "current": "1.2.0-beta3-1.21.1",
+   "source": "modrinth",
+   "project": "UvrmqS41",
+   "current_id": "xaayBxRe",
+   "current_date": "2026-08-06",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-fast-schematic-cannon",
+   "name": "Create: FastSchematicCannon",
+   "side": "both",
+   "pinned": false,
+   "channel": "beta",
+   "current": "1.21.1-2.6.1-neoforge",
+   "source": "modrinth",
+   "project": "DebMSCVn",
+   "current_id": "bG6IJw6J",
+   "current_date": "2026-09-02",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-food",
+   "name": "Create: Food",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.0",
+   "source": "modrinth",
+   "project": "4HnO3el1",
+   "current_id": "uaxLGKon",
+   "current_date": "2026-09-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-framed",
+   "name": "Create: Framed",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.8.2+1.21.1",
+   "source": "modrinth",
+   "project": "15fFZ3f4",
+   "current_id": "yioQUGiO",
+   "current_date": "2026-07-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-garnished-reworked",
+   "name": "Create: Garnished Reworked",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.1.7.4+1.21.1",
+   "source": "modrinth",
+   "project": "f1wEzr0F",
+   "current_id": "wxWA2IgN",
+   "current_date": "2026-02-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": {
+     "id": "ODnfYWc7",
+     "version": "0.26-april-foods",
+     "type": "alpha",
+     "date": "2026-04-01"
+    }
+   }
+  },
+  {
+   "slug": "create-immersive-tacz-integration",
+   "name": "Create: Immersive TaCZ Integration",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.6-neoforge",
+   "source": "modrinth",
+   "project": "X2ZdQA3m",
+   "current_id": "7qIlMJja",
+   "current_date": "2026-06-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-industrialized-architecture",
+   "name": "Create: Industrialized Architecture",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "i_architecture-0.1.1b-1.21.1",
+   "source": "curseforge",
+   "project": "1316585",
+   "current_id": "7350975",
+   "current_date": "2025-12-18",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-integrated-farming",
+   "name": "Create: Integrated Farming",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.4.3",
+   "source": "modrinth",
+   "project": "9k1pAsfR",
+   "current_id": "EWfVwbHy",
+   "current_date": "2026-09-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-kart",
+   "name": "Create Kart",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "Create Kart (3.1.0) - NeoForge - 1.21.1",
+   "source": "curseforge",
+   "project": "1148009",
+   "current_id": "9221285",
+   "current_date": "2026-10-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-lanterns",
+   "name": "Create: Lanterns",
+   "side": "both",
+   "pinned": false,
+   "channel": "alpha",
+   "current": "createlanterns-alpha-20.11.jar",
+   "source": "curseforge",
+   "project": "1752310",
+   "current_id": "9360511",
+   "current_date": "2026-10-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-mechanical-botany",
+   "name": "Create: Mechanical Botany",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.3+1.21.1",
+   "source": "modrinth",
+   "project": "ZDmMjKj7",
+   "current_id": "55jZm9ug",
+   "current_date": "2026-05-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-metalwork",
+   "name": "Create: Metalwork",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.0",
+   "source": "modrinth",
+   "project": "q5i9RTSJ",
+   "current_id": "jImnSYtO",
+   "current_date": "2026-09-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-misc-and-things",
+   "name": "Create: Misc and Things",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "4.1.1",
+   "source": "modrinth",
+   "project": "uWrs8XlB",
+   "current_id": "zfExofVB",
+   "current_date": "2026-05-30",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-mob-spawners",
+   "name": "Create: Mob Spawners",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.0",
+   "source": "modrinth",
+   "project": "bklciXlt",
+   "current_id": "WxOTJbZI",
+   "current_date": "2026-07-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-mobile-packages",
+   "name": "Create: Mobile Packages",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-0.7.8",
+   "source": "modrinth",
+   "project": "1vXRfEHZ",
+   "current_id": "xSPt2JXH",
+   "current_date": "2026-10-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-more-package-couriers",
+   "name": "Create More: Package Couriers",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.3.1",
+   "source": "modrinth",
+   "project": "GRqrodjM",
+   "current_id": "aG9jHA8l",
+   "current_date": "2026-10-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-northstar-aeronautics-compatibility",
+   "name": "Create: Northstar-Aeronautics Compatibility",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.0",
+   "source": "modrinth",
+   "project": "Mit4b2tJ",
+   "current_id": "Y91G3nhq",
+   "current_date": "2026-07-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-nowheel",
+   "name": "Create: Nowheel",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.1.1+1.21.1neoforge",
+   "source": "modrinth",
+   "project": "c47YxuuI",
+   "current_id": "3NKOvEei",
+   "current_date": "2026-09-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-optical",
+   "name": "Create Optical",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.4.2",
+   "source": "modrinth",
+   "project": "kcZ7kwxx",
+   "current_id": "emVIaw53",
+   "current_date": "2026-05-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-ornithopter-glider",
+   "name": "Create: Ornithopter Glider",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.2.1+1.21.1",
+   "source": "modrinth",
+   "project": "A30Sq5Gt",
+   "current_id": "DFrFDlu7",
+   "current_date": "2026-10-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-pattern-schematics",
+   "name": "Create: Pattern Schematics",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.0.10",
+   "source": "modrinth",
+   "project": "cpqKG67r",
+   "current_id": "VSJhIkG2",
+   "current_date": "2025-10-27",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-prismatic-shine",
+   "name": "Create: Prismatic Shine",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "Create Prismatic Shine 1.2.4 Neoforge 1.21.1",
+   "source": "curseforge",
+   "project": "1355767",
+   "current_id": "9071506",
+   "current_date": "2026-10-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-propulsion-simulated",
+   "name": "Create Propulsion: Simulated",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.5",
+   "source": "modrinth",
+   "project": "ApkoHNO9",
+   "current_id": "H13U56dc",
+   "current_date": "2026-07-23",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-railways-navigator",
+   "name": "Create Railways Navigator",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-beta-0.10.0-C6",
+   "source": "modrinth",
+   "project": "Dq3STxps",
+   "current_id": "rlsRwxq3",
+   "current_date": "2026-09-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-rolling-tones",
+   "name": "Create: Rolling Tones",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "rolling_tones_0.2.2",
+   "source": "modrinth",
+   "project": "eMSbM34C",
+   "current_id": "6QNmBE48",
+   "current_date": "2026-08-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-rubberworks",
+   "name": "Create: Rubberworks",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.4",
+   "source": "modrinth",
+   "project": "v2rl0YB8",
+   "current_id": "OrJgSgjC",
+   "current_date": "2026-08-03",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-shuffle-filter",
+   "name": "Create: Shuffle Filter",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.2.0",
+   "source": "modrinth",
+   "project": "gv5RRavC",
+   "current_id": "NcJIZKwh",
+   "current_date": "2026-08-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-smart-bounds",
+   "name": "Create Smart Bounds",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.0",
+   "source": "modrinth",
+   "project": "kSok4DxT",
+   "current_id": "HXviiJ3I",
+   "current_date": "2025-07-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-sound-of-steam",
+   "name": "Create: Sound of Steam",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.9.2.1-1.21.1",
+   "source": "modrinth",
+   "project": "yGttHo06",
+   "current_id": "mv1qcsse",
+   "current_date": "2026-10-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-springs",
+   "name": "Create: Springs",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.2.1-neoforge",
+   "source": "modrinth",
+   "project": "wDCqub60",
+   "current_id": "3tMl04vO",
+   "current_date": "2026-07-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-steam-n-rails-1.21.1",
+   "name": "Steam ",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.2.1+neoforge-mc1.21.1",
+   "source": "modrinth",
+   "project": "L3Jv0QZI",
+   "current_id": "HOPX5oro",
+   "current_date": "2026-06-13",
+   "latest": {
+    "release": null,
+    "beta": {
+     "id": "czVeSmZo",
+     "version": "0.3.0-beta.2+neoforge-mc1.21.1",
+     "type": "beta",
+     "date": "2026-07-27"
+    },
+    "alpha": {
+     "id": "czVeSmZo",
+     "version": "0.3.0-beta.2+neoforge-mc1.21.1",
+     "type": "beta",
+     "date": "2026-07-27"
+    }
+   }
+  },
+  {
+   "slug": "create-stock-market",
+   "name": "Create: Stock Market",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.1",
+   "source": "modrinth",
+   "project": "CnrVw3tZ",
+   "current_id": "H8B2METb",
+   "current_date": "2026-10-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-stone-generators",
+   "name": "Create: Easy Stone Generators",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.2.5",
+   "source": "modrinth",
+   "project": "aeW9oim1",
+   "current_id": "V6LRJNSI",
+   "current_date": "2025-10-09",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-stuff-additions",
+   "name": "Create Stuff ",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.1.4.b",
+   "source": "modrinth",
+   "project": "aq9qUUQG",
+   "current_id": "gMWQ1LX9",
+   "current_date": "2026-08-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-stuff-n-additions-x-sable-aeronautics-compat",
+   "name": "Create Stuff ",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.4",
+   "source": "modrinth",
+   "project": "gsAqDfOu",
+   "current_id": "iGTmXDCM",
+   "current_date": "2026-09-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-trading-floor",
+   "name": "Create: Trading floor",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.16",
+   "source": "modrinth",
+   "project": "WROfLLvn",
+   "current_id": "K3nIvcWT",
+   "current_date": "2026-02-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-train-parts",
+   "name": "Create Train Parts",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.5.2",
+   "source": "modrinth",
+   "project": "h0bu4oDk",
+   "current_id": "wSuDZsee",
+   "current_date": "2026-07-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-transmission",
+   "name": "Create: Transmission!",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.2.2+neoforge-create6-1.21.1",
+   "source": "modrinth",
+   "project": "QFCkBuIh",
+   "current_id": "dOsq88jX",
+   "current_date": "2026-08-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-tweaked-controllers",
+   "name": "Create: Tweaked Controllers",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-1.2.7",
+   "source": "modrinth",
+   "project": "H6bJ8Ju4",
+   "current_id": "csCe2v7f",
+   "current_date": "2026-04-20",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-vibrant-vaults",
+   "name": "Create: Vibrant Vaults",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.3.2",
+   "source": "modrinth",
+   "project": "hddN8ksR",
+   "current_id": "t17qYXjn",
+   "current_date": "2025-03-31",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-winery",
+   "name": "Create: Winery",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.0.3",
+   "source": "modrinth",
+   "project": "zBuk6egG",
+   "current_id": "mbnef0lU",
+   "current_date": "2026-10-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-wrapped",
+   "name": "Create: Wrapped",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.3",
+   "source": "modrinth",
+   "project": "93UfVKfq",
+   "current_id": "nIjl2se6",
+   "current_date": "2026-01-30",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-xaeros-map",
+   "name": "Create - Xaero",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "sablexaeromaps-1.21.1-1.4.0.jar",
+   "source": "curseforge",
+   "project": "1622142",
+   "current_id": "8736099",
+   "current_date": "2026-08-26",
+   "latest": {
+    "release": {
+     "id": "9321190",
+     "version": "sablexaeromaps-1.21.1-1.4.2.jar",
+     "type": "release",
+     "date": "2026-10-25"
+    },
+    "beta": {
+     "id": "9321190",
+     "version": "sablexaeromaps-1.21.1-1.4.2.jar",
+     "type": "release",
+     "date": "2026-10-25"
+    },
+    "alpha": {
+     "id": "9321190",
+     "version": "sablexaeromaps-1.21.1-1.4.2.jar",
+     "type": "release",
+     "date": "2026-10-25"
+    }
+   }
+  },
+  {
+   "slug": "create",
+   "name": "Create",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "6.0.10+mc1.21.1",
+   "source": "modrinth",
+   "project": "LNytGWDc",
+   "current_id": "UjX6dr61",
+   "current_date": "2026-04-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "createaddition",
+   "name": "Create Crafts & Additions",
+   "side": "both",
+   "pinned": false,
+   "channel": "beta",
+   "current": "neoforge-1.21.1-1.7.2",
+   "source": "modrinth",
+   "project": "kU1G12Nn",
+   "current_id": "hsjVajlP",
+   "current_date": "2026-10-01",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "createmechanical-confection",
+   "name": "Create:Mechanical Confection",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.3.0",
+   "source": "modrinth",
+   "project": "CzkEo1V9",
+   "current_id": "NIl9dZdO",
+   "current_date": "2025-05-11",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "critters-and-companions",
+   "name": "Critters and Companions",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.7.0",
+   "source": "modrinth",
+   "project": "Yd4wb5wZ",
+   "current_id": "aeDUpTJS",
+   "current_date": "2026-08-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "cupboard",
+   "name": "Cupboard",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "cupboard-1.21.1-4.2.jar",
+   "source": "curseforge",
+   "project": "326652",
+   "current_id": "8889050",
+   "current_date": "2026-09-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "curios",
+   "name": "Curios API",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "curios-neoforge-9.5.1+1.21.1.jar",
+   "source": "curseforge",
+   "project": "309927",
+   "current_id": "6529130",
+   "current_date": "2025-05-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "cut-through",
+   "name": "Cut Through",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "v21.1.0-1.21.1-NeoForge",
+   "source": "modrinth",
+   "project": "Dk6su9JN",
+   "current_id": "5P5tLHSh",
+   "current_date": "2024-09-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "despawn-tweaks",
+   "name": "Despawn Tweaks",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "neoforge-1.21.1-1.0.0",
+   "source": "modrinth",
+   "project": "ahQrpeXp",
+   "current_id": "tKu2fTKc",
+   "current_date": "2025-02-01",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "detail-armor-bar-reconstructed",
+   "name": "Detail Armor Bar Reconstructed",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "5.0.2",
+   "source": "modrinth",
+   "project": "Si9Uim4y",
+   "current_id": "qePsyQOP",
+   "current_date": "2026-06-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "distanthorizons",
+   "name": "Distant Horizons",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "3.3.3-1.21.1",
+   "source": "modrinth",
+   "project": "uCdwusMi",
+   "current_id": "9w34y8ai",
+   "current_date": "2026-09-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "distracting-trims",
+   "name": "Distracting Trims",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "21.1.1",
+   "source": "modrinth",
+   "project": "xQU6E1ee",
+   "current_id": "2KEQq349",
+   "current_date": "2024-12-01",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "dragonlib",
+   "name": "DragonLib",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.29+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "sbIsGaOV",
+   "current_id": "y30Bx41r",
+   "current_date": "2026-10-10",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "dynamic-fps",
+   "name": "Dynamic FPS",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.11.4",
+   "source": "modrinth",
+   "project": "LQ3K71Q1",
+   "current_id": "T238FZpQ",
+   "current_date": "2026-01-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "easy-anvils",
+   "name": "Easy Anvils",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "v21.1.0-1.21.1-NeoForge",
+   "source": "modrinth",
+   "project": "OZBR5JT5",
+   "current_id": "fSQSKhdF",
+   "current_date": "2024-09-18",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "easy-magic",
+   "name": "Easy Magic",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "v21.1.4-1.21.1-NeoForge",
+   "source": "modrinth",
+   "project": "9hx3AbJM",
+   "current_id": "MxbfrOEv",
+   "current_date": "2025-10-26",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "eating-animations",
+   "name": "Eating Animations",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "eatinganimation-1.21.0-6.0.1.jar",
+   "source": "modrinth",
+   "project": "X8CISwXp",
+   "current_id": "D7saUVV5",
+   "current_date": null,
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ecologics",
+   "name": "Ecologics",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.3.8-NeoForge",
+   "source": "modrinth",
+   "project": "NCKpPR0Z",
+   "current_id": "62SFTuDx",
+   "current_date": "2026-10-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "emi",
+   "name": "EMI",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "1.1.24+1.21.1+neoforge",
+   "source": "modrinth",
+   "project": "fRiHVvU7",
+   "current_id": "5sIPA1To",
+   "current_date": "2026-05-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "enchantment-descriptions",
+   "name": "Enchantment Descriptions",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "21.1.11",
+   "source": "modrinth",
+   "project": "UVtY3ZAC",
+   "current_id": "IktklYWh",
+   "current_date": "2026-08-20",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ends-delight",
+   "name": "End",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.6.1+neoforge.1.21.1",
+   "source": "modrinth",
+   "project": "yHN0njMr",
+   "current_id": "YTApg6Hl",
+   "current_date": "2026-06-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "entity-model-features",
+   "name": "[EMF] Entity Model Features",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.3.12-neoforge-1.21",
+   "source": "modrinth",
+   "project": "4I1XuqiY",
+   "current_id": "197m3VoU",
+   "current_date": "2026-10-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "entityculling",
+   "name": "Entity Culling",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.11.3",
+   "source": "modrinth",
+   "project": "NNAgCjsB",
+   "current_id": "eieYbWYb",
+   "current_date": "2026-10-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "entitytexturefeatures",
+   "name": "[ETF] Entity Texture Features",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "7.2.6-neoforge-1.21",
+   "source": "modrinth",
+   "project": "BVzZfTc1",
+   "current_id": "lwNx1nD1",
+   "current_date": "2026-10-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "escalated",
+   "name": "Create: Escalated",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.3.2",
+   "source": "modrinth",
+   "project": "LyOBYG8Q",
+   "current_id": "vJ49zRJl",
+   "current_date": "2026-08-18",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "explosive-enhancement-forge",
+   "name": "Explosive Enhancement: Reforged",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.2.0",
+   "source": "modrinth",
+   "project": "r0camchr",
+   "current_id": "GYn7YRXz",
+   "current_date": "2026-09-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "exposure",
+   "name": "Exposure",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.9.19",
+   "source": "modrinth",
+   "project": "hB899VmG",
+   "current_id": "iBvaR6AK",
+   "current_date": "2026-09-23",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "extended-wrenches",
+   "name": "Create: Extended Wrenches",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.0.2",
+   "source": "modrinth",
+   "project": "WNRCHiE5",
+   "current_id": "g0PyoRas",
+   "current_date": "2026-04-22",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "farmers-delight",
+   "name": "Farmer",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-1.3.4",
+   "source": "modrinth",
+   "project": "R2OftAxM",
+   "current_id": "XTVZDOol",
+   "current_date": "2026-08-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "fast-ip-ping",
+   "name": "Fast IP Ping",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "v1.0.12-mc1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "9mtu0sUO",
+   "current_id": "SNWnJAqf",
+   "current_date": "2026-09-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "fast-paintings",
+   "name": "Fast Paintings",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21-1.3.1",
+   "source": "modrinth",
+   "project": "z3TzcquW",
+   "current_id": "rmMrheaC",
+   "current_date": "2026-09-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "fastmove-enhanced-parkour-movement",
+   "name": "FastMove: Enhanced - Better Movement",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": " v1.1.0 - [NeoForge 1.21.1]",
+   "source": "curseforge",
+   "project": "1583251",
+   "current_id": "8852539",
+   "current_date": "2026-09-10",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "fastsuite",
+   "name": "FastSuite",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-6.0.7",
+   "source": "modrinth",
+   "project": "roccmqou",
+   "current_id": "OQZRQcDM",
+   "current_date": "2026-06-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ferrite-core",
+   "name": "FerriteCore",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "7.0.3-neoforge",
+   "source": "modrinth",
+   "project": "uXXizFIs",
+   "current_id": "x7kQWVju",
+   "current_date": "2026-01-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "fix-gpu-memory-leak",
+   "name": "fix GPU memory leak",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "gpumemleakfix-1.21-1.8.jar",
+   "source": "curseforge",
+   "project": "882495",
+   "current_id": "5513549",
+   "current_date": "2024-07-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "flerovium",
+   "name": "Flerovium",
+   "side": "client",
+   "pinned": false,
+   "channel": "beta",
+   "current": "1.2.0",
+   "source": "modrinth",
+   "project": "4Rh1Mobu",
+   "current_id": "PHD5rYo3",
+   "current_date": "2026-09-26",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "forgified-fabric-api",
+   "name": "Forgified Fabric API",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "[1.21.1] Forgified Fabric API 0.116.15+2.3.6+1.21.1",
+   "source": "curseforge",
+   "project": "889079",
+   "current_id": "9195559",
+   "current_date": "2026-10-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "framework",
+   "name": "Framework",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "Framework 0.13.11",
+   "source": "curseforge",
+   "project": "549225",
+   "current_id": "7530361",
+   "current_date": "2026-01-26",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ftb-filter-system",
+   "name": "FTB Filter System",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "[NEOFORGE][1.21.1] FTB Filter System 21.1.4",
+   "source": "curseforge",
+   "project": "943925",
+   "current_id": "7429011",
+   "current_date": "2026-01-07",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ftb-library",
+   "name": "FTB Library (NeoForge)",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "[NEOFORGE][1.21.1] FTB Library 2101.1.37",
+   "source": "curseforge",
+   "project": "404465",
+   "current_id": "9008089",
+   "current_date": "2026-09-29",
+   "latest": {
+    "release": {
+     "id": "9350706",
+     "version": "[NEOFORGE][1.21.1] FTB Library 2101.1.39",
+     "type": "release",
+     "date": "2026-10-28"
+    },
+    "beta": {
+     "id": "9350706",
+     "version": "[NEOFORGE][1.21.1] FTB Library 2101.1.39",
+     "type": "release",
+     "date": "2026-10-28"
+    },
+    "alpha": {
+     "id": "9350706",
+     "version": "[NEOFORGE][1.21.1] FTB Library 2101.1.39",
+     "type": "release",
+     "date": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "ftb-quests",
+   "name": "FTB Quests (NeoForge)",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "[NEOFORGE][1.21.1] FTB Quests 2101.1.36",
+   "source": "curseforge",
+   "project": "289412",
+   "current_id": "8885017",
+   "current_date": "2026-09-15",
+   "latest": {
+    "release": {
+     "id": "9298629",
+     "version": "[NEOFORGE][1.21.1] FTB Quests 2101.1.37",
+     "type": "release",
+     "date": "2026-10-23"
+    },
+    "beta": {
+     "id": "9298629",
+     "version": "[NEOFORGE][1.21.1] FTB Quests 2101.1.37",
+     "type": "release",
+     "date": "2026-10-23"
+    },
+    "alpha": {
+     "id": "9298629",
+     "version": "[NEOFORGE][1.21.1] FTB Quests 2101.1.37",
+     "type": "release",
+     "date": "2026-10-23"
+    }
+   }
+  },
+  {
+   "slug": "ftb-teams",
+   "name": "FTB Teams (NeoForge)",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "[NEOFORGE][1.21.1] FTB Teams 2101.1.11",
+   "source": "curseforge",
+   "project": "404468",
+   "current_id": "8724782",
+   "current_date": "2026-08-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ftb-xmod-compat",
+   "name": "FTB XMod Compat",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "ftb-xmod-compat-neoforge-21.1.11.jar",
+   "source": "manual"
+  },
+  {
+   "slug": "fusion-connected-textures",
+   "name": "Fusion (Connected Textures)",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.3.16-neoforge-mc1.21.1",
+   "source": "modrinth",
+   "project": "p19vrgc2",
+   "current_id": "AYDaLPK8",
+   "current_date": "2026-10-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "gears-n-kinetics",
+   "name": "Create: Gears n",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0m",
+   "source": "modrinth",
+   "project": "gEWECBVL",
+   "current_id": "qr9hMBnj",
+   "current_date": "2026-01-12",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "geckolib",
+   "name": "GeckoLib",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "NeoForge 1.21.1 4.9.3",
+   "source": "curseforge",
+   "project": "388172",
+   "current_id": "8893490",
+   "current_date": "2026-09-16",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "gml",
+   "name": "GroovyModLoader (GML)",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "gml-6.0.2.jar",
+   "source": "modrinth",
+   "project": "zg2tT2Vu",
+   "current_id": "IDRMIIb4",
+   "current_date": null,
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "handcrafted",
+   "name": "Handcrafted",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "4.0.3",
+   "source": "modrinth",
+   "project": "pJmCFF0p",
+   "current_id": "JfqnpP2Z",
+   "current_date": "2025-03-22",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "hypertube",
+   "name": "Create: Hypertubes",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.6.0",
+   "source": "modrinth",
+   "project": "ATDdrG1y",
+   "current_id": "qYjOyvgW",
+   "current_date": "2026-07-30",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "iceberg",
+   "name": "Iceberg",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.3.2",
+   "source": "modrinth",
+   "project": "5faXoLqX",
+   "current_id": "IMssx9du",
+   "current_date": "2025-04-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "idas",
+   "name": " Integrated Dungeons and Structures",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.13.7+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "Z8OZShAU",
+   "current_id": "bpMwZSKf",
+   "current_date": "2026-06-11",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "immediatelyfast",
+   "name": "ImmediatelyFast",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.6.15+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "5ZwdcRci",
+   "current_id": "EJzmEPZV",
+   "current_date": "2026-10-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "integrated-api",
+   "name": "Integrated API",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.9.1",
+   "source": "modrinth",
+   "project": "V6fKbpBN",
+   "current_id": "oddRiz2I",
+   "current_date": "2026-10-12",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "integrated-stronghold",
+   "name": "Integrated Stronghold",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.4+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "KUJdfPQz",
+   "current_id": "GkHH2Wqj",
+   "current_date": "2026-03-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "integrated-villages",
+   "name": "Integrated Villages",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.3.3+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "o1qh5qIF",
+   "current_id": "B5BcNY1z",
+   "current_date": "2026-05-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "item-highlighter",
+   "name": "Item Highlighter",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.11",
+   "source": "modrinth",
+   "project": "cVNW5lr6",
+   "current_id": "AsQ0Y2G9",
+   "current_date": "2024-08-02",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ixeris",
+   "name": "Ixeris",
+   "side": "client",
+   "pinned": true,
+   "channel": "release",
+   "current": "4.6.10+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "p8RJPJIC",
+   "current_id": "QZHF8QKH",
+   "current_date": "2026-10-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "jade-addons-forge",
+   "name": "Jade Addons (Neo/Forge)",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "6.1.2+neoforge",
+   "source": "modrinth",
+   "project": "xuDOzCLy",
+   "current_id": "O3F6Dkle",
+   "current_date": "2026-10-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "jade-sable-compat",
+   "name": "Jade Sable Compat",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.3.0",
+   "source": "modrinth",
+   "project": "jCrJ4iGH",
+   "current_id": "cxUohR7A",
+   "current_date": "2026-08-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "jade",
+   "name": "Jade \ud83d\udd0d",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "15.10.6+neoforge",
+   "source": "modrinth",
+   "project": "nvQzSEkH",
+   "current_id": "eYz2YBGT",
+   "current_date": "2026-08-06",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "joy-of-painting",
+   "name": "Joy of Painting",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-2.0.1",
+   "source": "modrinth",
+   "project": "YOs4tZea",
+   "current_id": "73U02HbA",
+   "current_date": "2026-07-27",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "kerria-opt",
+   "name": "Kerria",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.3.2+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "f0ruQTF7",
+   "current_id": "MsiyjxjP",
+   "current_date": "2026-07-03",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "kiwi",
+   "name": "Kiwi \ud83e\udd5d",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "15.8.7+neoforge",
+   "source": "modrinth",
+   "project": "ufdDoWPd",
+   "current_id": "tfwJWC8g",
+   "current_date": "2026-07-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "konkrete",
+   "name": "Konkrete",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.9.9-1.21-neoforge",
+   "source": "modrinth",
+   "project": "J81TRJWm",
+   "current_id": "stJDU839",
+   "current_date": "2024-06-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "kotlin-for-forge",
+   "name": "Kotlin for Forge",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "Kotlin for Forge 5.12.0",
+   "source": "curseforge",
+   "project": "351264",
+   "current_id": "8335665",
+   "current_date": "2026-06-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "l_enders-cataclysm",
+   "name": "L_Ender",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "3.33",
+   "source": "modrinth",
+   "project": "46KJle7n",
+   "current_id": "PsPYpoCC",
+   "current_date": "2026-09-20",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "lambdynamiclights",
+   "name": "LambDynamicLights - Dynamic Lights",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "4.8.11+1.21.1",
+   "source": "modrinth",
+   "project": "yBW8D80W",
+   "current_id": "ksaGCvSu",
+   "current_date": "2026-08-31",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "leaky",
+   "name": "Leaky - Item Lag Fix",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "leaky-1.21-3.6.jar",
+   "source": "curseforge",
+   "project": "856906",
+   "current_id": "9259502",
+   "current_date": "2026-10-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "lionfish-api",
+   "name": "Lionfish API",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "3.1",
+   "source": "modrinth",
+   "project": "FoVacERa",
+   "current_id": "fTRMVgyZ",
+   "current_date": "2026-06-30",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "lithium",
+   "name": "Lithium",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "mc1.21.1-0.15.4-neoforge",
+   "source": "modrinth",
+   "project": "gvQqBUqZ",
+   "current_id": "DDUrRVCA",
+   "current_date": "2026-06-27",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "lithostitched",
+   "name": "Lithostitched",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.8.1-neoforge-21.1",
+   "source": "modrinth",
+   "project": "XaDC71GB",
+   "current_id": "cZu4cHY3",
+   "current_date": "2026-10-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "lmft",
+   "name": "Load My F***ing Tags",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.1+1.21.9",
+   "source": "modrinth",
+   "project": "67kVxsaO",
+   "current_id": "poGMd0AE",
+   "current_date": "2025-10-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "lodestonelib",
+   "name": "Lodestone",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.8.2",
+   "source": "modrinth",
+   "project": "bN3xUWdo",
+   "current_id": "CohX6yP1",
+   "current_date": "2026-01-12",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "loot-integrations-cataclysm",
+   "name": "Loot Integrations: L_Ender",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "lootintegrations_cataclysm-1.2.jar",
+   "source": "curseforge",
+   "project": "1134260",
+   "current_id": "7920425",
+   "current_date": "2026-04-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "loot-integrations",
+   "name": "Loot Integrations",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "lootintegrations-1.21.1-4.7.jar",
+   "source": "curseforge",
+   "project": "580689",
+   "current_id": "6640970",
+   "current_date": "2025-06-11",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "lootr",
+   "name": "Lootr",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-1.11.38.127",
+   "source": "modrinth",
+   "project": "EltpO5cN",
+   "current_id": "SPOrIzX8",
+   "current_date": "2026-09-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "macaws-bridges",
+   "name": "Macaw",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.1.2",
+   "source": "modrinth",
+   "project": "GURcjz8O",
+   "current_id": "aQ7rY7ng",
+   "current_date": "2026-02-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "macaws-fences-and-walls",
+   "name": "Macaw",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.2.1",
+   "source": "modrinth",
+   "project": "GmwLse2I",
+   "current_id": "jVdb0r4W",
+   "current_date": "2025-12-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "macaws-lights-and-lamps",
+   "name": "Macaw",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.5",
+   "source": "modrinth",
+   "project": "w4an97C2",
+   "current_id": "5U2kQZIL",
+   "current_date": "2025-12-07",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "macaws-paths-and-pavings",
+   "name": "Macaw",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.1",
+   "source": "modrinth",
+   "project": "VRLhWB91",
+   "current_id": "tlymsxUG",
+   "current_date": "2025-09-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "macaws-roofs",
+   "name": "Macaw",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.3.2",
+   "source": "modrinth",
+   "project": "B8jaH3P1",
+   "current_id": "jiXRXiSt",
+   "current_date": "2025-05-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "macaws-stairs",
+   "name": "Macaw",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.2",
+   "source": "modrinth",
+   "project": "iP3wH1ha",
+   "current_id": "4t8L0dGP",
+   "current_date": "2025-12-10",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "macaws-windows",
+   "name": "Macaw",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.4.2",
+   "source": "modrinth",
+   "project": "C7I0BCni",
+   "current_id": "rQUE4LCz",
+   "current_date": "2025-12-10",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "mezzconfig",
+   "name": "MezzConfig",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.6.9",
+   "source": "modrinth",
+   "project": "7tEfOcA7",
+   "current_id": "RdGonQpr",
+   "current_date": "2026-10-25",
+   "latest": {
+    "release": null,
+    "beta": {
+     "id": "sL7Ghaz1",
+     "version": "0.6.10",
+     "type": "beta",
+     "date": "2026-10-30"
+    },
+    "alpha": {
+     "id": "sL7Ghaz1",
+     "version": "0.6.10",
+     "type": "beta",
+     "date": "2026-10-30"
+    }
+   }
+  },
+  {
+   "slug": "mfjeicompat",
+   "name": "MF EMI Compat",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "mfjeicompat-2.0.0.jar",
+   "source": "manual"
+  },
+  {
+   "slug": "mftitle",
+   "name": "MF Title",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "mftitle-1.1.0.jar",
+   "source": "manual"
+  },
+  {
+   "slug": "miners-delight",
+   "name": "Miner",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.4.5",
+   "source": "modrinth",
+   "project": "qMxbM4BQ",
+   "current_id": "YUHbwbgQ",
+   "current_date": "2026-04-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "modelfix",
+   "name": "Model Gap Fix",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21-1.10",
+   "source": "modrinth",
+   "project": "QdG47OkI",
+   "current_id": "X2U8ceG9",
+   "current_date": "2024-08-03",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "modernfix",
+   "name": "ModernFix",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "5.27.27+mc1.21.1",
+   "source": "modrinth",
+   "project": "nmDcB62a",
+   "current_id": "ZDZENbHH",
+   "current_date": "2026-10-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "moonlight",
+   "name": "Moonlight Lib",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-3.7.2",
+   "source": "modrinth",
+   "project": "twkfQtEc",
+   "current_id": "fAIfWX6M",
+   "current_date": "2026-10-10",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "more-sounds",
+   "name": "More Sounds",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.x-0.3.0-neoforge",
+   "source": "modrinth",
+   "project": "8jvcOd6S",
+   "current_id": "s0FVNDXY",
+   "current_date": "2026-04-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "moreculling",
+   "name": "More Culling",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.10",
+   "source": "modrinth",
+   "project": "51shyZVL",
+   "current_id": "5M4T2FfG",
+   "current_date": "2026-09-07",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "mouse-tweaks",
+   "name": "Mouse Tweaks",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21-2.26.1-neoforge",
+   "source": "modrinth",
+   "project": "aC3cM3Vq",
+   "current_id": "9I21YYxf",
+   "current_date": "2024-08-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "mru",
+   "name": "MRU",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.41+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "SNVQ2c0g",
+   "current_id": "Kpai1paZ",
+   "current_date": "2026-09-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "my-nethers-delight",
+   "name": "My Nether",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.10.4.1",
+   "source": "modrinth",
+   "project": "O53VhQoZ",
+   "current_id": "SGFJBL5q",
+   "current_date": "2026-09-11",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "naturalist",
+   "name": "Naturalist",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.0.7+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "F8BQNPWX",
+   "current_id": "9Yn8ig4c",
+   "current_date": "2026-10-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "neruina",
+   "name": "Neruina - Ticking Entity Fixer",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.3.5",
+   "source": "modrinth",
+   "project": "1s5x833P",
+   "current_id": "zGwTcpmb",
+   "current_date": "2026-10-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "netherportalfix",
+   "name": "NetherPortalFix",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "netherportalfix-neoforge-1.21.1-21.1.1.jar",
+   "source": "curseforge",
+   "project": "241160",
+   "current_id": "5623547",
+   "current_date": "2024-08-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "no-chat-reports",
+   "name": "No Chat Reports",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "NeoForge-1.21.1-v2.9.1",
+   "source": "modrinth",
+   "project": "qQyHxfxd",
+   "current_id": "ZV8eL55E",
+   "current_date": "2024-11-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "no-chat-restrictions",
+   "name": "No Chat Restrictions",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "NeoForge-MC1.21.11-v1.0.3",
+   "source": "modrinth",
+   "project": "z440MEwJ",
+   "current_id": "9HEx9IMw",
+   "current_date": "2026-09-30",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "northstar-redux",
+   "name": "Create: Northstar - Redux",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.6.6+1.21.1",
+   "source": "modrinth",
+   "project": "UZiq3QVW",
+   "current_id": "2xMVbJcV",
+   "current_date": "2026-09-23",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "northstar-sable-iris-horizons-bridge",
+   "name": "Northstar Sable Iris Horizons Bridge",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.6.4+1.21.1",
+   "source": "modrinth",
+   "project": "MSoLk54A",
+   "current_id": "kaxeIMPF",
+   "current_date": "2026-07-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "not-enough-animations",
+   "name": "Not Enough Animations",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.12.6",
+   "source": "modrinth",
+   "project": "MPCX6s5C",
+   "current_id": "VCuMsK45",
+   "current_date": "2026-09-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "not-enough-glyphs",
+   "name": "Not Enough Glyphs",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "4.6.2",
+   "source": "modrinth",
+   "project": "WgAFDDv0",
+   "current_id": "PECvNoZU",
+   "current_date": "2026-09-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "omnidirectional-movement",
+   "name": "Omnidirectional Movement",
+   "side": "client",
+   "pinned": true,
+   "channel": "release",
+   "current": "[NEOFORGE] Omni 1.2-OVERHAUL",
+   "source": "curseforge",
+   "project": "1078165",
+   "current_id": "8377314",
+   "current_date": "2026-07-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "open-parties-and-claims",
+   "name": "Open Parties and Claims",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "neoforge-1.21.1-0.33.0",
+   "source": "modrinth",
+   "project": "gF3BGWvG",
+   "current_id": "yWmXD7GW",
+   "current_date": "2026-10-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "packet-fixer",
+   "name": "Packet Fixer",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.3.1",
+   "source": "modrinth",
+   "project": "c7m1mi73",
+   "current_id": "2C41Q8WX",
+   "current_date": "2025-11-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "particle-effects",
+   "name": "Particle Effects",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.6.0+1.21.1+neoforge",
+   "source": "modrinth",
+   "project": "PLAGcSFJ",
+   "current_id": "HVllSdtX",
+   "current_date": "2026-09-22",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "patchouli",
+   "name": "Patchouli",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-93-neoforge",
+   "source": "modrinth",
+   "project": "nU0bVIaL",
+   "current_id": "BIogJv2D",
+   "current_date": "2026-03-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "paxi",
+   "name": "Paxi",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-NeoForge-5.1.3",
+   "source": "modrinth",
+   "project": "CU0PAyzb",
+   "current_id": "CLZfFbCx",
+   "current_date": "2025-05-01",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "pick-up-notifier",
+   "name": "Pick Up Notifier",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "v21.1.1-1.21.1-NeoForge",
+   "source": "modrinth",
+   "project": "ZX66K16c",
+   "current_id": "5NZounJc",
+   "current_date": "2025-04-11",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "placebo",
+   "name": "Placebo",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "Placebo 1.21.1-9.9.4",
+   "source": "curseforge",
+   "project": "283644",
+   "current_id": "9153039",
+   "current_date": "2026-10-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "playeranimator",
+   "name": "playerAnimator",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+   "source": "curseforge",
+   "project": "658587",
+   "current_id": "7389814",
+   "current_date": "2025-12-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "polymorph",
+   "name": "Polymorph",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.0+1.21.1",
+   "source": "modrinth",
+   "project": "tagwiZkJ",
+   "current_id": "VEburL70",
+   "current_date": "2025-07-21",
+   "latest": {
+    "release": null,
+    "beta": {
+     "id": "9yWvrF5o",
+     "version": "1.2.0+1.21.1",
+     "type": "beta",
+     "date": "2026-09-10"
+    },
+    "alpha": {
+     "id": "9yWvrF5o",
+     "version": "1.2.0+1.21.1",
+     "type": "beta",
+     "date": "2026-09-10"
+    }
+   }
+  },
+  {
+   "slug": "polytone",
+   "name": "Polytone",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21-5.3.4",
+   "source": "modrinth",
+   "project": "3qAYkBMB",
+   "current_id": "6mPQONys",
+   "current_date": "2026-10-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "prickle",
+   "name": "Prickle",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "21.1.11",
+   "source": "modrinth",
+   "project": "aaRl8GiW",
+   "current_id": "EE1FHDyD",
+   "current_date": "2025-09-04",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "puzzles-lib",
+   "name": "Puzzles Lib",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "21.1.66",
+   "source": "modrinth",
+   "project": "QAGBst4M",
+   "current_id": "kmN5PWk9",
+   "current_date": "2026-10-26",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "quark",
+   "name": "Quark",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "4.1-488",
+   "source": "modrinth",
+   "project": "qnQsVE2z",
+   "current_id": "pMjjsBGF",
+   "current_date": "2026-10-26",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "quick-pack",
+   "name": "quick pack",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "neoforge-1.5.1+1.21.1",
+   "source": "modrinth",
+   "project": "pSISfJ4O",
+   "current_id": "yXZgoajP",
+   "current_date": "2026-09-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "rechiseled-create",
+   "name": "Rechiseled: Create",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.1-neoforge-mc1.21",
+   "source": "modrinth",
+   "project": "E6867niZ",
+   "current_id": "VnOezhJR",
+   "current_date": "2026-06-22",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "rechiseled",
+   "name": "Rechiseled",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.2.6-neoforge-mc1.21",
+   "source": "modrinth",
+   "project": "B0g2vT6l",
+   "current_id": "6muGRqvu",
+   "current_date": "2026-09-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "recipe-essentials",
+   "name": "Recipe Essentials",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "recipeessentials-1.21.1-4.7.jar",
+   "source": "curseforge",
+   "project": "907856",
+   "current_id": "8463998",
+   "current_date": "2026-07-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "reconnectible-chains",
+   "name": "Reconnectible Chains",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.4.4+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "5pzBXDS3",
+   "current_id": "e4yVoAvP",
+   "current_date": "2026-09-30",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "redirected",
+   "name": "Redirected",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "neoforge-1.21.1-1.0.0",
+   "source": "modrinth",
+   "project": "hhnR8xqU",
+   "current_id": "B9DLRbbX",
+   "current_date": "2025-02-02",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "reeses-sodium-options",
+   "name": "Reese",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "mc1.21.1-2.2.4+neoforge",
+   "source": "modrinth",
+   "project": "Bh37bMuy",
+   "current_id": "XjF2IkL8",
+   "current_date": "2026-09-16",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "reliable-recipes",
+   "name": "Reliable Recipes",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.8.3+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "Hl4ARA1z",
+   "current_id": "Kr2fGwVB",
+   "current_date": "2026-10-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "reliable-remover",
+   "name": "Reliable Remover",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.8.3+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "pLxsKvNt",
+   "current_id": "zNTpRJOJ",
+   "current_date": "2026-10-26",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "resource-pack-overrides",
+   "name": "Resource Pack Overrides",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "v21.1.0-1.21.1-NeoForge",
+   "source": "modrinth",
+   "project": "YsFycamt",
+   "current_id": "xf3H2eJV",
+   "current_date": "2024-09-18",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "resourceful-config",
+   "name": "Resourceful Config",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.11",
+   "source": "modrinth",
+   "project": "M1953qlQ",
+   "current_id": "lSbyRD6v",
+   "current_date": "2025-04-26",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "resourceful-lib",
+   "name": "Resourceful Lib",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.0.12",
+   "source": "modrinth",
+   "project": "G1hIVOrD",
+   "current_id": "x99nCLTm",
+   "current_date": "2024-12-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "ribbits",
+   "name": "Ribbits",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "4.1.6",
+   "source": "modrinth",
+   "project": "8YcE8y4T",
+   "current_id": "XrUKaWrw",
+   "current_date": "2025-12-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "rpl",
+   "name": "Ritchie",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.1.2",
+   "source": "modrinth",
+   "project": "B3pb093D",
+   "current_id": "hZ6B2Z0x",
+   "current_date": "2026-02-07",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "sable-x-xaero-bridge",
+   "name": "Sable x Xaero Bridge",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "sable_xaero_bridge-0.1.11.jar",
+   "source": "curseforge",
+   "project": "1529727",
+   "current_id": "8079771",
+   "current_date": "2026-05-12",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "sable",
+   "name": "Sable",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "Sable NeoForge 2.0.6 for mc1.21.1",
+   "source": "curseforge",
+   "project": "1312371",
+   "current_id": "9043865",
+   "current_date": "2026-10-03",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "sablecompat",
+   "name": "Sable: Physics Compat",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.3.0",
+   "source": "modrinth",
+   "project": "sZbcIrJb",
+   "current_id": "Ucq7afTi",
+   "current_date": "2026-04-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "scholar",
+   "name": "Scholar",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.2.10",
+   "source": "modrinth",
+   "project": "fX4dIQCo",
+   "current_id": "ZIsoNOTJ",
+   "current_date": "2026-10-13",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "searchables",
+   "name": "Searchables",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.2",
+   "source": "modrinth",
+   "project": "fuuu3xnx",
+   "current_id": "iEE85X0w",
+   "current_date": "2024-10-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "simple-voice-chat",
+   "name": "Simple Voice Chat",
+   "side": "both",
+   "pinned": false,
+   "channel": "beta",
+   "current": "neoforge-1.21.1-2.6.27",
+   "source": "modrinth",
+   "project": "9eGKb6K1",
+   "current_id": "iR08ksVF",
+   "current_date": "2026-10-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "simply-jetpacks-2",
+   "name": "Simply Jetpacks 2",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "simplyjetpacks-1.21.1-3.0.0.jar",
+   "source": "curseforge",
+   "project": "251792",
+   "current_id": "9296460",
+   "current_date": "2026-10-23",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "sinytra-connector",
+   "name": "Sinytra Connector",
+   "side": "both",
+   "pinned": true,
+   "channel": "release",
+   "current": "Connector 2.0.0 beta 17",
+   "source": "curseforge",
+   "project": "890127",
+   "current_id": "8654089",
+   "current_date": "2026-08-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "slice-and-dice",
+   "name": "Create Slice & Dice",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "4.3.4",
+   "source": "modrinth",
+   "project": "GmjmRQ0A",
+   "current_id": "D6mQaFRW",
+   "current_date": "2026-09-20",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "smarter-farmers-farmers-replant",
+   "name": "Smarter Farmers (farmers replant)",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21-2.2.4",
+   "source": "modrinth",
+   "project": "Bh6ZOMvp",
+   "current_id": "odppGdXf",
+   "current_date": "2025-10-18",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "smooth-swapping",
+   "name": "Smooth Swapping",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "0.9.3.2-1.21.1",
+   "source": "modrinth",
+   "project": "ydZic5r4",
+   "current_id": "tnvwgXE6",
+   "current_date": "2025-11-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "smsn",
+   "name": "Save My Shaky Network",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "smsn-neoforge-1.4.5-1.21.1.jar",
+   "source": "curseforge",
+   "project": "1129397",
+   "current_id": "8862254",
+   "current_date": "2026-09-12",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "snassets-library",
+   "name": "SnAssets Library - General",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "SnAssets - General - V4",
+   "source": "curseforge",
+   "project": "1592344",
+   "current_id": "9094847",
+   "current_date": "2026-10-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "snow-real-magic",
+   "name": "Snow! Real Magic! \u26c4",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "12.2.3+neoforge",
+   "source": "modrinth",
+   "project": "iJNje1E8",
+   "current_id": "XXjs6tNa",
+   "current_date": "2026-09-27",
+   "latest": {
+    "release": null,
+    "beta": {
+     "id": "fDz7EoDJ",
+     "version": "12.2.4+neoforge",
+     "type": "beta",
+     "date": "2026-10-28"
+    },
+    "alpha": {
+     "id": "fDz7EoDJ",
+     "version": "12.2.4+neoforge",
+     "type": "beta",
+     "date": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "sodium-extra",
+   "name": "Sodium Extra",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "mc1.21.1-0.9.5+neoforge",
+   "source": "modrinth",
+   "project": "PtjYWJkn",
+   "current_id": "T819dLGI",
+   "current_date": "2026-10-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "sodium",
+   "name": "Sodium",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "mc1.21.1-0.8.13-neoforge",
+   "source": "modrinth",
+   "project": "AANobbMI",
+   "current_id": "uMOpc5uV",
+   "current_date": "2026-08-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "some-assembly-required",
+   "name": "Create: Some Assembly Required",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "5.2.8",
+   "source": "modrinth",
+   "project": "jZi8ogTA",
+   "current_id": "G8Lz8Txm",
+   "current_date": "2026-03-02",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "sound",
+   "name": "Sounds",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "2.4.22+lts+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "ZouiUX7t",
+   "current_id": "kti7i9SG",
+   "current_date": "2025-12-12",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "status-effect-bars-reforged",
+   "name": "Status Effect Bars Reforged",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.2",
+   "source": "modrinth",
+   "project": "TxIuhIFo",
+   "current_id": "PPVE16f7",
+   "current_date": "2025-12-31",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "structure-essentials-forge-fabric",
+   "name": "Structure Essentials",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "structureessentials-1.21.1-5.1.jar",
+   "source": "curseforge",
+   "project": "832882",
+   "current_id": "9278578",
+   "current_date": "2026-10-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "structure-layout-optimizer",
+   "name": "Structure Layout Optimizer",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.12+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "ayPU0OHc",
+   "current_id": "eTz03Gfd",
+   "current_date": "2026-01-09",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "strut-your-stuff",
+   "name": "Strut Your Stuff (Struts)",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.3.1",
+   "source": "modrinth",
+   "project": "sHO3MhQx",
+   "current_id": "BOTN7zzN",
+   "current_date": "2026-09-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "stylish-effects",
+   "name": "Stylish Effects",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "v21.1.3-1.21.1-NeoForge",
+   "source": "modrinth",
+   "project": "onDuQF5e",
+   "current_id": "MT3yeDds",
+   "current_date": "2026-06-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "supermartijn642s-config-lib",
+   "name": "SuperMartijn642",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.8-neoforge-mc1.21",
+   "source": "modrinth",
+   "project": "LN9BxssP",
+   "current_id": "qKL9jM75",
+   "current_date": "2024-07-19",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "supermartijn642s-core-lib",
+   "name": "SuperMartijn642",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.26-neoforge-mc1.21",
+   "source": "modrinth",
+   "project": "rOUBggPv",
+   "current_id": "HGyYs7Z4",
+   "current_date": "2026-10-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "supplementaries-squared",
+   "name": "Supplementaries Squared",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21-1.2.18",
+   "source": "modrinth",
+   "project": "dCCkNFwE",
+   "current_id": "1uYFhgHN",
+   "current_date": "2026-06-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "supplementaries",
+   "name": "Supplementaries",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-4.0.2",
+   "source": "modrinth",
+   "project": "fFEIiSDQ",
+   "current_id": "rWq0ko29",
+   "current_date": "2026-10-16",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "tacz-1.21.1",
+   "name": "[UNOFFICIAL] TaCZ 1.21.1 NeoForge Port",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.8-hotfix-r7",
+   "source": "modrinth",
+   "project": "OypNE65K",
+   "current_id": "62q6mB5Q",
+   "current_date": "2026-10-01",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "taczaddon",
+   "name": "TaCZ addon",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1.8.3",
+   "source": "modrinth",
+   "project": "3Ihyt5WL",
+   "current_id": "QK3Z3Gsy",
+   "current_date": "2026-10-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "terrablender",
+   "name": "TerraBlender",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "4.1.0.8",
+   "source": "modrinth",
+   "project": "kkmrDlKT",
+   "current_id": "6e8GCrLb",
+   "current_date": "2025-01-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "tmrv",
+   "name": "TooManyRecipeViewers",
+   "side": "client",
+   "pinned": true,
+   "channel": "release",
+   "current": "0.9.0+mc.21.1",
+   "source": "modrinth",
+   "project": "yFypjcfd",
+   "current_id": "pEhG9g9P",
+   "current_date": "2026-06-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "toast-control",
+   "name": "Toast Control",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "ToastControl-1.21.1-9.0.1.jar",
+   "source": "curseforge",
+   "project": "271740",
+   "current_id": "6751464",
+   "current_date": "2025-07-10",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "tradeworks",
+   "name": "Create: Tradeworks",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.7",
+   "source": "modrinth",
+   "project": "gnOpd0sq",
+   "current_id": "zdkVXpwz",
+   "current_date": "2026-04-28",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "trading-post",
+   "name": "Trading Post",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "v21.1.1-1.21.1-NeoForge",
+   "source": "modrinth",
+   "project": "8pcjMDgj",
+   "current_id": "iAzPpBdI",
+   "current_date": "2025-10-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "trashslot",
+   "name": "TrashSlot",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "21.1.11+neoforge-1.21.1",
+   "source": "modrinth",
+   "project": "vRYk0bv7",
+   "current_id": "HY8Ybozd",
+   "current_date": "2026-05-29",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "txnilib",
+   "name": "TxniLib",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "neoforge-1.21.1-1.0.24",
+   "source": "modrinth",
+   "project": "vBbPDuOs",
+   "current_id": "M1CyD3Uu",
+   "current_date": "2025-05-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "unified-xaero-worldmap",
+   "name": "Unified Xaero Worldmap",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "Unified Xaero Worldmap 2.0.4 (NeoForge 1.21.1)",
+   "source": "curseforge",
+   "project": "1704237",
+   "current_id": "9232540",
+   "current_date": "2026-10-17",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "visual-workbench",
+   "name": "Visual Workbench",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "21.1.2",
+   "source": "modrinth",
+   "project": "kfqD1JRw",
+   "current_id": "3646RfLS",
+   "current_date": "2026-09-02",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "waystones",
+   "name": "Waystones",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "21.1.46+neoforge-1.21.1",
+   "source": "modrinth",
+   "project": "LOpKHB2A",
+   "current_id": "6Z6MQ6os",
+   "current_date": "2026-09-25",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "xaeros-minimap",
+   "name": "Xaero",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "neoforge-1.21.1-26.6.0",
+   "source": "modrinth",
+   "project": "1bokaNcj",
+   "current_id": "irjR7dHk",
+   "current_date": "2026-10-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "xaeros-world-map",
+   "name": "Xaero",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "xaeroworldmap-neoforge-1.21.1-1.47.0.jar",
+   "source": "curseforge",
+   "project": "317780",
+   "current_id": "9067277",
+   "current_date": "2026-10-05",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "yacl",
+   "name": "YetAnotherConfigLib (YACL)",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.8.2+1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "1eAoo2KR",
+   "current_id": "7TVdVtxF",
+   "current_date": "2026-01-09",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "yungs-api",
+   "name": "YUNG",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-NeoForge-5.1.9",
+   "source": "modrinth",
+   "project": "Ua7DFN59",
+   "current_id": "2prKITKh",
+   "current_date": "2026-09-16",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "yungs-better-desert-temples",
+   "name": "YUNG",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-NeoForge-4.1.5",
+   "source": "modrinth",
+   "project": "XNlO7sBv",
+   "current_id": "GQ9iNWkI",
+   "current_date": "2025-03-07",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "yungs-better-dungeons",
+   "name": "YUNG",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-NeoForge-5.1.4",
+   "source": "modrinth",
+   "project": "o1C1Dkj5",
+   "current_id": "D6aZn0Em",
+   "current_date": "2024-12-01",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "yungs-better-nether-fortresses",
+   "name": "YUNG",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-NeoForge-3.1.5",
+   "source": "modrinth",
+   "project": "Z2mXHnxP",
+   "current_id": "iopJiJQp",
+   "current_date": "2025-06-01",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "yungs-better-ocean-monuments",
+   "name": "YUNG",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-NeoForge-4.1.2",
+   "source": "modrinth",
+   "project": "3dT9sgt4",
+   "current_id": "yFjEcj2g",
+   "current_date": "2024-11-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "yungs-extras",
+   "name": "YUNG",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.21.1-NeoForge-5.1.1",
+   "source": "modrinth",
+   "project": "ZYgyPyfq",
+   "current_id": "N2EpMhR7",
+   "current_date": "2024-10-14",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "zeta",
+   "name": "Zeta",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.1-40",
+   "source": "modrinth",
+   "project": "MVARlG2f",
+   "current_id": "9GjNW2Gf",
+   "current_date": "2026-04-24",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "zfastnoise",
+   "name": "Fast Noise",
+   "side": "server",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.13+1.21.1+neoforge",
+   "source": "modrinth",
+   "project": "OnlVIpq5",
+   "current_id": "9vSFkDAr",
+   "current_date": "2026-07-08",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "visual-effects-plus",
+   "name": "Visual Effects+ (MFPack Lite v5)",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "Visual Effects+.zip",
+   "source": "manual"
+  }
+ ]
+}

@@ -1,27 +1,26 @@
 name: Update mods
 
+# Manual only. There is deliberately no `schedule:` trigger and no "update everything" mode:
+# automatic and bulk updates pulled in releases that broke things and replaced betas chosen on purpose.
+#   mode=scan    check every mod on Modrinth + CurseForge, write updates.json for the Pages console
+#   mode=update  update exactly the mods in `mods` (slug@version,... from updates.json), then rescan
+#   bump_neoforge  move NeoForge to the newest 21.1.x (same Minecraft); combine with either mode
 on:
   workflow_dispatch:
     inputs:
-      channel:
-        description: "Max release channel (release=stable only)"
+      mode:
+        description: "scan = list updates; update = update the mods listed below"
         type: choice
-        options:
-          - release
-          - beta
-          - alpha
-        default: release
+        options: [scan, update]
+        default: scan
+      mods:
+        description: "update mode: slug@version,... (Modrinth version id / CurseForge file id from updates.json)"
+        type: string
+        default: ""
       bump_neoforge:
         description: "Also bump NeoForge to latest 21.1.x (same MC)"
         type: boolean
         default: false
-      update_mods:
-        description: "Run channel-aware mod updates"
-        type: boolean
-        default: true
-  # Auto schedule disabled — release-channel cron was yanking intentional
-  # betas (CEI, Crafts & Additions, etc.) and desyncing clients/server.
-  # Run manually via Actions → Update mods when you want an update.
 
 permissions:
   contents: write
@@ -29,27 +28,20 @@ permissions:
 
 concurrency:
   group: update-mods
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: "1.24.x"
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install packwiz
-        run: go install github.com/packwiz/packwiz@latest
 
       - name: Resolve NeoForge latest 21.1.x
         id: nf
@@ -60,50 +52,45 @@ jobs:
           CURRENT=$(sed -n 's/^neoforge *= *"\([^"]*\)".*/\1/p' pack.toml | head -1)
           echo "latest_211=$LATEST_211" >> "$GITHUB_OUTPUT"
           echo "current=$CURRENT" >> "$GITHUB_OUTPUT"
-          echo "Current NeoForge=$CURRENT  latest 21.1.x=$LATEST_211"
 
-      - name: Bump NeoForge (optional)
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.bump_neoforge }}
+      - name: Setup Go (NeoForge bump only)
+        if: ${{ inputs.bump_neoforge }}
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.24.x"
+
+      - name: Bump NeoForge
+        if: ${{ inputs.bump_neoforge }}
         run: |
           set -euo pipefail
+          go install github.com/packwiz/packwiz@latest
           export PATH="$PATH:$(go env GOPATH)/bin"
           TARGET="${{ steps.nf.outputs.latest_211 }}"
-          CURRENT="${{ steps.nf.outputs.current }}"
-          if [ "$CURRENT" != "$TARGET" ]; then
-            packwiz migrate loader "$TARGET" -y
-          else
-            echo "NeoForge already at $TARGET"
-          fi
+          if [ "${{ steps.nf.outputs.current }}" != "$TARGET" ]; then packwiz migrate loader "$TARGET" -y; fi
 
-      - name: Update mods (channel-aware)
-        if: ${{ github.event_name == 'schedule' || inputs.update_mods }}
+      - name: Update the chosen mods
+        if: ${{ inputs.mode == 'update' }}
         env:
-          CHANNEL: ${{ github.event_name == 'schedule' && 'release' || inputs.channel || 'release' }}
-        run: |
-          set -euo pipefail
-          export PATH="$PATH:$(go env GOPATH)/bin"
-          echo "Updating with channel=$CHANNEL"
-          python3 scripts/update_channel.py --channel "$CHANNEL"
+          MODS: ${{ inputs.mods }}
+        run: python3 scripts/update_channel.py --only "$MODS"
 
-      - name: Write status.json for Pages
+      - name: Scan for updates
+        run: python3 scripts/update_channel.py --scan
+
+      - name: Write status.json
         env:
           NF_LATEST: ${{ steps.nf.outputs.latest_211 }}
-          CHANNEL: ${{ github.event_name == 'schedule' && 'release' || inputs.channel || 'release' }}
         run: |
-          set -euo pipefail
           python3 - <<'PY'
           import json, datetime, re, pathlib, os
           pack = pathlib.Path("pack.toml").read_text(encoding="utf-8")
-          current = re.search(r'^neoforge\s*=\s*"([^"]+)"', pack, re.M).group(1)
-          mc = re.search(r'^minecraft\s*=\s*"([^"]+)"', pack, re.M).group(1)
           pathlib.Path("status.json").write_text(json.dumps({
-            "minecraft": mc,
-            "neoforge": current,
+            "minecraft": re.search(r'^minecraft\s*=\s*"([^"]+)"', pack, re.M).group(1),
+            "neoforge": re.search(r'^neoforge\s*=\s*"([^"]+)"', pack, re.M).group(1),
             "neoforge_latest_same_mc": os.environ.get("NF_LATEST", ""),
             "neoforge_line": "21.1.x",
-            "last_update_channel": os.environ.get("CHANNEL", "release"),
-            "policy": "Scheduled auto-updates are OFF. Run workflow_dispatch manually when updating. Prefer channel=beta (or per-mod overrides in channel-overrides.json) so intentional betas are not yanked to older stables. NeoForge only bumps within 21.1.x when bump_neoforge is checked.",
-            "checked_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "policy": "No automatic or bulk updates. Mods are updated one at a time from the Pages console (or workflow_dispatch mode=update).",
+            "checked_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
           }, indent=2) + "\n", encoding="utf-8")
           PY
 
@@ -112,18 +99,8 @@ jobs:
           set -euo pipefail
           git config user.name "mfpack-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f .update-summary ]; then MSG="chore: update $(cat .update-summary)"; rm .update-summary
+          elif [ "${{ inputs.bump_neoforge }}" = "true" ]; then MSG="chore: NeoForge ${{ steps.nf.outputs.latest_211 }}"
+          else MSG="chore: scan for updates"; fi
           git add -A
-          if git diff --staged --quiet; then
-            echo "No changes."
-          else
-            git commit -m "chore: packwiz channel update ($(date -u +%Y-%m-%d))"
-            git push
-          fi
-
-      - name: Summary
-        run: |
-          {
-            echo "## Packwiz update"
-            echo "- Channel: \`${{ inputs.channel || 'release' }}\`"
-            echo "- NeoForge: \`${{ steps.nf.outputs.current }}\` (latest 21.1.x \`${{ steps.nf.outputs.latest_211 }}\`)"
-          } >> "$GITHUB_STEP_SUMMARY"
+          if git diff --staged --quiet; then echo "No changes."; else git commit -m "$MSG" && git push; fi
