@@ -1,8 +1,8 @@
-name = "MF JEI Compat"
-filename = "mfjeicompat-1.1.0.jar"
+name = "MF EMI Compat"
+filename = "mfjeicompat-2.0.0.jar"
 side = "client"
 
 [download]
-url = "https://app-renticeship.github.io/mfpack-packwiz/files/mfjeicompat-1.1.0.jar"
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/mfjeicompat-2.0.0.jar"
 hash-format = "sha256"
-hash = "e4143f072d1418308349496746c01bf588ad10012f38daea0e69b633993afc3d"
+hash = "cb3183dbcf979a459b3158da0b1de542099df7e61250ca7fad683b052e1b795a"

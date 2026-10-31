@@ -741,6 +741,11 @@ hash = "121770c811982041fe105a7517a4951f54fee5d1567697a2f27626f5268a46c4"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "fadcca8f2b90c614e510cef9fdffa76de55bfcdf932c7c170901fa7cd4c58545"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "b13f95bd01f4d81b68c8a89b99c33fa43921808f41801e130277ee658e039885"
 metafile = true
@@ -946,11 +951,6 @@ hash = "29cfcf4b1191d8031af2dc8664a59739221150ef29ba947b48b2ea81c27e10ee"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "53575d332cdc08b00a8003122188902fc75a3b523f1cce0141729424b426463e"
-metafile = true
-
-[[files]]
 file = "mods/joy-of-painting.pw.toml"
 hash = "11194d217344da2c1fd83c7ecadfa9826ed65f1bfeaa41a4b25c5a715e520eda"
 metafile = true
@@ -1072,12 +1072,12 @@ metafile = true
 
 [[files]]
 file = "mods/mfjeicompat.pw.toml"
-hash = "a3da45c02def8647fff852b7d247768d70b20d96ad83033a7f859aa7930198cb"
+hash = "14ff8d6ad11322f1b4e3b15be5640a144c69835fd289d89316ab6595544f9625"
 metafile = true
 
 [[files]]
 file = "mods/mftitle.pw.toml"
-hash = "b7e9175e1c4c08af60147ce4047bf036ca5afb6918f13a1f1fdc72b3c8762f63"
+hash = "9dbba3f1c44d9b72cc79e23eeacaec226fec1ee3ab3f0b747f88cf4fa4393fba"
 metafile = true
 
 [[files]]
@@ -1458,6 +1458,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+metafile = true
+
+[[files]]
+file = "mods/tmrv.pw.toml"
+hash = "9a1a810990fb4cc39eef20b3e30a5acb3303d7bf706d64242adb86d34d4cd076"
 metafile = true
 
 [[files]]
