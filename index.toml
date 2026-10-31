@@ -846,13 +846,18 @@ hash = "a03c1e0d46ff47559399720ce7098de9ae0c329dc047f6ccf4deb545fd5c355c"
 metafile = true
 
 [[files]]
+file = "mods/ftb-chunks.pw.toml"
+hash = "22ec3f1be2e62a23b623905a4c3544ecb35ed5e4a2722f0c403085b2991842c7"
+metafile = true
+
+[[files]]
 file = "mods/ftb-filter-system.pw.toml"
 hash = "65f618c6757a5093a61f3bb47a48fbcbfe18d5dad0fe12f26544cbd7dd531ffc"
 metafile = true
 
 [[files]]
 file = "mods/ftb-library.pw.toml"
-hash = "9888bec9a5fed75e2ce0b2469ded62bf73594e55b24a273d0ab410e36d3e6424"
+hash = "e4b0296760e7ba37cb973141f680077e5b37a842008c8e2efa3cd03266cba9fe"
 metafile = true
 
 [[files]]
@@ -1178,11 +1183,6 @@ metafile = true
 [[files]]
 file = "mods/omnidirectional-movement.pw.toml"
 hash = "683f9792f6d4fd16977a8575beee5d660418d46e2b0359b1fc62687ac88a88f3"
-metafile = true
-
-[[files]]
-file = "mods/open-parties-and-claims.pw.toml"
-hash = "299ed58980f5c02afbaabcc52d5e573e8b8ab0c2c30fd688d6d7e86e7ac6bf6d"
 metafile = true
 
 [[files]]
