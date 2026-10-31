@@ -1,8 +1,8 @@
-name = "Configured Defaults keybinds (unbind FTB map from M)"
+name = "Configured Defaults keybinds (FTB map on tilde)"
 filename = "configureddefaults/options.txt"
 side = "client"
 
 [download]
 url = "https://app-renticeship.github.io/mfpack-packwiz/files/configureddefaults-options.txt"
 hash-format = "sha256"
-hash = "5f9323564a1b804366056a6500dcbbed2ca2f394c96afaca1dd0bdb21d1eb672"
+hash = "3e3156a60d10226b48b9a01a94067c8e6215aac9acfb34a2a99c6dd212638803"

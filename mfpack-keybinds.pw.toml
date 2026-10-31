@@ -5,4 +5,4 @@ side = "client"
 [download]
 url = "https://app-renticeship.github.io/mfpack-packwiz/files/mfpack-keybinds.ps1"
 hash-format = "sha256"
-hash = "d0252199ce21bbe04aaa6a9a99bd6cb41084b16440d74bc1482175be6ab6616f"
+hash = "9178ea4302d7a1316eee6387453661c0873a10faed6bc50912397e8da6c73d23"

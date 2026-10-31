@@ -1,4 +1,4 @@
-key_key.ftbchunks.map:key.keyboard.unknown
+key_key.ftbchunks.map:key.keyboard.grave.accent
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
 key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
 key_gui.xaero_open_map:key.keyboard.m

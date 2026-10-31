@@ -1587,10 +1587,10 @@ metafile = true
 
 [[files]]
 file = "config/configureddefaults-options.pw.toml"
-hash = "4bce4376e384f8a9b4dee24e2d199777d5d572c6eb8c016b3dd5af4207b0d55d"
+hash = "8308840df03fe3d3ae1429212c64452c05f2b6a23db33cefe26b00af0b6e0cb5"
 metafile = true
 
 [[files]]
 file = "mfpack-keybinds.pw.toml"
-hash = "29669e285c6d3e3a6cf66c9fa140a054d311504263bc15627f1a30118578d1ca"
+hash = "120b3649eebf70d902ddd85f3dea1440fa0d918f8ef0e5f7842cbef92c86893f"
 metafile = true
