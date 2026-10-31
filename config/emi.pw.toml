@@ -1,0 +1,8 @@
+name = "EMI settings"
+filename = "emi.css"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/emi.css"
+hash-format = "sha256"
+hash = "348a80370afa7e9b033bd23a34af2619ddcfc7325bc46eb4a3f49cfc62eadaef"

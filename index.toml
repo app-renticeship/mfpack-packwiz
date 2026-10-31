@@ -16,6 +16,11 @@ hash = "7c34f8be55a216f1bc0f688a5ebce5903b003c66a3fbe92c54096a0d53418946"
 metafile = true
 
 [[files]]
+file = "config/emi.pw.toml"
+hash = "099dd992da7c2aed6955fa2d25488a58ae6b177cceeb3de3f6d7fd7b919d56f7"
+metafile = true
+
+[[files]]
 file = "config/omni.pw.toml"
 hash = "8d70542a320572da49af7802c482b1665e3149933207cf9bfea6c41d0080fe71"
 metafile = true
