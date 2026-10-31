@@ -876,6 +876,11 @@ hash = "4cd071707d72aa6cf1d10afaf772f9bd453b62d25e393d8009277c4d6a80d34d"
 metafile = true
 
 [[files]]
+file = "mods/ftbxaerocompat.pw.toml"
+hash = "ec679ce2684f729db9d48a39517574116247539b2195794db4b4a6ad75c8b886"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "295cc6f792e5cbaaaef615940b6a54712305c743bb55084d4307812fdf348a43"
 metafile = true
