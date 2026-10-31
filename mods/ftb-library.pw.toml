@@ -1,10 +1,15 @@
 name = "FTB Library (NeoForge)"
-filename = "ftb-library-neoforge-2101.1.39.jar"
+filename = "ftb-library-neoforge-2101.1.37.jar"
 side = "both"
 pin = true
 
-# 2101.1.39 because FTB Chunks 2101.1.23 needs >= 2101.1.39 (2026-10-31).
 [download]
-url = "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.39/ftb-library-neoforge-2101.1.39.jar"
-hash-format = "sha256"
-hash = "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95"
+hash-format = "sha1"
+hash = "b6e503587afcd678ec257e4abdc6362ff18c2fef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+release-channel = "release"
+file-id = 9008089
+project-id = 404465

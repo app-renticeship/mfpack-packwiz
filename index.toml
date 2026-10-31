@@ -847,7 +847,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks.pw.toml"
-hash = "22ec3f1be2e62a23b623905a4c3544ecb35ed5e4a2722f0c403085b2991842c7"
+hash = "0af8771c3e48cdb27da15f1146bed38fd1dc4f6efe74c82d3c858c6bba50a903"
 metafile = true
 
 [[files]]
@@ -857,7 +857,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library.pw.toml"
-hash = "e4b0296760e7ba37cb973141f680077e5b37a842008c8e2efa3cd03266cba9fe"
+hash = "9888bec9a5fed75e2ce0b2469ded62bf73594e55b24a273d0ab410e36d3e6424"
 metafile = true
 
 [[files]]

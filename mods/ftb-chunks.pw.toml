@@ -1,10 +1,10 @@
 name = "FTB Chunks"
-filename = "ftb-chunks-neoforge-2101.1.23.jar"
+filename = "ftb-chunks-neoforge-2101.1.22.jar"
 side = "both"
 pin = true
 
 # Replaces Open Parties and Claims (2026-10-31). Not on Modrinth, so it comes from FTB's maven like FTB XMod Compat.
 [download]
-url = "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/2101.1.23/ftb-chunks-neoforge-2101.1.23.jar"
+url = "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/2101.1.22/ftb-chunks-neoforge-2101.1.22.jar"
 hash-format = "sha256"
-hash = "6750da28d725bfb4c7da43157bb9b82492226ce5acab595ef782d48f41ff5647"
+hash = "4ba1b3352184fa7f6e2aa4bca76edd074867697d62344dfa50dcccdb4dab5217"
