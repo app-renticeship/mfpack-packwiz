@@ -862,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "fbfc95ef09ffa8f058adbe165556781e17919afa5cd7e14192d1906f6f68dd16"
+hash = "4cd071707d72aa6cf1d10afaf772f9bd453b62d25e393d8009277c4d6a80d34d"
 metafile = true
 
 [[files]]

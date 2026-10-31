@@ -1,15 +1,10 @@
 name = "FTB XMod Compat"
-filename = "ftb-xmod-compat-neoforge-21.1.12.jar"
+filename = "ftb-xmod-compat-neoforge-21.1.11.jar"
 side = "both"
 pin = true
 
+# 21.1.11, not newer: 21.1.12+ wants jei >= 19.53, but TMRV reports itself as jei 19.27.0.343 (2026-10-31).
 [download]
-hash-format = "sha1"
-hash = "1f68bf714cf7ea3e07b23c6b8c1ebe516b325047"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-release-channel = "release"
-file-id = 8909889
-project-id = 889915
+url = "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-xmod-compat-neoforge/21.1.11/ftb-xmod-compat-neoforge-21.1.11.jar"
+hash-format = "sha256"
+hash = "0bfa6513c51b697a81ab2afc1b25983d3e39fe4a33ec334b57e6384b25a17450"
