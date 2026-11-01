@@ -1619,13 +1619,13 @@
   {
    "slug": "create-lanterns",
    "name": "Create: Lanterns",
-   "side": "client",
+   "side": "both",
    "pinned": false,
    "channel": "beta",
-   "current": "createlanterns-beta-21.8.jar",
+   "current": "createlanterns-beta-21.29.jar",
    "source": "curseforge",
    "project": "1752310",
-   "current_id": "9393420",
+   "current_id": "9394636",
    "current_date": "2026-11-01",
    "latest": {
     "release": null,

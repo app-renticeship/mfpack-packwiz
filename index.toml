@@ -502,7 +502,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-lanterns.pw.toml"
-hash = "2442615da07f622d1b32e320e40f0f4950a9f0d56c4ffd4cb33269caedd723e3"
+hash = "91c1571f0e6ebaebf517e1b3c3f3c2318270ef2b715f6563f2f6018d420c123f"
 metafile = true
 
 [[files]]

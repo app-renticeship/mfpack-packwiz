@@ -1,15 +1,14 @@
 name = "Create: Lanterns"
-filename = "createlanterns-beta-21.8.jar"
-# Client-only until emotionDecay catch-up is fixed: dedicated server must not load the ledger.
-side = "client"
+filename = "createlanterns-beta-21.29.jar"
+side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "58d56f2e6c7e7a1831153dadb6da281f5d482b66"
+hash = "8d50dd095634c3b146ec038ab6ca64b49072572e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
 release-channel = "beta"
-file-id = 9393420
+file-id = 9394636
 project-id = 1752310
