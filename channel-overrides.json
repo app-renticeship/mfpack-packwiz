@@ -1,7 +1,7 @@
 {
     "_comment":  "Keys: packwiz stem, Modrinth mod-id, or CurseForge project-id. Value = max channel when global is stricter. Stops release cron from downgrading intentional betas.",
-    "create-lanterns":  "alpha",
-    "1752310":  "alpha",
+    "create-lanterns":  "beta",
+    "1752310":  "beta",
     "companion":  "beta",
     "4w0EzGRW":  "beta",
     "create-enchantment-industry":  "beta",
