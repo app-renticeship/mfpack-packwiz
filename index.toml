@@ -506,6 +506,11 @@ hash = "91c1571f0e6ebaebf517e1b3c3f3c2318270ef2b715f6563f2f6018d420c123f"
 metafile = true
 
 [[files]]
+file = "mods/create-lazytick.pw.toml"
+hash = "6d0f30b92932fbefb1ca87c2cde56c6065cc79fa7fe2e4deebf1b8fe3d2bac11"
+metafile = true
+
+[[files]]
 file = "mods/create-mechanical-botany.pw.toml"
 hash = "104a83dddc8eb2d7fdd36089e6dc0bf41d39e488bf7db84ac404ddcc37b22613"
 metafile = true
@@ -1343,6 +1348,11 @@ metafile = true
 [[files]]
 file = "mods/sablecompat.pw.toml"
 hash = "f64d280dd51ae160b27aecdc04c69b55b55934a2faf36eef78075b94dcd18757"
+metafile = true
+
+[[files]]
+file = "mods/saturn.pw.toml"
+hash = "d36d8736123e9d6dd79466ab908e83fc35529d25001b1a6770f22681c1316277"
 metafile = true
 
 [[files]]
