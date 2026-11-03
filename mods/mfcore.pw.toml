@@ -1,8 +1,8 @@
 name = "MF Core"
-filename = "mfcore-1.0.2.jar"
+filename = "mfcore-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://app-renticeship.github.io/mfpack-packwiz/files/mfcore-1.0.2.jar"
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/mfcore-1.0.4.jar"
 hash-format = "sha256"
-hash = "efddb133daf666fcc6a6c4fa11f6ad47e7fbb49c9d101a0b880675af444bc1c8"
+hash = "13fe8afe79364d24f1673adcb98d6847f09bf8bf0516cb50b9754af25dbf57a9"
