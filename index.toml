@@ -1351,11 +1351,6 @@ hash = "f64d280dd51ae160b27aecdc04c69b55b55934a2faf36eef78075b94dcd18757"
 metafile = true
 
 [[files]]
-file = "mods/saturn.pw.toml"
-hash = "d36d8736123e9d6dd79466ab908e83fc35529d25001b1a6770f22681c1316277"
-metafile = true
-
-[[files]]
 file = "mods/scholar.pw.toml"
 hash = "f73fcd8593e21f6986581b81bfc17ceea88fead7dcecb64d8a85be32bc7bdd68"
 metafile = true
