@@ -936,6 +936,11 @@ hash = "4601b9be31b6e131dca8a148c974d015444bcac7c82fcb66fbd8751a67933a5d"
 metafile = true
 
 [[files]]
+file = "mods/immersive-optimization.pw.toml"
+hash = "2d493d3343bb82fb448f107a7846e0cc14b06c8195cf8b6b42c445f2e1a6759b"
+metafile = true
+
+[[files]]
 file = "mods/integrated-api.pw.toml"
 hash = "484d6d851ab9b6132cf092eca01eff6b3717a69b57a6d0d6e4fc7b53c90588ef"
 metafile = true
