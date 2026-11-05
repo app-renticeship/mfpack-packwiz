@@ -386,6 +386,11 @@ hash = "e6ac08f614477fbf88dda47a7f2725e5faee2e6700eb75c48297dccb3f803599"
 metafile = true
 
 [[files]]
+file = "mods/create-collision-fix.pw.toml"
+hash = "1ce22893b9bfb9597acf1489da870f6bc99f9a0e961f4bbcda1b153dc37423ef"
+metafile = true
+
+[[files]]
 file = "mods/create-confectionery.pw.toml"
 hash = "81c60fb8bc3d878d758530f043a2bf9658aa88499df5596b8d595b210f5a02a3"
 metafile = true
