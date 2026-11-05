@@ -3,7 +3,6 @@
   "neoforge": "21.1.265",
   "neoforge_latest_same_mc": "21.1.265",
   "neoforge_line": "21.1.x",
-  "last_update_channel": "release",
-  "policy": "Default updates use channel=release (stable only). Maintainers can choose beta/alpha on the Pages console. Create: Lanterns is allowlisted for alpha via channel-overrides.json. NeoForge only bumps within 21.1.x.",
-  "checked_at": "2026-10-28T17:34:27Z"
+  "policy": "No automatic or bulk updates. Mods are updated one at a time from the Pages console (or workflow_dispatch mode=update).",
+  "checked_at": "2026-11-05T12:40:05Z"
 }
