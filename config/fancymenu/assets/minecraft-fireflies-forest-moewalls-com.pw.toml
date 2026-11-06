@@ -1,0 +1,8 @@
+name = "FancyMenu title video background"
+filename = "minecraft-fireflies-forest-moewalls-com.mp4"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/minecraft-fireflies-forest-moewalls-com.mp4"
+hash-format = "sha256"
+hash = "7b2ca67e23a5bbd696ba8b1827a09fce3e87cbc220499dff4a54e5573721bf6e"
