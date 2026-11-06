@@ -6,6 +6,11 @@ hash = "e280fe5bedb556510dc219c2fd91819bba9e398b778041c48e0d48f8704e426c"
 metafile = true
 
 [[files]]
+file = "config/c2me-server.pw.toml"
+hash = "162389f674b593802e236c299bfbf8e885d411968ea171a80a9891889c9cf9f2"
+metafile = true
+
+[[files]]
 file = "config/configureddefaults-options.pw.toml"
 hash = "8308840df03fe3d3ae1429212c64452c05f2b6a23db33cefe26b00af0b6e0cb5"
 metafile = true
@@ -18,6 +23,11 @@ metafile = true
 [[files]]
 file = "config/distanthorizons-client.pw.toml"
 hash = "7c34f8be55a216f1bc0f688a5ebce5903b003c66a3fbe92c54096a0d53418946"
+metafile = true
+
+[[files]]
+file = "config/distanthorizons-server.pw.toml"
+hash = "099b01b9ae2af6c78420cef5bf0c29cede52f97086684a13af79ceb5892c7869"
 metafile = true
 
 [[files]]

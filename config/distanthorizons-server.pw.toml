@@ -1,0 +1,8 @@
+name = "Distant Horizons server throttle (smaller sync/gen request distance)"
+filename = "DistantHorizons.toml"
+side = "server"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/DistantHorizons-server.toml"
+hash-format = "sha256"
+hash = "48a5d41a52a8c47eb47845d3eb74f9da43e1d290535b867c07e841b4dee507a8"
