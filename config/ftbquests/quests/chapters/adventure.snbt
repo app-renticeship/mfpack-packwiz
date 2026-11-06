@@ -1158,8 +1158,12 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "E048EA55673D2863"
-					type: "checkmark"
+					id: "462235B570171997"
+					item: {
+						count: 1
+						id: "naturalist:capture_net"
+					}
+					type: "item"
 				}
 			]
 			x: 33.5d

@@ -784,8 +784,12 @@
 			size: 1.5d
 			tasks: [
 				{
-					id: "2DFC5BF992D52072"
-					type: "checkmark"
+					id: "8EC9BBB56F7E6F0F"
+					item: {
+						count: 1
+						id: "northstar:iron_space_suit_helmet"
+					}
+					type: "item"
 				}
 			]
 			x: 24.0d

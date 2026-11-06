@@ -37,8 +37,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "1B0800437C68C43A"
-					type: "checkmark"
+					id: "B67DE7A30575C613"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
 				}
 			]
 			x: 1.5d
@@ -60,11 +64,7 @@
 			invisible_until_tasks: 1
 			tasks: [
 				{
-					id: "0DD3C1416FC34FA1"
-					type: "checkmark"
-				}
-				{
-					id: "1D486C4B0E66490C"
+					id: "32253F7BD141AB64"
 					item: {
 						count: 1
 						id: "minecraft:bread"
@@ -98,15 +98,10 @@
 			]
 			tasks: [
 				{
-					id: "21428FE253D34D4E"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					id: "08EDA62F0B406C49"
+					id: "D77E0D0F417C897F"
 					item: {
 						count: 1
-						id: "minecraft:bread"
+						id: "minecraft:torch"
 					}
 					type: "item"
 				}
@@ -129,15 +124,10 @@
 			invisible_until_tasks: 1
 			tasks: [
 				{
-					id: "6A64112F92690241"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					id: "2B23CADA52D45FA0"
+					id: "A08215FEA94CA1A2"
 					item: {
 						count: 1
-						id: "minecraft:bread"
+						id: "minecraft:writable_book"
 					}
 					type: "item"
 				}
@@ -163,32 +153,15 @@
 			]
 			tasks: [
 				{
-					id: "74C85348A8B837EB"
-					type: "checkmark"
+					id: "68CD3C1AAB9E26C6"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
 				}
 			]
 			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"139DAA6E8CF4267A"
-			]
-			hide_until_deps_visible: true
-			icon: {
-				components: {
-					"ftbquests:icon": "ftblibrary:icons/check"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "6A4CB4700F0082C6"
-			tasks: [
-				{
-					id: "3B2CC7DEE30E3AB8"
-					type: "checkmark"
-				}
-			]
-			x: 1.5d
 			y: -1.5d
 		}
 	]

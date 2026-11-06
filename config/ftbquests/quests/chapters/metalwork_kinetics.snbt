@@ -665,8 +665,12 @@
 			size: 1.3d
 			tasks: [
 				{
-					id: "26901E6FA99265B3"
-					type: "checkmark"
+					id: "B192D2E5971602AF"
+					item: {
+						count: 1
+						id: "create:mechanical_arm"
+					}
+					type: "item"
 				}
 			]
 			x: 8.0d

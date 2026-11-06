@@ -24,21 +24,6 @@
 			dependencies: [
 				"65E11DFFD2125089"
 			]
-			id: "04CEE0CA932DF671"
-			size: 1.5d
-			tasks: [
-				{
-					id: "2302D9494ED14FD2"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"04CEE0CA932DF671"
-			]
 			id: "3C2D6F3F116122BC"
 			tasks: [
 				{
@@ -73,7 +58,7 @@
 		}
 		{
 			dependencies: [
-				"04CEE0CA932DF671"
+				"65E11DFFD2125089"
 			]
 			id: "334E09BB534F212D"
 			rewards: [
@@ -107,7 +92,7 @@
 		}
 		{
 			dependencies: [
-				"04CEE0CA932DF671"
+				"65E11DFFD2125089"
 			]
 			icon: {
 				id: "minecraft:charcoal"
@@ -198,7 +183,7 @@
 		}
 		{
 			dependencies: [
-				"04CEE0CA932DF671"
+				"65E11DFFD2125089"
 			]
 			id: "0C15B829B4F22CF0"
 			rewards: [
@@ -224,7 +209,7 @@
 		}
 		{
 			dependencies: [
-				"04CEE0CA932DF671"
+				"65E11DFFD2125089"
 			]
 			id: "4BCFB8B54450D011"
 			rewards: [
@@ -278,7 +263,7 @@
 		}
 		{
 			dependencies: [
-				"04CEE0CA932DF671"
+				"65E11DFFD2125089"
 			]
 			id: "41374A60BC001BEE"
 			rewards: [
@@ -366,7 +351,7 @@
 		}
 		{
 			dependencies: [
-				"04CEE0CA932DF671"
+				"65E11DFFD2125089"
 			]
 			icon: {
 				id: "create:sturdy_sheet"

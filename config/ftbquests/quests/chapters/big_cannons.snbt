@@ -401,8 +401,12 @@
 			size: 1.3d
 			tasks: [
 				{
-					id: "10394C905A73F23A"
-					type: "checkmark"
+					id: "0C50BB9D40AC9E8B"
+					item: {
+						count: 1
+						id: "createbigcannons:solid_shot"
+					}
+					type: "item"
 				}
 			]
 			x: 10.0d
@@ -834,8 +838,12 @@
 			size: 1.5d
 			tasks: [
 				{
-					id: "3BD8966C0F741130"
-					type: "checkmark"
+					id: "5E1460919792E5D4"
+					item: {
+						count: 1
+						id: "createbigcannons:cannon_mount"
+					}
+					type: "item"
 				}
 			]
 			x: 16.0d

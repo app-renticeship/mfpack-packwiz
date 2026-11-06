@@ -44,37 +44,6 @@
 				"46118D84C56B11A7"
 			]
 			icon: {
-				components: {
-					"ftbquests:icon": "ftblibrary:textures/faces/upgrade_aquatic/thrasher.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "47B63CD140F2910E"
-			rewards: [
-				{
-					count: 5
-					id: "6837B5059600A0D8"
-					item: {
-						count: 1
-						id: "createfood:fishcake"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0EB8CCEAAEBB079C"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"47B63CD140F2910E"
-			]
-			icon: {
 				id: "minecraft:heart_of_the_sea"
 			}
 			id: "0F1D3205FB83E2D3"
@@ -173,7 +142,7 @@
 		}
 		{
 			dependencies: [
-				"47B63CD140F2910E"
+				"46118D84C56B11A7"
 			]
 			icon: {
 				id: "minecraft:prismarine"
@@ -300,7 +269,7 @@
 		}
 		{
 			dependencies: [
-				"47B63CD140F2910E"
+				"46118D84C56B11A7"
 			]
 			id: "157DAE6EC4155F82"
 			tasks: [
@@ -623,8 +592,12 @@
 			id: "5E5D62726D846A63"
 			tasks: [
 				{
-					id: "487C3BE0859DA0D9"
-					type: "checkmark"
+					id: "41C917B5602B0016"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
 				}
 			]
 			x: 0.0d

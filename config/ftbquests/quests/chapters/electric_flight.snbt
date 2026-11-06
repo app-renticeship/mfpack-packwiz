@@ -236,8 +236,12 @@
 			size: 1.3d
 			tasks: [
 				{
-					id: "308120450C49ED6A"
-					type: "checkmark"
+					id: "ACE7ED8F1DB3654F"
+					item: {
+						count: 1
+						id: "createpropulsion:ion_thruster"
+					}
+					type: "item"
 				}
 			]
 			x: 7.0d

@@ -22,28 +22,6 @@
 	quests: [
 		{
 			dependencies: [
-				"4643735856150DA8"
-			]
-			icon: {
-				components: {
-					"ftbquests:icon": "create_optical:item/incomplete_optical_device"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "7B0D85DA0CAD53C8"
-			shape: "pentagon"
-			size: 2.0d
-			tasks: [
-				{
-					id: "34FA9F80E506FF2E"
-					type: "checkmark"
-				}
-			]
-			x: -1.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
 				"7C268464F6DE1885"
 			]
 			id: "46085B16F9FA9ADC"
@@ -184,7 +162,7 @@
 		}
 		{
 			dependencies: [
-				"7B0D85DA0CAD53C8"
+				"4643735856150DA8"
 			]
 			id: "4865C6C955CF8233"
 			rewards: [
@@ -428,7 +406,7 @@
 		}
 		{
 			dependencies: [
-				"7B0D85DA0CAD53C8"
+				"4643735856150DA8"
 			]
 			id: "49E7C672E2F02981"
 			rewards: [
@@ -480,7 +458,7 @@
 		}
 		{
 			dependencies: [
-				"7B0D85DA0CAD53C8"
+				"4643735856150DA8"
 			]
 			id: "1BE84A67C4F49130"
 			tasks: [
@@ -544,7 +522,7 @@
 		}
 		{
 			dependencies: [
-				"7B0D85DA0CAD53C8"
+				"4643735856150DA8"
 			]
 			id: "6934E2BC749EB926"
 			size: 1.0d

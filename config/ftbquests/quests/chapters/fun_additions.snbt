@@ -72,7 +72,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "bits_n_bobs:large_flanged_cogwheel"
@@ -108,7 +108,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			id: "37760181A25650CE"
 			rewards: [
@@ -182,7 +182,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			id: "39F463F266C9A44C"
 			rewards: [
@@ -208,7 +208,7 @@
 		{
 			can_repeat: false
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			id: "38419FFA03E72E3A"
 			rewards: [
@@ -233,7 +233,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			id: "477E6B9A9E264637"
 			rewards: [
@@ -320,7 +320,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			id: "109DED9EC2176A5F"
 			rewards: [
@@ -346,22 +346,6 @@
 		{
 			dependencies: [
 				"4643735856150DA8"
-			]
-			id: "326BB81BA22F0E4E"
-			shape: "pentagon"
-			size: 2.0d
-			tasks: [
-				{
-					id: "1F3A1BE0ED7C0D52"
-					type: "checkmark"
-				}
-			]
-			x: -2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"326BB81BA22F0E4E"
 			]
 			id: "160E4D26B4D8A901"
 			tasks: [
@@ -407,7 +391,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "create_sa:heat_engine"
@@ -462,7 +446,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "create_sa:brass_drill_head"
@@ -534,7 +518,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "create:electron_tube"
@@ -564,7 +548,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "create_sa:slime_boots"
@@ -600,7 +584,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "create_wrapped:wrapping_station"
@@ -636,7 +620,7 @@
 		}
 		{
 			dependencies: [
-				"326BB81BA22F0E4E"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "create_wrapped:red_wrapping_paper"

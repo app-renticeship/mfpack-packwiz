@@ -24,20 +24,6 @@
 			dependencies: [
 				"65E11DFFD2125089"
 			]
-			id: "0FCA9B992F6FC084"
-			tasks: [
-				{
-					id: "7032FA57AD77F6DF"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"0FCA9B992F6FC084"
-			]
 			id: "697A75979171E953"
 			shape: "gear"
 			size: 2.0d
@@ -106,7 +92,7 @@
 		}
 		{
 			dependencies: [
-				"0FCA9B992F6FC084"
+				"65E11DFFD2125089"
 			]
 			id: "09C716DA6553249A"
 			tasks: [
@@ -604,7 +590,7 @@
 		}
 		{
 			dependencies: [
-				"0FCA9B992F6FC084"
+				"65E11DFFD2125089"
 			]
 			id: "66F79A7EDE20FDE5"
 			tasks: [
@@ -700,7 +686,7 @@
 		}
 		{
 			dependencies: [
-				"0FCA9B992F6FC084"
+				"65E11DFFD2125089"
 			]
 			id: "3365EE30271B51FA"
 			tasks: [

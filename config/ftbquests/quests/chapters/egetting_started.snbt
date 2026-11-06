@@ -49,8 +49,12 @@
 			size: 1.5d
 			tasks: [
 				{
-					id: "76956A772FFC0B26"
-					type: "checkmark"
+					id: "ADB15A9C3CC10157"
+					item: {
+						count: 1
+						id: "create:goggles"
+					}
+					type: "item"
 				}
 			]
 			x: 0.0d

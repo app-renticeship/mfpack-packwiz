@@ -24,30 +24,6 @@
 			dependencies: [
 				"0335A87D46B28982"
 			]
-			icon: {
-				id: "create:goggles"
-			}
-			id: "54DF387F802921AB"
-			rewards: [
-				{
-					id: "9C3C8CE4291E28AF"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [
-				{
-					id: "633AB9455AC027C4"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"54DF387F802921AB"
-			]
 			id: "496C2FD7E9BB6971"
 			rewards: [
 				{
@@ -794,7 +770,7 @@
 		}
 		{
 			dependencies: [
-				"54DF387F802921AB"
+				"0335A87D46B28982"
 			]
 			id: "5C9C878E8C6DEEF7"
 			rewards: [
@@ -824,7 +800,7 @@
 		}
 		{
 			dependencies: [
-				"54DF387F802921AB"
+				"0335A87D46B28982"
 			]
 			id: "4D73BF9B7B5574C8"
 			rewards: [

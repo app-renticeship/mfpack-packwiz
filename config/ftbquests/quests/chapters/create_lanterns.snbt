@@ -27,32 +27,6 @@
 			icon: {
 				id: "createlanterns:power_ring"
 			}
-			id: "5A6A73A6D4EACF86"
-			rewards: [
-				{
-					id: "72CC3100A42D9CDC"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "gear"
-			size: 1.0d
-			tasks: [
-				{
-					id: "BC63FBFB2828DB04"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"5A6A73A6D4EACF86"
-			]
-			icon: {
-				id: "createlanterns:power_ring"
-			}
 			id: "F450B24BA30E5A02"
 			rewards: [
 				{
@@ -88,38 +62,6 @@
 		{
 			dependencies: [
 				"F450B24BA30E5A02"
-			]
-			icon: {
-				id: "createlanterns:power_ring"
-			}
-			id: "8F06D1E57CCAD230"
-			rewards: [
-				{
-					id: "90AEF9E3381FDC8D"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "11C5C4C784A612B5"
-					table_id: 5249651026717322459L
-					type: "random"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [
-				{
-					id: "601F16C7CA0E1052"
-					type: "checkmark"
-				}
-			]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"8F06D1E57CCAD230"
 			]
 			icon: {
 				id: "createlanterns:lantern_frame"
@@ -194,33 +136,7 @@
 		}
 		{
 			dependencies: [
-				"23DC1C4E25C076E8"
-			]
-			icon: {
-				id: "createlanterns:power_battery"
-			}
-			id: "A3976C030EB9ED90"
-			rewards: [
-				{
-					id: "441F572B6F6A1880"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "gear"
-			size: 1.0d
-			tasks: [
-				{
-					id: "47AEAD99E31D461F"
-					type: "checkmark"
-				}
-			]
-			x: 12.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"8F06D1E57CCAD230"
+				"F450B24BA30E5A02"
 			]
 			icon: {
 				id: "createlanterns:ring_blank"
@@ -310,8 +226,12 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "DD3AA57892D9CAED"
-					type: "checkmark"
+					id: "C024890273BB342B"
+					item: {
+						count: 1
+						id: "createlanterns:ring_band"
+					}
+					type: "item"
 				}
 			]
 			x: 12.5d
@@ -319,65 +239,7 @@
 		}
 		{
 			dependencies: [
-				"A3976C030EB9ED90"
-			]
-			icon: {
-				id: "northstar:telescope"
-			}
-			id: "B238629468C0C708"
-			rewards: [
-				{
-					id: "E39F0AAC0F756DEF"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4B91194EC0E7FC95"
-					table_id: 5249651026717322459L
-					type: "random"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [
-				{
-					id: "B6185FD79D293D6F"
-					type: "checkmark"
-				}
-			]
-			x: 15.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"B238629468C0C708"
-			]
-			icon: {
-				id: "createlanterns:power_ring"
-			}
-			id: "4BD18F584B3344B7"
-			rewards: [
-				{
-					id: "B759201C3C437826"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "gear"
-			size: 1.0d
-			tasks: [
-				{
-					id: "8DA49EC8DE41AE87"
-					type: "checkmark"
-				}
-			]
-			x: 17.5d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"B238629468C0C708"
+				"23DC1C4E25C076E8"
 			]
 			icon: {
 				id: "createlanterns:oa_grass_block"
@@ -410,7 +272,7 @@
 		}
 		{
 			dependencies: [
-				"B238629468C0C708"
+				"23DC1C4E25C076E8"
 			]
 			icon: {
 				id: "createlanterns:yellow_power_battery"
@@ -444,7 +306,7 @@
 		}
 		{
 			dependencies: [
-				"B238629468C0C708"
+				"23DC1C4E25C076E8"
 			]
 			icon: {
 				id: "createlanterns:blue_power_battery"
@@ -478,7 +340,7 @@
 		}
 		{
 			dependencies: [
-				"B238629468C0C708"
+				"23DC1C4E25C076E8"
 			]
 			icon: {
 				id: "createlanterns:violet_power_battery"
@@ -512,7 +374,7 @@
 		}
 		{
 			dependencies: [
-				"B238629468C0C708"
+				"23DC1C4E25C076E8"
 			]
 			icon: {
 				id: "createlanterns:indigo_power_battery"
@@ -546,7 +408,7 @@
 		}
 		{
 			dependencies: [
-				"4BD18F584B3344B7"
+				"23DC1C4E25C076E8"
 			]
 			icon: {
 				id: "createlanterns:red_power_battery"
@@ -580,7 +442,7 @@
 		}
 		{
 			dependencies: [
-				"4BD18F584B3344B7"
+				"23DC1C4E25C076E8"
 			]
 			icon: {
 				id: "createlanterns:black_power_battery"
@@ -614,7 +476,7 @@
 		}
 		{
 			dependencies: [
-				"A3976C030EB9ED90"
+				"23DC1C4E25C076E8"
 				"0335A87D46B28982"
 			]
 			icon: {
@@ -674,8 +536,15 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "55F5D64E088D5579"
-					type: "checkmark"
+					id: "CB0485DF5A4B3887"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(createlanterns:power_battery)item(createlanterns:red_power_battery)item(createlanterns:orange_power_battery)item(createlanterns:yellow_power_battery)item(createlanterns:blue_power_battery)item(createlanterns:indigo_power_battery)item(createlanterns:violet_power_battery))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
 				}
 			]
 			x: 17.5d
@@ -707,8 +576,15 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "F8DA08EA59E135F4"
-					type: "checkmark"
+					id: "D3B091DB38E96158"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(createlanterns:power_ring)item(createlanterns:red_power_ring)item(createlanterns:orange_power_ring)item(createlanterns:yellow_power_ring)item(createlanterns:blue_power_ring)item(createlanterns:indigo_power_ring)item(createlanterns:violet_power_ring))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
 				}
 			]
 			x: 20.0d

@@ -1514,8 +1514,12 @@
 			size: 1.5d
 			tasks: [
 				{
-					id: "0913DCC236B0D9F5"
-					type: "checkmark"
+					id: "362B5420A56328B8"
+					item: {
+						count: 1
+						id: "create:analog_lever"
+					}
+					type: "item"
 				}
 			]
 			x: 3.0d

@@ -39,8 +39,12 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "260FAAFD37508516"
-					type: "checkmark"
+					id: "5C952568BBE9A88B"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
 				}
 			]
 			x: 0.0d
@@ -73,8 +77,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "2B7C0EC5273E622B"
-					type: "checkmark"
+					id: "52F288579A8DC46E"
+					item: {
+						count: 1
+						id: "createlanterns:power_ring"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -112,8 +120,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "A5D4911B449E8F17"
-					type: "checkmark"
+					id: "B28B3159EF490673"
+					item: {
+						count: 1
+						id: "createlanterns:oa_grass_block"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -147,8 +159,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "BFB3223A869F958A"
-					type: "checkmark"
+					id: "698E6033872963EE"
+					item: {
+						count: 1
+						id: "northstar:biofuel_bucket"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -181,8 +197,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "662120E42309C734"
-					type: "checkmark"
+					id: "E8E20DE199E0ED5E"
+					item: {
+						count: 1
+						id: "createbigcannons:cannon_barrel"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -215,8 +235,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "2694EAC98645301D"
-					type: "checkmark"
+					id: "1F60567AAC0C0FEB"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -250,8 +274,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "25557BFC2B438D48"
-					type: "checkmark"
+					id: "C0BF6FCA41B73109"
+					item: {
+						count: 1
+						id: "create:schedule"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -285,8 +313,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "D32D861B49BBF1E6"
-					type: "checkmark"
+					id: "862F424CC9BA6B6A"
+					item: {
+						count: 1
+						id: "create:basin"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -320,8 +352,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "669532C1CAC2287F"
-					type: "checkmark"
+					id: "411C0AD95704AAB9"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -355,8 +391,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "953B758EE96D5AE3"
-					type: "checkmark"
+					id: "34F0798D77EEC4C9"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -389,8 +429,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "A43508C85B0D130F"
-					type: "checkmark"
+					id: "BA40D2B6E6C64B43"
+					item: {
+						count: 1
+						id: "tradingpost:trading_post"
+					}
+					type: "item"
 				}
 			]
 			x: 2.5d
@@ -430,8 +474,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "B9FBB1C207CBEFFB"
-					type: "checkmark"
+					id: "6A678825A19CCEB6"
+					item: {
+						count: 1
+						id: "create:goggles"
+					}
+					type: "item"
 				}
 			]
 			x: 5.0d

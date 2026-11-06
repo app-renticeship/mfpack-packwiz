@@ -195,8 +195,12 @@
 			size: 1.3d
 			tasks: [
 				{
-					id: "495405F6F89605CB"
-					type: "checkmark"
+					id: "AC0C7B673A0DBE80"
+					item: {
+						count: 1
+						id: "create:controller_rail"
+					}
+					type: "item"
 				}
 			]
 			x: 5.5d

@@ -837,8 +837,12 @@
 			size: 1.3d
 			tasks: [
 				{
-					id: "1C7AB847F5E00EE1"
-					type: "checkmark"
+					id: "B497007DF72EEF12"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
 				}
 			]
 			x: 7.0d

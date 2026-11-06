@@ -390,8 +390,12 @@
 			size: 1.2d
 			tasks: [
 				{
-					id: "7AAF4329D674E500"
-					type: "checkmark"
+					id: "F9A067C1C96585FE"
+					item: {
+						count: 1
+						id: "create:schedule"
+					}
+					type: "item"
 				}
 			]
 			x: -2.0d

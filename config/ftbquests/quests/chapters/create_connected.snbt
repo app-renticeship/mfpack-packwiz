@@ -24,23 +24,6 @@
 			dependencies: [
 				"65E11DFFD2125089"
 			]
-			icon: {
-				id: "create_connected:redstone_link_wildcard"
-			}
-			id: "4B3DE2788D5D543C"
-			tasks: [
-				{
-					id: "5830D8B25B95E8A0"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"4B3DE2788D5D543C"
-			]
 			id: "5C61D230E8A41A99"
 			tasks: [
 				{
@@ -163,7 +146,7 @@
 		{
 			can_repeat: false
 			dependencies: [
-				"4B3DE2788D5D543C"
+				"65E11DFFD2125089"
 			]
 			id: "29882BA136A365CC"
 			tasks: [
@@ -435,7 +418,7 @@
 		}
 		{
 			dependencies: [
-				"4B3DE2788D5D543C"
+				"65E11DFFD2125089"
 			]
 			icon: {
 				id: "create:andesite_casing"

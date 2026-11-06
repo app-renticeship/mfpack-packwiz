@@ -534,8 +534,12 @@
 			size: 1.3d
 			tasks: [
 				{
-					id: "4ED029235675E471"
-					type: "checkmark"
+					id: "7B8B460830562D8F"
+					item: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
+					type: "item"
 				}
 			]
 			x: 6.0d

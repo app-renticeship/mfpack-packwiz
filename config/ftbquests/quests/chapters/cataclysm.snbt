@@ -1035,8 +1035,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "57E42444BA5C82B0"
-					type: "checkmark"
+					id: "AA41A7E9AC180E71"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
 				}
 			]
 			x: 1.0d

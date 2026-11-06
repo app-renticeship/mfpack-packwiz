@@ -39,8 +39,12 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "409B9DA124A3B926"
-					type: "checkmark"
+					id: "F15649ADDA3DBD24"
+					item: {
+						count: 1
+						id: "create:cardboard"
+					}
+					type: "item"
 				}
 			]
 			x: 0.0d
@@ -812,8 +816,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "7E0408E91221F41F"
-					type: "checkmark"
+					id: "88CFA65BD0BD4DCD"
+					item: {
+						count: 1
+						id: "tradingpost:trading_post"
+					}
+					type: "item"
 				}
 			]
 			x: 17.5d

@@ -27,32 +27,6 @@
 			icon: {
 				id: "rechiseled:chisel"
 			}
-			id: "3CEE39555810FAE4"
-			rewards: [
-				{
-					id: "CF6554A47A2E2D09"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "gear"
-			size: 1.0d
-			tasks: [
-				{
-					id: "9DD82188AA907946"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"3CEE39555810FAE4"
-			]
-			icon: {
-				id: "rechiseled:chisel"
-			}
 			id: "6A8B75454322572D"
 			rewards: [
 				{
@@ -126,7 +100,7 @@
 		}
 		{
 			dependencies: [
-				"3CEE39555810FAE4"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "copycats:copycat_block"
@@ -204,7 +178,7 @@
 		}
 		{
 			dependencies: [
-				"3CEE39555810FAE4"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "createcasing:brass_encased_fan"
@@ -243,7 +217,7 @@
 		}
 		{
 			dependencies: [
-				"3CEE39555810FAE4"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "mcwroofs:oak_roof"
@@ -516,7 +490,7 @@
 		}
 		{
 			dependencies: [
-				"3CEE39555810FAE4"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "handcrafted:hammer"
@@ -633,7 +607,7 @@
 		}
 		{
 			dependencies: [
-				"3CEE39555810FAE4"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "createdeco:yellow_brass_lamp"
@@ -750,7 +724,7 @@
 		}
 		{
 			dependencies: [
-				"3CEE39555810FAE4"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "quark:trowel"
@@ -867,7 +841,7 @@
 		}
 		{
 			dependencies: [
-				"3CEE39555810FAE4"
+				"4643735856150DA8"
 			]
 			icon: {
 				id: "xercapaint:item_easel"
@@ -980,8 +954,12 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "53C17DA5D3A602C6"
-					type: "checkmark"
+					id: "D1CE668581B69957"
+					item: {
+						count: 1
+						id: "rechiseled:chisel"
+					}
+					type: "item"
 				}
 			]
 			x: 10.0d

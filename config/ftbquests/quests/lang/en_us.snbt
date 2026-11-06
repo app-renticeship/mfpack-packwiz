@@ -111,7 +111,9 @@
 	quest.02C47B1CE17E8DD5.quest_subtitle: "Hand cranks with a cogwheel installed. Handy for gear ratios and tight spaces"
 	quest.02C47B1CE17E8DD5.title: "&6Large Crank Wheel"
 	quest.02D5439ACE50EC34.quest_desc: [
-		"Obtained by &cBlasting&r or &cBulk-Blasting&r a piece of Coal Coke"
+		"Obtained by Blasting or Bulk-Blasting a piece of Coal Coke"
+		""
+		"You need &6Refined Coal Coke&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.02D5439ACE50EC34.quest_subtitle: "An even better upgrade"
 	quest.02D5439ACE50EC34.title: "&7Refined Coal Coke"
@@ -140,8 +142,13 @@
 	quest.04CE5B960FE826CA.title: "Soul Campfire"
 	quest.04CE5B960FE826CA.quest_subtitle: "When placed in front of the &6Encased Fan&r, a &bSoul Fire&r allows it to haunt items"
 	quest.04CEE0CA932DF671.quest_desc: [
-		"&7Opens after &eBlaze Burner&7 (Brass Age)"
+		"&eBlaze Burner Fuels&r. Complete it by obtaining &6Blaze Burner Fuels&r."
 		""
+		"Opens after Blaze Burner (Brass Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.04CEE0CA932DF671.quest_subtitle: "This Create addon adds a variety of items and recipes, introducing new &afuel sources for Blaze Burners&r and giving players unique ways to build Steam Boiler&r setups. Ever wanted a &brenewable alternative to Blaze Cakes&r? Now you have one!"
 	quest.04CEE0CA932DF671.title: "&2Blaze Burner Fuels"
@@ -151,7 +158,9 @@
 	quest.0512ADDB7E6659CA.quest_subtitle: "To craft Briquettes "
 	quest.0512ADDB7E6659CA.title: "&eObtain Materials"
 	quest.05352FD080D95A2F.quest_desc: [
-		"You can press &eU&r on the &fStraw&r to see what liquids it accepts, as well as their burn times"
+		"You can press U on the Straw to see what liquids it accepts, as well as their burn times"
+		""
+		"You need &6Straw&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.05352FD080D95A2F.title: "Straw"
 	quest.05352FD080D95A2F.quest_subtitle: "Ever wanted to pipe liquids into your &6Blaze Burners&r? Just hand them a &fStraw&r and they'll slurp it straight from the pipe!"
@@ -162,12 +171,16 @@
 	quest.053A085A1D02EEF0.title: "Copper Diving Boots"
 	quest.053A085A1D02EEF0.quest_subtitle: "&6Diving Boots&r allow you to walk underwater like you do on land, as well as walk on belts without them moving you around. Be careful when jumping into the ocean, you won't float!"
 	quest.05422CBF447A8BB8.quest_desc: [
-		"Obtained by dropping a &6Shaft&r on top of a &6Mechanical Saw&r"
+		"Obtained by dropping a Shaft on top of a Mechanical Saw"
+		""
+		"You need &6Shear Pin&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.05422CBF447A8BB8.quest_subtitle: "An early-game, single-use connector that breaks when the network is overstressed"
 	quest.05422CBF447A8BB8.title: "&6Shear Pin"
 	quest.05C16E90B3E6304E.quest_desc: [
-		"Needs to rotate at at least &630 RPM&r to function."
+		"Needs to rotate at at least 30 RPM to function."
+		""
+		"You need &6Mechanical Mixer&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.05C16E90B3E6304E.title: "Mechanical Mixer"
 	quest.05C16E90B3E6304E.quest_subtitle: "A &6Mechanical Mixer&r can autocraft shapeless recipes as well as mix things like potions"
@@ -266,7 +279,9 @@
 	quest.0BCAAE3D64E3FF14.title: "Schedule"
 	quest.0BCAAE3D64E3FF14.quest_subtitle: "A &6Schedule&r lets you schedule trains so that mobs or &6Blaze Burners&r can drive them"
 	quest.0C15B829B4F22CF0.quest_desc: [
-		"Obtained by putting through some &cMagma Blocks&r through a pair of &6Crushing Wheels&r"
+		"Obtained by putting through some Magma Blocks through a pair of Crushing Wheels"
+		""
+		"You need &6Blazing Rocks&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.0C15B829B4F22CF0.quest_subtitle: "Perfect fuel for very cheap"
 	quest.0C15B829B4F22CF0.title: "&cBlazing Rocks"
@@ -289,7 +304,9 @@
 	quest.0D04B64A3C45F2B6.quest_subtitle: "The Simulated &eSwivel Bearing&r again: glue a cluster, power the cog, and it pivots as its own physics assembly."
 	quest.0D04B64A3C45F2B6.title: "Craft Swivel Bearing"
 	quest.0D49595D9B86A794.quest_desc: [
-		"You will want plenty of &cLava Buckets&r to make sure you never run out of &3superheat fuel&r"
+		"You will want plenty of Lava Buckets to make sure you never run out of superheat fuel"
+		""
+		"You need &6Lava Bucket&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.0D49595D9B86A794.quest_subtitle: "Tastes like Dr. Pepper"
 	quest.0D49595D9B86A794.title: "&aFilling up the tank"
@@ -362,6 +379,8 @@
 	quest.1042F8DDE3975030.title: "&aObtain &eGlow Dust"
 	quest.1045354B831EAA6B.quest_desc: [
 		"A storm boss. She drops Lacrima and Essence of the Storm. That is the last of the eight."
+		""
+		"You need &6Scylla&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.1045354B831EAA6B.quest_subtitle: "A storm boss. She drops Lacrima and Essence of the Storm. That is the last of the eight."
 	quest.1045354B831EAA6B.title: "&c&lScylla"
@@ -387,7 +406,9 @@
 	quest.10A093ED9B5B1207.quest_subtitle: "A bigger, stronger fan that takes catalyst sails."
 	quest.10A093ED9B5B1207.title: "&eIndustrial Fan"
 	quest.10A822934956DF48.quest_desc: [
-		"Crafted with tinted glass. Feed it into the &eAbsorption Polarizing Filter&r next."
+		"Crafted with tinted glass. Feed it into the Absorption Polarizing Filter next."
+		""
+		"You need &6Polarizing Filter&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.10A822934956DF48.quest_subtitle: "Used to craft our &dAbsorption Polarizing Filter"
 	quest.10A822934956DF48.title: "&aPolarizing Filter"
@@ -447,8 +468,13 @@
 	quest.11EC157FEDD4E98D.quest_subtitle: "Keeps the wind out of your eyes. Purely for looks."
 	quest.11EC157FEDD4E98D.title: "&7Pilot Goggles"
 	quest.1209EAFCD7457303.quest_desc: [
-		"&7Opens after &eFluid Pipes&7 (Copper Age)"
+		"&eOil Scanner&r. Complete it by obtaining &6Oil Scanner&r."
 		""
+		"Opens after Fluid Pipes (Copper Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.1209EAFCD7457303.title: "Oil Scanner"
 	quest.1209EAFCD7457303.quest_subtitle: "Use an &fOil Scanner&r to check for &8Crude Oil Deposits&r from &6Create Diesel Generators&r"
@@ -529,6 +555,8 @@
 	quest.13D833C11A71B131.title: "&2Block of Experience"
 	quest.13E4B74A690CC783.quest_desc: [
 		"Look at a Ribbit. Their villages are a separate structure."
+		""
+		"You need &6Ribbit&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.13E4B74A690CC783.quest_subtitle: "A frog that trades and plays"
 	quest.13E4B74A690CC783.title: "&eRibbit"
@@ -713,7 +741,9 @@
 	quest.1A389BBE7CDB0F96.title: "Hose Pulley"
 	quest.1A389BBE7CDB0F96.quest_subtitle: "A &6Hose Pulley&r can be used to place or extract large bodies of liquid"
 	quest.1A9BDF6B88E5A7A9.quest_desc: [
-		"Obtained by &cSmoking&r or &eBulk-Smoking&r Peats"
+		"Obtained by Smoking or Bulk-Smoking Peats"
+		""
+		"You need &6Peat Briquettes&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.1A9BDF6B88E5A7A9.quest_subtitle: "Much better than Coal or Charcoal Briquettes"
 	quest.1A9BDF6B88E5A7A9.title: "&aPeat Briquettes "
@@ -805,8 +835,13 @@
 	quest.1C8B708C362B156F.quest_subtitle: "They restore a little mana when eaten."
 	quest.1C8B708C362B156F.title: "&2Sourceberries"
 	quest.1C901D6957027EB8.quest_desc: [
-		"&7Opens after &ecreate:mechanical_arm&7 (Brass Age)"
+		"&eWelcome to Create Kitchen&r. Complete it by obtaining &6Welcome to Create Kitchen&r."
 		""
+		"Opens after create:mechanical_arm (Brass Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.1C901D6957027EB8.quest_subtitle: "Welcome to Create: Kitchen! It includes three different types of mods designed to help you automate food production, cooking, and farming"
 	quest.1C901D6957027EB8.title: "&eWelcome to Create Kitchen"
@@ -884,9 +919,13 @@
 	quest.1DF7367D76E81BFC.quest_subtitle: "A village built around airships. Find it after Clockwork Village; everything in this chapter is inside the world border."
 	quest.1DF7367D76E81BFC.title: "&6Airship Village"
 	quest.1DFD87B60DF28EA1.quest_desc: [
-		"&7Opens after &ecreate:millstone&7 (Andesite Age)"
+		"&eCreate Café&r. Complete it by obtaining &6Coffee Beans&r."
 		""
-		"Coffee bushes and the fruit for the teas grow from seeds. Look in EMI for where each one comes from."
+		"Opens after create:millstone (Andesite Age) Coffee bushes and the fruit for the teas grow from seeds. Look in EMI for where each one comes from.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.1DFD87B60DF28EA1.quest_subtitle: "Coffee and bubble tea, made by machine."
 	quest.1DFD87B60DF28EA1.title: "&aCreate Café"
@@ -1038,8 +1077,13 @@
 	quest.20B73692143FEC05.quest_subtitle: "Easel, canvas and palette"
 	quest.20B73692143FEC05.title: "&eJoy of Painting"
 	quest.20BA931A8B0BF63E.quest_desc: [
-		"&7Opens after &eEnchanting Apparatus&7 (Ars Nouveau)"
+		"&eElemental Foci&r. Complete it by obtaining &6Lesser Fire Focus&r."
 		""
+		"Opens after Enchanting Apparatus (Ars Nouveau)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.20BA931A8B0BF63E.quest_subtitle: "From &eArs Elemental&r: a focus makes one school of magic stronger and cheaper. Imbue an amethyst shard with three essences and gold."
 	quest.20BA931A8B0BF63E.title: "&dElemental Foci"
@@ -1133,6 +1177,8 @@
 	quest.227D8B17E7004F3A.title: "Cable"
 	quest.22AAD0DB4C56BA7A.quest_desc: [
 		"The metal Create: Springs is built from. Springs store rotation and dump it in a burst."
+		""
+		"You need &6Spring Alloy&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.22AAD0DB4C56BA7A.quest_subtitle: "From &eCreate: Springs&r. Springs store rotation and release it all at once."
 	quest.22AAD0DB4C56BA7A.title: "&bSpring Alloy"
@@ -1174,6 +1220,8 @@
 	quest.232B6570D09FD2CE.title: "&6Freewheel Clutch"
 	quest.236439AD7BB284E5.quest_desc: [
 		"Campfire or smoker, not a furnace. Once toasted, the ruby chocolate branch opens."
+		""
+		"You need &6Caramelized Marshmellow On A Stick&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.236439AD7BB284E5.quest_subtitle: "Campfire or smoker, not a furnace. Once toasted, the ruby chocolate branch opens."
 	quest.236439AD7BB284E5.title: "&eCaramelized Marshmallows on a Stick"
@@ -1256,6 +1304,8 @@
 	quest.25DABD7C2D1C733C.quest_subtitle: "A &6Diving Helmet&r lets you use air from an equipped tank to breathe underwater"
 	quest.26250B86376A0525.quest_desc: [
 		"Five candy canes in the axe shape. Craft it from the canes, not the block."
+		""
+		"You need &6Candy Cane Axe&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.26250B86376A0525.quest_subtitle: "Five candy canes in the axe shape. Craft it from the canes, not the block."
 	quest.26250B86376A0525.title: "&eCandy Cane Axe"
@@ -1273,10 +1323,13 @@
 	quest.264ECBCC1FAC046E.quest_subtitle: "Home of the Green Lanterns"
 	quest.264ECBCC1FAC046E.title: "&aOa"
 	quest.2689B97A89F4DEAC.quest_desc: [
-		"&7Opens after &ecreate:sturdy_sheet&7 (Locomotive Age)"
+		"&eSteam 'n' Rails&r. Complete it by obtaining &6Railway Casing&r."
 		""
-		"Finish the &eTrains&r chapter first if you haven't built a train yet. This chapter assumes you have."
-		"Almost every block here has a &bPonder&r scene: hold &eW&r over it in EMI."
+		"Opens after create:sturdy_sheet (Locomotive Age) Finish the Trains chapter first if you haven't built a train yet. This chapter assumes you have. Almost every block here has a Ponder scene: hold W over it in EMI.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.2689B97A89F4DEAC.quest_subtitle: "Everything Create's trains are missing: new track, signals, couplers, liquid fuel, and a lot of train décor."
 	quest.2689B97A89F4DEAC.title: "&6Steam 'n' Rails"
@@ -1287,6 +1340,8 @@
 	quest.26B389AF4D077CA9.title: "&ePowder Charges"
 	quest.26B4A91A3C2366EA.quest_desc: [
 		"It reads your train schedules, so name your stations and set up schedules first."
+		""
+		"You need &6Navigator&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.26B4A91A3C2366EA.quest_subtitle: "From &eCreate Railways Navigator&r: plan a trip between any two stations, with changes, live departure times and delays."
 	quest.26B4A91A3C2366EA.title: "&aNavigator"
@@ -1325,6 +1380,8 @@
 	quest.27365E92FE356663.title: "&bConductor's Cap"
 	quest.27491161DE9F796A.quest_desc: [
 		"A large IDAS fortress. Heavier loot and heavier fights than the castle."
+		""
+		"You need &6Tinker's Citadel&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.27491161DE9F796A.quest_subtitle: "A large IDAS fortress. Heavier loot and heavier fights than the castle."
 	quest.27491161DE9F796A.title: "&6Tinker's Citadel"
@@ -1362,7 +1419,9 @@
 	quest.28DF4183D2B58BF6.quest_subtitle: "Essential for us to make the &dEcho Cake&r the &d&lSculk flour&r is made by passing &9Sculk blocks&r through a pair of &6Crushing Wheels&..."
 	quest.28DF4183D2B58BF6.title: "&dSculk Flours"
 	quest.28E2042CD660FE69.quest_desc: [
-		"You can search in &d&lREI&r for the fluids that apply by typing &e\"$create:bottomless\"&r"
+		"You can search in REI for the fluids that apply by typing \\"$create:bottomless\\""
+		""
+		"You need &6Bottomless Lava&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.28E2042CD660FE69.quest_subtitle: "Some fluids can be infinitely extracted from the world as long as the pool the &6Hose Pulley&r is extracting from contains 10,000 or more source blocks"
 	quest.28E2042CD660FE69.title: "Bottomless Lava"
@@ -1387,7 +1446,11 @@
 	quest.2976EA899A6A6DD9.quest_subtitle: "Place a switch on a junction to flip it with redstone. The brass switch can also set itself for whatever train is coming."
 	quest.2976EA899A6A6DD9.title: "&eTrack Switches"
 	quest.29815D7316A451D6.quest_desc: [
-		"Find a Better Ocean Monument."
+		"&eOcean Monument&r. Complete it by obtaining &6Ocean Monument&r."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.29815D7316A451D6.quest_subtitle: "YUNG's Better Ocean Monuments"
 	quest.29815D7316A451D6.title: "&eOcean Monument"
@@ -1404,10 +1467,13 @@
 	quest.29BC2181C9AC3A60.title: "&eThe Brass Threshold"
 	quest.29BC2181C9AC3A60.quest_subtitle: "Heat, mix, and the machines start thinking."
 	quest.29E0DB74CF948639.quest_desc: [
-		"&7Opens after &ecreateaddition:modular_accumulator&7 (Brass Age)"
+		"&eBatteries on Board&r. Complete it by obtaining &6Modular Accumulator&r."
 		""
-		"This chapter puts &eCreate Crafts & Additions&r power on &eAeronautics&r ships."
-		"Accumulators built into a ship go with it when it's assembled, so the ship carries its own charge. Brass Age covers making them."
+		"Opens after createaddition:modular_accumulator (Brass Age) This chapter puts Create Crafts & Additions power on Aeronautics ships. Accumulators built into a ship go with it when it's assembled, so the ship carries its own charge. Brass Age covers making them.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.29E0DB74CF948639.quest_subtitle: "Store FE on the ship itself and your aircraft can fly with no fuel and no burner."
 	quest.29E0DB74CF948639.title: "&eBatteries on Board"
@@ -1439,6 +1505,8 @@
 	quest.2A6F8598292657FE.quest_subtitle: "The &eDirectional Linked Receiver&r reads the angle to a matching Redstone Link: full strength dead ahead, weaker off-axis, nothing behind."
 	quest.2AB9E83773FD728C.quest_desc: [
 		"Sits under the mount and turns it with Create rotation. Elevation is on the mount itself."
+		""
+		"You need &6Yaw Controller&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.2AB9E83773FD728C.quest_subtitle: "Rotate the whole mount with Create power."
 	quest.2AB9E83773FD728C.title: "&cYaw Controller"
@@ -1640,9 +1708,13 @@
 	quest.2FA092D064A16A6B.quest_subtitle: "Steep roofs and a hammer"
 	quest.2FA092D064A16A6B.title: "&eMacaw's Roofs"
 	quest.2FC2E358FBFDDDF7.quest_desc: [
-		"Opens after a &ePrecision Mechanism&r (Brass Age). Northstar flies on rockets; &aCreate: Lanterns&r is the other ascent if rings call louder."
+		"&eLook Up&r. Complete it by obtaining &6Telescope&r."
 		""
-		"Every machine has a &bPonder&r and a deep tooltip. Start with the &eRocket Station&r ponder for the whole pad — then build only as far as your curiosity goes."
+		"Opens after a Precision Mechanism (Brass Age). Northstar flies on rockets; Create: Lanterns is the other ascent if rings call louder. Every machine has a Ponder and a deep tooltip. Start with the Rocket Station ponder for the whole pad — then build only as far as your curiosity goes.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.2FC2E358FBFDDDF7.quest_subtitle: "Steel to the planets — the factory's road into the dark."
 	quest.2FC2E358FBFDDDF7.title: "&9Look Up"
@@ -1715,6 +1787,8 @@
 	quest.3151475431766DAF.quest_subtitle: "A &6Brass Funnel&r allows for filtering and higher stack sizes"
 	quest.31AEA648B7854247.quest_desc: [
 		"A storm-swept ruin in warm ocean. Scylla waits at the top."
+		""
+		"You need &6Acropolis&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.31AEA648B7854247.quest_subtitle: "A storm-swept acropolis in a warm ocean."
 	quest.31AEA648B7854247.title: "&6Acropolis"
@@ -1775,6 +1849,8 @@
 	quest.326BB81BA22F0E4E.title: "&d&lWelcome to the Fun Section"
 	quest.328CE987F5B04421.quest_desc: [
 		"Deep IDAS mines. Good for ores and a path toward the Frozen Crypt."
+		""
+		"You need &6Ancient Mines&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.328CE987F5B04421.quest_subtitle: "Deep IDAS mines. Good for ores and a path toward the Frozen Crypt."
 	quest.328CE987F5B04421.title: "&7Ancient Mines"
@@ -1789,7 +1865,9 @@
 	quest.3331455E2E700AA1.quest_subtitle: "Magical trinkets found in dungeon loot and mimic chests. Each player gets their own loot from a chest, thanks to Lootr."
 	quest.3331455E2E700AA1.title: "&dArtifacts"
 	quest.334E09BB534F212D.quest_desc: [
-		"Obtained by filling a piece of &aCoal or a Charcoal&r with a &6Spout filled with Lava&r"
+		"Obtained by filling a piece of Coal or a Charcoal with a Spout filled with Lava"
+		""
+		"You need &6Fiery Coal&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.334E09BB534F212D.quest_subtitle: "Who in the world needs this much fuel"
 	quest.334E09BB534F212D.title: "&2Fiery Coal&r and &2Fiery Charcoal&r"
@@ -1904,8 +1982,13 @@
 	quest.36668621669EDF51.quest_subtitle: "Now that we obtained some &dEcho Shards&r it's now time for us to liquefy them using a &bsuper-heated&r blaze burner and a &6Mechanical M..."
 	quest.36668621669EDF51.title: "&bMolten Echo Bucket"
 	quest.369D8CB2365B6EE9.quest_desc: [
-		"&7Opens after &eLift-off!&7 (Lift-off)"
+		"&eThe Moon&r. Complete it by obtaining &6The Moon&r."
 		""
+		"Opens after Lift-off! (Lift-off)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.369D8CB2365B6EE9.quest_subtitle: "Low gravity, no air, and lunar sapphire."
 	quest.369D8CB2365B6EE9.title: "&7The Moon"
@@ -1927,7 +2010,9 @@
 	quest.36C23968F5A792B1.quest_subtitle: "Cast, bore, repeat. More barrels let you load bigger charges."
 	quest.36C23968F5A792B1.title: "&8Cast Iron Barrels"
 	quest.36C68A63A3A6C878.quest_desc: [
-		"Diesel and biodiesel from &eDiesel Generators&r make good train fuel."
+		"Diesel and biodiesel from Diesel Generators make good train fuel."
+		""
+		"You need &6Fuel Tank&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.36C68A63A3A6C878.quest_subtitle: "Trains can burn liquid fuel instead of coal. A Fuel Tank on the train holds it, and anything that fuels a blaze burner works."
 	quest.36C68A63A3A6C878.title: "&cFuel Tanks"
@@ -1959,6 +2044,8 @@
 	quest.378C3116EE6DD795.title: "&aCharging Dock"
 	quest.3794686E3CC0149C.quest_desc: [
 		"A cursed knight. It drops Cursium ingots for Cursium armour."
+		""
+		"You need &6Maledictus&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.3794686E3CC0149C.quest_subtitle: "A cursed knight. It drops Cursium ingots for Cursium armour."
 	quest.3794686E3CC0149C.title: "&c&lMaledictus"
@@ -2003,6 +2090,8 @@
 	quest.38B2EF3D559A5913.title: "&cVolcanic Ash"
 	quest.38C6CA73A1BFB0CF.quest_desc: [
 		"Five candy canes in the pickaxe shape. Same idea as the rest of the candy tool set."
+		""
+		"You need &6Candy Cane Pickaxe&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.38C6CA73A1BFB0CF.quest_subtitle: "Five candy canes in the pickaxe shape. Same idea as the rest of the candy tool set."
 	quest.38C6CA73A1BFB0CF.title: "&eCandy Cane Pickaxe"
@@ -2045,8 +2134,13 @@
 	quest.39F463F266C9A44C.quest_subtitle: "Allowing you to relay &aRotational Force&r between two belts next to eachother in a smaller form factor"
 	quest.39F463F266C9A44C.title: "&6Transmission Chain"
 	quest.3A575A5853D61529.quest_desc: [
-		"Opens after the millstone (Andesite Age). Sugar, flour and cocoa go through mixers, presses and spouts into candy, chocolate and gingerbread."
-		"A millstone is enough to start; a heated mixer and a spout will finish most of the chapter."
+		"&eConfectionery&r. Complete it by obtaining &6Confectionery&r."
+		""
+		"Opens after the millstone (Andesite Age). Sugar, flour and cocoa go through mixers, presses and spouts into candy, chocolate and gingerbread. A millstone is enough to start; a heated mixer and a spout will finish most of the chapter.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.3A575A5853D61529.quest_subtitle: "&7Opens after &ecreate:millstone&7 (Andesite Age)"
 	quest.3A575A5853D61529.title: "Confectionery"
@@ -2058,6 +2152,8 @@
 	quest.3A752CB0F94025B6.title: "&eTable Cloth"
 	quest.3A861B21F4724A9A.quest_desc: [
 		"Right-click a Diesel Engine with it. The engine revs harder on the same fuel."
+		""
+		"You need &6Engine Turbocharger&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.3A861B21F4724A9A.title: "Engine Turbocharger"
 	quest.3A861B21F4724A9A.quest_subtitle: "Use an &fEngine Turbocharger&r on a &6Diesel Engine&r to make it run faster"
@@ -2153,6 +2249,8 @@
 	quest.3D6ADF4135A3BE48.quest_subtitle: "An &8Tilt Adapter&r tilts rotational output based on an analog &credstone&r signal"
 	quest.3D988137341AE75D.quest_desc: [
 		"Blocks beams the same way it blocks light. Also the ingredient for Polarizing Filters."
+		""
+		"You need &6Tinted Glass&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.3D988137341AE75D.quest_subtitle: "Let's you block incoming beams"
 	quest.3D988137341AE75D.title: "&3Tinted Glass"
@@ -2197,8 +2295,13 @@
 	quest.3E68562B397B60E0.title: "Deployer"
 	quest.3E68562B397B60E0.quest_subtitle: "A &6Deployer&r is a simple machine with massive potential. Acts as a psuedo-player, allowing you to right click with items you insert to use them, or left click to attack and mine with them"
 	quest.3EB60E27A12D04B9.quest_desc: [
-		"&7Opens after &eAndesite, the Foundation&7 (Andesite Age)"
+		"&eMore Create Machines&r. Complete it by obtaining &6Andesite Alloy&r."
 		""
+		"Opens after Andesite, the Foundation (Andesite Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.3EB60E27A12D04B9.quest_subtitle: "The add-ons in this chapter give Create new gears, fans, presses and springs."
 	quest.3EB60E27A12D04B9.title: "&eMore Create Machines"
@@ -2285,6 +2388,8 @@
 	quest.41423783869CBE12.title: "&dForecasting a Train's Arrival"
 	quest.4187C52EA677B491.quest_desc: [
 		"Buried in desert. The Ancient Remnant is the boss; fight it in melee range."
+		""
+		"You need &6Cursed Pyramid&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.4187C52EA677B491.quest_subtitle: "A buried pyramid in the desert."
 	quest.4187C52EA677B491.title: "&6Cursed Pyramid"
@@ -2351,10 +2456,13 @@
 	quest.445212E6651B7746.title: "Candy Cane Block"
 	quest.445212E6651B7746.quest_subtitle: "Four candy canes in a square. From here you can make the candy cane tool set, or The Bright Side disc."
 	quest.448189D652A46D20.quest_desc: [
-		"&7Opens after &eBlaze Burner&7 (Brass Age)"
+		"&eCreate Big Cannons&r. Complete it by obtaining &6Casting Sand&r."
 		""
-		"Cannon parts are cast from molten metal in moulds of casting sand, then bored out with a Cannon Drill. Bigger cannons are assembled from layers by a Cannon Builder."
-		"Every machine here has a &bPonder&r scene."
+		"Opens after Blaze Burner (Brass Age) Cannon parts are cast from molten metal in moulds of casting sand, then bored out with a Cannon Drill. Bigger cannons are assembled from layers by a Cannon Builder. Every machine here has a Ponder scene.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.448189D652A46D20.quest_subtitle: "Cast, bore and build your own artillery. It starts with casting sand."
 	quest.448189D652A46D20.title: "&cCreate Big Cannons"
@@ -2483,8 +2591,13 @@
 	quest.477E6B9A9E264637.title: "Portable Drill"
 	quest.477E6B9A9E264637.quest_subtitle: "A handheld drill that drinks fuel. Brass, cogs, a Steam Engine, and a Brass Drill Head. Mine on the move without planting a mechanical dr..."
 	quest.47B63CD140F2910E.quest_desc: [
-		"&7Opens after &ecreate:copper_casing&7 (Copper Age)"
+		"&eWelcome to Aquatic Ambitions&r. Complete it by obtaining &6Welcome to Aquatic Ambitions&r."
 		""
+		"Opens after create:copper_casing (Copper Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.47B63CD140F2910E.quest_subtitle: "Create Aquatic Ambitions is a Create add-on that introduces new machines, processes, and production lines inspired by the ocean. Harness the power of the conduit to transform byproducts into valuable resources and building blocks — and make more materials renewable in the process!"
 	quest.47B63CD140F2910E.title: "&bWelcome to Aquatic Ambitions"
@@ -2505,8 +2618,13 @@
 	quest.4865C6C955CF8233.quest_subtitle: "Emits &credstone&r signal based on the incident beam properties"
 	quest.4865C6C955CF8233.title: "&6Optical Sensor"
 	quest.48673623C1866594.quest_desc: [
-		"Opens after Andesite Age. Place a &eCart Assembler&r over a rail, park a minecart on it, glue blocks to the cart, then pulse redstone."
-		"The whole glued structure becomes a moving contraption. Hold &eW&r over it in EMI to see its Ponder."
+		"&eCart Assembler&r. Complete it by obtaining &6Cart Assembler&r."
+		""
+		"Opens after Andesite Age. Place a Cart Assembler over a rail, park a minecart on it, glue blocks to the cart, then pulse redstone. The whole glued structure becomes a moving contraption. Hold W over it in EMI to see its Ponder.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.48673623C1866594.title: "Cart Assembler"
 	quest.48673623C1866594.quest_subtitle: "&7Opens after &eAndesite, the Foundation&7 (Andesite Age)"
@@ -2639,8 +2757,13 @@
 	quest.4B25075C31109A90.title: "Thruster"
 	quest.4B25075C31109A90.quest_subtitle: "A &6Thruster&r provides directional &6Propulsion&r when powered by &credstone&r and fueled with &eTurpentine&r"
 	quest.4B3DE2788D5D543C.quest_desc: [
-		"&7Opens after &eBlaze Burner&7 (Brass Age)"
+		"&eConnected&r. Complete it by obtaining &6Connected&r."
 		""
+		"Opens after Blaze Burner (Brass Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.4B3DE2788D5D543C.quest_subtitle: "A collection of quality of life blocks to enchance your contraptions"
 	quest.4B3DE2788D5D543C.title: "&l&dConnected"
@@ -2656,7 +2779,9 @@
 	quest.4B68D3819B6C8246.title: "Netherite Backtank"
 	quest.4B68D3819B6C8246.quest_subtitle: "An upgraded version of the &6Copper Backtank&r"
 	quest.4BCFB8B54450D011.quest_desc: [
-		"Obtained by &cBlasting&r or &cBulk-Blasting&r a piece of Coal"
+		"Obtained by Blasting or Bulk-Blasting a piece of Coal"
+		""
+		"You need &6Coal Coke&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.4BCFB8B54450D011.quest_subtitle: "Decent upgrade to the boring coal"
 	quest.4BCFB8B54450D011.title: "&eCoal Coke"
@@ -2853,7 +2978,11 @@
 	quest.5105D072C590AC15.quest_subtitle: "There's no air up there. The chestpiece carries a copper backtank: keep it filled."
 	quest.5105D072C590AC15.title: "&bIron Space Suit"
 	quest.512B1323F6068403.quest_desc: [
-		"Look at a Deer."
+		"&eDeer&r. Complete it by obtaining &6Deer&r."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.512B1323F6068403.quest_subtitle: "A Naturalist classic"
 	quest.512B1323F6068403.title: "&eDeer"
@@ -2908,7 +3037,9 @@
 	quest.51B1952CA3175688.title: "Mechanical Plough"
 	quest.51B1952CA3175688.quest_subtitle: "&6Mechanical Ploughs&r allow contraptions to plough farmland or launch entities"
 	quest.51EB04F9DB620A23.quest_desc: [
-		"Can be obtained by &aright-clicking&r a piece of Stripped Log with a &6Brass Ingot&r"
+		"Can be obtained by right-clicking a piece of Stripped Log with a Brass Ingot"
+		""
+		"You need &6Brass Casing&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.51EB04F9DB620A23.quest_subtitle: "For Kinetic Battery and Kinetic Bridge."
 	quest.51EB04F9DB620A23.title: "&6Brass Casing"
@@ -3023,8 +3154,13 @@
 	quest.54DF387F802921AB.quest_subtitle: "&7Opens after &ecreate:precision_mechanism&7 (Brass Age)"
 	quest.54DF387F802921AB.title: "Welcome to Gadgets And Gizmos"
 	quest.54F157D3C8CB7557.quest_desc: [
-		"&7Opens after &ecreate:spout&7 (Copper Age)"
+		"&eWelcome to Enchantment Industry.&r. Complete it by obtaining &6Welcome to Enchantment Industry.&r."
 		""
+		"Opens after create:spout (Copper Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.54F157D3C8CB7557.quest_subtitle: "This Create add-on offers more tools and methods to handle enchantments, as well as experience storage."
 	quest.54F157D3C8CB7557.title: "&6Welcome to Enchantment Industry."
@@ -3040,6 +3176,8 @@
 	quest.55152919769B9863.title: "&6Grappling Hook"
 	quest.555508F1582AF26C.quest_desc: [
 		"Four candy canes in the shovel shape. That's most of the candy tools; the hoe is last."
+		""
+		"You need &6Candy Cane Shovel&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.555508F1582AF26C.quest_subtitle: "Four candy canes in the shovel shape. That's most of the candy tools; the hoe is last."
 	quest.555508F1582AF26C.title: "&eCandy Cane Shovel"
@@ -3085,6 +3223,8 @@
 	quest.56723AE661B61F88.quest_subtitle: "An &8Swivel Bearing&r allows simulated contraptions to rotate around a point in space"
 	quest.56B6E71A8D4D1B5D.quest_desc: [
 		"Supplementaries adds decorative bits like pedestals. Use a Wrench to rotate a block."
+		""
+		"You need &6Supplementaries&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.56B6E71A8D4D1B5D.quest_subtitle: "Pedestals and a Wrench"
 	quest.56B6E71A8D4D1B5D.title: "&eSupplementaries"
@@ -3165,6 +3305,8 @@
 	quest.59D1636F8843063E.quest_subtitle: "Mix sugar, &eCinder Flour&r, &eWheat Flour&r and honey in a basin. No heat needed."
 	quest.5A013800B7F1E4C1.quest_desc: [
 		"Four candy canes in the hoe shape. That's the last of the candy tools."
+		""
+		"You need &6Candy Cane Hoe&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.5A013800B7F1E4C1.quest_subtitle: "Four candy canes in the hoe shape. That's the last of the candy tools."
 	quest.5A013800B7F1E4C1.title: "&eCandy Cane Hoe"
@@ -3204,7 +3346,9 @@
 	quest.5A5A789CF38BA336.title: "Modular Accumulator"
 	quest.5A5A789CF38BA336.quest_subtitle: "An &6Accumulator&r is a multi-block structure that lets you store large amounts of &6Energy (E)&r"
 	quest.5A5B8770C80F7420.quest_desc: [
-		"Its &eGarnishment Guide&r explains everything the mod adds."
+		"Its Garnishment Guide explains everything the mod adds."
+		""
+		"You need &6Almond&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.5A5B8770C80F7420.quest_subtitle: "Nuts, sweets and odd ingredients, processed with fans and machines."
 	quest.5A5B8770C80F7420.title: "&eCreate: Garnished"
@@ -3237,10 +3381,13 @@
 	quest.5A86AE1514DE9E08.quest_subtitle: "A cold IDAS burial site. Dress warm, then get back to the Stronghold when you are ready for the End."
 	quest.5A86AE1514DE9E08.title: "&bFrozen Crypt"
 	quest.5AB8C0E0E3741E17.quest_desc: [
-		"&7Opens after &eOut There&7 (Exploration)"
+		"&eL_Ender's Cataclysm&r. Complete it by obtaining &6Flame Eye&r."
 		""
-		"Cataclysm bosses cap the damage they take: about 20 per hit and 12-20 per second, &oper boss&r, no matter how many of you fight. A .50 BMG round still only lands ~22, and shots from beyond 12-38 blocks barely hurt. Fight up close, bring armour, and take turns."
-		"Their structures only generate in new terrain: the outer ring of the overworld, the Nether and the End."
+		"Opens after Out There (Exploration) Cataclysm bosses cap the damage they take: about 20 per hit and 12-20 per second, per boss, no matter how many of you fight. A .50 BMG round still only lands ~22, and shots from beyond 12-38 blocks barely hurt. Fight up close, bring armour, and take turns. Their structures only generate in new terrain: the outer ring of the overworld, the Nether and the End.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.5AB8C0E0E3741E17.quest_subtitle: "Eight bosses, each guarding its own structure. Every structure has an eye that leads you to it."
 	quest.5AB8C0E0E3741E17.title: "&cL_Ender's Cataclysm"
@@ -3396,15 +3543,19 @@
 	quest.5F3FF42E32035B90.title: "&8Cast Iron"
 	quest.5F54692C554A45BE.quest_desc: [
 		"Right-click a Diesel Engine with it. Same power, much less racket next to the base."
+		""
+		"You need &6Engine Silencer&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.5F54692C554A45BE.title: "Engine Silencer"
 	quest.5F54692C554A45BE.quest_subtitle: "Use an &fEngine Silencer&r on a &6Diesel Engine&r to silence it"
 	quest.5F699CBFE79E637E.quest_desc: [
-		"&7Opens after &eIon Thrusters&7 (Electric Flight)"
+		"&eLeather Strap&r. Complete it by obtaining &6Leather Strap&r."
 		""
-		"&eSimply Jetpacks 2&r jetpacks run on Forge Energy (FE), the same power &eCreate Crafts & Additions&r makes. A new jetpack is empty: charge it before you jump."
-		"Like Create Stuff 'n Additions' jetpacks, they're built in a &eMechanical Crafter&r, and each tier is an upgrade of the one before. An upgrade starts with an empty battery."
-		"Hold &eJump&r to fly. The engine and hover-mode keys are under Options > Controls."
+		"Opens after Ion Thrusters (Electric Flight) Simply Jetpacks 2 jetpacks run on Forge Energy (FE), the same power Create Crafts & Additions makes. A new jetpack is empty: charge it before you jump. Like Create Stuff 'n Additions' jetpacks, they're built in a Mechanical Crafter, and each tier is an upgrade of the one before. An upgrade starts with an empty battery. Hold Jump to fly. The engine and hover-mode keys are under Options > Controls.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.5F699CBFE79E637E.quest_subtitle: "Every jetpack is built around one: leather and iron ingots."
 	quest.5F699CBFE79E637E.title: "&bLeather Strap"
@@ -3415,6 +3566,8 @@
 	quest.5F6C37E2546789BB.title: "&8Coal Briquettes&r and&r &8Charcoal Briquettes "
 	quest.601277C2004705B2.quest_desc: [
 		"Bring water breathing; an Ars charm works. The Leviathan hunts the ruins."
+		""
+		"You need &6Sunken City&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.601277C2004705B2.quest_subtitle: "A drowned city on the floor of a deep ocean. Bring water breathing."
 	quest.601277C2004705B2.title: "&6Sunken City"
@@ -3424,8 +3577,13 @@
 	quest.601860A2654A4095.quest_subtitle: "To make our &9Echo items&r we will need to upgrade them from Netherite items through the usage of a smithing table and an &3Echo Upgrade ..."
 	quest.601860A2654A4095.title: "&3Smithing Template"
 	quest.603AAE60ABAEB20E.quest_desc: [
-		"&7Opens after &eAndesite, the Foundation&7 (Andesite Age)"
+		"&eWelcome to Deep Dark&r. Complete it by obtaining &6Welcome to Deep Dark&r."
 		""
+		"Opens after Andesite, the Foundation (Andesite Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.603AAE60ABAEB20E.quest_subtitle: "Deep Dark is an addon for Create that introduces new end-game content inspired by the Deep Dark biome, featuring rare items, resources, and powerful gear to craft using Create’s mechanics!"
 	quest.603AAE60ABAEB20E.title: "Welcome to Deep Dark"
@@ -3496,6 +3654,8 @@
 	quest.6258271B8132C384.title: "&4The Nether"
 	quest.6286DD80F462B1A9.quest_desc: [
 		"Macaw's Bridges adds wooden bridges and matching bridge stairs. Start with an Oak Bridge."
+		""
+		"You need &6Macaw's Bridges&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.6286DD80F462B1A9.quest_subtitle: "Walkways over gaps"
 	quest.6286DD80F462B1A9.title: "&eMacaw's Bridges"
@@ -3507,6 +3667,8 @@
 	quest.628B4647AA410A19.quest_subtitle: "&6Mechanical Saws&r can fell trees or allow contraptions to fell trees, as well as perform recipes like cutting blocks or stripping &aLogs&r"
 	quest.62A83DCB7F9DE4E2.quest_desc: [
 		"An IDAS maze. Mark your path; getting lost is the point."
+		""
+		"You need &6Labyrinth&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.62A83DCB7F9DE4E2.quest_subtitle: "An IDAS maze. Mark your path; getting lost is the point."
 	quest.62A83DCB7F9DE4E2.title: "&8Labyrinth"
@@ -3891,6 +4053,8 @@
 	quest.6DDC8E408BE84968.quest_subtitle: "A &6Nixie Tube&r can display text or numbers. This would be useful for making elevators too."
 	quest.6DE5C143971CCDC8.quest_desc: [
 		"An IDAS haunted house. Bring light and a weapon; it is a step up from the castle."
+		""
+		"You need &6Haunted Manor&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.6DE5C143971CCDC8.quest_subtitle: "An IDAS haunted house. Bring light and a weapon; it is a step up from the castle."
 	quest.6DE5C143971CCDC8.title: "&8Haunted Manor"
@@ -3949,6 +4113,8 @@
 	quest.7058C7040CC3A881.title: "&eHoglin Loin"
 	quest.706439D7FCD17265.quest_desc: [
 		"On snowy plains. Maledictus is locked inside."
+		""
+		"You need &6Frosted Prison&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.706439D7FCD17265.quest_subtitle: "A frozen prison on snowy plains."
 	quest.706439D7FCD17265.title: "&6Frosted Prison"
@@ -3971,6 +4137,8 @@
 	quest.70B08B5924AF5A89.title: "&7Autocannons"
 	quest.70D047BEA63EF3CF.quest_desc: [
 		"Look at an Otter. Critters also adds Clams and Pearls if you want jewellery later."
+		""
+		"You need &6Otter&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.70D047BEA63EF3CF.quest_subtitle: "Rivers and clams"
 	quest.70D047BEA63EF3CF.title: "&eOtter"
@@ -4093,13 +4261,20 @@
 	quest.742B53EF2F996E70.title: "Weighted Ejector"
 	quest.742B53EF2F996E70.quest_subtitle: "&6Weighted Ejectors&r can launch items accurately over long distances"
 	quest.74A663BECB035204.quest_desc: [
-		"&7Opens after &eBlaze Burner&7 (Brass Age)"
+		"&eWelcome to Create: Propulsion!&r. Complete it by obtaining &6Welcome to Create: Propulsion!&r."
 		""
+		"Opens after Blaze Burner (Brass Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.74A663BECB035204.quest_subtitle: "&d&lCreate Propulsion: Simulated&r is an addon that introduces &6Propulsion&r-focused &6&lCreate&r gameplay to the &6Sable&r + &6Create Aeronautics&r ecosystem"
 	quest.74A663BECB035204.title: "Welcome to &d&lCreate: Propulsion&r!"
 	quest.74B65EACFD62BA44.quest_desc: [
 		"A nether-wastes arena. Ignis is the boss; come with fire resistance and melee."
+		""
+		"You need &6Burning Arena&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.74B65EACFD62BA44.quest_subtitle: "A burning arena in the nether wastes."
 	quest.74B65EACFD62BA44.title: "&6Burning Arena"
@@ -4176,6 +4351,8 @@
 	quest.76685EA6C13CDC38.title: "&aObtain &bPrismarine Crystals"
 	quest.768E90F9FA398E87.quest_desc: [
 		"Outputs on every side. Use it when a normal or six-way gearbox still isn't enough faces."
+		""
+		"You need &6Omni Gearbox&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.768E90F9FA398E87.quest_subtitle: "A gearbox that outputs to every side."
 	quest.768E90F9FA398E87.title: "&eOmni Gearbox"
@@ -4213,6 +4390,8 @@
 	quest.76E85F7EFA6EA920.title: "&aObtain Suspicious Rock"
 	quest.76F48EB46CAF8A5D.quest_desc: [
 		"Find a hostile mob on the tracks and don't brake. Passive animals don't count."
+		""
+		"You need &6Road Kill&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.76F48EB46CAF8A5D.quest_subtitle: "Run over an enemy with your &bTrain&r"
 	quest.76F48EB46CAF8A5D.title: "&2Road Kill"
@@ -4296,12 +4475,13 @@
 	quest.7A56250D2EBADD11.quest_subtitle: "Wide track is made from normal track, for big, heavy trains."
 	quest.7A56250D2EBADD11.title: "&6Wide Gauge"
 	quest.7A5E084AC28AD736.quest_desc: [
-		"&7Opens after &ecreate:mechanical_crafter&7 (Brass Age)"
+		"&eMechanical Crafter&r. Complete it by obtaining &6Mechanical Crafter&r."
 		""
-		"Main path: &eCreate: Immersive TaCZ&r + &eCreate Armorer&r via Create machines."
-		"- &eMechanical Crafter&r: gun parts, Create Armorer guns, and attachments."
-		"- Mixing / spout / saw / sequenced assembly: ammo."
-		"Optional side path: &7Gun Smith Table&r and TACZ workbenches for stock (non-Create) TACZ guns."
+		"Opens after create:mechanical_crafter (Brass Age) Main path: Create: Immersive TaCZ + Create Armorer via Create machines. - Mechanical Crafter: gun parts, Create Armorer guns, and attachments. - Mixing / spout / saw / sequenced assembly: ammo. Optional side path: Gun Smith Table and TACZ workbenches for stock (non-Create) TACZ guns.."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.7A5E084AC28AD736.quest_subtitle: "Create Immersive TaCZ — guns, ammo and attachments are made with Create machines."
 	quest.7A5E084AC28AD736.title: "&eMechanical Crafter"
@@ -4328,8 +4508,13 @@
 	quest.7AD9B79EA9C173A9.quest_subtitle: "Sofas, lamps and a hammer"
 	quest.7AD9B79EA9C173A9.title: "&eAnother Furniture"
 	quest.7B0D85DA0CAD53C8.quest_desc: [
-		"&7Opens after &eAndesite, the Foundation&7 (Andesite Age)"
+		"&eWelcome to Optical&r. Complete it by obtaining &6Welcome to Optical&r."
 		""
+		"Opens after Andesite, the Foundation (Andesite Age)."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.7B0D85DA0CAD53C8.quest_subtitle: "This addon is all about transferring &aRotational Force&r with the force of &dLight"
 	quest.7B0D85DA0CAD53C8.title: "&5Welcome to Optical"
@@ -4525,11 +4710,15 @@
 	quest.89B07B50FD3F39D5.title: "&eControl Desk"
 	quest.8A2AA6D21CE33746.quest_desc: [
 		"Okaara is a little heavier than Earth. Violet light. Optional chart jump."
+		""
+		"You need &6Okaara&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.8A2AA6D21CE33746.quest_subtitle: "Love's world"
 	quest.8A2AA6D21CE33746.title: "&dOkaara"
 	quest.8AD6F3746C853B7E.quest_desc: [
 		"Kill a Lion. Naturalist's predators are the dangerous side of this wildlife pass."
+		""
+		"You need &6Lion&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.8AD6F3746C853B7E.quest_subtitle: "A hunt worth the scars"
 	quest.8AD6F3746C853B7E.title: "&cLion"
@@ -4661,6 +4850,8 @@
 	quest.ADD8605C314455A8.title: "&eKorugar"
 	quest.AFE9BC94ADB895CF.quest_desc: [
 		"Find an upgraded Monster Room from YUNG's Better Dungeons."
+		""
+		"You need &6Monster Room&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.AFE9BC94ADB895CF.quest_subtitle: "YUNG's Better Dungeons"
 	quest.AFE9BC94ADB895CF.title: "&eMonster Room"
@@ -4673,6 +4864,8 @@
 	quest.B238629468C0C708.title: "&bThe Star Chart"
 	quest.B2BA4FF8FF1745A3.quest_desc: [
 		"Look at a Brown Bear. Give it room; this quest only asks you to see one."
+		""
+		"You need &6Brown Bear&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.B2BA4FF8FF1745A3.quest_subtitle: "Give it space"
 	quest.B2BA4FF8FF1745A3.title: "&eBrown Bear"
@@ -4697,6 +4890,8 @@
 	quest.B7B9C5BB0AC8DBD3.title: "&ePipe Base"
 	quest.B8EAEA40968FD15A.quest_desc: [
 		"Find a Better Desert Temple. Vanilla pyramids are replaced."
+		""
+		"You need &6Desert Temple&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.B8EAEA40968FD15A.quest_subtitle: "YUNG's Better Desert Temples"
 	quest.B8EAEA40968FD15A.title: "&eDesert Temple"
@@ -4734,6 +4929,8 @@
 	quest.BE27AC4BFFA136BD.title: "&6Tracker Bar"
 	quest.C1973FEE5FA9FC3D.quest_desc: [
 		"Look at a Penguin. Ecologics also adds Squirrels and Coconut Crabs on this pass."
+		""
+		"You need &6Penguin&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.C1973FEE5FA9FC3D.quest_subtitle: "Ecologics on the ice"
 	quest.C1973FEE5FA9FC3D.title: "&ePenguin"
@@ -4781,6 +4978,8 @@
 	quest.C71C583226F93AD1.title: "&eWindchest"
 	quest.C7D69ABDC52B604C.quest_desc: [
 		"Craft a Capture Net from three bamboo and three string. It is a tool with 64 uses."
+		""
+		"You need &6Capture Net&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.C7D69ABDC52B604C.quest_subtitle: "Bamboo, string, and a swing"
 	quest.C7D69ABDC52B604C.title: "&eCapture Net"
@@ -4881,7 +5080,11 @@
 	quest.DDC7AE5135E98F4A.quest_subtitle: "Rage, acid air"
 	quest.DDC7AE5135E98F4A.title: "&cYsmault"
 	quest.DECC1D44AD96A123.quest_desc: [
-		"Open your first Lootr chest."
+		"&eLoot Chest&r. Complete it by obtaining &6Loot Chest&r."
+		""
+		"Look the item up in &dEMI&r (try @ and the mod id). For Create machines, hold &eW&r to ponder the setup."
+		""
+		"This chapter is optional — leave and come back whenever you want."
 	]
 	quest.DECC1D44AD96A123.quest_subtitle: "Your own loot, every time"
 	quest.DECC1D44AD96A123.title: "&eLoot Chest"
@@ -4950,6 +5153,8 @@
 	quest.ED1AC99019DB598F.title: "&eCardboard"
 	quest.EE1C1EC8CF2DE3F4.quest_desc: [
 		"Zamaron sits between Oa and Korugar in gravity. Indigo light. Optional chart jump."
+		""
+		"You need &6Zamaron&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.EE1C1EC8CF2DE3F4.quest_subtitle: "Compassion's world"
 	quest.EE1C1EC8CF2DE3F4.title: "&5Zamaron"
@@ -4987,6 +5192,8 @@
 	quest.F450B24BA30E5A02.title: "&eA Ring of Light"
 	quest.F66DBD9272935ED1.quest_desc: [
 		"Find a Ribbit village. Bring home a Swamp Lantern or a Toadstool if you like the look."
+		""
+		"You need &6Ribbit Village&r. Recipes and uses show up in &dEMI&r; Create machines ponder with &eW&r."
 	]
 	quest.F66DBD9272935ED1.quest_subtitle: "Toadstools and swamp lanterns"
 	quest.F66DBD9272935ED1.title: "&6Ribbit Village"
