@@ -196,11 +196,6 @@ hash = "29224f52b512ee02dd5a6eaaa07278cc31d8f28462d5c0a7f407a7a2c4b0cff2"
 metafile = true
 
 [[files]]
-file = "mods/carryon-aeronautics-compat.pw.toml"
-hash = "9dc68995d95eec984994a290d4aec247bb9a44a9531f90d9a84af8cb8cc47a73"
-metafile = true
-
-[[files]]
 file = "mods/cerulean-advancements.pw.toml"
 hash = "a00dc579e838dd0f324b9aa06fa7a819cf2c407cd95fe90c47a136f82ac3732e"
 metafile = true
