@@ -1117,8 +1117,11 @@
 	quest.24351C29FD9BAD0B.title: "&aThrow a &eNautilus Shell&a into the &6Crushing Wheel"
 	quest.24693FD7ECC78DDF.quest_desc: [
 		"Craft one &eAndesite&r with one iron nugget, or mix the same pair in a &eMechanical Mixer&r once you have one."
+		""
 		"This is the ingot for casings, shafts, and almost every machine in this chapter."
 	]
+	quest.24693FD7ECC78DDF.quest_subtitle: "Iron grit in gray stone — the workshop's bread."
+	quest.24693FD7ECC78DDF.title: "&7The First Alloy"
 	quest.24D3F7C523F5AB0B.quest_desc: [
 		"Craft or mix Prismarine with copper nuggets for &ePrismarine Alloy&r, then stack two Alloy into a Rod."
 		"Both go into the &eConduit Cage&r — and the Rods also make Tridents later."
@@ -1276,9 +1279,12 @@
 	]
 	quest.29882BA136A365CC.title: "&eGolden Sheet"
 	quest.29BC2181C9AC3A60.quest_desc: [
-		"Needs to rotate at at least &630 RPM&r to function"
+		"A &6Mechanical Mixer&r over a &6Basin&r is how this age opens — shapeless crafts, potions, and soon brass itself."
+		""
+		"It needs at least &630 RPM&r. Ponder the mixer if the setup feels wrong; skip ahead only when something actually needs brass."
 	]
-	quest.29BC2181C9AC3A60.quest_subtitle: "A &6Mechanical Mixer&r can autocraft shapeless recipes as well as mix things like potions"
+	quest.29BC2181C9AC3A60.title: "&eThe Brass Threshold"
+	quest.29BC2181C9AC3A60.quest_subtitle: "Heat, mix, and the machines start thinking."
 	quest.29E0DB74CF948639.quest_desc: [
 		"&7Opens after &ecreateaddition:modular_accumulator&7 (Brass Age)"
 		""
@@ -1502,11 +1508,11 @@
 	quest.2FA092D064A16A6B.quest_subtitle: "Steep roofs and a hammer"
 	quest.2FA092D064A16A6B.title: "&eMacaw's Roofs"
 	quest.2FC2E358FBFDDDF7.quest_desc: [
-		"&7Opens after &ecreate:precision_mechanism&7 (Brass Age)"
+		"Opens after a &ePrecision Mechanism&r (Brass Age). Northstar flies on rockets; &aCreate: Lanterns&r is the other ascent if rings call louder."
 		""
-		"Northstar is learned in game: every machine has a &bPonder&r scene and a detailed tooltip. Start with the &eRocket Station&r's Ponder to see the whole build."
+		"Every machine has a &bPonder&r and a deep tooltip. Start with the &eRocket Station&r ponder for the whole pad — then build only as far as your curiosity goes."
 	]
-	quest.2FC2E358FBFDDDF7.quest_subtitle: "Northstar takes your factory to the Moon, Mars, Venus and Mercury. It starts with a telescope."
+	quest.2FC2E358FBFDDDF7.quest_subtitle: "Steel to the planets — the factory's road into the dark."
 	quest.2FC2E358FBFDDDF7.title: "&9Look Up"
 	quest.2FCF57E09D4BB840.quest_desc: [
 		"Put a &eCart Assembler&r over a rail, glue your machine to it, and send a minecart through. The whole structure rides the track like a cart."
@@ -2104,14 +2110,16 @@
 		"Park a &eTrain Buffer&r at the end of a siding so a runaway train hits a bumper instead of the station wall. Craft them from sturdy sheet blocks."
 	]
 	quest.426E071ABE9D9CE2.quest_desc: [
-		"In order to make a train, you're going to need at least:"
+		"A train needs at least:"
 		""
 		"- 1 &6Train Casing&r"
 		"- 1 &6Train Station&r"
-		"- Enough &6Train Tracks&r to make your railroad"
+		"- Enough &6Train Tracks&r for the line"
 		""
-		"In order to see how you assemble a train, &b&lponder&r the &6Train Station&r"
+		"Ponder the &6Train Station&r to see assembly. Nothing here forces a schedule — build a loop for fun or a line to a depot when logistics start to matter."
 	]
+	quest.426E071ABE9D9CE2.quest_subtitle: "Lay track when your factory wants a horizon."
+	quest.426E071ABE9D9CE2.title: "&8Rails Outward"
 	quest.42A614D1E294D180.quest_desc: [
 		"Pump hydrocarbon, biofuel or liquid hydrogen into the rocket's fluid tanks. Biofuel is the easy start: compact three dried kelp and bone meal in a heated basin."
 		"Hydrocarbon needs sodium catalyst; liquid hydrogen waits until you can electrolyse water on Mars."
@@ -2227,12 +2235,14 @@
 	quest.4611A7BFBDA641A8.quest_subtitle: "Upgrade the diamond jetpack with netherite ingots, two Ion Thrusters and two Northstar Rocket Thrusters. The top tier: fastest, with the biggest battery. Hover mode makes building in mid-air easy."
 	quest.4611A7BFBDA641A8.title: "&8Netherite Jetpack"
 	quest.4643735856150DA8.quest_desc: [
-		"&7Andesite&r is a very abundant stone that you can find in large pockets underground. They blend really well with the stone texture, so keep your eyes open for them"
+		"&7Andesite Alloy&r feeds &7Andesite Casings&r and the simple kinetic blocks that open Create."
 		""
-		"&6Casings&r can be crafted by right clicking with a valid alloy or ingot on any stripped variant of log or wood"
+		"&7Andesite&r is abundant underground in pale pockets that blend with stone — keep your eyes open."
+		""
+		"Right-click any stripped log or wood with the alloy to make a casing. From here the book fans out; take any branch."
 	]
-	quest.4643735856150DA8.quest_subtitle: "&7Andesite Alloy&r is a material used in &7Andesite Casings&r and simple kinetic blocks, which serves as an entry point to the mechanical components of &6&lCreate&r"
-	quest.4643735856150DA8.title: "&7Andesite&r, the Foundation"
+	quest.4643735856150DA8.quest_subtitle: "Strip a log, press alloy to wood — the age begins."
+	quest.4643735856150DA8.title: "&7Andesite, the Foundation"
 	quest.466BBE083256E5E0.quest_desc: [
 		"Purpur, shulker shells and end stone bricks around an Eye of Ender. It points to a Ruined Citadel on the outer End islands."
 	]
@@ -2512,10 +2522,11 @@
 	quest.4DE682C62B5C77E7.quest_subtitle: "From &eCreate Factory&r: waffles, jams and chocolate spreads."
 	quest.4DE682C62B5C77E7.title: "&eWaffles"
 	quest.4DECA6D956FC4FFB.quest_desc: [
-		"You already have a &ePackager&r. This chapter turns it into a logistics network: cardboard packages with addresses, Frogports on chain conveyors, a Stock Link that lists inventories, then a shop that other players can buy from."
-		"Three branches: &erouting&r on chains and trains, the &estock network&r and factory requests, and &emobile delivery&r (bees, planes, a backpack). They meet again at a working player shop."
+		"You already have a &ePackager&r. This chapter turns it into a logistics web: addressed cardboard, Frogports on chain conveyors, a Stock Link that lists inventories, then a shop other players can buy from."
+		""
+		"Three optional branches — &erouting&r on chains and trains, the &estock network&r and factory requests, and &emobile delivery&r (bees, planes, a backpack). They meet again at a working player shop if you want them to."
 	]
-	quest.4DECA6D956FC4FFB.quest_subtitle: "Pack, address, request, then sell"
+	quest.4DECA6D956FC4FFB.quest_subtitle: "Address the crate. Trust the network. Sell what you spare."
 	quest.4DECA6D956FC4FFB.title: "&bFrom Packages to Shops"
 	quest.4E5DCFB4F721718D.quest_desc: [
 		"A Water Wheel with a Starbuncle Charm inside. It turns by itself, so you can power Create machines without a water stream."
@@ -2676,14 +2687,16 @@
 	]
 	quest.5272D9AC88702DE2.quest_subtitle: "&6Modular Diesel Engines&r function like normal diesel generators. They can be stacked and will generate stress proportionally to how many engines you stack"
 	quest.52E043CA3F3DADF1.quest_desc: [
-		"&6&lCreate&r offers great guides for most of its items by hovering over them in &d&lEMI&r or in your inventory and holding down &eW&r to &bponder&r the item, but sometimes it's best just to test each thing out"
+		"&b&lThe Illustrious MFPack&r is built around &6&lCreate&r — a sandbox of kinetics. This chapter sketches what exists; it will not walk you to the end."
+		""
+		"Hover an item in &dEMI&r or your inventory and hold &eW&r to &bponder&r it. When the book is quiet, build something ugly and see what turns."
 		""
 		"{image:minecraft:textures/gui/title/minecraft.png width:397 height:99 align:center fit:true}"
 		""
-		"Because of this, this chapter is mostly focused on letting you know what exists and giving you a rough outline of the progression of the mod, but at the same time, it will not handhold you all the way to the end since &6&lCreate&r is a sandbox mechanic mod"
+		"Side chapters unlock when your Create age can support them. Skip freely; come back when a machine finally makes sense."
 	]
-	quest.52E043CA3F3DADF1.quest_subtitle: "&b&lThe Illustrious MFPack&r is based around &6&lCreate&r, a steampunk mod that lets you build contraptions and automate most things you can think of"
-	quest.52E043CA3F3DADF1.title: "Welcome to &b&lThe Illustrious MFPack&r!"
+	quest.52E043CA3F3DADF1.quest_subtitle: "Shafts, steam, and whatever you invent next."
+	quest.52E043CA3F3DADF1.title: "&6The Workshop Opens"
 	quest.52F7B7F6FE3C861C.quest_desc: [
 		"Smelt or smoke gingerdough. The result is food, and you can still press a man from the raw dough instead."
 	]
@@ -2905,8 +2918,11 @@
 	quest.5A384999FAD89C9B.title: "&6Ruined Citadel"
 	quest.5A485ED6B4B014D0.quest_desc: [
 		"&eAndesite&r hides in stone as pale gray blobs, easy to walk past. You can also craft it from diorite and cobblestone if the caves are dry."
+		""
 		"Stock a few stacks; &eAndesite Alloy&r eats it quickly."
 	]
+	quest.5A485ED6B4B014D0.quest_subtitle: "Everything that turns starts here."
+	quest.5A485ED6B4B014D0.title: "&7Pale Stone"
 	quest.5A576D629B37BEAF.quest_desc: [
 		"Fill a Cake Base o' Enchanting at a Spout with liquid experience. Feed the cake to an Enchanter or Forger to make a Super Blaze — and brace that blaze so it doesn't pop."
 	]
@@ -2930,11 +2946,13 @@
 	quest.5A66873FA171E838.quest_subtitle: "YUNG's Better Nether Fortresses"
 	quest.5A66873FA171E838.title: "&6Nether Fortress"
 	quest.5A6A73A6D4EACF86.quest_desc: [
-		"Create: Lanterns is this pack's other road into space. A power ring gives flight, hard light and a suit, and the &eCreate: Lanterns x Northstar&r bridge lets a lit ring leave a world the way a rocket does."
+		"This is the pack's other road into the sky. Rockets climb with steel and fuel; a &epower ring&r climbs with light — flight, hard light, a suit, and the &eLanterns x Northstar&r bridge that lets a lit ring leave a world the way a rocket does."
 		""
-		"Rings are not a first craft. At night a Lantern ship can crash nearby, with its pilot's ring waiting in the wreck. Live in a way a light notices you, and one may come looking."
+		"Rings are not a first craft. At night a Lantern ship may crash nearby, its pilot's ring waiting in the wreck. Live in a way a light notices you, and one may come looking."
+		""
+		"Follow this chapter, or don't. The Corps does not conscript."
 	]
-	quest.5A6A73A6D4EACF86.quest_subtitle: "A ring chooses its bearer"
+	quest.5A6A73A6D4EACF86.quest_subtitle: "A ring chooses its bearer."
 	quest.5A6A73A6D4EACF86.title: "&aThe Corps"
 	quest.5A82E1993C9467B3.quest_desc: [
 		"Craft a &eLever&r, &eTrain Casing&r and &ePrecision Mechanism&r."
@@ -2983,11 +3001,11 @@
 		"Right-click a &eBrass Speaker&r to type an announcement. It plays over the area — station PA for arrivals, warnings, or whatever you want passengers to hear."
 	]
 	quest.5C0A8337D2E92A0B.quest_desc: [
-		"The rest of the book teaches one mod at a time. This chapter is the finish line: goals that only make sense once two or more lines are done."
+		"Most of the book teaches one craft at a time. This chapter is optional finish-line work: goals that only make sense once two or more lines have already been lived."
 		""
-		"Each synergy quest is a checkmark once you have lived it. The final Illustrious goal waits on every synergy."
+		"Each synergy is a checkmark when you have done it in the world — not a gate on the ages behind you. The last Illustrious goal waits on every synergy, for whoever wants a closing chord."
 	]
-	quest.5C0A8337D2E92A0B.quest_subtitle: "Where the chapters meet"
+	quest.5C0A8337D2E92A0B.quest_subtitle: "Where the chapters finally meet."
 	quest.5C0A8337D2E92A0B.title: "&6Beyond One Mod"
 	quest.5C179E93230EB007.quest_desc: [
 		"Rings of Potential or Lesser Discount, amulets of mana boost or regen. Wear them so you can cast longer before the book runs dry."
@@ -3269,10 +3287,12 @@
 	]
 	quest.65D9E2BA22CC2DBC.title: "&6Copper Coil"
 	quest.65E11DFFD2125089.quest_desc: [
-		"The &6Empty Blaze Burner&r can be filled by &eRight-clicking&r it on either a &6Blaze Spawner&r or a &6Blaze&r"
+		"Heat a mixer that is combining &6Copper&r and &7Zinc&r to make &eBrass&r."
+		""
+		"Fill an &6Empty Blaze Burner&r by right-clicking a &6Blaze Spawner&r or a &6Blaze&r, then park it under the basin."
 	]
-	quest.65E11DFFD2125089.quest_subtitle: "In order to get &eBrass&r, you're going to need to heat a &6Mechanical Mixer&r that's mixing &6Copper&r and &7Zinc&r ingots"
-	quest.65E11DFFD2125089.title: "Blaze Burner"
+	quest.65E11DFFD2125089.quest_subtitle: "Copper and zinc only become brass when the fire is honest."
+	quest.65E11DFFD2125089.title: "&6Kindle the Mixer"
 	quest.66760C6B0C1DDDD0.quest_desc: [
 		"A &eTrack Buffer&r goes on the last piece of rail so a runaway train hits a bumper, not air."
 		"Glue a &eTrain Buffer&r onto the front of the locomotive if you want the crash to look the part."
@@ -3408,13 +3428,13 @@
 	]
 	quest.6A4CB4700F0082C6.quest_subtitle: "Read my description!"
 	quest.6A52090D6BC064D7.quest_desc: [
-		"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong."
+		"This book is a map, not a leash. Follow it, wander off it, or ignore whole chapters — the world still runs."
 		""
-		"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear."
+		"Click the checkmark under &9Tasks&r, claim the reward, and the next tutorial steps will appear."
 		""
-		"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished!"
+		"If nothing new shows up, rejoin the world. Save the bread until this short tutorial is done."
 	]
-	quest.6A52090D6BC064D7.quest_subtitle: "To start the tutorial, click on this quest and read the description."
+	quest.6A52090D6BC064D7.quest_subtitle: "A factory, a forge of light, and the open sky — pick a road."
 	quest.6A52090D6BC064D7.title: "Welcome to &b&lThe Illustrious MFPack&r!"
 	quest.6A7CDF204DB01A20.quest_desc: [
 		"Mount a powered &eMechanical Roller&r on the train and put the paving block you want in its filter."
@@ -3448,9 +3468,12 @@
 	]
 	quest.6AFDA474C97CA327.title: "&bAssemble a train"
 	quest.6B0E9E7992D52704.quest_desc: [
-		"Smelt raw copper, or crush it first if you want the extra bits. Ingots unlock casings, fluid pipes, diving gear, and the rest of this chapter."
+		"Smelt raw copper, or crush it first if you want the extra bits."
+		""
+		"Ingots unlock casings, fluid pipes, diving gear, and the rest of this chapter — still optional, still yours to rearrange."
 	]
-	quest.6B0E9E7992D52704.title: "Obtain Copper Ingot"
+	quest.6B0E9E7992D52704.quest_subtitle: "Fluids, fans, and the first taste of pressure."
+	quest.6B0E9E7992D52704.title: "&cCopper Vein"
 	quest.6B22DEF8E5E314EB.quest_desc: [
 		"Create Kitchen's heated Mixer, Create: Food cheese, Miner's Delight cave soup, and a Create: Garnished dish on one line."
 		""
