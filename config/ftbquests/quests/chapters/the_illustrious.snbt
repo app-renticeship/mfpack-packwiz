@@ -1,0 +1,441 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_illustrious"
+	group: "78A51F76210E9975"
+	icon: {
+		id: "create:goggles"
+	}
+	id: "13DB05237B99FDEB"
+	images: [ ]
+	order_index: 5
+	quest_links: [
+		{
+			id: "EC1BADECF2160F21"
+			linked_quest: "4643735856150DA8"
+			shape: "gear"
+			size: 0.8d
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"4643735856150DA8"
+			]
+			icon: {
+				id: "create:goggles"
+			}
+			id: "5C0A8337D2E92A0B"
+			rewards: [
+				{
+					id: "8870BFA68418FAEF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			tasks: [
+				{
+					id: "260FAAFD37508516"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"7CF942B0092FB3D9"
+				"4B5020F5AA388FAA"
+			]
+			icon: {
+				id: "createlanterns:power_ring"
+			}
+			id: "62FFF70F855229CC"
+			rewards: [
+				{
+					id: "EFB1F372CA211305"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23E852BC3E53B2F5"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2B7C0EC5273E622B"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"264ECBCC1FAC046E"
+				"ADD8605C314455A8"
+				"20520A21C344BD5B"
+				"8A2AA6D21CE33746"
+				"EE1C1EC8CF2DE3F4"
+				"DDC7AE5135E98F4A"
+				"2C9437A8C1AF3E1C"
+			]
+			icon: {
+				id: "createlanterns:oa_grass_block"
+			}
+			id: "1AD963990297EBD1"
+			rewards: [
+				{
+					id: "F164DFFF28BDAB32"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "97A3A33144BA59B5"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "A5D4911B449E8F17"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"5CE618D90A0AF061"
+				"42A614D1E294D180"
+				"764ED9E2580B8645"
+			]
+			icon: {
+				id: "northstar:rocket_station"
+			}
+			id: "36B46804A7E0A38A"
+			rewards: [
+				{
+					id: "68002A025038C637"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "9E1C996B92A1FCB3"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "BFB3223A869F958A"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"5C57943A4AA32FB1"
+				"448189D652A46D20"
+			]
+			icon: {
+				id: "createbigcannons:cannon_carriage"
+			}
+			id: "3EDE4A64705009C1"
+			rewards: [
+				{
+					id: "5012F7F01E1D30E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "390639C0AE7FD8C7"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "662120E42309C734"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"5D0F32EAE81F9EF8"
+				"01AAA5D33720CE80"
+			]
+			icon: {
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			id: "5ED5C71E8120C040"
+			rewards: [
+				{
+					id: "EE79C3FD210143D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "C9FFBC79806AFA7E"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2694EAC98645301D"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"6AFDA474C97CA327"
+				"26B4A91A3C2366EA"
+				"7C11C7027F18398C"
+			]
+			icon: {
+				id: "create:track_station"
+			}
+			id: "EC6C5A86F76335F0"
+			rewards: [
+				{
+					id: "D573E64420A4C99D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "C4C598DFBACB1EB5"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "25557BFC2B438D48"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"F1F89ECDA3D91B09"
+				"B96B00AB1D920AAE"
+				"5A5B8770C80F7420"
+			]
+			icon: {
+				id: "createfood:cheese_block"
+			}
+			id: "6B22DEF8E5E314EB"
+			rewards: [
+				{
+					id: "FCA36202BA54A583"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26E43198E53087BB"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "D32D861B49BBF1E6"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"224866F50B6E1B18"
+				"1F7FB165C4C74D16"
+				"2E33A75857A2942A"
+			]
+			icon: {
+				id: "tacz:ammo_box"
+			}
+			id: "6DDA5CB8C103CCF4"
+			rewards: [
+				{
+					id: "DD217E7C923A3E7E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74CD4ED52CB1BC65"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "669532C1CAC2287F"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"603AAE60ABAEB20E"
+				"53BCB756649D4D2B"
+				"2B41CDD40C717359"
+			]
+			icon: {
+				id: "minecraft:echo_shard"
+			}
+			id: "C9463CF0B2340410"
+			rewards: [
+				{
+					id: "CE3FB7344039E76E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "C3FF4EFD37B2C7AD"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "953B758EE96D5AE3"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5C0A8337D2E92A0B"
+				"1723E7E4747593A3"
+				"AC145C759C3F2F20"
+			]
+			icon: {
+				id: "create:stock_ticker"
+			}
+			id: "7358B5B4BECE78E3"
+			rewards: [
+				{
+					id: "498ABEEB043AF173"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73A1B9127366ECEF"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "A43508C85B0D130F"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"62FFF70F855229CC"
+				"1AD963990297EBD1"
+				"36B46804A7E0A38A"
+				"3EDE4A64705009C1"
+				"5ED5C71E8120C040"
+				"EC6C5A86F76335F0"
+				"6B22DEF8E5E314EB"
+				"6DDA5CB8C103CCF4"
+				"C9463CF0B2340410"
+				"7358B5B4BECE78E3"
+			]
+			icon: {
+				id: "create:creative_blaze_cake"
+			}
+			id: "43D9ABDFFFB703FE"
+			rewards: [
+				{
+					id: "7721D05B269FB064"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E12F3502DBE68CC"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "B9FBB1C207CBEFFB"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+}

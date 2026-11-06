@@ -1,0 +1,545 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cafe_and_winery"
+	group: "0ED9F00893D42C69"
+	icon: {
+		id: "createcafe:iced_coffee"
+	}
+	id: "5D0D7EA32A93C125"
+	images: [ ]
+	order_index: 2
+	quest_links: [
+		{
+			id: "6E098D020CEBE43E"
+			linked_quest: "5A352C042058324D"
+			shape: "gear"
+			size: 0.8d
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"5A352C042058324D"
+			]
+			id: "1DFD87B60DF28EA1"
+			rewards: [
+				{
+					id: "62613A0531F07FC9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C3654453436781E"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "176DB48BFF5A1A9E"
+					item: {
+						count: 1
+						id: "createcafe:coffee_beans"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1DFD87B60DF28EA1"
+			]
+			id: "503C8C28BE2E73C1"
+			rewards: [
+				{
+					id: "18189E64E9BFF5B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53EAAEC2F08D9452"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "11E0F938B7210623"
+					item: {
+						count: 1
+						id: "createcafe:coffee_grounds"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"503C8C28BE2E73C1"
+			]
+			id: "7A0E5258CC7059F9"
+			rewards: [
+				{
+					id: "7B22517FCAAEDB02"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "345F6F8359EA6EB4"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "73893958024F9565"
+					item: {
+						count: 1
+						id: "createcafe:iced_coffee"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1DFD87B60DF28EA1"
+			]
+			id: "26B5A6A7FB0A963E"
+			rewards: [
+				{
+					id: "39F77927E8881ED0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52C991681C47EBB4"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2AB6E150F0679816"
+					item: {
+						count: 1
+						id: "createcafe:boba"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"26B5A6A7FB0A963E"
+			]
+			id: "1FE4FB9F61915D53"
+			rewards: [
+				{
+					id: "1AA105AC627C1C68"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "741DD4F4F8C35D7C"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1E7E300F5DCE1975"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(createcafe:apple_milk_tea)item(createcafe:sweetberry_milk_tea)item(createcafe:pumpkin_milk_tea)item(createcafe:watermelon_milk_tea))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1DFD87B60DF28EA1"
+			]
+			id: "1855A40693AE0CFA"
+			rewards: [
+				{
+					id: "40939D56D4CEBB6A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "202B739139670775"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1EF243F7280F73A1"
+					item: {
+						count: 1
+						id: "create_winery:grape_juice"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1855A40693AE0CFA"
+			]
+			id: "1FD40934312DF437"
+			rewards: [
+				{
+					id: "14015CE6D04C6DCD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6053107404C79E9F"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "168502632FAC05A8"
+					item: {
+						count: 1
+						id: "create_winery:wine_cellar"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1FD40934312DF437"
+			]
+			id: "26FA15C0D2681972"
+			rewards: [
+				{
+					id: "5EC452C46DA6E799"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16D32602B120AA7D"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "701E456BB700D529"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(create_winery:merlot)item(create_winery:pinot_noir)item(create_winery:chardonnay)item(create_winery:cabernet_sauvignon)item(create_winery:riesling)item(create_winery:rose)item(create_winery:zinfandel)item(create_winery:bordeaux))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1FD40934312DF437"
+			]
+			id: "4D63B46BF4CA209E"
+			optional: true
+			rewards: [
+				{
+					id: "2CE2D9C287F5C7D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "711128BAB72FE8D8"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2C83EA0FE8DC7831"
+					item: {
+						count: 1
+						id: "create_winery:cider"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1DFD87B60DF28EA1"
+			]
+			id: "5A5B8770C80F7420"
+			rewards: [
+				{
+					id: "1239BD7B0342B2E1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CA038D89C454258"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2F3A2712D55D31C1"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(creategarnished:almond)item(creategarnished:chestnut)item(creategarnished:hazelnut)item(creategarnished:peanut))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5A5B8770C80F7420"
+			]
+			id: "6174776659022D6B"
+			optional: true
+			rewards: [
+				{
+					id: "72E7142972C68C77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6126239DE37AF23B"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "69612F5260C8A682"
+					item: {
+						count: 1
+						id: "creategarnished:garnishment_book"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1DFD87B60DF28EA1"
+			]
+			id: "60936D55394B8517"
+			rewards: [
+				{
+					id: "38C9FBA7AEF16462"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2665DEEF1C8B5ADB"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6A38442AC112C5A9"
+					item: {
+						count: 1
+						id: "createmechanicalconfection:mechanical_oven"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"60936D55394B8517"
+			]
+			id: "6980D94CDC9657E1"
+			rewards: [
+				{
+					id: "4F20DCCC893DBA32"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1796E890C8F9E69B"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "57CB76C21F97FCED"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(createmechanicalconfection:cog_cake_slice)item(createmechanicalconfection:tube_cake_slice)item(createmechanicalconfection:tank_cake_slice))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1DFD87B60DF28EA1"
+			]
+			id: "4DE682C62B5C77E7"
+			rewards: [
+				{
+					id: "61E4CA9BE401A357"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A35F7D7B30969AE"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5E0DE2EF357D6745"
+					item: {
+						count: 1
+						id: "create_factory:waffle"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4DE682C62B5C77E7"
+			]
+			id: "35D330C94DEF26DF"
+			optional: true
+			rewards: [
+				{
+					id: "3267FE1474259E17"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2749A342F1A634C0"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "557C1736AB4028C3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(create_factory:spread_waffle)item(create_factory:honey_waffle)item(create_factory:sweet_berries_jam_waffle)item(create_factory:chocolate_waffle))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7A0E5258CC7059F9"
+				"1FE4FB9F61915D53"
+				"26FA15C0D2681972"
+				"6980D94CDC9657E1"
+			]
+			id: "2B2265A965603686"
+			rewards: [
+				{
+					id: "1FF1992DD768076E"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72F7F2DB24395AE2"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "4ED029235675E471"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

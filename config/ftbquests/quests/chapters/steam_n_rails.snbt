@@ -1,0 +1,848 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_n_rails"
+	group: "62A749137B71D06F"
+	icon: {
+		id: "railways:semaphore"
+	}
+	id: "78F7062F7F1DBF07"
+	images: [ ]
+	order_index: 1
+	quest_links: [
+		{
+			id: "789DF02444435B29"
+			linked_quest: "426E071ABE9D9CE2"
+			shape: "gear"
+			size: 0.8d
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"426E071ABE9D9CE2"
+			]
+			id: "2689B97A89F4DEAC"
+			rewards: [
+				{
+					id: "10024253C73ED88D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4467AD10856153D1"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "4B497F6D287FEE01"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2689B97A89F4DEAC"
+			]
+			id: "2F9A0EE894DCA760"
+			rewards: [
+				{
+					id: "3B0273C73081D695"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4798686F0D57F932"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "350574C981883689"
+					item: {
+						count: 1
+						id: "railways:track_spruce"
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2F9A0EE894DCA760"
+			]
+			id: "13CB1A4A82D3D3C4"
+			rewards: [
+				{
+					id: "5B8EBB6C55BF9515"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17368DB2D6D61094"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "64B5B29849797429"
+					item: {
+						count: 1
+						id: "railways:track_oak_narrow"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2F9A0EE894DCA760"
+			]
+			id: "7A56250D2EBADD11"
+			rewards: [
+				{
+					id: "5EEA2376EC2C9506"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "533B66E1F7E811DC"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3E6A88E1F20D13C7"
+					item: {
+						count: 1
+						id: "railways:track_oak_wide"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"13CB1A4A82D3D3C4"
+				"7A56250D2EBADD11"
+			]
+			id: "38F8BF47857DCE77"
+			rewards: [
+				{
+					id: "4B36DD1D2001B63C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "149BD692E9B50C4E"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "776FDDDB52B6EF39"
+					item: {
+						count: 1
+						id: "railways:track_monorail"
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"38F8BF47857DCE77"
+			]
+			id: "3B70E9F32969E565"
+			optional: true
+			rewards: [
+				{
+					id: "5FC8619AE0D9A77B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "280184F195B1FFB3"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "21F52BB635477A36"
+					item: {
+						count: 1
+						id: "railways:track_phantom"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "257369E9E4F07F61"
+					item: {
+						count: 1
+						id: "railways:track_tieless"
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2F9A0EE894DCA760"
+			]
+			id: "467CAD9681A88593"
+			rewards: [
+				{
+					id: "3EB5E72E0CA9F852"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361A55354445D839"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "777880364D411D7D"
+					item: {
+						count: 1
+						id: "railways:buffer"
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2689B97A89F4DEAC"
+			]
+			id: "632D538462006E6D"
+			rewards: [
+				{
+					id: "295093B6FFC55699"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D0E1B510888107B"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "71C61EC08D05F157"
+					item: {
+						count: 1
+						id: "railways:semaphore"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"632D538462006E6D"
+			]
+			id: "2976EA899A6A6DD9"
+			rewards: [
+				{
+					id: "7115A4D4212DABAF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E4F3C0A5C16F625"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "73195C0D04E28200"
+					item: {
+						count: 1
+						id: "railways:track_switch_andesite"
+					}
+					type: "item"
+				}
+				{
+					id: "103D64D7770CE423"
+					item: {
+						count: 1
+						id: "railways:track_switch_brass"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"632D538462006E6D"
+			]
+			id: "54C5C23D4C76961A"
+			rewards: [
+				{
+					id: "3D71547626ADB9B2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "245FF931793DB830"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "20BDBE29F564382C"
+					item: {
+						count: 1
+						id: "railways:track_coupler"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2689B97A89F4DEAC"
+			]
+			id: "36C68A63A3A6C878"
+			rewards: [
+				{
+					id: "19F8970F1A3B415F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68A95D53E73B60CB"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "455B2762D6744CD0"
+					item: {
+						count: 1
+						id: "railways:fuel_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"36C68A63A3A6C878"
+			]
+			id: "4CB5B0AF815D6A3D"
+			rewards: [
+				{
+					id: "5B619EE3FE0C2B0B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E2E1CFCCC5C814A"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "638CC8C7C311CCDE"
+					item: {
+						count: 1
+						id: "railways:portable_fuel_interface"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2689B97A89F4DEAC"
+			]
+			id: "1D2E9035CBEF5334"
+			rewards: [
+				{
+					id: "31986F1B0F107390"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E904B8AE4C53421"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "53313D317B89A4E0"
+					item: {
+						count: 1
+						id: "railways:handcar"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2689B97A89F4DEAC"
+			]
+			id: "27365E92FE356663"
+			rewards: [
+				{
+					id: "49680C5D3C163723"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A8527012B69DEB8"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1D9621E0285F5358"
+					item: {
+						count: 1
+						id: "railways:white_conductor_cap"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"27365E92FE356663"
+			]
+			id: "23BD46B40E91DF41"
+			rewards: [
+				{
+					id: "1FB3D9A3C2AFBDEF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "590C97D0C02D2A66"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "27214DC98D33AE3E"
+					item: {
+						count: 1
+						id: "railways:conductor_whistle"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"27365E92FE356663"
+			]
+			id: "15BA3485720ECF3F"
+			optional: true
+			rewards: [
+				{
+					id: "1DE0E7C3B878966C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44CB809F339C4449"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "257E313AA702E2B6"
+					item: {
+						count: 1
+						id: "railways:remote_lens"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2689B97A89F4DEAC"
+			]
+			id: "1642807AAAD12029"
+			rewards: [
+				{
+					id: "490FB4946DD2E9ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "232341B35448D534"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "37F8224783B2B3CE"
+					item: {
+						count: 1
+						id: "railways:riveted_locometal"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1642807AAAD12029"
+			]
+			id: "49BD960380D0E983"
+			rewards: [
+				{
+					id: "1C842E0A406EDAFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D6FFD06A69A29D0"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7023396A3D6D61A9"
+					item: {
+						count: 1
+						id: "railways:locometal_boiler"
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"49BD960380D0E983"
+			]
+			id: "363D2EB468AC7D52"
+			rewards: [
+				{
+					id: "2BD758F55906F79E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1987D3B6D5582072"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3531CDA8B66E677A"
+					item: {
+						count: 1
+						id: "railways:smokestack_coalburner"
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1642807AAAD12029"
+			]
+			id: "134EAF88A6838F60"
+			rewards: [
+				{
+					id: "12CAD6722FE689B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62FC1D7F9AA26C1E"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "2EA84F0492EB1331"
+					item: {
+						count: 1
+						id: "bellsandwhistles:headlight"
+					}
+					type: "item"
+				}
+				{
+					id: "3D089E6F05860BDD"
+					item: {
+						count: 1
+						id: "bellsandwhistles:brass_pilot"
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"134EAF88A6838F60"
+			]
+			id: "1F074F66679DDC25"
+			optional: true
+			rewards: [
+				{
+					id: "66459F7A26FA77DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68BC9B54594E5CBA"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "43555C3296ED4EFD"
+					item: {
+						count: 1
+						id: "bellsandwhistles:station_platform"
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2689B97A89F4DEAC"
+			]
+			id: "26B4A91A3C2366EA"
+			rewards: [
+				{
+					id: "7F8D48CA4015C1CD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "498AC8A2343BC51D"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5BF893848F57A7B1"
+					item: {
+						count: 1
+						id: "createrailwaysnavigator:navigator"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"26B4A91A3C2366EA"
+			]
+			id: "58C92788CE923241"
+			rewards: [
+				{
+					id: "51467897040608D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6609B85FC605AFAF"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2D31D77236F151C1"
+					item: {
+						count: 1
+						id: "createrailwaysnavigator:advanced_display"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"26B4A91A3C2366EA"
+			]
+			id: "75CFD6668679C928"
+			optional: true
+			rewards: [
+				{
+					id: "79272B8F4213EC3A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E7513563DC49B41"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "47061D92BE5292F6"
+					item: {
+						count: 1
+						id: "createrailwaysnavigator:train_station_clock"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2976EA899A6A6DD9"
+				"54C5C23D4C76961A"
+				"58C92788CE923241"
+				"4CB5B0AF815D6A3D"
+			]
+			id: "1C9DFE7DD07C9F77"
+			rewards: [
+				{
+					id: "267AE35A8D94EC74"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "695E84022058A174"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "1C7AB847F5E00EE1"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+	]
+}

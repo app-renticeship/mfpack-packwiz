@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jetpacks"
+	group: "408D0BD6C358F867"
+	icon: {
+		components: {
+			"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla1"
+		}
+		id: "simplyjetpacks:jetpack"
+	}
+	id: "2DA9A39D8EC917BD"
+	images: [ ]
+	order_index: 4
+	quest_links: [
+		{
+			id: "927D5FA028C81A83"
+			linked_quest: "1DAF719E2730E4CF"
+			shape: "gear"
+			size: 0.8d
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"1DAF719E2730E4CF"
+			]
+			id: "5F699CBFE79E637E"
+			rewards: [
+				{
+					id: "4CE9D225E406272C"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36B1480AF00D4A99"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2B1B13032FF4149C"
+					item: {
+						count: 1
+						id: "simplyjetpacks:leather_strap"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F699CBFE79E637E"
+			]
+			icon: {
+				components: {
+					"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla1"
+				}
+				id: "simplyjetpacks:jetpack"
+			}
+			id: "63C987F952F77C0E"
+			rewards: [
+				{
+					id: "28A30C12A422EB45"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E78E805CB840501"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "48D13DF116933F8E"
+					item: {
+						components: {
+							"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla1"
+						}
+						count: 1
+						id: "simplyjetpacks:jetpack"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63C987F952F77C0E"
+			]
+			id: "6D8C2C446FB24B89"
+			rewards: [
+				{
+					id: "2CFB06F228CE5F8A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F3411989DB52843"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6C5C7527C8F62805"
+					item: {
+						count: 1
+						id: "createaddition:tesla_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"63C987F952F77C0E"
+			]
+			icon: {
+				components: {
+					"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla2"
+				}
+				id: "simplyjetpacks:jetpack"
+			}
+			id: "212D44720DF1B4D6"
+			rewards: [
+				{
+					id: "68979C8D52FB4529"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "608A9A3989136667"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "785A9C67E8E52754"
+					item: {
+						components: {
+							"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla2"
+						}
+						count: 1
+						id: "simplyjetpacks:jetpack"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"212D44720DF1B4D6"
+			]
+			icon: {
+				components: {
+					"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla3"
+				}
+				id: "simplyjetpacks:jetpack"
+			}
+			id: "3CC91ACF67DE03C7"
+			rewards: [
+				{
+					id: "5093AD1666B33450"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E2EE1C203189171"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7A1FF397ED191330"
+					item: {
+						components: {
+							"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla3"
+						}
+						count: 1
+						id: "simplyjetpacks:jetpack"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3CC91ACF67DE03C7"
+			]
+			icon: {
+				components: {
+					"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla4"
+				}
+				id: "simplyjetpacks:jetpack"
+			}
+			id: "4611A7BFBDA641A8"
+			rewards: [
+				{
+					id: "2749C833D5D900EB"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D0FBF429027A2CB"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "66F2EA11F547E01A"
+					item: {
+						components: {
+							"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla4"
+						}
+						count: 1
+						id: "simplyjetpacks:jetpack"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63C987F952F77C0E"
+			]
+			icon: {
+				components: {
+					"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla1_armored"
+				}
+				id: "simplyjetpacks:jetpack"
+			}
+			id: "240FE5358CFFD781"
+			optional: true
+			rewards: [
+				{
+					id: "513D6EB18D282ACD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27E17EE8BD8EEF32"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "501F3B2807801A16"
+					item: {
+						components: {
+							"simplyjetpacks:jetpack_id": "simplyjetpacks:vanilla1_armored"
+						}
+						count: 1
+						id: "simplyjetpacks:jetpack"
+					}
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5F699CBFE79E637E"
+			]
+			id: "11EC157FEDD4E98D"
+			optional: true
+			rewards: [
+				{
+					id: "7A8BE5F425CFFBA1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F344E44C9A4FE6E"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "10C6421D13DB51B5"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(simplyjetpacks:pilot_goggles_iron)item(simplyjetpacks:pilot_goggles_gold))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"212D44720DF1B4D6"
+			]
+			id: "1B532265A50A9BCA"
+			optional: true
+			rewards: [
+				{
+					id: "6BDCAA6F671292AB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "363051E918327C0A"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "66074E02FD0BF4E9"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(simplyjetpacks:particle_flame)item(simplyjetpacks:particle_smoke)item(simplyjetpacks:particle_soul)item(simplyjetpacks:particle_snow)item(simplyjetpacks:particle_rainbow))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+}

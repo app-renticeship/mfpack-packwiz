@@ -1,0 +1,433 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_expansions"
+	group: "61D35BE22B44EE57"
+	icon: {
+		id: "ars_elemental:fire_focus"
+	}
+	id: "2C64E65A374871A6"
+	images: [ ]
+	order_index: 1
+	quest_links: [
+		{
+			id: "D350F4322C6D7926"
+			linked_quest: "1E7326E5E8D2CDD9"
+			shape: "gear"
+			size: 0.8d
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"1E7326E5E8D2CDD9"
+			]
+			id: "20BA931A8B0BF63E"
+			rewards: [
+				{
+					id: "79F278089619DCA1"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F9C991EF1FF8749"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "38390F74816C149F"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:lesser_fire_focus)item(ars_elemental:lesser_water_focus)item(ars_elemental:lesser_earth_focus)item(ars_elemental:lesser_air_focus))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"20BA931A8B0BF63E"
+			]
+			id: "6CDBE9BD511846ED"
+			rewards: [
+				{
+					id: "2D66DF7FF7B385D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "620CEA48330130E7"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1543986F9268DD9A"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:fire_hood)item(ars_elemental:aqua_hood)item(ars_elemental:earth_hood)item(ars_elemental:air_hood)item(ars_elemental:fire_tunic)item(ars_elemental:aqua_tunic)item(ars_elemental:earth_tunic)item(ars_elemental:air_tunic)item(ars_elemental:fire_pants)item(ars_elemental:aqua_pants)item(ars_elemental:earth_pants)item(ars_elemental:air_pants)item(ars_elemental:fire_shoes)item(ars_elemental:aqua_shoes)item(ars_elemental:earth_shoes)item(ars_elemental:air_shoes))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6CDBE9BD511846ED"
+			]
+			id: "68C493A02440AF5A"
+			rewards: [
+				{
+					id: "61843A8F4BDA72B5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B78EB6EACCE2A4E"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5AFCADDD066C90F8"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:fire_hat)item(ars_elemental:aqua_hat)item(ars_elemental:earth_hat)item(ars_elemental:air_hat)item(ars_elemental:fire_robes)item(ars_elemental:aqua_robes)item(ars_elemental:earth_robes)item(ars_elemental:air_robes)item(ars_elemental:fire_leggings)item(ars_elemental:aqua_leggings)item(ars_elemental:earth_leggings)item(ars_elemental:air_leggings)item(ars_elemental:fire_boots)item(ars_elemental:aqua_boots)item(ars_elemental:earth_boots)item(ars_elemental:air_boots))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"20BA931A8B0BF63E"
+			]
+			id: "4AC668EE1AE5D96F"
+			rewards: [
+				{
+					id: "758B7F719371C6D8"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "224C25B0AA72D161"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1B4B00382DF025C8"
+					item: {
+						count: 1
+						id: "ars_elemental:mark_of_mastery"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4AC668EE1AE5D96F"
+			]
+			id: "471E56B0F10A8EBD"
+			rewards: [
+				{
+					id: "57A7485DF5634049"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18BE718F31E27D4E"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "23B40686CC4936B3"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:fire_focus)item(ars_elemental:water_focus)item(ars_elemental:earth_focus)item(ars_elemental:air_focus))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"68C493A02440AF5A"
+				"4AC668EE1AE5D96F"
+			]
+			id: "1A2583C4031F9F8D"
+			rewards: [
+				{
+					id: "1A1D894D0A5E685A"
+					type: "xp"
+					xp: 600
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3163CA52DC0C5C63"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "153B7BD225C3B627"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:fire_helmet)item(ars_elemental:aqua_helmet)item(ars_elemental:earth_helmet)item(ars_elemental:air_helmet)item(ars_elemental:fire_chestplate)item(ars_elemental:aqua_chestplate)item(ars_elemental:earth_chestplate)item(ars_elemental:air_chestplate)item(ars_elemental:fire_leggings_heavy)item(ars_elemental:aqua_leggings_heavy)item(ars_elemental:earth_leggings_heavy)item(ars_elemental:air_leggings_heavy)item(ars_elemental:fire_boots_heavy)item(ars_elemental:aqua_boots_heavy)item(ars_elemental:earth_boots_heavy)item(ars_elemental:air_boots_heavy))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"20BA931A8B0BF63E"
+			]
+			id: "142E9D954338769C"
+			rewards: [
+				{
+					id: "67252CD71369D49D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D7FECB6D138E79E"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "47EF5DC85298FFF1"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:fire_bangle)item(ars_elemental:water_bangle)item(ars_elemental:earth_bangle)item(ars_elemental:air_bangle)item(ars_elemental:anima_bangle)item(ars_elemental:summon_bangle))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"20BA931A8B0BF63E"
+			]
+			id: "6B8F5271E2ABDB05"
+			optional: true
+			rewards: [
+				{
+					id: "52F988805C3056CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26D8755211C3C120"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1DEA22F264866F52"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_elemental:flashjack_charm)item(ars_elemental:firenando_charm)item(ars_elemental:siren_charm))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"20BA931A8B0BF63E"
+			]
+			id: "2246378717B9E80B"
+			rewards: [
+				{
+					id: "55F28C2F6FDC19A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C14EA265F4E1BA6"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "704C6CB66761EA98"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(not_enough_glyphs:spell_binder)item(not_enough_glyphs:glyph_trail)item(not_enough_glyphs:glyph_momentum)item(not_enough_glyphs:glyph_ride)item(not_enough_glyphs:glyph_plow))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"20BA931A8B0BF63E"
+			]
+			id: "356FAF5F07EE364F"
+			rewards: [
+				{
+					id: "46CF7C58FD6F0EEE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66D1FA075F8E5522"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4A900C206BA96E40"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_additions:warp_index)item(ars_additions:warp_nexus)item(ars_additions:stabilized_warp_index))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"356FAF5F07EE364F"
+			]
+			id: "5045F5EEFB84A0B7"
+			optional: true
+			rewards: [
+				{
+					id: "177C7F2645090639"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "510A2CB49BD2BA1E"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "445E1E174AA64B69"
+					item: {
+						count: 1
+						id: "ars_additions:handy_haversack"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"356FAF5F07EE364F"
+			]
+			id: "78F7924189EFC7A8"
+			rewards: [
+				{
+					id: "2E8DB09E7908EC09"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2698A6B30CC66D10"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "18A5403E1B863C7D"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(ars_additions:undying_charm)item(ars_additions:fall_prevention_charm)item(ars_additions:void_protection_charm)item(ars_additions:fire_resistance_charm)item(ars_additions:water_breathing_charm)item(ars_additions:wither_protection_charm))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,657 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guns"
+	group: "1C373287BFB8A814"
+	icon: {
+		id: "create:mechanical_crafter"
+	}
+	id: "22C952F07C7404EE"
+	images: [ ]
+	order_index: 1
+	quest_links: [
+		{
+			id: "6590983B9499873B"
+			linked_quest: "4B5020F5AA388FAA"
+			shape: "gear"
+			size: 0.8d
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"4B5020F5AA388FAA"
+			]
+			icon: {
+				id: "create:mechanical_crafter"
+			}
+			id: "7A5E084AC28AD736"
+			rewards: [
+				{
+					id: "2E5731AE96AFCE74"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62FDE32715E6DCD2"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7D74BA6B94769D80"
+					item: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1F7FB165C4C74D16"
+			]
+			id: "735BAD14F1FAC6AC"
+			rewards: [
+				{
+					id: "510AC4598F769D96"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D687BBECFBC735D"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2584CDACBA2D184B"
+					item: {
+						count: 1
+						id: "tacz:ammo_box"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7A5E084AC28AD736"
+			]
+			icon: {
+				id: "tacz:gun_smith_table"
+			}
+			id: "1BF8883F64D94AFC"
+			optional: true
+			rewards: [
+				{
+					id: "5AB9CA4135A634AD"
+					type: "xp"
+					xp: 75
+				}
+			]
+			size: 0.9d
+			tasks: [
+				{
+					id: "0AFAF8D79F516E3A"
+					item: {
+						count: 1
+						id: "tacz:gun_smith_table"
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1BF8883F64D94AFC"
+			]
+			icon: {
+				id: "tacz:workbench_a"
+			}
+			id: "6B47359B7540AD2B"
+			optional: true
+			rewards: [
+				{
+					id: "730D72D58A81965E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "111AAFD33F5AE761"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			size: 0.9d
+			tasks: [
+				{
+					id: "63704F94B928AB77"
+					item: {
+						count: 1
+						id: "tacz:workbench_a"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1BF8883F64D94AFC"
+			]
+			icon: {
+				id: "tacz:workbench_c"
+			}
+			id: "486CA59AED48B71A"
+			optional: true
+			rewards: [
+				{
+					id: "463A971B43B1418F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BA64066E9B12422"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			size: 0.9d
+			tasks: [
+				{
+					id: "1DB52338A05F9395"
+					item: {
+						count: 1
+						id: "tacz:workbench_c"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7A5E084AC28AD736"
+			]
+			id: "54591574E7E9EC99"
+			optional: true
+			rewards: [
+				{
+					id: "6FBFD3A7AA0EF77B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E1105FA87A62F1F"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "218B55F9D82648C2"
+					item: {
+						count: 1
+						id: "tacz:target"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7A5E084AC28AD736"
+			]
+			id: "122F42FFB82A0758"
+			rewards: [
+				{
+					id: "509BA6D94C5F4186"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47A12804F93D5918"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4F84C3EB6E53A259"
+					item: {
+						count: 1
+						id: "createimmersivetacz:gunpowder_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"122F42FFB82A0758"
+			]
+			id: "113F18929B1DA320"
+			rewards: [
+				{
+					id: "4854535722C6E657"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50E477F25068A589"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2BBD6A2AD6B12BC4"
+					item: {
+						count: 1
+						id: "createimmersivetacz:nitropowder_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"122F42FFB82A0758"
+			]
+			id: "7640216D4CDF6C92"
+			rewards: [
+				{
+					id: "32047D36953C8CAB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20F0D5C72E8E30FB"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "1B263560C9C100C4"
+					item: {
+						count: 1
+						id: "createimmersivetacz:primer"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7A5E084AC28AD736"
+				"122F42FFB82A0758"
+			]
+			id: "273170D88255F4D6"
+			rewards: [
+				{
+					id: "1CBA5144B0BBDD58"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4506575F81FDC76A"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2964AE41AE8A54D7"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(createimmersivetacz:pneumatic_pistol_casing)item(createimmersivetacz:slap_casing)item(createimmersivetacz:twelve_gauge_shell)item(createimmersivetacz:rimmed_blunt_ap_casing)item(createimmersivetacz:grenade_casing)item(createimmersivetacz:40mmhe_casing))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"273170D88255F4D6"
+				"7640216D4CDF6C92"
+			]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						AmmoId: "create_armorer:rbapb"
+					}
+					"minecraft:max_stack_size": 60
+				}
+				id: "tacz:ammo"
+			}
+			id: "1F7FB165C4C74D16"
+			rewards: [
+				{
+					id: "1F91B8D41EA300FF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53020172FD04A405"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "1EA6504C7FC25CAD"
+					item: {
+						count: 1
+						id: "tacz:ammo"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7A5E084AC28AD736"
+			]
+			id: "27C041D46B670E00"
+			rewards: [
+				{
+					id: "1A3B767C4B1FD2ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35268665F9D40CD3"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5ACA7B7B9AD4FB7D"
+					item: {
+						count: 1
+						id: "createimmersivetacz:gun_barrel"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"27C041D46B670E00"
+			]
+			id: "1B8593B519AF35AF"
+			rewards: [
+				{
+					id: "73BFB57F76D011AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35E1E1311484EA60"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3A1300C68CA6E7CD"
+					item: {
+						count: 1
+						id: "createimmersivetacz:gun_trigger"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"27C041D46B670E00"
+			]
+			id: "2C3F196AA63F3573"
+			rewards: [
+				{
+					id: "7E5CC18B69E5DA2E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FF1AA8EF2083293"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "26B16063CF4CD0EF"
+					item: {
+						count: 1
+						id: "createimmersivetacz:firing_mechanism"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1B8593B519AF35AF"
+				"2C3F196AA63F3573"
+			]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunId: "create_armorer:pistol_auto_stress"
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "224866F50B6E1B18"
+			rewards: [
+				{
+					id: "379B344920D5D78A"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "723A39DC0A8DEED2"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "245FDF00B0958A7F"
+					item: {
+						count: 1
+						id: "tacz:modern_kinetic_gun"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"224866F50B6E1B18"
+			]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						AttachmentId: "create_armorer:sight_reflex"
+					}
+				}
+				id: "tacz:attachment"
+			}
+			id: "4537302671AE839F"
+			rewards: [
+				{
+					id: "58AA59194E0001EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F2558A8803F6C14"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "44655815F3451BF2"
+					item: {
+						components: {
+							"minecraft:custom_data": { }
+						}
+						count: 1
+						id: "tacz:attachment"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"224866F50B6E1B18"
+				"1F7FB165C4C74D16"
+			]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunId: "create_armorer:rifle_assult_crane"
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "3FA149E684F79311"
+			rewards: [
+				{
+					id: "79D91393EFF5E465"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B4A134078022322"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					count: 4L
+					id: "4B94FF58BBEBA9F7"
+					item: {
+						count: 1
+						id: "tacz:modern_kinetic_gun"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3FA149E684F79311"
+				"113F18929B1DA320"
+			]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunId: "create_armorer:cannon_40mm_salamander"
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "49BBDD0D2E688FBA"
+			optional: true
+			rewards: [
+				{
+					id: "3CAB6EBD8CA26FA6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38A57DE76CF62861"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2FB351CAB3D4FD1B"
+					item: {
+						count: 1
+						id: "tacz:modern_kinetic_gun"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+	]
+}

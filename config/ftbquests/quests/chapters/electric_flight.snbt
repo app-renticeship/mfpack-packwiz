@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "electric_flight"
+	group: "408D0BD6C358F867"
+	icon: {
+		id: "createaddition:modular_accumulator"
+	}
+	id: "248DA170ECBAD43A"
+	images: [ ]
+	order_index: 5
+	quest_links: [
+		{
+			id: "B956D6D66BD09D31"
+			linked_quest: "5A5A789CF38BA336"
+			shape: "gear"
+			size: 0.8d
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"5A5A789CF38BA336"
+			]
+			id: "29E0DB74CF948639"
+			rewards: [
+				{
+					id: "7E2B0C4E4992EF77"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "312F6AF199EAC089"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "785CDF8BBE2C50F0"
+					item: {
+						count: 1
+						id: "createaddition:modular_accumulator"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29E0DB74CF948639"
+			]
+			id: "3FA5666AC0C462E8"
+			rewards: [
+				{
+					id: "5223088F8D14D078"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "145D0F7B26752025"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4AD4A8AA8332DF8D"
+					item: {
+						count: 1
+						id: "createaddition:electric_motor"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3FA5666AC0C462E8"
+			]
+			id: "7B203B70553A2B6C"
+			rewards: [
+				{
+					id: "1B7C9EECE86F6030"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BA40762B14E90BB"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2DB4972813165363"
+					item: {
+						count: 1
+						id: "aeronautics:propeller_bearing"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"29E0DB74CF948639"
+			]
+			id: "1DAF719E2730E4CF"
+			rewards: [
+				{
+					id: "2054C168BF9DABF3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73155268DFDC9F4E"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "509513A6FF951240"
+					item: {
+						count: 1
+						id: "createpropulsion:ion_thruster"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1DAF719E2730E4CF"
+			]
+			id: "1EC85BA03D3DD7CC"
+			rewards: [
+				{
+					id: "6B18086BE8233E57"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1280FC29AB24DEB4"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "75A70AB35104F674"
+					item: {
+						count: 1
+						id: "createaddition:portable_energy_interface"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1EC85BA03D3DD7CC"
+			]
+			id: "378C3116EE6DD795"
+			rewards: [
+				{
+					id: "31CC7DB50773025B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "468E9BDEB0928627"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "29AA7519D85C9DF9"
+					item: {
+						count: 1
+						id: "createaddition:alternator"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7B203B70553A2B6C"
+				"378C3116EE6DD795"
+			]
+			id: "45972D76A609E9A6"
+			rewards: [
+				{
+					id: "6B4A171DE08347FA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "588BACFD90262858"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "308120450C49ED6A"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: -0.5d
+		}
+	]
+}

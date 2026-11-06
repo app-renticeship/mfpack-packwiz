@@ -1,0 +1,795 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "northstar_planets"
+	group: "67C1190C04D06838"
+	icon: {
+		id: "northstar:moon_stone"
+	}
+	id: "4D54835A93D70002"
+	images: [ ]
+	order_index: 1
+	quest_links: [
+		{
+			id: "1D5757612E96B909"
+			linked_quest: "35A0F04B9F1AA77E"
+			shape: "gear"
+			size: 0.8d
+			x: -1.0d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"35A0F04B9F1AA77E"
+			]
+			id: "369D8CB2365B6EE9"
+			rewards: [
+				{
+					id: "4030E2DDA87C2FEE"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AFB38E627056E56"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "northstar:moon"
+					id: "75F3D18AAF115145"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"369D8CB2365B6EE9"
+			]
+			id: "7AD1FD132DAD2B56"
+			rewards: [
+				{
+					id: "444FCD058B9B1CB2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78B990DBA5F800B7"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "57467D54591770E8"
+					item: {
+						count: 1
+						id: "northstar:lunar_sapphire_shard"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7AD1FD132DAD2B56"
+			]
+			id: "2EB02338D41A9E1F"
+			rewards: [
+				{
+					id: "39E9766B4F105C2D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39AEDAFFE5919452"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "653EBD8B7529C075"
+					item: {
+						count: 1
+						id: "northstar:polished_lunar_sapphire"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2EB02338D41A9E1F"
+			]
+			id: "13AA0C0A7426F78C"
+			rewards: [
+				{
+					id: "200F63059CA0E134"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FDC8B4F0A445D46"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "790E5AA155A064A0"
+					item: {
+						count: 1
+						id: "northstar:interplanetary_navigator"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2EB02338D41A9E1F"
+			]
+			id: "2CB9F0EB59BCA4A0"
+			rewards: [
+				{
+					id: "683F4E7589295022"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "658CC2F4ECE87360"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7473E373A65153F0"
+					item: {
+						count: 1
+						id: "northstar:auto_lander"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"369D8CB2365B6EE9"
+			]
+			id: "55C65B9011C9B16D"
+			rewards: [
+				{
+					id: "17396139E399CF13"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67862CFEED022488"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "17495DD2DCD9E12D"
+					structure: "northstar:lunar_base"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13AA0C0A7426F78C"
+			]
+			id: "764ED9E2580B8645"
+			rewards: [
+				{
+					id: "5779A48646CCC38D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1765490F5845B945"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "northstar:mars"
+					id: "4EACC66EDF50D5FD"
+					type: "dimension"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"764ED9E2580B8645"
+			]
+			id: "7B79C243857E090C"
+			rewards: [
+				{
+					id: "34DB50DF6A8D3137"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B538EB4DAF5CF56"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "1EC175FF77BF7075"
+					item: {
+						count: 1
+						id: "northstar:raw_martian_iron_ore"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"764ED9E2580B8645"
+			]
+			id: "38B2EF3D559A5913"
+			rewards: [
+				{
+					id: "1A0C42FA091D8B0D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61C54E1FCCE04083"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "540EBF2A2AA1373A"
+					item: {
+						count: 1
+						id: "northstar:volcanic_ash_item"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7B79C243857E090C"
+				"38B2EF3D559A5913"
+			]
+			id: "10D15D74A09CBFBD"
+			rewards: [
+				{
+					id: "3F8AC61838668CED"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2219B09A9F02FB98"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5B5EB70C964D1567"
+					item: {
+						count: 1
+						id: "northstar:martian_steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"10D15D74A09CBFBD"
+			]
+			id: "7DBB2DA9E468940C"
+			rewards: [
+				{
+					id: "25B9C85238350F54"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6298A68F9C5EA846"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "761E68CF5BD800F8"
+					item: {
+						count: 1
+						id: "northstar:martian_steel_space_suit_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "7D5F39A98ADD97E8"
+					item: {
+						count: 1
+						id: "northstar:martian_steel_space_suit_chestpiece"
+					}
+					type: "item"
+				}
+				{
+					id: "77EBBAE0B560DAC6"
+					item: {
+						count: 1
+						id: "northstar:martian_steel_space_suit_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "29C31280F39143B5"
+					item: {
+						count: 1
+						id: "northstar:martian_steel_space_suit_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"764ED9E2580B8645"
+			]
+			id: "1D9CB8D1389E13EB"
+			rewards: [
+				{
+					id: "71896BC9908EE2CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42D07F431B0512A1"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "62A67EE166FA2945"
+					structure: "northstar:martian_base"
+					type: "structure"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"764ED9E2580B8645"
+			]
+			id: "1F7C06CC0B7E5AC2"
+			optional: true
+			rewards: [
+				{
+					id: "68B3522B5A345AAD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40EECEBC559DB1B5"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1B5C506BF77BDC28"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(northstar:mars_palm_seeds)item(northstar:mars_sprout_seeds)item(northstar:mars_tulip_seeds))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"10D15D74A09CBFBD"
+			]
+			id: "3F2F0D5736916576"
+			rewards: [
+				{
+					id: "45F0A06425154FEF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40B44FF8157F71A3"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5C47D63785546DD5"
+					item: {
+						count: 1
+						id: "northstar:electrolysis_machine"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3F2F0D5736916576"
+			]
+			id: "161E1812428DF7F0"
+			rewards: [
+				{
+					id: "1C303B7AB2EECF61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "462E25AFCC9B9173"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "402555CA9C04AF43"
+					item: {
+						count: 1
+						id: "northstar:liquid_hydrogen_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7DBB2DA9E468940C"
+			]
+			id: "112437DD45C811FB"
+			rewards: [
+				{
+					id: "18A937098349CD91"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1123F2F6F4FC8695"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "northstar:venus"
+					id: "208F0BA354E8CB26"
+					type: "dimension"
+				}
+			]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"112437DD45C811FB"
+				"161E1812428DF7F0"
+			]
+			id: "55E91D23970DE168"
+			rewards: [
+				{
+					id: "7140E0E7200CF692"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E6A0005D39ECC43"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "northstar:mercury"
+					id: "49B6E8AFBF90CD0A"
+					type: "dimension"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"55E91D23970DE168"
+			]
+			id: "2AD31B4BEA4CB9F8"
+			rewards: [
+				{
+					id: "1D865EFB1CB04575"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B0556E5DBF1AEBC"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "270C919393A37A31"
+					item: {
+						count: 1
+						id: "northstar:tungsten_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2AD31B4BEA4CB9F8"
+			]
+			id: "7123F925F2A66D5B"
+			rewards: [
+				{
+					id: "690A766D50A66EF5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3316D2AB52B72839"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "241341BCB8F0C0CD"
+					item: {
+						count: 1
+						id: "northstar:rocket_waypoint"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"369D8CB2365B6EE9"
+			]
+			id: "1A030F9EF7768F15"
+			rewards: [
+				{
+					id: "3CFB7D435ABCB01D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D2AAA2478182CB3"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7F123E8BFABEEFFB"
+					item: {
+						count: 1
+						id: "northstar:oxygen_sealer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1A030F9EF7768F15"
+			]
+			id: "69E94ABCEF133B0E"
+			rewards: [
+				{
+					id: "5258C5BAF30E21C0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6586030A6C82231C"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "549AECE9C67F086C"
+					item: {
+						count: 1
+						id: "northstar:atmospheric_concentrator"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1A030F9EF7768F15"
+				"10D15D74A09CBFBD"
+			]
+			id: "496201ECB22CF469"
+			rewards: [
+				{
+					id: "19C63EFB0CB64E37"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45F540821BF7032A"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "194DE6EA9A74DD5A"
+					item: {
+						count: 1
+						id: "northstar:temperature_regulator"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1A030F9EF7768F15"
+			]
+			id: "57BCCCFE5454E008"
+			optional: true
+			rewards: [
+				{
+					id: "11CB349F47F065BC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66B7F2515CE2F339"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1E9D0DD370462BBF"
+					item: {
+						count: 1
+						id: "northstar:oxygen_detector"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7123F925F2A66D5B"
+				"496201ECB22CF469"
+			]
+			id: "2CBECC6DBE97B387"
+			rewards: [
+				{
+					id: "1CB0AE4A36CB0F28"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78ECCA88D5DB49C5"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2DFC5BF992D52072"
+					type: "checkmark"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+}

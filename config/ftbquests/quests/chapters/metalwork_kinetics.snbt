@@ -1,0 +1,784 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "metalwork_kinetics"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "dndesires:hydraulic_press"
+	}
+	id: "15EB87B1A5928C15"
+	images: [ ]
+	order_index: 9
+	quest_links: [
+		{
+			id: "1F3AF9127B60DE30"
+			linked_quest: "4643735856150DA8"
+			shape: "gear"
+			size: 0.8d
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"4643735856150DA8"
+			]
+			id: "3EB60E27A12D04B9"
+			rewards: [
+				{
+					id: "58B088D99D2C476C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EB19300B0B5D071"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "44BDE5A8864256C5"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3EB60E27A12D04B9"
+			]
+			id: "5508E6B4D3EE61CB"
+			rewards: [
+				{
+					id: "32BD343BCE582AD1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "483236B16FC560B4"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "55710C7A44B6970C"
+					item: {
+						count: 1
+						id: "gnkinetics:tiny_cogwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "460254054E27FA87"
+					item: {
+						count: 1
+						id: "gnkinetics:worm_gear"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5508E6B4D3EE61CB"
+			]
+			id: "196BAC5655C17935"
+			optional: true
+			rewards: [
+				{
+					id: "68D6640856DA1CBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77A9E4D0FF32DA12"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "34C15F72C3C149FF"
+					item: {
+						count: 1
+						id: "gnkinetics:planetary_gear"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3EB60E27A12D04B9"
+			]
+			id: "2321A90C9B2BA592"
+			rewards: [
+				{
+					id: "515B831A4AD1C503"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "662339AE65C73AC3"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5E5AC178099B782F"
+					item: {
+						count: 1
+						id: "dndesires:hydraulic_press"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2321A90C9B2BA592"
+			]
+			id: "10A093ED9B5B1207"
+			rewards: [
+				{
+					id: "18629E090074DF9B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E9DE8FA3B8960A6"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2D705C3E349684E2"
+					item: {
+						count: 1
+						id: "dndesires:industrial_fan"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"10A093ED9B5B1207"
+			]
+			id: "76DC400A6413BE5A"
+			rewards: [
+				{
+					id: "2AD8ACD202EF2CAA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D4DCC8387F14929"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2C1949E86462EAFF"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(dndesires:splashing_sail)item(dndesires:blasting_sail)item(dndesires:smoking_sail)item(dndesires:haunting_sail)item(dndesires:freezing_sail)item(dndesires:sanding_sail)item(dndesires:seething_sail)item(dndesires:dragon_breathing_sail))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"76DC400A6413BE5A"
+			]
+			id: "338718947D5318B3"
+			rewards: [
+				{
+					id: "77B8BB5C244666F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72F9677F49EAAED9"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "218ED53246D6BD36"
+					item: {
+						count: 1
+						id: "create_dragons_plus:dragon_breath_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2321A90C9B2BA592"
+			]
+			id: "11E658C9A9E7663E"
+			rewards: [
+				{
+					id: "599749E47A5D861F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A78E69704FEB0ED"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "743C69F1DEC14F98"
+					item: {
+						count: 1
+						id: "dndesires:stirling_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2321A90C9B2BA592"
+			]
+			id: "768E90F9FA398E87"
+			optional: true
+			rewards: [
+				{
+					id: "33E82A2F2ADC917C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "563D5C0E788FC7F2"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "79535E4613D818D7"
+					item: {
+						count: 1
+						id: "dndesires:omni_gearbox"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"11E658C9A9E7663E"
+			]
+			id: "31B194BCD3165DFF"
+			optional: true
+			rewards: [
+				{
+					id: "2E390EEFD47F28EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B0473AE9F97F8E4"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "67E322BB9098A9C4"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(dndesires:handheld_drill)item(dndesires:handheld_saw))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3EB60E27A12D04B9"
+			]
+			id: "22AAD0DB4C56BA7A"
+			rewards: [
+				{
+					id: "6970DA1A5162B898"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15D09840C55EE69A"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "51CAB35113E920F3"
+					item: {
+						count: 1
+						id: "createsprings:spring_alloy"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"22AAD0DB4C56BA7A"
+			]
+			id: "5C90A411F6D30EE9"
+			rewards: [
+				{
+					id: "55E97DD3AB419739"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B3055C0723E93D9"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "359FE629F70FAED3"
+					item: {
+						count: 1
+						id: "createsprings:spring"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5C90A411F6D30EE9"
+			]
+			id: "44AAFF977264A23B"
+			rewards: [
+				{
+					id: "41084D9473A8997A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "359D6D2D2D555A8F"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "515ACEB4699839E1"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(createsprings:spring_drill)item(createsprings:spring_saw)item(createsprings:spring_launcher)item(createsprings:spring_catapult))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5C90A411F6D30EE9"
+			]
+			id: "2B5AFCE5758657E9"
+			rewards: [
+				{
+					id: "623DB8002E268E86"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2148B01274F0185B"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7A920FA355863359"
+					item: {
+						count: 1
+						id: "createsprings:portative_steam_engine"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2B5AFCE5758657E9"
+			]
+			id: "7611AC5B2A3A96EF"
+			optional: true
+			rewards: [
+				{
+					id: "2F7365FE37B56757"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3080ECE2F6AEDCF8"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "514F2B423AB375CD"
+					item: {
+						count: 1
+						id: "createsprings:friction_welder"
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3EB60E27A12D04B9"
+			]
+			id: "62BC1FF3A591FAAF"
+			rewards: [
+				{
+					id: "48C6F90E4CF81986"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FF0210EF627CDB5"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2C72D9745E247963"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(escalated:metal_walkway_steps)item(escalated:wooden_walkway_steps))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3EB60E27A12D04B9"
+			]
+			id: "66E5A95A785EE428"
+			rewards: [
+				{
+					id: "746C6E7DB9277499"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16CCF9E891168EF9"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "690EF40B4963E6D8"
+					item: {
+						count: 1
+						id: "create_vibrant_vaults:vertical_item_vault"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"66E5A95A785EE428"
+			]
+			id: "205A0AC6DACC3521"
+			optional: true
+			rewards: [
+				{
+					id: "1C35AC1FA3B8CB56"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F7D2CD9F449C17F"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3A74E33FF1918EE8"
+					item: {
+						count: 1
+						id: "create_vibrant_vaults:shipping_container"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3EB60E27A12D04B9"
+			]
+			id: "2D3CC066DA89BE22"
+			rewards: [
+				{
+					id: "17DFD0B49724549C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F628F7CBE90ABCD"
+					table_id: 5001068052608706388L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2ECA12B81700695E"
+					item: {
+						count: 1
+						id: "createmetalwork:crushed_andesite"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"338718947D5318B3"
+				"44AAFF977264A23B"
+				"196BAC5655C17935"
+			]
+			id: "7EB6B6A390A7574A"
+			rewards: [
+				{
+					id: "5F2717CF8936460D"
+					type: "xp"
+					xp: 400
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5248296C79B0AB5D"
+					table_id: 5499456467321392182L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "26901E6FA99265B3"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3EB60E27A12D04B9"
+			]
+			icon: {
+				id: "mechanical_botany:mechanical_composter"
+			}
+			id: "D9D1DBAE2462AA9A"
+			rewards: [
+				{
+					id: "7B235D644A0001AC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "A721B3F8687BF64D"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "E99637453CBFE019"
+					item: {
+						count: 1
+						id: "mechanical_botany:mechanical_composter"
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"D9D1DBAE2462AA9A"
+			]
+			icon: {
+				id: "mechanical_botany:compost"
+			}
+			id: "215E6B958632937D"
+			rewards: [
+				{
+					id: "AB226251B3D5E900"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B3F5152BA789658"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "3CB6725ECC7E940E"
+					item: {
+						count: 1
+						id: "mechanical_botany:compost"
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"215E6B958632937D"
+			]
+			icon: {
+				id: "mechanical_botany:mechanical_insolator"
+			}
+			id: "C4142315CB6C3603"
+			rewards: [
+				{
+					id: "830DFE578087D91D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "D95605856CE009B6"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "40D1EAC3B51A3688"
+					item: {
+						count: 1
+						id: "mechanical_botany:mechanical_insolator"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+}
