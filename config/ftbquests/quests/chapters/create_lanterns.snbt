@@ -100,6 +100,46 @@
 				"CEB3AD57B7D4E9D6"
 			]
 			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "7AEA7A79C83C76EE"
+			rewards: [
+				{
+					id: "4DE5C9E640720ECB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E8C367FAA6D95DF"
+					table_id: 5249651026717322459L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "0255291F4114E296"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(createlanterns:green_liquid_light_bucket)item(createlanterns:red_liquid_light_bucket)item(createlanterns:orange_liquid_light_bucket)item(createlanterns:yellow_liquid_light_bucket)item(createlanterns:blue_liquid_light_bucket)item(createlanterns:indigo_liquid_light_bucket)item(createlanterns:violet_liquid_light_bucket))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"CEB3AD57B7D4E9D6"
+				"7AEA7A79C83C76EE"
+			]
+			icon: {
 				id: "createlanterns:power_battery"
 			}
 			id: "23DC1C4E25C076E8"
@@ -210,6 +250,7 @@
 			dependencies: [
 				"B406538F83260261"
 				"23DC1C4E25C076E8"
+				"7AEA7A79C83C76EE"
 			]
 			icon: {
 				id: "createlanterns:ring_band"

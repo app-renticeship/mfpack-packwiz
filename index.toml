@@ -98,7 +98,7 @@ hash = "ad80585467f7536302b28a532b9d166db9d456f017af2a5675317d6110197c57"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_lanterns.snbt"
-hash = "7789800d49b1d35ea6a974b842ced75f914d24819464d602b84ef4c93d7a59d0"
+hash = "b89a91472829d39665c1643e660a5d315146da45c63a24f645b8d7e9a2fc2967"
 
 
 [[files]]
@@ -248,7 +248,7 @@ hash = "b25d84317fef1e94b153a666f551fe2b9b451d657a06744f23e38ae3a951c59f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f42a0b90c5d26639f754aa69c9299e981ae79f8a2478b084153065f824a6b219"
+hash = "c841ca4f5c4e6bdb964796a5911b87461ef110f181c44d7fc6952e822c995b3f"
 
 
 [[files]]

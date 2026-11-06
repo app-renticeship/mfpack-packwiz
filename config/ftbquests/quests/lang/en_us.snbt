@@ -1250,11 +1250,15 @@
 	quest.23D0117E34FA7A51.quest_subtitle: "A heavier alternative to the &6Optical Receptor&r"
 	quest.23D0117E34FA7A51.title: "&eHeavy Optical Receptor"
 	quest.23DC1C4E25C076E8.quest_desc: [
-		"A Lantern is a power battery: gold in the four corners, stained glass of the light, an Eye of Ender, and that light's key block (emerald for green, redstone for red, copper for orange, glowstone for yellow, lapis for blue, crying obsidian for indigo, amethyst for violet)."
+		"Two ways to make a Lantern (power battery):"
 		""
-		"Or fill a &eLantern Frame&r at a spout with 1000 mB of that liquid light. Hold &eW&r over the frame in EMI to see its Ponder."
+		"Foundry path: spout 1000 mB of that liquid light into a &eLantern Frame&r."
+		""
+		"Table path: gold in the four corners, three stained glass of the light, Eye of Ender in the middle, key block at the bottom (emerald / redstone / copper / glowstone / lapis / crying obsidian / amethyst)."
+		""
+		"A lantern holds about ten full rings of charge. It only refills at a &eCentral Power Battery&r. Charge your ring by staying within ~6 blocks of a matching lantern while the ritual runs."
 	]
-	quest.23DC1C4E25C076E8.quest_subtitle: "The battery that feeds the ring"
+	quest.23DC1C4E25C076E8.quest_subtitle: "Spout-fill a frame — or craft the whole battery"
 	quest.23DC1C4E25C076E8.title: "&eYour Lantern"
 	quest.240FE5358CFFD781.quest_desc: [
 		"Craft any jetpack with the matching chestplate to wear armor and the pack in one slot."
@@ -2125,11 +2129,11 @@
 	quest.3928FD010478D80E.quest_subtitle: "Faster than T2, and the processing upgrades reach a wider area. Propulsion T3 is eight times thrust."
 	quest.3928FD010478D80E.title: "Craft All Tier 3 on Thrusters"
 	quest.39B7A2B0128DD9EC.quest_desc: [
-		"Press 90 mB of molten brass in a basin to cast a &eRing Blank&r."
+		"Heat a mixer and melt a brass ingot into 90 mB molten brass, then compact that fluid in a basin with a Mechanical Press to cast a &eRing Blank&r."
 		""
-		"This is the start of the Foundry line. You still need a ring of that light to recast a new one; the blank is the brass for the band."
+		"This is the start of the ring-forging line. The blank becomes a &eRing Band&r on a sequenced assembly belt — you still need a first ring of that light before the Great Foundry can recast a new one."
 	]
-	quest.39B7A2B0128DD9EC.quest_subtitle: "Compact molten brass"
+	quest.39B7A2B0128DD9EC.quest_subtitle: "Melt brass, then press the blank"
 	quest.39B7A2B0128DD9EC.title: "&eRing Blank"
 	quest.39E852852B8A1BCE.quest_desc: [
 		"The Harbinger's metal. You need it, an anvil and redstone blocks to craft the Mechanical Fusion Anvil."
@@ -2924,11 +2928,11 @@
 	quest.4F6BE75EFB4FAB1F.quest_subtitle: "Ars Nouveau meets Farmer's Delight: cook with sourceberries, mendosteen and other magical plants."
 	quest.4F6BE75EFB4FAB1F.title: "&aArs Delight"
 	quest.4F854858838BE85B.quest_desc: [
-		"Craft a &ePower Core&r from four brass blocks, four &ePrecision Mechanisms&r and a Beacon. It comes charged, and keeps that charge when you break it."
+		"Craft a &ePower Core&r: four brass blocks, four &ePrecision Mechanisms&r, and a Beacon in the middle. It arrives charged and keeps that charge when broken and placed again."
 		""
-		"This is the centre of the Create multiblock that refills lanterns."
+		"This is the heart of the Create multiblock that refills lanterns. Soft-gated behind Illustrious / Precision — bring brass-age precision before you try to power a whole Corps."
 	]
-	quest.4F854858838BE85B.quest_subtitle: "Heart of the Central Power Battery"
+	quest.4F854858838BE85B.quest_subtitle: "Brass blocks, precision mechanisms, beacon"
 	quest.4F854858838BE85B.title: "&6Power Core"
 	quest.4FFD9BAC2F94ADBB.quest_desc: [
 		"Place &eTrain Tracks&r with a wrench in hand to curve and slope them. Connect two &eTrain Stations&r with a continuous line before you try to assemble a locomotive."
@@ -4609,12 +4613,21 @@
 	quest.7CAF3997BAE2A67D.quest_subtitle: "Dropped by the Wilden Chimera, Ars Nouveau's boss. The tome explains how to summon it."
 	quest.7CAF3997BAE2A67D.title: "&4Wilden Tribute"
 	quest.7CF942B0092FB3D9.quest_desc: [
-		"Place the core and follow the ghost preview: brass casing, pillars of the light's key block, framed glass, a glow block, a chain, and fluid tanks of that liquid light. Small, medium and biggest sizes."
+		"Place the core and follow the ghost preview / goggles: brass casing, pillars of the light's key block, framed glass, a glow block (froglight or sea lantern), a chain, and fluid tanks of that liquid light. Small, medium, or biggest."
 		""
-		"It recharges lanterns and rings in range, turns a shaft under the core, and keeps blaze burners lit with no fuel. Goggles show what is missing."
+		"Reach grows with size. It recharges lanterns and rings in range, turns a shaft under the core (~64 RPM / 2048 SU), and keeps blaze burners kindled or superheated with no fuel. Fill the tanks from the same liquid-light line you used for lanterns."
 	]
-	quest.7CF942B0092FB3D9.quest_subtitle: "Build it around the core"
+	quest.7CF942B0092FB3D9.quest_subtitle: "Multiblock around the core — three sizes"
 	quest.7CF942B0092FB3D9.title: "&6Central Power Battery"
+	quest.7AEA7A79C83C76EE.title: "&6Liquid Light"
+	quest.7AEA7A79C83C76EE.quest_subtitle: "Heated mixer: key block + lava"
+	quest.7AEA7A79C83C76EE.quest_desc: [
+		"This is the Foundry crucible step. Heat a Mechanical Mixer over a basin and mix that light's key block with 250 mB lava to get 500 mB liquid light."
+		""
+		"&aGreen&r emerald block · &cRed&r redstone block · &6Orange&r copper block · &eYellow&r glowstone · &bBlue&r lapis block · &5Indigo&r crying obsidian · &dViolet&r amethyst block."
+		""
+		"Bucket it for this quest. The same fluid fills lantern frames at a spout, feeds Great Foundry recasts, and cooks into emotion dust in a furnace or smoker."
+	]
 	quest.7CFE797B0EC4A6E7.quest_desc: [
 		"Mechanical-craft the full-size &eThruster&r, or shapeless-convert it to the &eSmall Thruster&r that packs the same output into a tighter body."
 		"Load solid or liquid fuel, throttle with redstone 0–15, and optionally sit it on a servo bearing. Hold &eW&r over it in EMI to see its Ponder."
@@ -4814,11 +4827,11 @@
 	quest.A040BDC35835DC92.quest_subtitle: "Drag a physical structure"
 	quest.A040BDC35835DC92.title: "&eMagnetic Gun"
 	quest.A3976C030EB9ED90.quest_desc: [
-		"Do the charging ritual at a Lantern of your light. Stay within a few blocks while it fills. An empty ring fills in a couple of seconds once the link forms."
+		"Stand close to a Lantern of your light and run the charging ritual. An empty ring fills in about 70 ticks once the link forms; stay within ~6 blocks."
 		""
-		"A lantern holds about ten full rings and only refills at a &eCentral Power Battery&r. Indigo bearers can charge from a lantern of any colour."
+		"A lantern holds ~10,000 energy (~10 full rings) and only top-ups at a &eCentral Power Battery&r. Indigo bearers can charge from any colour. Flight, constructs and powers spend that charge — keep a lantern (or the battery) in the base."
 	]
-	quest.A3976C030EB9ED90.quest_subtitle: "Stay close to your lantern"
+	quest.A3976C030EB9ED90.quest_subtitle: "Ritual at your lantern, within six blocks"
 	quest.A3976C030EB9ED90.title: "&aCharge"
 	quest.A62C252EFB0AD04C.quest_desc: [
 		"Obtain Shulker Meat. Eating it applies Levitation. A heated Mixer uses it in Ender Noodle; a Cooking Pot also makes Shulker Soup and Stir Fried Shulker Meat."
@@ -4884,11 +4897,11 @@
 	quest.B3A4EA50C7FC0B3A.quest_subtitle: "Sails around an Elytra Piece"
 	quest.B3A4EA50C7FC0B3A.title: "&eWing Mesh"
 	quest.B406538F83260261.quest_desc: [
-		"Run a &eRing Blank&r through sequenced assembly: spout 30 mB molten gold, deploy a &ePolished Rose Quartz&r, press. Loop that three times."
+		"Run a &eRing Blank&r through sequenced assembly (three loops): spout 30 mB molten gold, deploy a &ePolished Rose Quartz&r, Mechanical Press."
 		""
-		"Hold &eW&r over it in EMI to see its Ponder."
+		"Melt gold the same way as brass — heated mixer on a gold ingot gives 90 mB molten gold. Hold &eW&r over the Ring Band in EMI for the belt Ponder."
 	]
-	quest.B406538F83260261.quest_subtitle: "Gold, rose quartz, three loops"
+	quest.B406538F83260261.quest_subtitle: "Sequenced: molten gold, rose quartz, press x3"
 	quest.B406538F83260261.title: "&eRing Band"
 	quest.B7B9C5BB0AC8DBD3.quest_desc: [
 		"Craft six Pipe Bases from a Fluid Pipe standing on a copper ingot."
@@ -5004,11 +5017,11 @@
 	quest.C9463CF0B2340410.quest_subtitle: "Echo, ocean, Cataclysm"
 	quest.C9463CF0B2340410.title: "&2Into the Deep"
 	quest.CEB3AD57B7D4E9D6.quest_desc: [
-		"Craft a &eLantern Frame&r from four brass sheets, a gold ingot and three &eFramed Glass&r."
+		"Craft a &eLantern Frame&r: four brass sheets, one gold ingot, three &eFramed Glass&r (look it up in EMI)."
 		""
-		"A spout can fill the frame with a bucket of that light's liquid to make the matching Lantern. You can also craft a Lantern whole at a table."
+		"This is the empty shell. A spout fills it with 1000 mB of a light's liquid to make that colour's Lantern. Hold &eW&r over the frame in EMI for the filling Ponder."
 	]
-	quest.CEB3AD57B7D4E9D6.quest_subtitle: "Brass, gold and framed glass"
+	quest.CEB3AD57B7D4E9D6.quest_subtitle: "Brass sheets, gold, framed glass"
 	quest.CEB3AD57B7D4E9D6.title: "&eLantern Frame"
 	quest.CEDFC674A03C855E.quest_desc: [
 		"Copycats+ adds copycat stairs, doors, pipes and more that take another block's look. Stonecut a Copycat Block from a zinc ingot."
@@ -5065,11 +5078,13 @@
 	quest.D9D1DBAE2462AA9A.quest_subtitle: "Slabs around Andesite Casing"
 	quest.D9D1DBAE2462AA9A.title: "&eMechanical Composter"
 	quest.D9FE4B51CAA33441.quest_desc: [
-		"A Mechanical Mixer over a superheated basin recasts a ring: the old ring, a &eRing Band&r, and 250 mB of that light's liquid. Forged too cool it comes out Flawed and holds less charge; white-hot it comes out Masterwork and holds more."
+		"Superheat a Mechanical Mixer over a basin. Mix a &eRing Band&r, the ring you already wear (or hold), and 250 mB of that light's liquid."
 		""
-		"You cannot mix a first ring from nothing. The first one still has to find you."
+		"Forge quality matters: too cool becomes Flawed (holds less charge); white-hot becomes Masterwork (holds more). The foundry does not invent a first ring from nothing — deeds still have to bring one, then you recast."
+		""
+		"Ponder the Great Foundry setup in EMI (Crucible / Great Foundry / ring bands)."
 	]
-	quest.D9FE4B51CAA33441.quest_subtitle: "Recast the ring you already have"
+	quest.D9FE4B51CAA33441.quest_subtitle: "Superheated mixer: band + ring + liquid light"
 	quest.D9FE4B51CAA33441.title: "&6The Great Foundry"
 	quest.DBE64D3FDFAD0004.quest_desc: [
 		"Create Encased recases kinetic blocks in extra materials."
@@ -5194,9 +5209,11 @@
 	quest.F450B24BA30E5A02.quest_desc: [
 		"Wear any of the seven working lights: &aWill&r, &cRage&r, &6Avarice&r, &eFear&r, &bHope&r, &5Compassion&r or &dLove&r."
 		""
-		"An unbound ring in survival only stays on someone worthy of that light. A bound ring flies back to its bearer. Joke and unused lights exist as items; they are not a path here."
+		"Rings still &ochoose&r their bearers. Deeds raise a light until it whispers (~60), dreams (~180), accepts you (~225), then comes looking (~450). An unbound ring in survival only stays on someone worthy."
+		""
+		"Once you have one, the &6Great Foundry&r line later in this chapter can recast it — Flawed if the basin is too cool, Masterwork if it is white-hot."
 	]
-	quest.F450B24BA30E5A02.quest_subtitle: "Taken from a wreck, or given"
+	quest.F450B24BA30E5A02.quest_subtitle: "The ring chooses you — or you forge a better one"
 	quest.F450B24BA30E5A02.title: "&eA Ring of Light"
 	quest.F66DBD9272935ED1.quest_desc: [
 		"Find a Ribbit village. Bring home a Swamp Lantern or a Toadstool if you like the look."
