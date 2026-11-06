@@ -1739,19 +1739,19 @@
 	quest.302167AFA048184F.quest_subtitle: "After crafting your first Chicken Sandwich, you gain access to a wide range of custom sandwich recipes, allowing you to create your own unique burgers"
 	quest.302167AFA048184F.title: "&eMake a &3Burger"
 	quest.3079DF976F5290C3.quest_desc: [
-		"This is a custom claim system that is separate from &6OPAC&r, but integrated with its parties and allies system and claim amount"
+		"Ground claims on this pack use &6FTB Chunks&r (open the map with &e~&r / tilde). Parties are &6FTB Teams&r."
 		""
-		"You can claim sub-levels (ships, aircraft, or anything) with the block using its &bGUI&r"
+		"&bAero Claims&r is a separate system for &esub-levels&r (ships, aircraft, and other Aeronautics volumes). Place the Claim Block and use its &bGUI&r to claim those."
 		""
 		"{image:allofcreate:textures/qb_aeroclaims1.png width:100 height:100 align:center fit:true}"
 		""
-		"You will have to use Aero Claims depending on your sub-level size. Aero Claims are obtained by converting regular &6OPAC Claims&r into Aero Claims through the &bAeroClaims Menu&r"
+		"Spend Aero Claims based on sub-level size. Convert ordinary &6FTB Chunks&r claim allowance into Aero Claims through the &bAeroClaims Menu&r (this pack's AeroClaims provider is set to FTB Chunks / FTB Teams)."
 		""
 		""
 		"{image:allofcreate:textures/qb-aeroclaims2.png width:100 height:100 align:center fit:true}"
 	]
 	quest.3079DF976F5290C3.title: "Claim Block"
-	quest.3079DF976F5290C3.quest_subtitle: "Used for claiming sub-levels as they are seperate from regular claims"
+	quest.3079DF976F5290C3.quest_subtitle: "Sub-level claims for ships and aircraft — ground map claims are FTB Chunks"
 	quest.309779606351AC6A.quest_desc: [
 		"Crafted eight at a time from &eBrass Casing&r, iron sheets, a Precision Mechanism, and redstone. Charge it on one grid, then carry that stress somewhere else."
 		"Hold &eW&r over it in EMI to see its Ponder."
