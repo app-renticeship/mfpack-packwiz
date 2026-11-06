@@ -3001,11 +3001,11 @@
 		"Right-click a &eBrass Speaker&r to type an announcement. It plays over the area — station PA for arrivals, warnings, or whatever you want passengers to hear."
 	]
 	quest.5C0A8337D2E92A0B.quest_desc: [
-		"Most of the book teaches one craft at a time. This chapter is optional finish-line work: goals that only make sense once two or more lines have already been lived."
+		"Opens with a &ePrecision Mechanism&r. Most of the book teaches one craft at a time; this chapter is optional finish-line work — goals that only make sense once two or more lines have already been lived."
 		""
 		"Each synergy is a checkmark when you have done it in the world — not a gate on the ages behind you. The last Illustrious goal waits on every synergy, for whoever wants a closing chord."
 	]
-	quest.5C0A8337D2E92A0B.quest_subtitle: "Where the chapters finally meet."
+	quest.5C0A8337D2E92A0B.quest_subtitle: "Precision in hand — where the chapters finally meet."
 	quest.5C0A8337D2E92A0B.title: "&6Beyond One Mod"
 	quest.5C179E93230EB007.quest_desc: [
 		"Rings of Potential or Lesser Discount, amulets of mana boost or regen. Wear them so you can cast longer before the book runs dry."

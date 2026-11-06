@@ -12,7 +12,7 @@
 	quest_links: [
 		{
 			id: "EC1BADECF2160F21"
-			linked_quest: "4643735856150DA8"
+			linked_quest: "0335A87D46B28982"
 			shape: "gear"
 			size: 0.8d
 			x: -1.0d
@@ -22,7 +22,7 @@
 	quests: [
 		{
 			dependencies: [
-				"4643735856150DA8"
+				"0335A87D46B28982"
 			]
 			icon: {
 				id: "create:goggles"

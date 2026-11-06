@@ -9,7 +9,16 @@
 	id: "010F3251541FC7DC"
 	images: [ ]
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "93605C3119E43252"
+			linked_quest: "6BC0D978E293515F"
+			shape: "gear"
+			size: 0.8d
+			x: -1.0d
+			y: 0.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
