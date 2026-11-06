@@ -53,11 +53,13 @@
 	quest.0013FD56165BCB86.quest_desc: [
 		"You can also switch the look of your &6Water Wheel&r by right-clicking it with pretty much any &awood plank&r (including ones from other mods)"
 	]
+	quest.0013FD56165BCB86.title: "Water Wheel"
 	quest.0013FD56165BCB86.quest_subtitle: "A kinetic source that uses the flow of &9water&r as its source of energy. It will generate the same amount of &6SU&r at the same &6RPM&r as long as one block of flowing &9water&r is adjacent"
 	quest.002E6872C7B7AF76.quest_desc: [
 		"Heated mix of two sugar and a slimeball makes four canes."
 		"Compact four of those into a block for the candy tools and the music disc."
 	]
+	quest.002E6872C7B7AF76.quest_subtitle: "Heated mix of two sugar and a slimeball makes four canes."
 	quest.002E6872C7B7AF76.title: "&eCandy Cane"
 	quest.006C2440BE69D73B.quest_desc: [
 		"Mix Farmer's Delight &eOrganic Compost&r with water, or Create &eTree Fertilizer&r with water, in a mixer — no heat needed."
@@ -79,6 +81,7 @@
 		"Heated mix of two sugar makes caramel fluid; compact it in a press and basin for the bar."
 		"You can also spout caramel over berries the same way you glaze marshmallows."
 	]
+	quest.014BDCB9922886EF.quest_subtitle: "Heated mix of two sugar makes caramel fluid; compact it in a press and basin for the bar."
 	quest.014BDCB9922886EF.title: "&eBar of Caramel"
 	quest.01725D55B19D3E0F.quest_desc: [
 		"Small and large. Chain them to a distant cog without the teeth meshing with everything in between — isolation for crowded gearboxes."
@@ -94,11 +97,13 @@
 	quest.0229FB3DD542C731.quest_desc: [
 		"Wire a &eRedstone Relay&r into an energy line when you want the current gated. No signal, no FE through it — the clutch of electricity."
 	]
+	quest.0229FB3DD542C731.title: "Redstone Relay"
 	quest.0229FB3DD542C731.quest_subtitle: "A &cRedstone Relay&r only allows &6Energy&r to flow when it is receiving a &credstone&r signal"
 	quest.02B0448DA14595B0.quest_desc: [
 		"Attach it to a Simulated assembly and it draws the force arrows: gravity, drag, lift, balloon lift, propulsion, levitation, magnets."
 		"Wear it when a ship won't climb or a cart keeps flipping — the diagram shows which force is winning."
 	]
+	quest.02B0448DA14595B0.title: "Contraption Diagram"
 	quest.02B0448DA14595B0.quest_subtitle: "The &6Contraption Diagram&r lets you visualize the forces acting on an attached simulated contraption, including &9Gravity&r, &8Drag&r, &bLevitation&r, &eBalloon Lift&r, &6Propulsion&r, &aLift&r, and &dMagnetic&r forces"
 	quest.02C47B1CE17E8DD5.quest_desc: [
 		"A hand crank with a large cog built in. Crank a gearbox directly in a corner too tight for a separate cog."
@@ -114,10 +119,12 @@
 		"Run a Golden Sheet down a belt through five loops of cogwheel, large cogwheel, then iron nugget. Most sheets become a &ePrecision Mechanism&r; a few fail and spit junk."
 		"Spend them on Mechanical Crafters, arms, and the rest of brass-age gadgets."
 	]
+	quest.0335A87D46B28982.title: "Precision Mechanism"
 	quest.0335A87D46B28982.quest_subtitle: "An item used to craft more advanced mechanical items"
 	quest.0360911A620C6613.quest_desc: [
 		"The high-end coil off Andesite Alloy. You'll need it for the Beam Condenser that merges beams."
 	]
+	quest.0360911A620C6613.quest_subtitle: "The high-end coil off Andesite Alloy. You'll need it for the Beam Condenser that merges beams."
 	quest.0360911A620C6613.title: "&cRose Quartz Catalyst Coil"
 	quest.03795968E7FA18BA.quest_desc: [
 		"Place it. &eRight-click&r"
@@ -125,10 +132,12 @@
 		""
 		"The mod scans the world for &6Table Cloth&r and &6Tradeworks Shelves&r and turns them into a live market interface similar to a stock exchange with the &6Market Terminal&r block"
 	]
+	quest.03795968E7FA18BA.title: "Market Terminal"
 	quest.03795968E7FA18BA.quest_subtitle: "&6&lCreate: Stock Market&r turns your server economy into a live, player-driven stock exchange"
 	quest.04CE5B960FE826CA.quest_desc: [
 		"Soul fire in front of an &eEncased Fan&r haunts items instead of smoking them. That is the usual way to turn cobble into blackstone and make soul sand."
 	]
+	quest.04CE5B960FE826CA.title: "Soul Campfire"
 	quest.04CE5B960FE826CA.quest_subtitle: "When placed in front of the &6Encased Fan&r, a &bSoul Fire&r allows it to haunt items"
 	quest.04CEE0CA932DF671.quest_desc: [
 		"&7Opens after &eBlaze Burner&7 (Brass Age)"
@@ -144,11 +153,13 @@
 	quest.05352FD080D95A2F.quest_desc: [
 		"You can press &eU&r on the &fStraw&r to see what liquids it accepts, as well as their burn times"
 	]
+	quest.05352FD080D95A2F.title: "Straw"
 	quest.05352FD080D95A2F.quest_subtitle: "Ever wanted to pipe liquids into your &6Blaze Burners&r? Just hand them a &fStraw&r and they'll slurp it straight from the pipe!"
 	quest.053A085A1D02EEF0.quest_desc: [
 		"&eCopper Diving Boots&r cancel buoyancy and ignore moving belts, so you plant your feet underwater and on running conveyors."
 		"Take them off before you need to swim up in a hurry."
 	]
+	quest.053A085A1D02EEF0.title: "Copper Diving Boots"
 	quest.053A085A1D02EEF0.quest_subtitle: "&6Diving Boots&r allow you to walk underwater like you do on land, as well as walk on belts without them moving you around. Be careful when jumping into the ocean, you won't float!"
 	quest.05422CBF447A8BB8.quest_desc: [
 		"Obtained by dropping a &6Shaft&r on top of a &6Mechanical Saw&r"
@@ -158,21 +169,26 @@
 	quest.05C16E90B3E6304E.quest_desc: [
 		"Needs to rotate at at least &630 RPM&r to function."
 	]
+	quest.05C16E90B3E6304E.title: "Mechanical Mixer"
 	quest.05C16E90B3E6304E.quest_subtitle: "A &6Mechanical Mixer&r can autocraft shapeless recipes as well as mix things like potions"
 	quest.0609D97DEB6E48BF.quest_desc: [
 		"Line up &eEncased Chain Drives&r when you want several parallel shafts, or to turn rotation 90 degrees once without a full gearbox."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.0609D97DEB6E48BF.title: "Encased Chain Drive"
 	quest.0609D97DEB6E48BF.quest_subtitle: "An &6Encased Chain Drive&r allows for multiple parallel rotational outputs, and to change the axis of the rotational output once"
 	quest.06E1BE9BBC046094.quest_desc: [
 		"A &eMechanical Harvester&r on a spinning bearing cuts mature crops and leaves the farmland intact. Mount several around one axle for a circle farm."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.06E1BE9BBC046094.title: "Mechanical Harvester"
 	quest.06E1BE9BBC046094.quest_subtitle: "&6Mechanical Harvesters&r allow contraptions to harvest crops"
 	quest.06F20283C76C1D82.quest_desc: [
 		"Mill sugar cane, or craft it from the cane by hand. Almost every recipe in this chapter wants some."
 		"Keep a millstone (or crushing wheels) on cane if you plan to automate candy."
 	]
+	quest.06F20283C76C1D82.title: "Sugar"
+	quest.06F20283C76C1D82.quest_subtitle: "Mill sugar cane, or craft it from the cane by hand. Almost every recipe in this chapter wants some."
 	quest.071F9DA863D5E146.quest_desc: [
 		"Slice bread on a cutting board, put a slice on the station, then add cooked chicken and whatever else you like."
 		"Potions layered in carry their effect. Break the sandwich to take it with you."
@@ -183,11 +199,13 @@
 		"A directional thruster that can yaw and pitch. Platinum-tier, so smelt the ingot first."
 		"This is the steering nozzle for ships that already have straight-line ion or turpentine thrust. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.07B2E02E2328F4C2.title: "Vector Thruster"
 	quest.07B2E02E2328F4C2.quest_subtitle: "A &bVector Thruster&r is a directional thruster that can also yaw and pitch for vectored &6Propulsion&r control"
 	quest.07EC5E450BA9712D.quest_desc: [
 		"A &eDepot&r holds one stack still so a press, spout, or fan can work on it. Funnels still pull items on and off."
 		"The &eWeighted Ejector&r is the depot that throws. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.07EC5E450BA9712D.title: "Depot"
 	quest.07EC5E450BA9712D.quest_subtitle: "A &6Depot&r is really just a belt that doesn't move"
 	quest.081BC6F954D95C8A.quest_desc: [
 		"Glue &eSails&r (or wool) onto a structure attached to a &eWindmill Bearing&r, then assemble it. More sail area means more stress from that bearing."
@@ -199,6 +217,7 @@
 		"Picks up items off the track and from containers it passes under, then dumps them into hoppers below."
 		"On a loop with &eController Rails&r it's a cheap item bus."
 	]
+	quest.08D5EBEEC4FCBCD2.quest_subtitle: "Picks up items off the track and from containers it passes under, then dumps them into hoppers below."
 	quest.08D5EBEEC4FCBCD2.title: "&eMinecart with Hopper"
 	quest.08EA1AEF6AB1C266.quest_desc: [
 		"Any colour of &eSeat&r works. Glue at least one onto the train so you can ride it after assembly."
@@ -210,20 +229,26 @@
 		"Powered, it kicks riders out, ignites TNT carts, and triggers hopper and dispenser carts."
 		"That's the 'do the thing' rail at the end of a line."
 	]
+	quest.092494276E7FD582.quest_subtitle: "Powered, it kicks riders out, ignites TNT carts, and triggers hopper and dispenser carts."
 	quest.092494276E7FD582.title: "&cActivator Rail"
 	quest.094A700254F965DE.quest_desc: [
 		"Point an &eEncased Fan&r at campfire, soul fire, water, or lava and items blown through that air get smoked, haunted, washed, or blasted."
 		"It also shoves entities around. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.094A700254F965DE.title: "Encased Fan"
 	quest.094A700254F965DE.quest_subtitle: "A &6Encased Fan&r is a very versatile machine that can pull and push entities, as well as wash, haunt, blast, and smoke items"
 	quest.09C716DA6553249A.quest_desc: [
 		"You'll need honey as a fluid. Empty bottles into a basin, then a &eSpout&r can put that honey onto an iron sheet."
 		"That's the filling recipe for &eHoney Glue&r, next door."
 	]
+	quest.09C716DA6553249A.title: "Honey Bottle"
+	quest.09C716DA6553249A.quest_subtitle: "You'll need honey as a fluid. Empty bottles into a basin, then a &eSpout&r can put that honey onto an iron sheet."
 	quest.0A4F6414C91AF6CD.quest_desc: [
 		"Four &eRubber Sheet Blocks&r around a shaft. The huge all-terrain wheel."
 		"For the tallest Off-Road frames. Same mount as the little tires — the spring stretches to fit."
 	]
+	quest.0A4F6414C91AF6CD.title: "Monstrous Tire"
+	quest.0A4F6414C91AF6CD.quest_subtitle: "Four &eRubber Sheet Blocks&r around a shaft. The huge all-terrain wheel."
 	quest.0AC8942A131FCC34.quest_desc: [
 		"Merges up to three incoming beams into one, combining their properties. Needs a &eRose Quartz Catalyst Coil&r."
 	]
@@ -233,10 +258,12 @@
 		"A &eRadial Chassis&r grabs every block in a radius when you Super Glue it, which is faster than painting glue on each piece of a windmill or wheel."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.0B75860976DB9B43.title: "Radial Chassis"
 	quest.0B75860976DB9B43.quest_subtitle: "A &6Radial Chassis&r is a useful block for building contraptions"
 	quest.0BCAAE3D64E3FF14.quest_desc: [
 		"Put a &eSchedule&r in a train's conductor slot — a seated mob or a &eBlaze Burner&r can drive. Add stations and wait conditions so the train runs without you."
 	]
+	quest.0BCAAE3D64E3FF14.title: "Schedule"
 	quest.0BCAAE3D64E3FF14.quest_subtitle: "A &6Schedule&r lets you schedule trains so that mobs or &6Blaze Burners&r can drive them"
 	quest.0C15B829B4F22CF0.quest_desc: [
 		"Obtained by putting through some &cMagma Blocks&r through a pair of &6Crushing Wheels&r"
@@ -247,16 +274,19 @@
 		"Glue the blocks, hold right-click, and pull the lever. Diagonal neighbours come along; after that any assembler can take it back apart."
 		"Disconnected chunks split off; a slimeball merges two assemblies. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.0C29CEB04D73AB53.title: "Physics Assembler"
 	quest.0C29CEB04D73AB53.quest_subtitle: "The &6Physics Assembler&r is used to assemble and disassemble simulated contraptions"
 	quest.0C59E0866E7EFBF3.quest_desc: [
 		"Glue a &ePortable Fluid Interface&r onto a contraption and park it against a matching one on the dock. Fluids transfer while the two faces stay aligned."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.0C59E0866E7EFBF3.title: "Portable Fluid Interface"
 	quest.0C59E0866E7EFBF3.quest_subtitle: "A &6Portable Fluid Interface&r allows contraptions to transfer fluids to blocks"
 	quest.0D04B64A3C45F2B6.quest_desc: [
 		"The Simulated &eSwivel Bearing&r again: glue a cluster, power the cog, and it pivots as its own physics assembly."
 		"Gadgets uses it as the base for the servo and aileron bearings that follow. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.0D04B64A3C45F2B6.quest_subtitle: "The Simulated &eSwivel Bearing&r again: glue a cluster, power the cog, and it pivots as its own physics assembly."
 	quest.0D04B64A3C45F2B6.title: "Craft Swivel Bearing"
 	quest.0D49595D9B86A794.quest_desc: [
 		"You will want plenty of &cLava Buckets&r to make sure you never run out of &3superheat fuel&r"
@@ -266,6 +296,8 @@
 	quest.0DDA8D279FA3A0DE.quest_desc: [
 		"A &eTrack Buffer&r marks a hard stop on the rail. Put it on dead-end tracks so scheduled trains do not overshoot the platform."
 	]
+	quest.0DDA8D279FA3A0DE.title: "Train Stop"
+	quest.0DDA8D279FA3A0DE.quest_subtitle: "A &eTrack Buffer&r marks a hard stop on the rail. Put it on dead-end tracks so scheduled trains do not overshoot the platform."
 	quest.0E4AC2D4FA50A4E2.quest_desc: [
 		"Two smooth stone on two planks. Right-click a bread slice or bun onto the &eSandwiching Station&r, then pile on ingredients."
 		"Food and potions both layer in. Break the sandwich to pick it up; shift-right-click places it in the world."
@@ -276,6 +308,8 @@
 		"Give it rotation and it reels rope in or pays it out, so you can hoist, tow, or lower another Simulated assembly."
 		"Pair it with a connector and a coupling. Right-click the rope with a wrench to slide down. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.0EC563188254E0A6.title: "Rope Winch"
+	quest.0EC563188254E0A6.quest_subtitle: "Give it rotation and it reels rope in or pays it out, so you can hoist, tow, or lower another Simulated assembly."
 	quest.0ECF6A73AFA16B0D.quest_desc: [
 		"Mesh small and large &eCogwheels&r to turn corners and step speed up or down. Wrench them until the teeth actually touch."
 		"Once a network corners cleanly, a &eGearbox&r will save you a lot of cobble-cog spaghetti."
@@ -291,20 +325,25 @@
 		"Aim a &eSmart Observer&r at an inventory, belt, or block. It outputs redstone when it sees the item (or attribute) you filtered for."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.0F2F0A538E65B228.title: "Content Observer"
 	quest.0F2F0A538E65B228.quest_subtitle: "A &cSmart Observer&r can look for specific items in the world or in inventories"
 	quest.0F315FD3B94735A5.quest_desc: [
 		"Assemble and disassemble trains at a &eTrain Station&r, then name it so schedules can find it. This is the block to ponder if train assembly still looks like magic."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.0F315FD3B94735A5.title: "Track Station"
 	quest.0F315FD3B94735A5.quest_subtitle: "A &6Train Station&r is the block that deals with train assembly and disassembly"
 	quest.0F76470B53D09466.quest_desc: [
 		"Heated mix of two sugar, wheat flour and honey. Four candies per mix."
 		"Caramel is next if you keep that heated mixer running on sugar alone."
 	]
+	quest.0F76470B53D09466.quest_subtitle: "Heated mix of two sugar, wheat flour and honey. Four candies per mix."
 	quest.0F76470B53D09466.title: "&eHoney Candy"
 	quest.0F7DF9F8B161AD3F.quest_desc: [
 		"Fill the empty catalyst with water. Same bulk washing as a waterlogged fan, contained in the block."
 	]
+	quest.0F7DF9F8B161AD3F.title: "Fan Splashing Catalyst"
+	quest.0F7DF9F8B161AD3F.quest_subtitle: "Fill the empty catalyst with water. Same bulk washing as a waterlogged fan, contained in the block."
 	quest.0FCA9B992F6FC084.quest_desc: [
 		"This chapter is Create Simulated: contraptions that keep real physics after you assemble them, instead of locking to a bearing."
 		"Glue a hull, pull the assembler, then hang engines, sails, ropes, and sensors on it. Aeronautics, Off-Road, and Propulsion all build on this."
@@ -314,6 +353,8 @@
 	quest.0FD8D9454B234451.quest_desc: [
 		"Ferment sugar, apples, potatoes, and the like with bone meal under a Basin Lid. Pump the ethanol out and bucket it — another engine fuel."
 	]
+	quest.0FD8D9454B234451.title: "Ethanol Bucket"
+	quest.0FD8D9454B234451.quest_subtitle: "Ferment sugar, apples, potatoes, and the like with bone meal under a Basin Lid. Pump the ethanol out and bucket it — another engine fuel."
 	quest.1042F8DDE3975030.quest_desc: [
 		"Same trick as flint: glowstone dust on a depot in front of the Cage. Channeling turns it into &ePrismarine Crystals&r."
 	]
@@ -322,14 +363,18 @@
 	quest.1045354B831EAA6B.quest_desc: [
 		"A storm boss. She drops Lacrima and Essence of the Storm. That is the last of the eight."
 	]
+	quest.1045354B831EAA6B.quest_subtitle: "A storm boss. She drops Lacrima and Essence of the Storm. That is the last of the eight."
 	quest.1045354B831EAA6B.title: "&c&lScylla"
 	quest.1077202C28DA7BFD.quest_desc: [
 		"Press &eRubber&r in a &eMechanical Press&r to flatten it into &eRubber Sheets&r. Three in a row make a &eMechanical Belt&r — that is the next unlock."
 	]
+	quest.1077202C28DA7BFD.title: "Rubber Sheet"
+	quest.1077202C28DA7BFD.quest_subtitle: "Press &eRubber&r in a &eMechanical Press&r to flatten it into &eRubber Sheets&r. Three in a row make a &eMechanical Belt&r — that is the ..."
 	quest.1087DA469F3A10E8.quest_desc: [
 		"Look up &eSweet Berry Cream Cake&r in EMI — Create: Food mixes and layers it."
 		"The heated mixer you just built can handle the cooking steps."
 	]
+	quest.1087DA469F3A10E8.quest_subtitle: "Look up &eSweet Berry Cream Cake&r in EMI — Create: Food mixes and layers it."
 	quest.1087DA469F3A10E8.title: "&eMake a &dSweet Berry Cake"
 	quest.109DED9EC2176A5F.quest_desc: [
 		"Sits between inventories and shoves items across. It will not pull from another Transporter, so you can't daisy-chain them into a loop."
@@ -350,6 +395,7 @@
 		"A music disc: four candy canes around a bar of dark chocolate."
 		"You'll need dark chocolate from the cocoa branch as well as the candy cane block."
 	]
+	quest.10C57B245C83B5AA.quest_subtitle: "A music disc: four candy canes around a bar of dark chocolate."
 	quest.10C57B245C83B5AA.title: "&5The Bright Side"
 	quest.10D15D74A09CBFBD.quest_desc: [
 		"Heated compacting: one titanium ingot, raw martian iron and volcanic ash makes two ingots. You need it for the tougher space suit, electrolysis, and the rest of this chapter."
@@ -376,6 +422,7 @@
 	quest.112FABB815D42A2F.quest_desc: [
 		"An IDAS castle in the overworld. Clear it, then look for the Haunted Manor, Labyrinth and Tinker's Citadel."
 	]
+	quest.112FABB815D42A2F.quest_subtitle: "An IDAS castle in the overworld. Clear it, then look for the Haunted Manor, Labyrinth and Tinker's Citadel."
 	quest.112FABB815D42A2F.title: "&cCastle"
 	quest.113F18929B1DA320.quest_desc: [
 		"Mix Create Big Cannons nitropowder into a fluid the same way. Heavy rounds and the 40mm grenades want this instead of ordinary gunpowder."
@@ -391,6 +438,7 @@
 		"&eChutes&r drop items straight down into inventories. Point an &eEncased Fan&r up the column if you need them to travel the other way."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.11EAA6665DE956FF.title: "Chute"
 	quest.11EAA6665DE956FF.quest_subtitle: "&6Chutes&r are used to transfer items between inventories vertically, either with gravity downwards or Encased Fan airflow upwards"
 	quest.11EC157FEDD4E98D.quest_desc: [
 		"Iron or gold, both cosmetic. They do not change thrust, armor, or battery."
@@ -402,6 +450,7 @@
 		"&7Opens after &eFluid Pipes&7 (Copper Age)"
 		""
 	]
+	quest.1209EAFCD7457303.title: "Oil Scanner"
 	quest.1209EAFCD7457303.quest_subtitle: "Use an &fOil Scanner&r to check for &8Crude Oil Deposits&r from &6Create Diesel Generators&r"
 	quest.122F42FFB82A0758.quest_desc: [
 		"Mix gunpowder in a basin into a fluid. A Spout uses it to fill primers and, later, cartridges. This is the Create Armorer ammo path, not the Ammo Workbench."
@@ -420,11 +469,13 @@
 		""
 		"The &cKinetic Battery&r charges itself by consuming &6SU&r from the grid it is connected to whenever it &l&4is not&r powered on, and uses that charge to provide &6SU&r to the connected grid whenever &2&lit is&r powered on "
 	]
+	quest.12D0B21E10AEEDB4.quest_subtitle: "The &cKinetic Battery&r stores &6Stress Units&r for later use. This way it allows you to have a source of a limited amount of &6Stress Un..."
 	quest.12D0B21E10AEEDB4.title: "&5How to charge the Kinetic Battery"
 	quest.12E775AF8E963543.quest_desc: [
 		"Spin an &eAndesite&r or &eWooden Propeller&r and it pushes the assembly. Mount it on a bearing so the blades can turn on a larger ship."
 		"Wood is the cheap first prop; andesite is the sturdier everyday one. Hold &eW&r over them in EMI to see their Ponder."
 	]
+	quest.12E775AF8E963543.title: "Andesite Propeller"
 	quest.12E775AF8E963543.quest_subtitle: "An &7Propeller&r provides &6Propulsion&r when powered"
 	quest.1345100D26859FB0.quest_desc: [
 		"Shape casting sand around an end, sliding breech or screw breech mould. Pour molten metal in, then bore the casting on the &eCannon Drill&r."
@@ -490,6 +541,7 @@
 		"Right-click any tire onto the mount and the spring sizes itself to that wheel."
 		"You need a mount per corner before the small, standard, large, or monstrous tires will sit on the chassis. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.1498C78F14A0F91B.title: "Wheel Mount"
 	quest.1498C78F14A0F91B.quest_subtitle: "A &8Wheel Mount&r is required for mounting wheels. To use it, &eRight-click&r it with any wheel and the spring will automatically adjust its size to fit"
 	quest.14CC5DA693F41777.quest_desc: [
 		"An auto-loaded cannon or an autocannon on a mount, firing on its own. Tick this off when the loader, not you, puts a round down range."
@@ -500,11 +552,13 @@
 		"Right-click an empty &eRoost&r on a chicken (or the chicken on the roost) to get a &eChicken Roost&r."
 		"It starts producing on its own; eggs are the next quest."
 	]
+	quest.14F9238BF932A5EB.quest_subtitle: "Right-click an empty &eRoost&r on a chicken (or the chicken on the roost) to get a &eChicken Roost&r."
 	quest.14F9238BF932A5EB.title: "&eCapture a Chicken by using the &bRoost"
 	quest.1524E0F8D079A605.quest_desc: [
 		"Run supported fuels through a &eFuel Oxidizer&r so the thruster keeps full thrust even when air pressure drops with altitude."
 		"Without it, high-altitude burns get weaker. Pair it with the thrusters you just made."
 	]
+	quest.1524E0F8D079A605.quest_subtitle: "Run supported fuels through a &eFuel Oxidizer&r so the thruster keeps full thrust even when air pressure drops with altitude."
 	quest.1524E0F8D079A605.title: "Craft Fuel Oxidizer"
 	quest.156DC76AB7CD1065.quest_desc: [
 		"&eShafts&r are the wire of Create: a straight line of rotation from a water wheel or windmill into every machine that needs to spin."
@@ -526,6 +580,7 @@
 	quest.160E4D26B4D8A901.quest_desc: [
 		"Andesite, brass, and railway casings plus an Item Vault. Each crate tier is a compact inventory dressed in that casing."
 	]
+	quest.160E4D26B4D8A901.quest_subtitle: "Andesite, brass, and railway casings plus an Item Vault. Each crate tier is a compact inventory dressed in that casing."
 	quest.160E4D26B4D8A901.title: "Materials for &3Crates"
 	quest.161E1812428DF7F0.quest_desc: [
 		"Freeze hydrogen gas in an &eIce Box&r once it is cold enough. It is the best rocket fuel in the pack, and Mercury's trip expects it."
@@ -536,11 +591,13 @@
 		"Unlike a Create drill, these break a volume around themselves and snap to each other without glue."
 		"More wheels on one bearing slow it down; extra bearings share the work. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.163364A51A8AC02E.title: "Rockcutting Wheel"
 	quest.163364A51A8AC02E.quest_subtitle: "A &8Rockcutting Wheel&r mines blocks at rapid speeds when rotated by a &8Borehead Bearing&r"
 	quest.163D0CE9361628FA.quest_desc: [
 		"Off-Road vehicles are Simulated chassis with tires and drills. They still want a &ePortable Engine&r on board for rotation."
 		"Craft one, then hang wheel mounts or a borehead off the frame."
 	]
+	quest.163D0CE9361628FA.quest_subtitle: "Off-Road vehicles are Simulated chassis with tires and drills. They still want a &ePortable Engine&r on board for rotation."
 	quest.163D0CE9361628FA.title: "Engine"
 	quest.1642807AAAD12029.quest_desc: [
 		"Stonecut iron blocks into riveted and other &eLocometal&r, then dye them if you want a livery."
@@ -556,6 +613,7 @@
 	quest.16C3EC6AE3C3F7C9.quest_desc: [
 		"Now that we have crafted everything necessary we can finally make our &3Echo armor set&r, a powerful set that grants it's user with infinite &aResistance&r and &aStrength&r"
 	]
+	quest.16C3EC6AE3C3F7C9.quest_subtitle: "Now that we have crafted everything necessary we can finally make our &3Echo armor set&r, a powerful set that grants it's user with infin..."
 	quest.16C3EC6AE3C3F7C9.title: "&bEcho Armor Set"
 	quest.16F16A332CFCE4DE.quest_desc: [
 		"A mobile mount you can tow. It cannot be automated like a Cannon Mount, but it goes where the fight is."
@@ -581,6 +639,7 @@
 		"The empty cart is the chassis. Chest, hopper, furnace, TNT and dispenser variants all start from this."
 		"Ride it, couple it, or park it on a &eCart Assembler&r to turn it into a contraption."
 	]
+	quest.17E6DCDBEEBAEEAD.quest_subtitle: "The empty cart is the chassis. Chest, hopper, furnace, TNT and dispenser variants all start from this."
 	quest.17E6DCDBEEBAEEAD.title: "&aMinecart"
 	quest.17F265C8D8A9D31D.quest_desc: [
 		"A Warp Stone is reusable; Return and Warp Scrolls are single-use. Open the waystone list from wherever you are standing."
@@ -597,6 +656,7 @@
 		"Heated mix of sugar, dragon's breath, cocoa beans and milk, then compact the fluid."
 		"The bar gives a brief Saturation effect, and it's the glaze for ruby marshmallows."
 	]
+	quest.190FD2DF12D222C0.quest_subtitle: "Heated mix of sugar, dragon's breath, cocoa beans and milk, then compact the fluid."
 	quest.190FD2DF12D222C0.title: "&dBar of Ruby Chocolate"
 	quest.192F3EF7093B1E89.quest_desc: [
 		"One-piece propellant for quick-firing guns. Single-use per shot, then refill. Fit a Quick-Firing Mechanism to a sliding breech to use them by hand."
@@ -606,10 +666,12 @@
 	quest.193D30AAA50152FA.quest_desc: [
 		"Kill the Ender Dragon. That opens the outer End islands, including the Ruined Citadel and the rest of the End's loot."
 	]
+	quest.193D30AAA50152FA.quest_subtitle: "Kill the Ender Dragon. That opens the outer End islands, including the Ruined Citadel and the rest of the End's loot."
 	quest.193D30AAA50152FA.title: "&5&lFree the End"
 	quest.196BAC5655C17935.quest_desc: [
 		"A compact ratio in one block. Follows the tiny cogs and worm gear when you need even more reduction or speedup."
 	]
+	quest.196BAC5655C17935.quest_subtitle: "A compact ratio in one block. Follows the tiny cogs and worm gear when you need even more reduction or speedup."
 	quest.196BAC5655C17935.title: "&6Planetary Gear"
 	quest.1970F0B8CFF70E5B.quest_desc: [
 		"Milling &eLimestone&r is how you get &eSuspicious Rock&r — a rare extra besides calcium powder."
@@ -621,11 +683,14 @@
 		"Keep a &eWrench&r in the hotbar. It is how you pick up Create blocks without a pickaxe, flip cogwheels, and reconnect belts after a rebuild."
 		"Craft it alongside the goggles, then head into Andesite Age."
 	]
+	quest.19C5853C695A22A7.title: "Wrench"
 	quest.19C5853C695A22A7.quest_subtitle: "A &6Wrench&r lets you instantly break most &6&lCreate&r blocks by &eShift + Right-clicking&r. And rotate them by &eRight-clicking&r. Your all-purpose friend you'll never leave home without again"
 	quest.19D25E21CB4DD55C.quest_desc: [
 		"Direct mode maps analog redstone straight to the output ratio. Incremental mode nudges a stored shift up or down from the two sides."
 		"Switch modes on the value panel. Use it as a throttle or gear for engines and adapters. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.19D25E21CB4DD55C.title: "Redstone Transmission"
+	quest.19D25E21CB4DD55C.quest_subtitle: "Direct mode maps analog redstone straight to the output ratio. Incremental mode nudges a stored shift up or down from the two sides."
 	quest.1A030F9EF7768F15.quest_desc: [
 		"Pipe oxygen in the back and kinetic power in from below. It only fills a sealed room, so goggle the machine and check the seal. Build this on the Moon so you can work without the suit."
 	]
@@ -645,6 +710,7 @@
 		"Hang a &eHose Pulley&r over a lake, feed it a pipe, and it drinks or places fluid as the hose extends. A big enough pool never runs out — that is the next quest."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.1A389BBE7CDB0F96.title: "Hose Pulley"
 	quest.1A389BBE7CDB0F96.quest_subtitle: "A &6Hose Pulley&r can be used to place or extract large bodies of liquid"
 	quest.1A9BDF6B88E5A7A9.quest_desc: [
 		"Obtained by &cSmoking&r or &eBulk-Smoking&r Peats"
@@ -661,6 +727,7 @@
 	quest.1AFEF2789E7179B1.quest_desc: [
 		"Stick a &eStressometer&r on any shaft to read used stress versus capacity. If new machines stop the whole line, this is the first block to look at."
 	]
+	quest.1AFEF2789E7179B1.title: "Stressometer"
 	quest.1AFEF2789E7179B1.quest_subtitle: "A &6Stressometer&r lets you see the current stress and stress capacity of the kinetic network it's connected to"
 	quest.1B3F3097CE12FE41.quest_desc: [
 		"Connect two placed pieces to stretch a line — curves and slopes are allowed."
@@ -672,6 +739,7 @@
 	quest.1B4EA9D4B62D0237.quest_desc: [
 		"Two &eRedstone Contacts&r output a signal while they touch. Put one on a moving door or elevator and one on the landing so you know when it has arrived."
 	]
+	quest.1B4EA9D4B62D0237.title: "Redstone Contact"
 	quest.1B4EA9D4B62D0237.quest_subtitle: "A &cRedstone Contact&r component that outputs a signal when in contact with another &cRedstone Contact&r. Particularly useful for building contraptions"
 	quest.1B532265A50A9BCA.quest_desc: [
 		"Each look starts from a Particle Blend, then becomes flame, smoke, soul fire, snow, or rainbow."
@@ -688,6 +756,7 @@
 		"It grabs the block in front. Add rock-cutting wheels and a storage container and you have a drill that auto-collects drops."
 		"It reverses rotation and spins at a quarter of the input RPM. Extract from the bearing when the internal storage fills, or it stops. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.1B67448AD335E5E4.title: "Borehead Bearing"
 	quest.1B67448AD335E5E4.quest_subtitle: "An &8Borehead Bearing&r is used to create boreheads"
 	quest.1B6AE2D9EE970BD3.quest_desc: [
 		"Fill an &eEcho Cake Base&r at a Spout with Molten Echo. It's a Blaze Cake upgrade that burns for a long while — special fuel for the Burner, not a snack."
@@ -708,6 +777,8 @@
 		"Crush &eEnd Stone&r on &eCrushing Wheels&r. You get powder, and sometimes the stone back."
 		"Four powder plus zinc nuggets and water mix, heated, into Levitite Blend."
 	]
+	quest.1B89EA5E54DE9178.title: "End Stone Powder"
+	quest.1B89EA5E54DE9178.quest_subtitle: "Crush &eEnd Stone&r on &eCrushing Wheels&r. You get powder, and sometimes the stone back."
 	quest.1BC069B1D52BB54C.quest_desc: [
 		"Craft Tropical Stew shapeless from a Coconut Slice and Crab Meat. It restores 10 hunger, and the empty husk is returned when you finish the bowl."
 	]
@@ -716,10 +787,13 @@
 	quest.1BE84A67C4F49130.quest_desc: [
 		"Geode loot, and the starting ingredient for Optical Devices. You'll also need them for tinted glass."
 	]
+	quest.1BE84A67C4F49130.quest_subtitle: "Geode loot, and the starting ingredient for Optical Devices. You'll also need them for tinted glass."
 	quest.1BE84A67C4F49130.title: "&dAmethyst Shards"
 	quest.1BF8883F64D94AFC.quest_desc: [
 		"Optional side path: the stock TACZ table crafts guns that are not on the Create Armorer line. Iron, logs and an iron block. The Mechanical Crafter remains the main route."
 	]
+	quest.1BF8883F64D94AFC.title: "Gun Smith Table"
+	quest.1BF8883F64D94AFC.quest_subtitle: "Optional side path: the stock TACZ table crafts guns that are not on the Create Armorer line. Iron, logs and an iron block. The Mechanica..."
 	quest.1C709492F2F78BB9.quest_desc: [
 		"The Access Port fattens a chest's face so filters and switches can reach it. The Inventory Bridge sits between two inventories and sorts with its own filter slots."
 	]
@@ -740,6 +814,7 @@
 		"The &eSteering Wheel&r is precise rotation you hold and turn. Sensors speak redstone: altitude, speed along one axis, and tilt from the gimbal."
 		"&eSymmetric Sails&r only add drag, which is what you want for fins and windmill blades. Regular Create sails add lift when the hull is moving. Hold &eW&r over them in EMI to see their Ponder."
 	]
+	quest.1C982C9E827813C5.quest_subtitle: "The &eSteering Wheel&r is precise rotation you hold and turn. Sensors speak redstone: altitude, speed along one axis, and tilt from the g..."
 	quest.1C982C9E827813C5.title: "Sail Equipments"
 	quest.1C9DFE7DD07C9F77.quest_desc: [
 		"Capstone for Steam 'n' Rails: a working railway, not a parked locomotive."
@@ -751,6 +826,7 @@
 		"Sneak-right-click inventories to teach a &eMechanical Arm&r its inputs and outputs. It only works if every target is inside its reach, and it needs stress to move."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.1D0911E494CA0184.title: "Mechanical Arm"
 	quest.1D0911E494CA0184.quest_subtitle: "A &6Mechanical Arm&r is an advanced item distribution machine that works by designating it to specific blocks the arm can reach. If it can't reach a location, the arm won't work. Requires &6SUs&r to operate"
 	quest.1D2E9035CBEF5334.quest_desc: [
 		"Place a &eHandcar&r on the track and pump the handles. No casing, no controls, no fuel."
@@ -767,14 +843,17 @@
 		"Redstone fills the balloon above it with hot air. The panel sets max output; signal strength scales that output."
 		"Lift falls off as air pressure drops with altitude, so a bigger envelope or more burners are how you keep climbing. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.1D8DB9025EC63135.title: "Adjustable Burner"
 	quest.1D8DB9025EC63135.quest_subtitle: "An &8Hot Air Burner&r can be powered by &credstone&r to generate &aLift&r by filling balloons with hot air"
 	quest.1D98174DC7159C28.quest_desc: [
 		"Every pulse into a &ePowered Toggle Latch&r flips it. One button can start and stop a clutch without a separate off switch."
 	]
+	quest.1D98174DC7159C28.title: "Powered Toggle Latch"
 	quest.1D98174DC7159C28.quest_subtitle: "A &cPowered Toggle Latch&r toggles its state with every redstone pulse"
 	quest.1D9CB8D1389E13EB.quest_desc: [
 		"Another leftover base, this time on Mars. Loot it, then get back to steel, seeds and electrolysis."
 	]
+	quest.1D9CB8D1389E13EB.quest_subtitle: "Another leftover base, this time on Mars. Loot it, then get back to steel, seeds and electrolysis."
 	quest.1D9CB8D1389E13EB.title: "&cAbandoned Martian Base"
 	quest.1DAB0F69BE29D8C5.quest_desc: [
 		"Can also be used to create infinite &9water&r by extracting from a source block that has 2 source blocks adjacent to it"
@@ -802,6 +881,7 @@
 	quest.1DF7367D76E81BFC.quest_desc: [
 		"A village built around airships. Find it after Clockwork Village; everything in this chapter is inside the world border."
 	]
+	quest.1DF7367D76E81BFC.quest_subtitle: "A village built around airships. Find it after Clockwork Village; everything in this chapter is inside the world border."
 	quest.1DF7367D76E81BFC.title: "&6Airship Village"
 	quest.1DFD87B60DF28EA1.quest_desc: [
 		"&7Opens after &ecreate:millstone&7 (Andesite Age)"
@@ -814,10 +894,12 @@
 		"Heated mix of sugar, two cocoa powder and milk, spout it into a glass bottle, then craft the bottle with a marshmallow."
 		"Drinking it grants Regeneration II."
 	]
+	quest.1E3081292571CD31.quest_subtitle: "Heated mix of sugar, two cocoa powder and milk, spout it into a glass bottle, then craft the bottle with a marshmallow."
 	quest.1E3081292571CD31.title: "&cSoothing Hot Chocolate"
 	quest.1E524894453AE0BB.quest_desc: [
 		"A coastal Integrated Villages town. Same hunt as the Airship Village: walk, map, and keep an eye on the compass."
 	]
+	quest.1E524894453AE0BB.quest_subtitle: "A coastal Integrated Villages town. Same hunt as the Airship Village: walk, map, and keep an eye on the compass."
 	quest.1E524894453AE0BB.title: "&6Pirate Village"
 	quest.1E7326E5E8D2CDD9.quest_desc: [
 		"The apparatus sits on an Arcane Core, with pedestals around it. This is Ars's main altar: trinkets, charms, book upgrades and rituals all pass through here."
@@ -827,6 +909,8 @@
 	quest.1EB44121D6968D59.quest_desc: [
 		"Mill wheat. Gingerdough and honey candy both call for it, so make a stack while the millstone is out."
 	]
+	quest.1EB44121D6968D59.title: "Wheat Flour"
+	quest.1EB44121D6968D59.quest_subtitle: "Mill wheat. Gingerdough and honey candy both call for it, so make a stack while the millstone is out."
 	quest.1EC85BA03D3DD7CC.quest_desc: [
 		"When the ship parks with the two interfaces lined up, energy flows between them, so the dock can recharge the ship's accumulators."
 	]
@@ -835,6 +919,7 @@
 	quest.1EE4A5C43CE2B840.quest_desc: [
 		"Brass ingots and iron bars. Park it in front of an Encased Fan, then fill it so the fan blasts, washes, smokes, and more without a messy block in the world."
 	]
+	quest.1EE4A5C43CE2B840.quest_subtitle: "Brass ingots and iron bars. Park it in front of an Encased Fan, then fill it so the fan blasts, washes, smokes, and more without a messy ..."
 	quest.1EE4A5C43CE2B840.title: "&lEmpty Fan Catalyst"
 	quest.1F074F66679DDC25.quest_desc: [
 		"Line the platform edge with &eStation Platforms&r so the gap to the carriage is tidy."
@@ -846,6 +931,7 @@
 		"Glue &eContraption Controls&r onto an assembled machine and you can mute its drills, saws, or harvesters without taking the whole thing apart."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.1F4456568BDB3EAD.title: "Contraption Controls"
 	quest.1F4456568BDB3EAD.quest_subtitle: "A &6Contraption Control&r let you turn off parts of contraptions while they are formed"
 	quest.1F7C06CC0B7E5AC2.quest_desc: [
 		"Find dormant martian seeds and wake them on a sequenced assembly line with water and potions. Plant the result in Mars soil: palm, sprout or tulip."
@@ -860,6 +946,7 @@
 	quest.1FD1E0A2EF4B63F9.quest_desc: [
 		"They hold the extra ingredients around an Enchanting Apparatus. You will want a ring of them before you craft the apparatus itself."
 	]
+	quest.1FD1E0A2EF4B63F9.quest_subtitle: "They hold the extra ingredients around an Enchanting Apparatus. You will want a ring of them before you craft the apparatus itself."
 	quest.1FD1E0A2EF4B63F9.title: "&5Arcane Pedestals"
 	quest.1FD40934312DF437.quest_desc: [
 		"Place a &eWine Cellar&r and put grape pomace in it. Red and white pomace each make different wines."
@@ -871,10 +958,13 @@
 		"A small-terrain wheel: one &eRubber Sheet&r and a shaft. Right-click it onto a &eWheel Mount&r."
 		"Light carts and tight trails. Step up a size if the chassis starts burying the rim."
 	]
+	quest.1FD5D2A8CEB4D418.title: "Small Tire"
+	quest.1FD5D2A8CEB4D418.quest_subtitle: "A small-terrain wheel: one &eRubber Sheet&r and a shaft. Right-click it onto a &eWheel Mount&r."
 	quest.1FE0DB58676C394D.quest_desc: [
 		"Slide these into a thruster's upgrade slot. Smoking, smelting, and haunting cook items on nearby depots in the exhaust; propulsion T1 doubles thrust and fuel use."
 		"T2 and T3 wait behind this quest."
 	]
+	quest.1FE0DB58676C394D.quest_subtitle: "Slide these into a thruster's upgrade slot. Smoking, smelting, and haunting cook items on nearby depots in the exhaust; propulsion T1 dou..."
 	quest.1FE0DB58676C394D.title: "Craft All Tier 1 on Thrusters"
 	quest.1FE4FB9F61915D53.quest_desc: [
 		"Apple, sweet berry, pumpkin or watermelon all count. Brew the fruit tea, then spout it into a cup that already has boba."
@@ -887,6 +977,7 @@
 		""
 		"&l-&r While usually it's only found in the loot chests inside the &2Ancient City&r after many trials and errors certain &6Master Clerics&r have become able to synthesize it at the comfort of their own brewing stands letting you avoid the many dangers inside of these cities."
 	]
+	quest.1FE8EA6FB9329269.quest_subtitle: "The &b&lEcho Shard&r is the first step on the path towards creating the very powerful &5weapons and &5armors&r the Deep Dark&r provides."
 	quest.1FE8EA6FB9329269.title: "&bEcho Shard"
 	quest.1FFF9B91CA71694E.quest_desc: [
 		"Pipe lava instead and the sprinkler becomes a cook-zone or a mob incinerator."
@@ -907,11 +998,13 @@
 		""
 		"But at the end of this grueling process we will be the owner of a pristine condition &3&lEcho ingot&r"
 	]
+	quest.2005366DA716D1AA.quest_subtitle: "Easily the longest part of our process the conversion of &6Netherite ingot&r to the &3&lEcho ingot&r needs us to repeat the five step pro..."
 	quest.2005366DA716D1AA.title: "&l&9Echo Ingot"
 	quest.2005FA370149167D.quest_desc: [
 		"Drop a filled bucket or a wet item onto an &eItem Drain&r and the liquid comes out the bottom into a pipe or tank. It is the spout in reverse."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.2005FA370149167D.title: "Item Drain"
 	quest.2005FA370149167D.quest_subtitle: "An &6Item Drain&r allows for the extraction of liquids from items manually or automatically"
 	quest.2039D4A01E3B0567.quest_desc: [
 		"Integrated Stronghold replaces the vanilla one: bigger, meaner, and still the way to the End portal. Eyes of Ender find it."
@@ -921,6 +1014,7 @@
 	quest.2047D5978329D0AB.quest_desc: [
 		"Bearing, head, crank, and a canister. Stand it over an oil chunk the scanner found, power the crank, and crude oil comes up."
 	]
+	quest.2047D5978329D0AB.quest_subtitle: "Bearing, head, crank, and a canister. Stand it over an oil chunk the scanner found, power the crank, and crude oil comes up."
 	quest.2047D5978329D0AB.title: "Pumpjack"
 	quest.20520A21C344BD5B.quest_desc: [
 		"Odym is light gravity and cool air. Blue light. Jump from the chart the same way you reached Oa."
@@ -991,6 +1085,7 @@
 	quest.220D03EF87821AB8.quest_desc: [
 		"A Depot and an Electron Tube. Attach the finished depot to a villager's workstation and it trades while you're away."
 	]
+	quest.220D03EF87821AB8.quest_subtitle: "A Depot and an Electron Tube. Attach the finished depot to a villager's workstation and it trades while you're away."
 	quest.220D03EF87821AB8.title: "Materials for the &2Trading Depot"
 	quest.22190D410ED6F5AB.quest_desc: [
 		"Craft from an Item Vault and a Transmitter. When placed it creates a stock network; right-click an existing link before placing another to bind them."
@@ -1008,6 +1103,8 @@
 		"The borehead and rock-cutting wheels in this chapter all want industrial iron in the build."
 		"Keep a stack from Brass Age; the excavator branch starts here."
 	]
+	quest.223A1E5B6E119BF3.title: "Industrial Iron Block"
+	quest.223A1E5B6E119BF3.quest_subtitle: "The borehead and rock-cutting wheels in this chapter all want industrial iron in the build."
 	quest.223FE2F7B310B827.quest_desc: [
 		"Craft glyphs here for the spellbook. You need the novice book and Source Gems. More glyphs mean better spells, including the Mage's book later."
 	]
@@ -1021,6 +1118,7 @@
 	quest.22464F35204CBECE.quest_desc: [
 		"Fill the empty catalyst so the fan smokes items. The heat stays inside the block instead of cluttering your processing line with campfires."
 	]
+	quest.22464F35204CBECE.quest_subtitle: "Fill the empty catalyst so the fan smokes items. The heat stays inside the block instead of cluttering your processing line with campfires."
 	quest.22464F35204CBECE.title: "&7Fan Smoking Catalyst"
 	quest.224866F50B6E1B18.quest_desc: [
 		"EMI lists every Create Armorer gun under the &eMechanical Crafting&r category: search for &e@createimmersivetacz&r."
@@ -1031,6 +1129,7 @@
 		"Press platinum, then craft &eCable&r with redstone and black dye. The &eCable Relay&r is the junction."
 		"Run them between Propulsion machines that need a wired link rather than redstone dust."
 	]
+	quest.227D8B17E7004F3A.quest_subtitle: "Press platinum, then craft &eCable&r with redstone and black dye. The &eCable Relay&r is the junction."
 	quest.227D8B17E7004F3A.title: "Cable"
 	quest.22AAD0DB4C56BA7A.quest_desc: [
 		"The metal Create: Springs is built from. Springs store rotation and dump it in a burst."
@@ -1040,6 +1139,7 @@
 	quest.22BCBE0EBE80FEC7.quest_desc: [
 		"An &eAttribute Filter&r matches traits instead of a list — smeltable, a given mod, max stack size, and so on. Drop it in a brass funnel when the item IDs keep changing."
 	]
+	quest.22BCBE0EBE80FEC7.title: "Attribute Filter"
 	quest.22BCBE0EBE80FEC7.quest_subtitle: "An &6Attribute Filter&r can filter by attributes like \"can be smelted\" or \"from Create&r\""
 	quest.22D3778029D7B924.quest_desc: [
 		"Belts are back because brass logistics sit on them. Run a line from your crafters and slot brass funnels, tunnels, and a &eMechanical Arm&r onto it next."
@@ -1059,6 +1159,7 @@
 	quest.231C8943A649FD16.quest_desc: [
 		"Stick it on a Fluid Tank to turn the tank into a Distillation Tower. Heat crude oil in that tower to split it into diesel and gasoline."
 	]
+	quest.231C8943A649FD16.title: "Distillation Controller"
 	quest.231C8943A649FD16.quest_subtitle: "Apply a &fDistillation Controller&r to a &6Fluid Tank&r to create a &6Distillation Tower&r"
 	quest.2321A90C9B2BA592.quest_desc: [
 		"A Mechanical Press, a Fluid Tank, and a copper block. It presses with fluid pressure instead of a shaft alone — stronger, and it wants a fluid supply."
@@ -1074,6 +1175,7 @@
 	quest.236439AD7BB284E5.quest_desc: [
 		"Campfire or smoker, not a furnace. Once toasted, the ruby chocolate branch opens."
 	]
+	quest.236439AD7BB284E5.quest_subtitle: "Campfire or smoker, not a furnace. Once toasted, the ruby chocolate branch opens."
 	quest.236439AD7BB284E5.title: "&eCaramelized Marshmallows on a Stick"
 	quest.23B3F4127D33F0F0.quest_desc: [
 		"Deploy an electron tube and redstone onto a golden sheet, then press — three loops. Most of the outputs are chips; the rest is scrap. You'll need one for the Sequenced Pulse Generator."
@@ -1108,6 +1210,7 @@
 		"Build a closed, airtight volume. Hot air fills from the top down; leftover blocks inside steal volume, and shafts need an envelope casing to stay airtight."
 		"Dye them if you want colour. Pair with the burner you just made, or a steam vent for huge balloons. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.242E73C55EA48037.title: "White Envelope"
 	quest.242E73C55EA48037.quest_subtitle: "A &fHot Air Envelope&r forms balloons on simulated contraptions and generates &aLift&r when heated from below by a powered &8Hot Air Burner&r or &6Steam Vent&r"
 	quest.24351C29FD9BAD0B.quest_desc: [
 		"Crushing a nautilus shell showers bone meal and experience, with a chance at a &eSpiky Shell&r. Keep feeding shells until you have enough for a Trident."
@@ -1132,28 +1235,35 @@
 		"Sit a &ePackage Frogport&r on an inventory or under a chain conveyor. Name it, address packages to that name, and a frog hops them in or out."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.25207A8A32465083.title: "Package Frogport"
+	quest.25207A8A32465083.quest_subtitle: "Sit a &ePackage Frogport&r on an inventory or under a chain conveyor. Name it, address packages to that name, and a frog hops them in or ..."
 	quest.259BA7ADACF10913.quest_desc: [
 		"Same idea as the Copper Coil, with gold — check EMI for the sequence. Unlocks the Heavy Optical Receptor."
 	]
+	quest.259BA7ADACF10913.quest_subtitle: "Same idea as the Copper Coil, with gold — check EMI for the sequence. Unlocks the Heavy Optical Receptor."
 	quest.259BA7ADACF10913.title: "&eGolden Coil"
 	quest.25B0E3DC2762B231.quest_desc: [
 		"Optional Create train advancements: long trips, portals, whistles, crashes and a track factory."
 		"None of these are required to finish the chapter. They're excuses to take the locomotive out."
 	]
+	quest.25B0E3DC2762B231.quest_subtitle: "Optional Create train advancements: long trips, portals, whistles, crashes and a track factory."
 	quest.25B0E3DC2762B231.title: "&bChallenges"
 	quest.25DABD7C2D1C733C.quest_desc: [
 		"Wear the &eCopper Diving Helmet&r with a charged &eBacktank&r and you breathe from the tank instead of the air meter."
 		"Craft the matching boots so you can walk the seafloor instead of floating past it."
 	]
+	quest.25DABD7C2D1C733C.title: "Copper Diving Helmet"
 	quest.25DABD7C2D1C733C.quest_subtitle: "A &6Diving Helmet&r lets you use air from an equipped tank to breathe underwater"
 	quest.26250B86376A0525.quest_desc: [
 		"Five candy canes in the axe shape. Craft it from the canes, not the block."
 	]
+	quest.26250B86376A0525.quest_subtitle: "Five candy canes in the axe shape. Craft it from the canes, not the block."
 	quest.26250B86376A0525.title: "&eCandy Cane Axe"
 	quest.26448F616ABCCAF2.quest_desc: [
 		"Place &eFluid Tanks&r against each other to grow a boiler or a storage tower. Windows show the fluid; pumps and pipes are how you fill them."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.26448F616ABCCAF2.title: "Fluid Tank"
 	quest.26448F616ABCCAF2.quest_subtitle: "A &6Fluid Tank&r is the main block used for bulk fluid storage"
 	quest.264ECBCC1FAC046E.quest_desc: [
 		"Oa is a real Northstar planet in this pack: breathable, 22 °C, a little under Earth gravity. The bridge reads the world out of Create: Lanterns and lands you in its sky."
@@ -1201,6 +1311,7 @@
 		"Any one wine from the cellar counts: merlot, pinot, chardonnay and the rest."
 		"Drink it, cellar more, or move on to cider if you have apples handy."
 	]
+	quest.26FA15C0D2681972.quest_subtitle: "Any one wine from the cellar counts: merlot, pinot, chardonnay and the rest."
 	quest.26FA15C0D2681972.title: "&5A Fine Vintage"
 	quest.273170D88255F4D6.quest_desc: [
 		"Cut them on a Mechanical Saw; each calibre has its own casing, from pistol up to 40mm. They go onto the sequenced assembly line with a primer and powder."
@@ -1215,6 +1326,7 @@
 	quest.27491161DE9F796A.quest_desc: [
 		"A large IDAS fortress. Heavier loot and heavier fights than the castle."
 	]
+	quest.27491161DE9F796A.quest_subtitle: "A large IDAS fortress. Heavier loot and heavier fights than the castle."
 	quest.27491161DE9F796A.title: "&6Tinker's Citadel"
 	quest.27C041D46B670E00.quest_desc: [
 		"Mechanical-crafted. It is the first of three parts every Create Armorer gun shares, before the trigger and firing mechanism."
@@ -1225,15 +1337,19 @@
 		"Two extended connectors seek each other, then lock into a rigid dock that still keeps both sides as separate assemblies."
 		"Once locked, items and fluids can pass if you insert and extract on both sides. Retract either connector to undock. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.27E521E443209518.title: "Docking Connector"
+	quest.27E521E443209518.quest_subtitle: "Two extended connectors seek each other, then lock into a rigid dock that still keeps both sides as separate assemblies."
 	quest.281D6BAA6A343E88.quest_desc: [
 		"Every rail this chapter uses: regular track for the line, then powered, detector, activator, and Create's controller rail."
 		"Lay a loop first, then swap in the special rails where you need speed, sensing or a reverse."
 	]
+	quest.281D6BAA6A343E88.quest_subtitle: "Every rail this chapter uses: regular track for the line, then powered, detector, activator, and Create's controller rail."
 	quest.281D6BAA6A343E88.title: "&aRails"
 	quest.289D978A3CB3FE69.quest_desc: [
 		"Cover a belt with &eAndesite Tunnels&r to split or merge lines. They only pass one item type per lane, which is plenty until brass tunnels."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.289D978A3CB3FE69.title: "Andesite Tunnel"
 	quest.289D978A3CB3FE69.quest_subtitle: "An &6Andesite Tunnel&r is used to manage the flow of items on belts by splitting or merging production lines"
 	quest.28CCB8868759C53B.quest_desc: [
 		"Wear it on your head against smoke shells. It will not save you from lingering potions, dragon's breath or potion fluid blobs."
@@ -1243,6 +1359,7 @@
 	quest.28DF4183D2B58BF6.quest_desc: [
 		"Essential for us to make the &dEcho Cake&r the &d&lSculk flour&r is made by passing &9Sculk blocks&r through a pair of &6Crushing Wheels&r and pulverizing them to bits."
 	]
+	quest.28DF4183D2B58BF6.quest_subtitle: "Essential for us to make the &dEcho Cake&r the &d&lSculk flour&r is made by passing &9Sculk blocks&r through a pair of &6Crushing Wheels&..."
 	quest.28DF4183D2B58BF6.title: "&dSculk Flours"
 	quest.28E2042CD660FE69.quest_desc: [
 		"You can search in &d&lREI&r for the fluids that apply by typing &e\"$create:bottomless\"&r"
@@ -1277,6 +1394,7 @@
 	quest.29882BA136A365CC.quest_desc: [
 		"Press gold like any other plate. The Control Chip's sequenced assembly starts on a &eGolden Sheet&r."
 	]
+	quest.29882BA136A365CC.quest_subtitle: "Press gold like any other plate. The Control Chip's sequenced assembly starts on a &eGolden Sheet&r."
 	quest.29882BA136A365CC.title: "&eGolden Sheet"
 	quest.29BC2181C9AC3A60.quest_desc: [
 		"A &6Mechanical Mixer&r over a &6Basin&r is how this age opens — shapeless crafts, potions, and soon brass itself."
@@ -1306,6 +1424,7 @@
 	quest.2A45646F93259D25.quest_desc: [
 		"Same &eGearbox&r as Andesite Age, but here it unlocks the &eRotation Speed Controller&r and &eSequenced Gearshift&r. Place one in the brass line before those two."
 	]
+	quest.2A45646F93259D25.title: "Gearbox"
 	quest.2A45646F93259D25.quest_subtitle: "The &6Gearbox&r is sort of like an extension cord, but for &6Shafts&r. It can change the direction of shafts, and can have more than one shaft attached to a different side of the gearbox"
 	quest.2A5D792CD3695430.quest_desc: [
 		"Stand a lightning rod next to a &eBlock of Experience&r and wait for a thunderstorm. A strike can super-heat the block into Super Experience."
@@ -1316,6 +1435,8 @@
 		"The &eDirectional Linked Receiver&r reads the angle to a matching Redstone Link: full strength dead ahead, weaker off-axis, nothing behind."
 		"The &eModulating Linked Receiver&r reads distance instead, with a min and max range you set. Same item frequencies as normal links. Hold &eW&r over them in EMI to see their Ponder."
 	]
+	quest.2A6F8598292657FE.title: "Directional Linked Receiver"
+	quest.2A6F8598292657FE.quest_subtitle: "The &eDirectional Linked Receiver&r reads the angle to a matching Redstone Link: full strength dead ahead, weaker off-axis, nothing behind."
 	quest.2AB9E83773FD728C.quest_desc: [
 		"Sits under the mount and turns it with Create rotation. Elevation is on the mount itself."
 	]
@@ -1335,6 +1456,7 @@
 		"An &eElectric Motor&r is a compact kinetic source powered by FE instead of water or steam. Set the RPM on it; faster speeds draw more energy."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.2AE3E90D07A627F5.title: "Electric Motor"
 	quest.2AE3E90D07A627F5.quest_subtitle: "A &6Electric Motor&r converts &6Energy (E)&r into kinetic energy (&6SU&r) at any &6RPM&r"
 	quest.2AEBE7EE1C6A3D00.quest_desc: [
 		"Craft from leather, string and iron. After it is equipped, open it with the Open Backpack key (the Tutorial lists &eB&r)."
@@ -1346,6 +1468,7 @@
 		"Pipe a &eSteam Engine&r into it instead of using a redstone burner. One vent can fill far more envelope than a Hot Air Burner."
 		"Save it for the giant endgame balloons the burner cannot keep up with. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.2B00541A5EA7F062.title: "Steam Vent"
 	quest.2B00541A5EA7F062.quest_subtitle: "The &6Steam Vent&r works similarly to the &8Hot Air Burner&r, but uses a &6Steam Engine&r instead, allowing it to fill far more envelopes. Perfect for endgame giant air balloons"
 	quest.2B2265A965603686.quest_desc: [
 		"Capstone for the chapter: one drink (coffee, milk tea or wine) and one dessert (a novelty cake) made by machine, not by hand."
@@ -1367,15 +1490,19 @@
 		"Draw a structure with the &eSchematic Table&r and an empty schematic, then load it into the &eSchematicannon&r with gunpowder and the matching blocks."
 		"It prints the build for you. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.2B5F6A8FDF29A2F8.title: "Schematicannon"
 	quest.2B5F6A8FDF29A2F8.quest_subtitle: "The &6Schematicannon&r is a special type of machine used to build structures with the use of &6Schematics&r"
 	quest.2B76FCB1361847B4.quest_desc: [
 		"A &eSpeedometer&r shows RPM on the network it sits on. Check it before you merge two power sources — mismatched speeds stall both."
 	]
+	quest.2B76FCB1361847B4.title: "Speedometer"
 	quest.2B76FCB1361847B4.quest_subtitle: "A &6Speedometer&r lets you see the rotational speed of a kinetic network"
 	quest.2BA2507984D3E703.quest_desc: [
 		"It thrusts when spun, and pitches itself along one axis so the blades try to face up. Needs a &eGyroscopic Mechanism&r."
 		"Use it when a plain propeller would flop as the hull banks. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.2BA2507984D3E703.title: "Smart Propeller"
+	quest.2BA2507984D3E703.quest_subtitle: "It thrusts when spun, and pitches itself along one axis so the blades try to face up. Needs a &eGyroscopic Mechanism&r."
 	quest.2BBF0472DF2B705E.quest_desc: [
 		"Impact goes off on a hit, timed after launch, proximity near a block. Craft the fuze onto the shell in a crafting grid; impact and proximity only work on the front."
 	]
@@ -1410,6 +1537,7 @@
 		"Powered, it accelerates minecarts. Unpowered, it brakes them to a stop."
 		"You'll still want these on hills even if the rest of the line uses &eController Rails&r."
 	]
+	quest.2C7B4EE0E160A970.quest_subtitle: "Powered, it accelerates minecarts. Unpowered, it brakes them to a stop."
 	quest.2C7B4EE0E160A970.title: "&6Powered Rail"
 	quest.2C9437A8C1AF3E1C.quest_desc: [
 		"Ryut has no air and sits at -60 °C. A lit ring is the whole life-support system. Black light's world; you are visiting, not joining."
@@ -1430,6 +1558,7 @@
 	quest.2D0F4B50B4D29B55.quest_desc: [
 		"A &ePulse Repeater&r waits a delay you set, then emits one short pulse even if the input stays on. That is how you fire a deployer once per cycle."
 	]
+	quest.2D0F4B50B4D29B55.title: "Pulse Repeater"
 	quest.2D0F4B50B4D29B55.quest_subtitle: "A &cPulse Repeater&r sends a single pulse from a continuous redstone signal after a configurable amount of time"
 	quest.2D3CC066DA89BE22.quest_desc: [
 		"Crush andesite (and other stones and ores) into crushed material, then wash and melt it and cast ingots. EMI has the full chain — this crushed andesite is the first taste."
@@ -1444,6 +1573,7 @@
 	quest.2D6CCA806E1A76CD.quest_desc: [
 		"A &ePulse Extender&r stretches a short click into a longer signal, long enough for a piston or door to finish moving."
 	]
+	quest.2D6CCA806E1A76CD.title: "Pulse Extender"
 	quest.2D6CCA806E1A76CD.quest_subtitle: "A &cPulse Extender&r extends a pulse to a configurable duration"
 	quest.2E31F85F781C4BCC.quest_desc: [
 		"This amazing tool lets you &ahook yourself to a block and swing from it&r gaining momentum along the way and letting you launch yourself and get enough distance to hook yourself &ato the next block&r"
@@ -1452,6 +1582,7 @@
 		""
 		"&o&8You can pair these with the&r &aSlime Boots&r &o&8and go even faster"
 	]
+	quest.2E31F85F781C4BCC.quest_subtitle: "This amazing tool lets you &ahook yourself to a block and swing from it&r gaining momentum along the way and letting you launch yourself ..."
 	quest.2E31F85F781C4BCC.title: "&dGrapplin Whisk"
 	quest.2E33A75857A2942A.quest_desc: [
 		"A &eCannon Loader&r contraption rams charges and shells in; keep a Ram Rod for doing it by hand. Pair it with a sliding breech."
@@ -1463,6 +1594,7 @@
 		"Vectored thrust that burns liquid fuel instead of FE, so it can yaw and pitch without a battery bank."
 		"Use it when the ship already has tanks and pipes but no accumulators. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.2E907AC52B8EE2E9.title: "Liquid Vector Thruster"
 	quest.2E907AC52B8EE2E9.quest_subtitle: "An &6Liquid Vector Thruster&r is a directional thruster that can yaw and pitch using liquid fuel instead of &6FE&r energy"
 	quest.2E9480FAA0567C61.quest_desc: [
 		"Reinforce a Precision Mechanism with titanium nuggets and iron cogwheels on a sequenced assembly line. The &eRocket Station&r wants several; ordinary mechanisms would not last the shake."
@@ -1518,11 +1650,13 @@
 		"Put a &eCart Assembler&r over a rail, glue your machine to it, and send a minecart through. The whole structure rides the track like a cart."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.2FCF57E09D4BB840.title: "Cart Assembler"
 	quest.2FCF57E09D4BB840.quest_subtitle: "A &6Cart Assembler&r allows for contraptions that traverse rails in the same way minecarts do"
 	quest.3013102F588F3BB7.quest_desc: [
 		"Give a &eClockwork Bearing&r two glued hands — a short one and a long one — and it turns them like a clock using the in-game time."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.3013102F588F3BB7.title: "Clockwork Bearing"
 	quest.3013102F588F3BB7.quest_subtitle: "A &6Clockwork Bearing&r lets you create your own custom functional clock"
 	quest.302167AFA048184F.quest_desc: [
 		"Start with a burger bun instead of sliced bread. Same station, same ingredients, different shape."
@@ -1542,6 +1676,7 @@
 		""
 		"{image:allofcreate:textures/qb-aeroclaims2.png width:100 height:100 align:center fit:true}"
 	]
+	quest.3079DF976F5290C3.title: "Claim Block"
 	quest.3079DF976F5290C3.quest_subtitle: "Used for claiming sub-levels as they are seperate from regular claims"
 	quest.309779606351AC6A.quest_desc: [
 		"Crafted eight at a time from &eBrass Casing&r, iron sheets, a Precision Mechanism, and redstone. Charge it on one grid, then carry that stress somewhere else."
@@ -1558,6 +1693,7 @@
 		"A &eSpout&r above a depot or belt pours fluid into buckets, bottles, and recipes — including the lava step on &eSturdy Sheets&r later."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.30D5CEA810CE1978.title: "Spout"
 	quest.30D5CEA810CE1978.quest_subtitle: "A &6Spout&r is used for filling items with fluids and crafting certain items using fluids"
 	quest.3103AA1D921B71BC.quest_desc: [
 		"Hold right-click and drag to mark a volume of blocks as one contraption."
@@ -1569,11 +1705,13 @@
 		"A &eTrain Observer&r watching a stretch of track pulses redstone when a train (optionally matching a filter) rolls past. Use it to ring a speaker or open a door."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.313B89CDDEC26A69.title: "Track Observer"
 	quest.313B89CDDEC26A69.quest_subtitle: "A &6Train Observer&r gives off a &credstone&r signal when detecting a train"
 	quest.3151475431766DAF.quest_desc: [
 		"A &eBrass Funnel&r takes a filter and can move whole stacks, unlike the andesite one. Use it when a belt needs to feed a crafter without dribbling one item at a time."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.3151475431766DAF.title: "Brass Funnel"
 	quest.3151475431766DAF.quest_subtitle: "A &6Brass Funnel&r allows for filtering and higher stack sizes"
 	quest.31AEA648B7854247.quest_desc: [
 		"A storm-swept ruin in warm ocean. Scylla waits at the top."
@@ -1589,6 +1727,7 @@
 		"&eBrass Tunnels&r filter per-exit and can split stacks. Replace andesite tunnels wherever a line has to choose a lane by item type."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.31CC7F2DE56B10CD.title: "Brass Tunnel"
 	quest.31CC7F2DE56B10CD.quest_subtitle: "A &6Brass Tunnel&r is an upgrade to the &6Andesite Tunnel&r, allowing more configurability in how to deal with items"
 	quest.31D73A024C2BD203.quest_desc: [
 		"A combustion chamber, a propeller and titanium sheets. Place enough on the rocket that the station says it can lift; more mass needs more thrust."
@@ -1604,19 +1743,24 @@
 	quest.3207FC214E81882A.quest_desc: [
 		"Water in the fan's airflow washes items: gravel into flint, rusty leftovers into nuggets, concrete powder into concrete. A hose pulley later makes this infinite."
 	]
+	quest.3207FC214E81882A.title: "Water Bucket"
 	quest.3207FC214E81882A.quest_subtitle: "When placed in front of the &6Encased Fan&r, &9water&r allows it to wash items"
 	quest.320A501E80680EFF.quest_desc: [
 		"Opposite poles pull together and try to line up; matching poles push apart. That magnetic force shows up on a Contraption Diagram."
 		"Use a pair to latch a cart to a dock, or to hover one assembly over another. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.320A501E80680EFF.title: "Redstone Magnet"
+	quest.320A501E80680EFF.quest_subtitle: "Opposite poles pull together and try to line up; matching poles push apart. That magnetic force shows up on a Contraption Diagram."
 	quest.3219BEC774066F29.quest_desc: [
 		"A giant desert beast. It drops a Sandstorm in a Bottle, a Remnant Skull and Ancient Metal."
 	]
+	quest.3219BEC774066F29.quest_subtitle: "A giant desert beast. It drops a Sandstorm in a Bottle, a Remnant Skull and Ancient Metal."
 	quest.3219BEC774066F29.title: "&c&lAncient Remnant"
 	quest.323F20F8AFC2C633.quest_desc: [
 		"Explodes when it hits a powered &eActivator Rail&r, takes enough damage, or is lit."
 		"Useful as a payload on a cart contraption — keep it off the assembler until you're ready."
 	]
+	quest.323F20F8AFC2C633.quest_subtitle: "Explodes when it hits a powered &eActivator Rail&r, takes enough damage, or is lit."
 	quest.323F20F8AFC2C633.title: "&cMinecart with TNT"
 	quest.326B2F79F3A9D8D7.quest_desc: [
 		"Keep a sequenced assembly line running through one &eMechanical Press&r until the advancement pops."
@@ -1632,6 +1776,7 @@
 	quest.328CE987F5B04421.quest_desc: [
 		"Deep IDAS mines. Good for ores and a path toward the Frozen Crypt."
 	]
+	quest.328CE987F5B04421.quest_subtitle: "Deep IDAS mines. Good for ores and a path toward the Frozen Crypt."
 	quest.328CE987F5B04421.title: "&7Ancient Mines"
 	quest.32E829C0294F149D.quest_desc: [
 		"Crafted from electron tubes, iron sheets and fluid pipes, two at a time. It is an ingredient in the filler, combustion chamber and later oxygen machines, not a room sealer."
@@ -1652,6 +1797,7 @@
 		"Slap a nameplate on the hull so the assembly has a name in the world and on diagrams."
 		"Dye variants exist if you want the plate to match the paint job."
 	]
+	quest.3365EE30271B51FA.title: "White Nameplate"
 	quest.3365EE30271B51FA.quest_subtitle: "Used for naming Simulated Contraptions"
 	quest.337BA8FE36665B99.quest_desc: [
 		"A diode you program with a list of timed pulses. Drop a &eControl Chip&r in the recipe and you can fire redstone in a rhythm no repeater chain can match."
@@ -1677,11 +1823,13 @@
 	quest.34B833D58C45952C.quest_desc: [
 		"The next step begins by &6heating&r a blaze burner that sits directly below a &aBasin&r and in that basin we are going to be compacting an &aEgg&r, a piece of &eSugar&r and lastly our &dSculk Flour&r which will give us a beatiful &dEcho Cake Base&r which will be used in the next step of our process"
 	]
+	quest.34B833D58C45952C.quest_subtitle: "The next step begins by &6heating&r a blaze burner that sits directly below a &aBasin&r and in that basin we are going to be compacting a..."
 	quest.34B833D58C45952C.title: "&eEcho Cake Base"
 	quest.34BDEA7471099252.quest_desc: [
 		"Feed it coal (or another furnace fuel) and it pushes itself and any coupled carts along the rail."
 		"The direction is set by the face you click when you add the fuel."
 	]
+	quest.34BDEA7471099252.quest_subtitle: "Feed it coal (or another furnace fuel) and it pushes itself and any coupled carts along the rail."
 	quest.34BDEA7471099252.title: "&dMinecart with Furnace"
 	quest.34CCB2CA93699AE1.quest_desc: [
 		"Crush basalt on Earth, or compact brine in a heated basin. Spout lava onto the salt next to make the &eSodium Catalyst&r."
@@ -1707,6 +1855,7 @@
 	quest.356481588F239F15.quest_desc: [
 		"Fill the empty catalyst so the fan haunts items. Soul fire stays in the catalyst instead of sitting in the open."
 	]
+	quest.356481588F239F15.quest_subtitle: "Fill the empty catalyst so the fan haunts items. Soul fire stays in the catalyst instead of sitting in the open."
 	quest.356481588F239F15.title: "&9Fan Haunting Catalyst"
 	quest.356FAF5F07EE364F.quest_desc: [
 		"Link warp scrolls into a Warp Index book, a Warp Nexus block, or a Stabilized Index. Travel between those points without standing at a waystone."
@@ -1716,6 +1865,7 @@
 	quest.3579EE70549D6DBF.quest_desc: [
 		"Smith the helmet with netherite. Paired with the netherite tank it lets you breathe in lava the way copper does in water."
 	]
+	quest.3579EE70549D6DBF.title: "Netherite Diving Helmet"
 	quest.3579EE70549D6DBF.quest_subtitle: "An upgraded version of the &6Copper Diving Helmet&r"
 	quest.35A0F04B9F1AA77E.quest_desc: [
 		"Assemble the rocket at the station, sit at the controls, and fly to Earth orbit. From there you can land on the Moon; Mars, Venus and Mercury wait on better navigation and fuel."
@@ -1726,11 +1876,13 @@
 		"When a &ePackager&r on a chest or vault gets a redstone pulse, it wraps the contents into a package for Create's logistics."
 		"Frogports, Robo Bees, and the Re-Packager all start from here. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.35C8929631187831.title: "Packager"
 	quest.35C8929631187831.quest_subtitle: "A &6Packager&r will pack items from the connected inventory into a package when given &credstone&r power"
 	quest.35D330C94DEF26DF.quest_desc: [
 		"Spout honey, chocolate or jam onto the waffle, or cover it with spread."
 		"Any of those four toppings completes this."
 	]
+	quest.35D330C94DEF26DF.quest_subtitle: "Spout honey, chocolate or jam onto the waffle, or cover it with spread."
 	quest.35D330C94DEF26DF.title: "&eTopped Waffle"
 	quest.3619EEA1236FDB0F.quest_desc: [
 		"Put two trains on a collision course, reverse one of them, and let them meet."
@@ -1749,6 +1901,7 @@
 		""
 		"&l-&r If you don't know how to super-heat you can feed our blaze burner a &6Blaze cake&r or give them a &fStraw&r so that you can make them drink some delicious &cLava&r you can find out how to do both of these things by following the &bCreate&r chapter of the questbook."
 	]
+	quest.36668621669EDF51.quest_subtitle: "Now that we obtained some &dEcho Shards&r it's now time for us to liquefy them using a &bsuper-heated&r blaze burner and a &6Mechanical M..."
 	quest.36668621669EDF51.title: "&bMolten Echo Bucket"
 	quest.369D8CB2365B6EE9.quest_desc: [
 		"&7Opens after &eLift-off!&7 (Lift-off)"
@@ -1786,14 +1939,17 @@
 	quest.36ECE457C7EB0613.quest_desc: [
 		"Now that we have our liquid metal we are gonna need something strong enough to handle it luckily for us the &6Netherite ingot&r is just the ore for this job"
 	]
+	quest.36ECE457C7EB0613.quest_subtitle: "Now that we have our liquid metal we are gonna need something strong enough to handle it luckily for us the &6Netherite ingot&r is just t..."
 	quest.36ECE457C7EB0613.title: "&6Netherite Ingot"
 	quest.376F28B8624324AC.quest_desc: [
 		"An &eAnalog Lever&r can sit at any redstone strength from 0 to 15. Use it when a binary lever is too blunt — lamp brightness, for example."
 	]
+	quest.376F28B8624324AC.title: "Analog Lever"
 	quest.376F28B8624324AC.quest_subtitle: "An &cAnalog Lever&r can be set to output any redstone level. It's basically an upgraded version of the basic lever"
 	quest.37760181A25650CE.quest_desc: [
 		"A Schematic that stamps the same design over and over. Fill it like a normal schematic, then paint a floor or wall in a repeating pattern."
 	]
+	quest.37760181A25650CE.title: "Empty Pattern Schematic"
 	quest.37760181A25650CE.quest_subtitle: "Pattern schematics can be used to repeat schematic designs multiple times"
 	quest.378C3116EE6DD795.quest_desc: [
 		"An &eAlternator&r turns spare SU into FE for the dock-side &ePortable Energy Interface&r."
@@ -1804,6 +1960,7 @@
 	quest.3794686E3CC0149C.quest_desc: [
 		"A cursed knight. It drops Cursium ingots for Cursium armour."
 	]
+	quest.3794686E3CC0149C.quest_subtitle: "A cursed knight. It drops Cursium ingots for Cursium armour."
 	quest.3794686E3CC0149C.title: "&c&lMaledictus"
 	quest.37B6EB9A0B55CD09.quest_desc: [
 		"An IDAS structure built for Ars. Find it in the overworld for loot and a look at a mage's workshop."
@@ -1813,6 +1970,7 @@
 	quest.37F3C6EA2B70D83A.quest_desc: [
 		"Put &eConnectors&r on machines that take Energy, then right-click two of them with a wire. Small connectors reach 16 blocks at 1000 FE/t; large ones reach 32 at 5000 FE/t."
 	]
+	quest.37F3C6EA2B70D83A.title: "Connector"
 	quest.37F3C6EA2B70D83A.quest_subtitle: "&6Connectors&r insert and extract energy from blocks, while &6Wires&r are used to link connectors"
 	quest.381C4FE0A2071247.quest_desc: [
 		"A heated Mechanical Mixer cooks Chorus Fruit Milk Tea from Chorus Fruit, Chorus Fruit Grain, a glass bottle and milk."
@@ -1830,18 +1988,23 @@
 	quest.38419FFA03E72E3A.quest_desc: [
 		"Right-click a &eRope Pulley&r with a chain. Same elevator, metal rope — better when you're already swimming in chains."
 	]
+	quest.38419FFA03E72E3A.quest_subtitle: "Right-click a &eRope Pulley&r with a chain. Same elevator, metal rope — better when you're already swimming in chains."
 	quest.38419FFA03E72E3A.title: "&6Chain Pulley"
 	quest.38830B6B945944C9.quest_desc: [
 		"Heat a mixer: four &eEnd Stone Powder&r, two zinc nuggets, and water. Bucket the blend."
 		"Pour it out and add heat to crystallize &eLevitite&r in the world. Once it starts, the crystal spreads through the whole fluid and you cannot pick the blend back up."
 	]
+	quest.38830B6B945944C9.title: "Levitite Blend Bucket"
+	quest.38830B6B945944C9.quest_subtitle: "Heat a mixer: four &eEnd Stone Powder&r, two zinc nuggets, and water. Bucket the blend."
 	quest.38B2EF3D559A5913.quest_desc: [
 		"Scoop it off the Martian surface; it does not craft. Compact it with titanium and raw martian iron for steel."
 	]
+	quest.38B2EF3D559A5913.quest_subtitle: "Scoop it off the Martian surface; it does not craft. Compact it with titanium and raw martian iron for steel."
 	quest.38B2EF3D559A5913.title: "&cVolcanic Ash"
 	quest.38C6CA73A1BFB0CF.quest_desc: [
 		"Five candy canes in the pickaxe shape. Same idea as the rest of the candy tool set."
 	]
+	quest.38C6CA73A1BFB0CF.quest_subtitle: "Five candy canes in the pickaxe shape. Same idea as the rest of the candy tool set."
 	quest.38C6CA73A1BFB0CF.title: "&eCandy Cane Pickaxe"
 	quest.38D99DB222DF83E4.quest_desc: [
 		"Sandpaper amethyst, then set three polished shards in iron and redstone. It is the lens of the &eCircuit Engraver&r; the Electrolysis Machine wants one later too."
@@ -1862,6 +2025,7 @@
 		"Faster than T2, and the processing upgrades reach a wider area. Propulsion T3 is eight times thrust."
 		"Fuel use climbs with each propulsion tier, so upgrade the tanks before you slot T3 for a long burn."
 	]
+	quest.3928FD010478D80E.quest_subtitle: "Faster than T2, and the processing upgrades reach a wider area. Propulsion T3 is eight times thrust."
 	quest.3928FD010478D80E.title: "Craft All Tier 3 on Thrusters"
 	quest.39B7A2B0128DD9EC.quest_desc: [
 		"Press 90 mB of molten brass in a basin to cast a &eRing Blank&r."
@@ -1895,15 +2059,19 @@
 	quest.3A861B21F4724A9A.quest_desc: [
 		"Right-click a Diesel Engine with it. The engine revs harder on the same fuel."
 	]
+	quest.3A861B21F4724A9A.title: "Engine Turbocharger"
 	quest.3A861B21F4724A9A.quest_subtitle: "Use an &fEngine Turbocharger&r on a &6Diesel Engine&r to make it run faster"
 	quest.3A86FB6788AF5201.quest_desc: [
 		"Right-click the empty catalyst with sand. Compatible add-ons can bulk-sand through this fan without a sand block in the world."
 	]
+	quest.3A86FB6788AF5201.quest_subtitle: "Right-click the empty catalyst with sand. Compatible add-ons can bulk-sand through this fan without a sand block in the world."
 	quest.3A86FB6788AF5201.title: "&eFan Sanding Catalyst"
 	quest.3B64BED389B2CF9F.quest_desc: [
 		"Heated mix of sugar, cocoa butter and milk — no cocoa beans, that's what makes it white."
 		"Compact the fluid in a press and basin, same as the other chocolate bars."
 	]
+	quest.3B64BED389B2CF9F.title: "Bar of White Chocolate"
+	quest.3B64BED389B2CF9F.quest_subtitle: "Heated mix of sugar, cocoa butter and milk — no cocoa beans, that's what makes it white."
 	quest.3B70E9F32969E565.quest_desc: [
 		"Phantom track vanishes unless you're holding track, so you can hide a line through scenery."
 		"Tieless track is just the rails, for when the sleepers are already part of the build. Both still work with stations and signals."
@@ -1914,9 +2082,12 @@
 		"Sequenced assembly on an iron sheet: deploy a cogwheel, a shaft, and a brass nugget, several loops."
 		"You need it for the gimbal sensor here, and later for Aeronautics' &eSmart Propeller&r and &eGyroscopic Propeller Bearing&r."
 	]
+	quest.3BD85D07B2A60A0B.title: "Gyroscopic Mechanism"
+	quest.3BD85D07B2A60A0B.quest_subtitle: "Sequenced assembly on an iron sheet: deploy a cogwheel, a shaft, and a brass nugget, several loops."
 	quest.3C1F8C1753AF118A.quest_desc: [
 		"A wither-machine hybrid. It drops a Witherite Block, which breaks into ingots for the Fusion Anvil."
 	]
+	quest.3C1F8C1753AF118A.quest_subtitle: "A wither-machine hybrid. It drops a Witherite Block, which breaks into ingots for the Fusion Anvil."
 	quest.3C1F8C1753AF118A.title: "&c&lThe Harbinger"
 	quest.3C2D6F3F116122BC.quest_desc: [
 		"Bundle three sticks into &eKindling Sticks&r. They barely cook anything on their own — nine of them compact into a Stick Bundle that's actually worth burning."
@@ -1966,16 +2137,19 @@
 		"A brass &eElevator Pulley&r raises a glued cabin. Place &eRedstone Contacts&r at each floor so the cabin can stop and call, unlike a plain rope pulley."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.3D3989E80BF08149.title: "Elevator Pulley"
 	quest.3D3989E80BF08149.quest_subtitle: "An &6Elevator Pulley&r allows for the creation of elevators and adding floors using Redstone Contacts"
 	quest.3D65C935CDC38F88.quest_desc: [
 		"Park a &eMechanical Press&r over a depot, belt, or basin. It flattens ingots into sheets and is also how you compact flowers into &eRubber&r."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.3D65C935CDC38F88.title: "Mechanical Press"
 	quest.3D65C935CDC38F88.quest_subtitle: "The &6Mechanical Press&r is used for processing items provided beneath it on a depot or belt, or in a basin to compact"
 	quest.3D6ADF4135A3BE48.quest_desc: [
 		"Left versus right analog redstone sets a tilt angle; equal signals keep it centered."
 		"Mount control surfaces or a vectored nozzle on it when a joystick should aim the ship. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.3D6ADF4135A3BE48.title: "Tilt Adapter"
 	quest.3D6ADF4135A3BE48.quest_subtitle: "An &8Tilt Adapter&r tilts rotational output based on an analog &credstone&r signal"
 	quest.3D988137341AE75D.quest_desc: [
 		"Blocks beams the same way it blocks light. Also the ingredient for Polarizing Filters."
@@ -1986,6 +2160,7 @@
 		"The shaft is the track, the carriage assembles a payload and rides it, and the belt wheel passes rotation onto moving physics assemblies."
 		"A &ePowered Zipline&r rides ropes; a &eClaw&r hangs from rope and grabs connectors, with redstone setting how hard it holds. Hold &eW&r over them in EMI to see their Ponder."
 	]
+	quest.3DADAD947C982C71.quest_subtitle: "The shaft is the track, the carriage assembles a payload and rides it, and the belt wheel passes rotation onto moving physics assemblies."
 	quest.3DADAD947C982C71.title: "Craft Gantery Equipments"
 	quest.3DD50CF838BAAE78.quest_desc: [
 		"The Infernal Forge is a heavy hammer; the Monstrous Horn upgrades a netherite helmet into the Monstrous Helm. Keep the Forge for the Fusion Anvil later."
@@ -2002,10 +2177,14 @@
 		"Aeronautics' own jukebox track, Cloud Skipper. It has no crafting recipe, so keep an ear out for one."
 		"A trophy for the hangar more than a flight part."
 	]
+	quest.3E190A6DA59EB1E9.title: "Music Disc Cloud Skipper"
+	quest.3E190A6DA59EB1E9.quest_subtitle: "Aeronautics' own jukebox track, Cloud Skipper. It has no crafting recipe, so keep an ear out for one."
 	quest.3E388A13C2BD5A0B.quest_desc: [
 		"A heated mixer turns sugar and slime into marshmallows — check EMI for the exact recipe."
 		"Eat them, stick them, glaze them, or stir one into hot chocolate."
 	]
+	quest.3E388A13C2BD5A0B.title: "Marshmallow"
+	quest.3E388A13C2BD5A0B.quest_subtitle: "A heated mixer turns sugar and slime into marshmallows — check EMI for the exact recipe."
 	quest.3E64F7D567A992A9.quest_desc: [
 		"Crafted around an Eye of Ender with lava buckets, netherite scrap and blackstone. Throw it like an Eye of Ender; it flies toward a Soul Black Smith."
 	]
@@ -2015,6 +2194,7 @@
 		"A &eDeployer&r mimics a player hand: give it a tool or ingredient and it right-clicks or left-clicks whatever is in front."
 		"You will use it constantly for sequenced assembly, including Precision Mechanisms. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.3E68562B397B60E0.title: "Deployer"
 	quest.3E68562B397B60E0.quest_subtitle: "A &6Deployer&r is a simple machine with massive potential. Acts as a psuedo-player, allowing you to right click with items you insert to use them, or left click to attack and mine with them"
 	quest.3EB60E27A12D04B9.quest_desc: [
 		"&7Opens after &eAndesite, the Foundation&7 (Andesite Age)"
@@ -2025,6 +2205,7 @@
 	quest.3ED0226315017D8D.quest_desc: [
 		"Power a &eSticker&r and its face becomes sticky, latching onto the world or another contraption. Airships use them as retractable landing gear."
 	]
+	quest.3ED0226315017D8D.title: "Sticker"
 	quest.3ED0226315017D8D.quest_subtitle: "A &aSticker&r sticks to blocks when powered by &credstone&r. Great for mobile anchors on airships"
 	quest.3EDE4A64705009C1.quest_desc: [
 		"Mount a Create Big Cannon on a Simulated or Aeronautics airframe. Propeller up front, breech in the belly."
@@ -2042,11 +2223,14 @@
 	quest.3F5C0F8E1B705059.quest_desc: [
 		"Three candy canes in a column. A novelty sword — fine for showing off, not for the Nether."
 	]
+	quest.3F5C0F8E1B705059.quest_subtitle: "Three candy canes in a column. A novelty sword — fine for showing off, not for the Nether."
 	quest.3F5C0F8E1B705059.title: "&eCandy Cane Sword"
 	quest.3F891FB92BDD9743.quest_desc: [
 		"Wear &eAviator's Goggles&r and the HUD annotates placed Aeronautics parts: burners, envelopes, bearings, pressure."
 		"Put them on before you start trimming lift. Almost every flight block in this chapter hangs off this quest."
 	]
+	quest.3F891FB92BDD9743.title: "Aviators Goggles"
+	quest.3F891FB92BDD9743.quest_subtitle: "Wear &eAviator's Goggles&r and the HUD annotates placed Aeronautics parts: burners, envelopes, bearings, pressure."
 	quest.3FA149E684F79311.quest_desc: [
 		"Own four guns. Mix a shotgun, rifle, SMG or sniper as you like, and keep the ammo line stocked."
 	]
@@ -2068,11 +2252,13 @@
 		"Outputs redstone while a minecart is on it. Same idea as a pressure plate, but for carts."
 		"Use it to open doors, start a furnace cart, or time an activator rail."
 	]
+	quest.40C70D05C46DCF4E.quest_subtitle: "Outputs redstone while a minecart is on it. Same idea as a pressure plate, but for carts."
 	quest.40C70D05C46DCF4E.title: "&2Detector Rail"
 	quest.40EE8FC6E1A4E681.quest_desc: [
 		"Point a &eDisplay Link&r at a machine, then at a board or nixie tube. It copies live data — speed, counts, train ETAs — onto the display."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.40EE8FC6E1A4E681.title: "Display Link"
 	quest.40EE8FC6E1A4E681.quest_subtitle: "A &6Display Link&r lets you display real-time information on a connected &6Display Board&r or &6Nixie Tube&r"
 	quest.4106CAF7FC1EF1ED.quest_desc: [
 		"Pipe water into the &eSprinkler&r. Crops and farmland below stay hydrated as if it were raining."
@@ -2106,9 +2292,13 @@
 		"Right-click a &eRope Connector&r and a &eRope Winch&r with a &eRope Coupling&r to tie two Simulated assemblies together."
 		"Two connectors can share a rope; two winches cannot. Shears cut the line."
 	]
+	quest.41A0B52DD33255A3.title: "Rope Coupling"
+	quest.41A0B52DD33255A3.quest_subtitle: "Right-click a &eRope Connector&r and a &eRope Winch&r with a &eRope Coupling&r to tie two Simulated assemblies together."
 	quest.41DBE34083E1C3FD.quest_desc: [
 		"Park a &eTrain Buffer&r at the end of a siding so a runaway train hits a bumper instead of the station wall. Craft them from sturdy sheet blocks."
 	]
+	quest.41DBE34083E1C3FD.title: "Train Buffer"
+	quest.41DBE34083E1C3FD.quest_subtitle: "Park a &eTrain Buffer&r at the end of a siding so a runaway train hits a bumper instead of the station wall. Craft them from sturdy sheet..."
 	quest.426E071ABE9D9CE2.quest_desc: [
 		"A train needs at least:"
 		""
@@ -2129,16 +2319,19 @@
 	quest.43122959460C68EA.quest_desc: [
 		"A &ePowered Latch&r remembers: pulse the set side to turn it on, pulse the reset side to turn it off. Good for start/stop buttons on a factory line."
 	]
+	quest.43122959460C68EA.title: "Powered Latch"
 	quest.43122959460C68EA.quest_subtitle: "A &cPowered Latch&r that toggles on when receiving a redstone signal on one side and off when receiving a signal on another side"
 	quest.436319DB8AD746DA.quest_desc: [
 		"A powered &eLaser Pointer&r draws a beam the &eLaser Sensor&r can see. Signal strength follows beam power; a filter matches colour."
 		"Wrench the faces to invert, and set max distance on the back. Useful for dock alignment that optical sensors cannot cover. Hold &eW&r over them in EMI to see their Ponder."
 	]
+	quest.436319DB8AD746DA.quest_subtitle: "A powered &eLaser Pointer&r draws a beam the &eLaser Sensor&r can see. Signal strength follows beam power; a filter matches colour."
 	quest.436319DB8AD746DA.title: "Laser Blocks"
 	quest.43D0152B9C0F0E1B.quest_desc: [
 		"Park either burner under a &eStirling Engine&r. Solid takes furnace fuels; liquid burns valid fuel fluids and can pass fluid through like a pipe."
 		"Both support a redstone thermostat. Hold &eW&r over them in EMI to see their Ponder."
 	]
+	quest.43D0152B9C0F0E1B.quest_subtitle: "Park either burner under a &eStirling Engine&r. Solid takes furnace fuels; liquid burns valid fuel fluids and can pass fluid through like..."
 	quest.43D0152B9C0F0E1B.title: "Solid and Liquid Burners"
 	quest.43D9ABDFFFB703FE.quest_desc: [
 		"Hard-light constructs, every Lantern world, oil into rocket fuel, a gunboat, a spellforged factory, a scheduled rail net, an industrial kitchen, an armory, the deep, and a shop that looks built."
@@ -2155,6 +2348,8 @@
 	quest.445212E6651B7746.quest_desc: [
 		"Four candy canes in a square. From here you can make the candy cane tool set, or The Bright Side disc."
 	]
+	quest.445212E6651B7746.title: "Candy Cane Block"
+	quest.445212E6651B7746.quest_subtitle: "Four candy canes in a square. From here you can make the candy cane tool set, or The Bright Side disc."
 	quest.448189D652A46D20.quest_desc: [
 		"&7Opens after &eBlaze Burner&7 (Brass Age)"
 		""
@@ -2177,6 +2372,7 @@
 	quest.4518E6ABC94B732C.quest_desc: [
 		"Right-click the empty catalyst with a &eBlaze Cake&r. Compatible add-ons treat the airstream as superheated."
 	]
+	quest.4518E6ABC94B732C.quest_subtitle: "Right-click the empty catalyst with a &eBlaze Cake&r. Compatible add-ons treat the airstream as superheated."
 	quest.4518E6ABC94B732C.title: "&4Fan Seething Catalyst"
 	quest.45240C873BEAD3EF.quest_desc: [
 		"With these awesome armor pieces you can &bBounce from place to place&r using your &aSlime Boots&r or &eCling to the ceiling&r with your &aSlime Helmet&r the helmet also allows you to &dBounce off walls&r if you are using an Elytra alongside it"
@@ -2209,13 +2405,18 @@
 		"Four mechanical belts around a shaft. Bigger radius, more ground clearance."
 		"Still just a right-click onto a Wheel Mount. Go monstrous if even this looks small on the chassis."
 	]
+	quest.45E7B061B7E02E68.title: "Large Tire"
+	quest.45E7B061B7E02E68.quest_subtitle: "Four mechanical belts around a shaft. Bigger radius, more ground clearance."
 	quest.45EF2EA3837EF0A6.quest_desc: [
 		"Carry a &ePortable Whistle&r on the platform and blow it while you work. Smith it into a netherite one later if you want the upgrade."
 	]
+	quest.45EF2EA3837EF0A6.title: "Portable Whistle"
+	quest.45EF2EA3837EF0A6.quest_subtitle: "Carry a &ePortable Whistle&r on the platform and blow it while you work. Smith it into a netherite one later if you want the upgrade."
 	quest.4601FF19A911B628.quest_desc: [
 		"A &eSmart Chute&r accepts a filter and moves full stacks vertically. It is the brass upgrade when a normal chute jams on mixed items."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.4601FF19A911B628.title: "Smart Chute"
 	quest.4601FF19A911B628.quest_subtitle: "A &6Smart Chute&r is a more configurable chute that also allows full item stacks to be moved"
 	quest.46085B16F9FA9ADC.quest_desc: [
 		"Feed it rotation and it fires a beam whose type depends on that speed. Point it at a Receptor to send kinetics as light."
@@ -2227,6 +2428,7 @@
 		"Right-click a copper ingot onto any stripped log to make a &eCopper Casing&r, the same trick as andesite casings."
 		"Fluid machines, tanks, and the steam engine all start here."
 	]
+	quest.46118D84C56B11A7.title: "Copper Casing"
 	quest.46118D84C56B11A7.quest_subtitle: "The basis of most fluid-related things in &6&lCreate&r"
 	quest.4611A7BFBDA641A8.quest_desc: [
 		"Upgrade diamond with netherite, two more ion thrusters, and two Northstar rocket thrusters. Not a smithing recipe — that would copy the wrong tier."
@@ -2273,9 +2475,13 @@
 		"Bind Redstone Link frequencies to keys, then sit at the typewriter to drive many channels without a handful of linked controllers."
 		"Right-click a linked controller onto it to copy frequencies. Bindings survive breaking the block."
 	]
+	quest.474340122C1CC765.title: "Linked Typewriter"
+	quest.474340122C1CC765.quest_subtitle: "Bind Redstone Link frequencies to keys, then sit at the typewriter to drive many channels without a handful of linked controllers."
 	quest.477E6B9A9E264637.quest_desc: [
 		"A handheld drill that drinks fuel. Brass, cogs, a Steam Engine, and a Brass Drill Head. Mine on the move without planting a mechanical drill."
 	]
+	quest.477E6B9A9E264637.title: "Portable Drill"
+	quest.477E6B9A9E264637.quest_subtitle: "A handheld drill that drinks fuel. Brass, cogs, a Steam Engine, and a Brass Drill Head. Mine on the move without planting a mechanical dr..."
 	quest.47B63CD140F2910E.quest_desc: [
 		"&7Opens after &ecreate:copper_casing&7 (Copper Age)"
 		""
@@ -2285,11 +2491,14 @@
 	quest.482CF324FCEDF863.quest_desc: [
 		"Lava in the fan's airflow blasts items in bulk, like a furnace on a belt. Keep the fan itself out of the lava or you will be rebuilding it."
 	]
+	quest.482CF324FCEDF863.title: "Lava Bucket"
 	quest.482CF324FCEDF863.quest_subtitle: "When placed in front of the &6Encased Fan&r, &6lava&r allows it to blast items"
 	quest.482D15841484DCA7.quest_desc: [
 		"Stock a &eRobo Bee Port&r with &eRobo Bees&r and they fly packages to other ports on the same network. Holding a package in your off-hand lets you send it with a bee yourself."
 		"Set return mode and filters on the port so bees come home."
 	]
+	quest.482D15841484DCA7.title: "Robo Bee"
+	quest.482D15841484DCA7.quest_subtitle: "Stock a &eRobo Bee Port&r with &eRobo Bees&r and they fly packages to other ports on the same network. Holding a package in your off-hand..."
 	quest.4865C6C955CF8233.quest_desc: [
 		"Reads the beam hitting it and outputs redstone from those properties. Detect whether a link is live without a comparator on a receptor."
 	]
@@ -2299,6 +2508,7 @@
 		"Opens after Andesite Age. Place a &eCart Assembler&r over a rail, park a minecart on it, glue blocks to the cart, then pulse redstone."
 		"The whole glued structure becomes a moving contraption. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.48673623C1866594.title: "Cart Assembler"
 	quest.48673623C1866594.quest_subtitle: "&7Opens after &eAndesite, the Foundation&7 (Andesite Age)"
 	quest.486CA59AED48B71A.quest_desc: [
 		"Stock TACZ attachments craft here. Create Armorer scopes, grips and muzzles use the Mechanical Crafter, which you already have."
@@ -2309,6 +2519,8 @@
 		"A &eSequenced Gearshift&r plays a list of steps: spin this way for N turns, wait, reverse. Use it for piston drills and anything that has to repeat a motion."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.48963B9985715141.title: "Sequenced Gearshift"
+	quest.48963B9985715141.quest_subtitle: "A &eSequenced Gearshift&r plays a list of steps: spin this way for N turns, wait, reverse. Use it for piston drills and anything that has..."
 	quest.48989B23AE749B26.quest_desc: [
 		"An Encased Chain Drive that also has a cog sticking out, so you can tap rotation off the chain without a second shaft."
 	]
@@ -2318,6 +2530,7 @@
 		"The &eCopper Backtank&r fills with air while you walk, and faster when you feed rotation into the valve on its face."
 		"Equip it on your chest or in a Curios slot under the diving helmet."
 	]
+	quest.48FF65D5CA0A9DB0.title: "Copper Backtank"
 	quest.48FF65D5CA0A9DB0.quest_subtitle: "A &6Copper Backtank&r stores pressurized air for use with a diving helmet, effectively granting Water Breathing for as long as your air supply lasts"
 	quest.493E39580C7CE70A.quest_desc: [
 		"They store Source so machines can draw it. Put them next to the Imbuement Chamber and every sourcelink you build."
@@ -2328,6 +2541,7 @@
 		"Power a &eGearshift&r with redstone and rotation through it reverses. Use it to send a drill back out of a hole without rebuilding the gearbox."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.4958D7FCD507F6F7.title: "Gearshift"
 	quest.4958D7FCD507F6F7.quest_subtitle: "A &6Gearshift&r lets you reverse the direction of rotation by applying &credstone&r"
 	quest.496201ECB22CF469.quest_desc: [
 		"Keeps a sealed room from freezing or cooking. Mechanical-crafted with blaze rods, blue ice, advanced circuits and titanium; right-click to set the temperature."
@@ -2339,15 +2553,18 @@
 		"Andesite and brass casings, alloy, cogs, sheets, industrial iron, ingots, and a &ePrecision Mechanism&r."
 		"That pile covers thrusters, the industrial motor pair, gantries, gearboxes, and the cockpit blocks."
 	]
+	quest.496C2FD7E9BB6971.quest_subtitle: "Andesite and brass casings, alloy, cogs, sheets, industrial iron, ingots, and a &ePrecision Mechanism&r."
 	quest.496C2FD7E9BB6971.title: "Gather Materials"
 	quest.496D0D622B44511D.quest_desc: [
 		"Configure the &eWand of Symmetry&r to mirror across a plane or a four-fold cross. Every block you place or break is copied, which makes halls and factories much faster."
 	]
+	quest.496D0D622B44511D.title: "Wand of Symmetry"
 	quest.496D0D622B44511D.quest_subtitle: "A &6Wand of Symmetry&r is an exceptional building tool that will mirror your actions in one, two, or four places depending on how it is configured, for both breaking and building blocks"
 	quest.496FC8106904193E.quest_desc: [
 		"A compact engine: pistons, flint and steel, a brass block, blackstone slabs, and a fluid tank. Pipe in diesel (or another fuel) and it spins a shaft."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.496FC8106904193E.title: "Diesel Engine"
 	quest.496FC8106904193E.quest_subtitle: "&6Diesel Engines&r are a compact way of generating kinetic energy"
 	quest.49BBDD0D2E688FBA.quest_desc: [
 		"The Salamander 40mm field gun and the Devastator grenade launcher. Their rounds want nitropowder, which is why this sits after the Armory."
@@ -2364,6 +2581,8 @@
 		"Craft it from brass casing, a wooden slab, and a &eGyroscopic Mechanism&r. It tries to keep the propeller upright, which is what helicopters need."
 		"Redstone zeros the tilt if that auto-level gets in the way. Thrust also fades with altitude. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.49D48F359FEDCE62.title: "Gyroscopic Propeller Bearing"
+	quest.49D48F359FEDCE62.quest_subtitle: "Craft it from brass casing, a wooden slab, and a &eGyroscopic Mechanism&r. It tries to keep the propeller upright, which is what helicopt..."
 	quest.49E7C672E2F02981.quest_desc: [
 		"The loose mirror is a crafting part. Encased Mirrors and the Beam Splitter both start here."
 	]
@@ -2373,6 +2592,8 @@
 		"A Potato Cannon you bolt to the airframe, mechanical-crafted from kelp, pipes, copper sheets, and redstone."
 		"Load potatoes and you can shoot from the ship without leaving the seat."
 	]
+	quest.49FE019F2EA64ED1.title: "Mounted Potato Cannon"
+	quest.49FE019F2EA64ED1.quest_subtitle: "A Potato Cannon you bolt to the airframe, mechanical-crafted from kelp, pipes, copper sheets, and redstone."
 	quest.4A0272A87677AD1B.quest_desc: [
 		"Pipe oxygen in, put the chestpiece in, and it refills the backtank. Crafted with a separator, a circuit and titanium sheets."
 		"Hold &eW&r over it in EMI to see its Ponder."
@@ -2387,10 +2608,12 @@
 	quest.4A4F682FF5FC3617.quest_desc: [
 		"Right-click a &eList Filter&r and tick the items you want. Slot it into funnels and tunnels so the wrong stack never enters a machine."
 	]
+	quest.4A4F682FF5FC3617.title: "Filter"
 	quest.4A4F682FF5FC3617.quest_subtitle: "A basic filter"
 	quest.4A81AA1D0A14D552.quest_desc: [
 		"A three-phase fire knight. Stay close, watch the damage caps, and pick up Ignitium when it falls."
 	]
+	quest.4A81AA1D0A14D552.quest_subtitle: "A three-phase fire knight. Stay close, watch the damage caps, and pick up Ignitium when it falls."
 	quest.4A81AA1D0A14D552.title: "&c&lIgnis"
 	quest.4A8A87957B64AFB0.quest_desc: [
 		"Mechanical-crafted from the crystal, titanium sheets and a Precision Mechanism. Drop it into a sequenced assembly line to engrave circuits."
@@ -2407,11 +2630,13 @@
 		"Place &eTrack Signals&r to split the railway into blocks. A train waits on red if the next block is occupied, which keeps two trains off the same junction."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.4B24E4B0330823E0.title: "Track Signal"
 	quest.4B24E4B0330823E0.quest_subtitle: "A &6Track Signal&r is used to control the flow of trains across tracks and track intersections"
 	quest.4B25075C31109A90.quest_desc: [
 		"Pipe in &eTurpentine&r, then give it redstone. No valid fuel, no push. You can cluster them into bigger rear-fed multiblocks later."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.4B25075C31109A90.title: "Thruster"
 	quest.4B25075C31109A90.quest_subtitle: "A &6Thruster&r provides directional &6Propulsion&r when powered by &credstone&r and fueled with &eTurpentine&r"
 	quest.4B3DE2788D5D543C.quest_desc: [
 		"&7Opens after &eBlaze Burner&7 (Brass Age)"
@@ -2423,10 +2648,12 @@
 		"Arrange &eMechanical Crafters&r in the shape of the recipe, including patterns bigger than 3x3. That is how you stamp &eCrushing Wheels&r, the Extendo Grip, and most brass gadgets."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.4B5020F5AA388FAA.title: "Mechanical Crafter"
 	quest.4B5020F5AA388FAA.quest_subtitle: "&6Mechanical Crafters&r allow for both automatic crafting of normal recipes and the crafting of recipes that are larger than a normal crafting table would allow"
 	quest.4B68D3819B6C8246.quest_desc: [
 		"The &eNetherite Backtank&r holds more air than copper and does not burn. Smith it from the copper tank when you are ready for lava lakes."
 	]
+	quest.4B68D3819B6C8246.title: "Netherite Backtank"
 	quest.4B68D3819B6C8246.quest_subtitle: "An upgraded version of the &6Copper Backtank&r"
 	quest.4BCFB8B54450D011.quest_desc: [
 		"Obtained by &cBlasting&r or &cBulk-Blasting&r a piece of Coal"
@@ -2455,12 +2682,14 @@
 		"Place a &eRotation Speed Controller&r on a brass casing with a shaft out the top. Scroll the target RPM and that shaft matches it, no matter how fast the input is."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.4C2CD6515EF0DD39.title: "Rotation Speed Controller"
 	quest.4C2CD6515EF0DD39.quest_subtitle: "A &6Rotational Speed Controller&r allows for fine tuning of &6RPM&r, meaning you can modify how fast or slow it will be"
 	quest.4C88AACD94986A30.quest_desc: [
 		"Powered through a &6Shaft&r from below, it will only rotate by a configured amount before stopping"
 		""
 		"When no rotational power is provided, the &6Torsion Spring&r will return to its initial rotation"
 	]
+	quest.4C88AACD94986A30.title: "Torsion Spring"
 	quest.4C88AACD94986A30.quest_subtitle: "A &6Torsion Spring&r allows rotational movement to be limited to a specific angle"
 	quest.4C8BD6528E0AF188.quest_desc: [
 		"Gold, bones, phantom membranes and rotten flesh around an Eye of Ender. It flies toward a Frosted Prison."
@@ -2501,6 +2730,7 @@
 		"Wear &ePhysics Goggles&r and you get live force, propulsion, and assembly readouts on Simulated builds."
 		"Different from Aviator's Goggles: these are for Gadgets ships and thruster tuning, not envelope pressure."
 	]
+	quest.4D73BF9B7B5574C8.quest_subtitle: "Wear &ePhysics Goggles&r and you get live force, propulsion, and assembly readouts on Simulated builds."
 	quest.4D73BF9B7B5574C8.title: "Craft Physics Googles"
 	quest.4DBD746A7DBD0A18.quest_desc: [
 		"Point an &eEncased Fan&r through a water block to bulk-wash. Suspicious Rock washed this way breaks down into bones if you skip the Cage."
@@ -2542,6 +2772,7 @@
 		"The basic track. Shape it into slopes, curves and junctions the same way as vanilla."
 		"Start here, then replace key sections with powered or controller rails."
 	]
+	quest.4F4E1DEE8F0200D6.quest_subtitle: "The basic track. Shape it into slopes, curves and junctions the same way as vanilla."
 	quest.4F4E1DEE8F0200D6.title: "&dRail"
 	quest.4F552914EF729EE9.quest_desc: [
 		"Shrapnel for crowds, smoke for cover, AP to burst inside a structure, or a fluid shell that dumps whatever you filled it with. Wear a gas mask before you try smoke."
@@ -2575,6 +2806,8 @@
 	quest.50298AF2ED77D186.quest_desc: [
 		"One of the two distillation cuts from crude oil. Fuel for the engines you're about to build."
 	]
+	quest.50298AF2ED77D186.title: "Gasoline Bucket"
+	quest.50298AF2ED77D186.quest_subtitle: "One of the two distillation cuts from crude oil. Fuel for the engines you're about to build."
 	quest.503C8C28BE2E73C1.quest_desc: [
 		"Smelt coffee beans into roasted beans, then mill or crush them. Crushing is a bit faster."
 		"Mix the grounds into coffee fluid, then spout that into an iced cup."
@@ -2590,11 +2823,14 @@
 		"A dispenser on wheels, from Supplementaries. A powered &eActivator Rail&r fires or places whatever you loaded."
 		"Handy on cart contraptions that need to drop items or shoot mid-route."
 	]
+	quest.505C272F43942FDA.quest_subtitle: "A dispenser on wheels, from Supplementaries. A powered &eActivator Rail&r fires or places whatever you loaded."
 	quest.505C272F43942FDA.title: "&2Minecart with Dispenser"
 	quest.505D0025C3E036D4.quest_desc: [
 		"Iron sheets and andesite alloy craft several at once. Mount them on a Simulated hull as flight surfaces."
 		"You can saw or stonecut one into a copycat wing if you want the same job in another block's skin."
 	]
+	quest.505D0025C3E036D4.title: "Wing"
+	quest.505D0025C3E036D4.quest_subtitle: "Iron sheets and andesite alloy craft several at once. Mount them on a Simulated hull as flight surfaces."
 	quest.5071FAFF85324148.quest_desc: [
 		"Compact mud and moss in a basin, or craft a ring of them around water. Building block now, &ePeat Briquettes&r after a trip through a smoker."
 	]
@@ -2604,6 +2840,7 @@
 		"Mechanical-craft a pair of &eCrushing Wheels&r and spin them against each other. They crush ores into crushed raw with bonus chances the millstone never sees."
 		"Keep the millstone for recipes these wheels do not share. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.509F43D5C5B9E7D6.title: "Crushing Wheel"
 	quest.509F43D5C5B9E7D6.quest_subtitle: "Essentially an upgrade to the &6Millstone&r, each of them provides some different recipes so it might be worth keeping both around"
 	quest.50AC5D9635367390.quest_desc: [
 		"Crafted with the help of 11 &6Mechanical Crafters&r this item is the first step towards renewable &4blaze fuels&r"
@@ -2623,6 +2860,7 @@
 	quest.51346FAD3D5709FB.quest_desc: [
 		"Now that we have crafted everything necessary we can finally make our &3Echo sword&r, a powerful weapon that inflicts &cdebuffs&r to anybody and anything it hits"
 	]
+	quest.51346FAD3D5709FB.quest_subtitle: "Now that we have crafted everything necessary we can finally make our &3Echo sword&r, a powerful weapon that inflicts &cdebuffs&r to anyb..."
 	quest.51346FAD3D5709FB.title: "&bEcho Sword"
 	quest.5145676FB585FF6C.quest_desc: [
 		"A charm that summons a little fox to move items between inventories. Give it a wheel next for free Create power, or pick up more helper charms."
@@ -2643,25 +2881,31 @@
 		"Sequenced assembly: spout lava onto powdered obsidian, then press twice."
 		"Signals, schedules, rollers and the rest of this chapter want more sheets than the first casing did."
 	]
+	quest.5160C9AD28A09E93.quest_subtitle: "Sequenced assembly: spout lava onto powdered obsidian, then press twice."
 	quest.5160C9AD28A09E93.title: "&bSturdy Sheet"
 	quest.516FAEEB8E9BC5EA.quest_desc: [
 		"On this pack you compact four small flowers with a bucket of water in a &eMechanical Press&r over a &eBasin&r to make &eRubber&r, then press that into sheets."
 		"Those sheets replace kelp in belts, funnels, tunnels, and spouts — grab some before Andesite Age logistics."
 	]
+	quest.516FAEEB8E9BC5EA.title: "Rubber"
 	quest.516FAEEB8E9BC5EA.quest_subtitle: "&6&lCreate&r recipes using &aDried Kelp&r have been replaced with &8Pressed Rubber&r"
 	quest.517750A4CF1097BD.quest_desc: [
 		"Craft a &eRe-Packager&r by converting a Packager in a crafting grid (and convert it back the same way). It unpacks mixed boxes so frogports can sort them."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.517750A4CF1097BD.title: "Repackager"
+	quest.517750A4CF1097BD.quest_subtitle: "Craft a &eRe-Packager&r by converting a Packager in a crafting grid (and convert it back the same way). It unpacks mixed boxes so frogpor..."
 	quest.5188F35E57A03EF2.quest_desc: [
 		"A &eLarge Water Wheel&r wants a wide channel of flowing water across its blades. Right-click it with planks to change the wood, same as the small wheel."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5188F35E57A03EF2.title: "Large Water Wheel"
 	quest.5188F35E57A03EF2.quest_subtitle: "Generates twice as much &6SU&r as the regular &9Water Wheel&r but at a slower &6RPM&r. Just know that this is bigger and bulkier, so prepare a lot of space for it"
 	quest.51B1952CA3175688.quest_desc: [
 		"Glue a &eMechanical Plough&r onto a bearing or cart and drive it over dirt to till farmland, or into mobs to shove them aside."
 		"Pair it with a harvester for a moving crop line. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.51B1952CA3175688.title: "Mechanical Plough"
 	quest.51B1952CA3175688.quest_subtitle: "&6Mechanical Ploughs&r allow contraptions to plough farmland or launch entities"
 	quest.51EB04F9DB620A23.quest_desc: [
 		"Can be obtained by &aright-clicking&r a piece of Stripped Log with a &6Brass Ingot&r"
@@ -2672,6 +2916,7 @@
 		"Thrust from FE and redstone, no fuel line. Electric Flight hangs a whole chapter off this block."
 		"Feed it from on-board accumulators. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.51ED2D53445DAB57.title: "Ion Thruster"
 	quest.51ED2D53445DAB57.quest_subtitle: "An &eIon Thruster&r provides directional &6Propulsion&r when powered by &credstone&r and supplied with &6FE&r energy"
 	quest.521DBB3674FAC59C.quest_desc: [
 		"Slap it on a button or lever to get a Redstone Link without a second block. Same frequency slots, half the footprint."
@@ -2681,10 +2926,12 @@
 	quest.525FD6B365FB7B50.quest_desc: [
 		"The rare drop from crushing nautilus shells — and a lucky channel of Suspicious Rock. You need three plus Alloy Rods to craft a &eTrident&r."
 	]
+	quest.525FD6B365FB7B50.quest_subtitle: "The rare drop from crushing nautilus shells — and a lucky channel of Suspicious Rock. You need three plus Alloy Rods to craft a &eTrident&r."
 	quest.525FD6B365FB7B50.title: "&aObtain &rSpiky Shell"
 	quest.5272D9AC88702DE2.quest_desc: [
 		"The modular one. Stack several and the stress scales with the stack. Same fuels as the small engine."
 	]
+	quest.5272D9AC88702DE2.title: "Large Diesel Engine"
 	quest.5272D9AC88702DE2.quest_subtitle: "&6Modular Diesel Engines&r function like normal diesel generators. They can be stacked and will generate stress proportionally to how many engines you stack"
 	quest.52E043CA3F3DADF1.quest_desc: [
 		"&b&lThe Illustrious MFPack&r is built around &6&lCreate&r — a sandbox of kinetics. This chapter sketches what exists; it will not walk you to the end."
@@ -2700,6 +2947,8 @@
 	quest.52F7B7F6FE3C861C.quest_desc: [
 		"Smelt or smoke gingerdough. The result is food, and you can still press a man from the raw dough instead."
 	]
+	quest.52F7B7F6FE3C861C.title: "Gingerbread"
+	quest.52F7B7F6FE3C861C.quest_subtitle: "Smelt or smoke gingerdough. The result is food, and you can still press a man from the raw dough instead."
 	quest.5307073E03279837.quest_desc: [
 		"A Dull Trinket is the blank for rings, amulets and belts. Enchant it on the apparatus into jewellery that actually does something."
 	]
@@ -2726,6 +2975,7 @@
 		"Glue &eTrain Controls&r into the cab, sit in a seat, and you get throttle and brake. Without these, only a scheduled conductor can drive."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.538ED1B4F997F491.title: "Controls"
 	quest.538ED1B4F997F491.quest_subtitle: "&6Train Controls&r allow you to control the train"
 	quest.5396B679AE4D0F37.quest_desc: [
 		"Pick Sorcerer, Arcanist or Battlemage robes. They boost mana, and Ars Elemental later upgrades each set into elemental armour."
@@ -2736,10 +2986,12 @@
 		"This is a Conduit you can pipe and automate. Pair it with an &eEncased Fan&r to channel items, or feed it potions to spread effects."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.53BCB756649D4D2B.quest_subtitle: "This is a Conduit you can pipe and automate. Pair it with an &eEncased Fan&r to channel items, or feed it potions to spread effects."
 	quest.53BCB756649D4D2B.title: "&3Conduit Cage"
 	quest.540DCA232C7547C7.quest_desc: [
 		"A &eConduit&r, &ePrismarine Alloy&r, Alloy Rods, and a &eFluid Pipe&r. That's the shopping list for the machine this chapter is built around."
 	]
+	quest.540DCA232C7547C7.quest_subtitle: "A &eConduit&r, &ePrismarine Alloy&r, Alloy Rods, and a &eFluid Pipe&r. That's the shopping list for the machine this chapter is built aro..."
 	quest.540DCA232C7547C7.title: "&aGather Materials to craft a &3Conduit Cage"
 	quest.54591574E7E9EC99.quest_desc: [
 		"A dummy that reports how hard you hit. Useful while you learn recoil and range, before you point a gun at something that shoots back."
@@ -2750,6 +3002,7 @@
 		"Place &eItem Vaults&r against each other to grow a dense chest you cannot open by hand. Use funnels, chutes, or a packager to get items in and out."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.54AA2FBE635E3746.title: "Item Vault"
 	quest.54AA2FBE635E3746.quest_subtitle: "A &6Vault&r is a multi-block item storage that can't be accessed manually but with greater item density than vanilla storages"
 	quest.54C21AAB3D24A2F7.quest_desc: [
 		"Stand the assembled cannon on this to aim and fire. Power it, then add a Yaw Controller when you want the whole mount to turn."
@@ -2788,16 +3041,19 @@
 	quest.555508F1582AF26C.quest_desc: [
 		"Four candy canes in the shovel shape. That's most of the candy tools; the hoe is last."
 	]
+	quest.555508F1582AF26C.quest_subtitle: "Four candy canes in the shovel shape. That's most of the candy tools; the hoe is last."
 	quest.555508F1582AF26C.title: "&eCandy Cane Shovel"
 	quest.5565EC42DFB73B73.quest_desc: [
 		"It stores several filled maps, lets you pick the active target, and can be filled or emptied with item automation."
 		"Outputs directional redstone toward the chosen map so a ship can fly a route. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5565EC42DFB73B73.quest_subtitle: "It stores several filled maps, lets you pick the active target, and can be filled or emptied with item automation."
 	quest.5565EC42DFB73B73.title: "Craft Advance Navigtion Table"
 	quest.55BE81A7CBA9D72F.quest_desc: [
 		"Iron, copper, andesite alloy, and brass. That covers the Stirling, burners, thrusters, wings, and redstone gadgets in this chapter."
 		"Platinum is a separate branch: ore first, then tanks, cables, and the vector thruster."
 	]
+	quest.55BE81A7CBA9D72F.quest_subtitle: "Iron, copper, andesite alloy, and brass. That covers the Stirling, burners, thrusters, wings, and redstone gadgets in this chapter."
 	quest.55BE81A7CBA9D72F.title: "Gather Supplies"
 	quest.55C65B9011C9B16D.quest_desc: [
 		"An old Northstar structure on the Moon. Search it for leftovers, then get back to sapphire and sealing a room of your own."
@@ -2808,6 +3064,7 @@
 		"Slot a &eThruster Lens&r into a Gadgets thruster to switch Focused Mode: it spends FE and fires an energy beam instead of burning fuel."
 		"Craft this after the thruster itself. A lens and a propulsion upgrade can sit in the same machine."
 	]
+	quest.55D143E89EAA9BAC.quest_subtitle: "Slot a &eThruster Lens&r into a Gadgets thruster to switch Focused Mode: it spends FE and fires an energy beam instead of burning fuel."
 	quest.55D143E89EAA9BAC.title: "Craft Thruster Lens"
 	quest.55E91D23970DE168.quest_desc: [
 		"Closest to the sun, and the only place for tungsten. Bring liquid hydrogen for the burn and a Martian Steel suit for the heat."
@@ -2818,11 +3075,13 @@
 		"The &eRedstone Inductor&r eases its output toward the input over a delay you set. The &eRedstone Accumulator&r stores a level: back face charges it, sides drain it."
 		"Delays can run a long time, so they make gentle throttles for engines and burners. Hold &eW&r over them in EMI to see their Ponder."
 	]
+	quest.5661DFADCF2EF5F1.quest_subtitle: "The &eRedstone Inductor&r eases its output toward the input over a delay you set. The &eRedstone Accumulator&r stores a level: back face ..."
 	quest.5661DFADCF2EF5F1.title: "Redstone Equipments"
 	quest.56723AE661B61F88.quest_desc: [
 		"It grabs the block in front. Glue a cluster, power the cog, and that cluster becomes a Simulated assembly that can pivot around the bearing."
 		"Shaft rotation passes straight through while it turns. Redstone can unlock it so it spins freely. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.56723AE661B61F88.title: "Swivel Bearing"
 	quest.56723AE661B61F88.quest_subtitle: "An &8Swivel Bearing&r allows simulated contraptions to rotate around a point in space"
 	quest.56B6E71A8D4D1B5D.quest_desc: [
 		"Supplementaries adds decorative bits like pedestals. Use a Wrench to rotate a block."
@@ -2837,6 +3096,8 @@
 	quest.56F378317EFB975E.quest_desc: [
 		"Closes a Basin so it can ferment. Fermentable crops plus bone meal in a lidded basin cook down into &eEthanol&r."
 	]
+	quest.56F378317EFB975E.title: "Basin Lid"
+	quest.56F378317EFB975E.quest_subtitle: "Closes a Basin so it can ferment. Fermentable crops plus bone meal in a lidded basin cook down into &eEthanol&r."
 	quest.570FB03B04D650BD.quest_desc: [
 		"Two independent shafts crossing in one block. Relay two rotations through a junction without them fighting."
 	]
@@ -2845,6 +3106,7 @@
 	quest.5731A22D8497D62A.quest_desc: [
 		"&eNetherite Diving Boots&r keep the seafloor walk of copper and survive fire. Wear the full netherite set if you are working in the Nether."
 	]
+	quest.5731A22D8497D62A.title: "Netherite Diving Boots"
 	quest.5731A22D8497D62A.quest_subtitle: "An upgraded version of the &6Copper Diving Boots&r"
 	quest.576DB3753456355E.quest_desc: [
 		"At low movement speeds, &bLevitite&r significantly resists motion. This resistance drops at higher movement speeds"
@@ -2854,6 +3116,7 @@
 	quest.5788996A8A73DB96.quest_desc: [
 		"The &ePotato Cannon&r launches food as ammo. Different crops hit differently — a silly sidegrade you mechanical-craft after the crafters are up."
 	]
+	quest.5788996A8A73DB96.title: "Potato Cannon"
 	quest.5788996A8A73DB96.quest_subtitle: "Simply a Potato Cannon"
 	quest.57BCCCFE5454E008.quest_desc: [
 		"Faces a block and outputs redstone while that block is oxygenated. Wire it to alarms or doors so a leak does not kill everyone inside."
@@ -2892,24 +3155,30 @@
 		"Wait for the &eChicken Roost&r to lay, or speed it up with a bit of seed. Take the egg from its output."
 		"Hopper or arm the eggs out if you're automating sandwiches next."
 	]
+	quest.59BF777461296B9A.quest_subtitle: "Wait for the &eChicken Roost&r to lay, or speed it up with a bit of seed. Take the egg from its output."
 	quest.59BF777461296B9A.title: "&eObtain Eggs From the &bChicken Roost"
 	quest.59D1636F8843063E.quest_desc: [
 		"Mix sugar, &eCinder Flour&r, &eWheat Flour&r and honey in a basin. No heat needed."
 		"Bake the dough into gingerbread, or press it into a gingerbread man."
 	]
+	quest.59D1636F8843063E.title: "Gingerdough"
+	quest.59D1636F8843063E.quest_subtitle: "Mix sugar, &eCinder Flour&r, &eWheat Flour&r and honey in a basin. No heat needed."
 	quest.5A013800B7F1E4C1.quest_desc: [
 		"Four candy canes in the hoe shape. That's the last of the candy tools."
 	]
+	quest.5A013800B7F1E4C1.quest_subtitle: "Four candy canes in the hoe shape. That's the last of the candy tools."
 	quest.5A013800B7F1E4C1.title: "&eCandy Cane Hoe"
 	quest.5A1B67C68500F828.quest_desc: [
 		"A powered &eAuger Shaft&r pulls items out of harvesting actors along its length and moves them. Wrench it to swap shaft and cog."
 		"Encasing it in industrial iron is optional. You cannot insert or extract at the cog or either end. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5A1B67C68500F828.quest_subtitle: "A powered &eAuger Shaft&r pulls items out of harvesting actors along its length and moves them. Wrench it to swap shaft and cog."
 	quest.5A1B67C68500F828.title: "Auger Blocks"
 	quest.5A352C042058324D.quest_desc: [
 		"Feed a spinning &eMillstone&r by dropping items on top or with a funnel. It is the cheap grinder for flour and dusts until you unlock crushing wheels."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5A352C042058324D.title: "Millstone"
 	quest.5A352C042058324D.quest_subtitle: "Grinding it all down to dust"
 	quest.5A384999FAD89C9B.quest_desc: [
 		"On End highlands and midlands. The Ender Guardian lives in the ruin; the End must be opened first."
@@ -2932,6 +3201,7 @@
 		"Stack &eModular Accumulators&r into a bank (up to 3 wide and 5 tall) to store FE from an alternator. Each block holds 2,000,000 FE and moves energy at up to 5000 FE/t."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5A5A789CF38BA336.title: "Modular Accumulator"
 	quest.5A5A789CF38BA336.quest_subtitle: "An &6Accumulator&r is a multi-block structure that lets you store large amounts of &6Energy (E)&r"
 	quest.5A5B8770C80F7420.quest_desc: [
 		"Its &eGarnishment Guide&r explains everything the mod adds."
@@ -2964,6 +3234,7 @@
 	quest.5A86AE1514DE9E08.quest_desc: [
 		"A cold IDAS burial site. Dress warm, then get back to the Stronghold when you are ready for the End."
 	]
+	quest.5A86AE1514DE9E08.quest_subtitle: "A cold IDAS burial site. Dress warm, then get back to the Stronghold when you are ready for the End."
 	quest.5A86AE1514DE9E08.title: "&bFrozen Crypt"
 	quest.5AB8C0E0E3741E17.quest_desc: [
 		"&7Opens after &eOut There&7 (Exploration)"
@@ -2981,6 +3252,7 @@
 	quest.5B4791BA686AAD4E.quest_desc: [
 		"Use the Stronghold portal after you have seen the Nether. The dragon is next; Cataclysm's Ruined Citadel is on the outer islands."
 	]
+	quest.5B4791BA686AAD4E.quest_subtitle: "Use the Stronghold portal after you have seen the Nether. The dragon is next; Cataclysm's Ruined Citadel is on the outer islands."
 	quest.5B4791BA686AAD4E.title: "&5The End"
 	quest.5B71A5D06F5FC8A0.quest_desc: [
 		"Stonecut a zinc ingot into eight Copycat Boards."
@@ -2991,15 +3263,19 @@
 	quest.5B826E13BE0F7B0C.quest_desc: [
 		"One thing not mentioned by &b&lponder&r is that the funnel can drop items on the ground when placed on an inventory and will only keep one item on the ground if it's close enough to the block the item lands on"
 	]
+	quest.5B826E13BE0F7B0C.title: "Andesite Funnel"
 	quest.5B826E13BE0F7B0C.quest_subtitle: "A &6Funnel&r allows input and output of inventories one item at a time"
 	quest.5B82C634CE484977.quest_desc: [
 		"A &eRope Pulley&r lowers and raises a glued elevator of blocks, paying out rope as it goes. For passenger lifts with floors, wait for the brass &eElevator Pulley&r."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5B82C634CE484977.title: "Rope Pulley"
 	quest.5B82C634CE484977.quest_subtitle: "A &6Rope Pulley&r allows for the creation of contraptions that move up and down"
 	quest.5BB08263F2B5D7C3.quest_desc: [
 		"Right-click a &eBrass Speaker&r to type an announcement. It plays over the area — station PA for arrivals, warnings, or whatever you want passengers to hear."
 	]
+	quest.5BB08263F2B5D7C3.title: "Brass Speaker"
+	quest.5BB08263F2B5D7C3.quest_subtitle: "Right-click a &eBrass Speaker&r to type an announcement. It plays over the area — station PA for arrivals, warnings, or whatever you want..."
 	quest.5C0A8337D2E92A0B.quest_desc: [
 		"Opens with a &ePrecision Mechanism&r. Most of the book teaches one craft at a time; this chapter is optional finish-line work — goals that only make sense once two or more lines have already been lived."
 		""
@@ -3015,6 +3291,7 @@
 	quest.5C251AB7110F0E5F.quest_desc: [
 		"Bolts onto a Shaft instead of being a little generator block. Feed it fuel and the connected shaft becomes your power plant."
 	]
+	quest.5C251AB7110F0E5F.title: "Huge Diesel Engine"
 	quest.5C251AB7110F0E5F.quest_subtitle: "&6Huge Diesel Engines&r connect to &6Shafts&r and will start generating kinetic energy once you give them some fuel"
 	quest.5C3EBC32239E408E.quest_desc: [
 		"Bores the inner diameter of a freshly cast barrel or chamber. Keep water on it while it runs or it overheats."
@@ -3026,6 +3303,7 @@
 		"Glue a propeller onto this bearing and the blades can spin while they stay part of the bigger Simulated ship."
 		"This is the mount Electric Flight will drive from an &eElectric Motor&r later. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5C57943A4AA32FB1.title: "Propeller Bearing"
 	quest.5C57943A4AA32FB1.quest_subtitle: "A &6Propeller Bearing&r allows a propeller assembly to rotate and provide &6Propulsion&r while attached to a larger contraption"
 	quest.5C61D230E8A41A99.quest_desc: [
 		"Press brass ingots. Almost every Connected gadget in this chapter wants a sheet, a casing, or both."
@@ -3035,11 +3313,14 @@
 	quest.5C90A411F6D30EE9.quest_desc: [
 		"Apply Spring Alloy to an unfinished spring. As a block they store kinetic energy; as an item a charged spring can throw you or an entity, and it eats some fall damage."
 	]
+	quest.5C90A411F6D30EE9.quest_subtitle: "Apply Spring Alloy to an unfinished spring. As a block they store kinetic energy; as an item a charged spring can throw you or an entity,..."
 	quest.5C90A411F6D30EE9.title: "&bSprings"
 	quest.5C9C878E8C6DEEF7.quest_desc: [
 		"Sneak-use faces to mark outputs and inputs, then put the linker in a controller so it can discover those blocks."
 		"Open the board with sneak-use in air. Scope can be auto, whole block, or a single face."
 	]
+	quest.5C9C878E8C6DEEF7.title: "Contraption Network Linker"
+	quest.5C9C878E8C6DEEF7.quest_subtitle: "Sneak-use faces to mark outputs and inputs, then put the linker in a controller so it can discover those blocks."
 	quest.5CE4CA792328427A.quest_desc: [
 		"Craft from a Stock Link, a gold ingot and glass. Right-click a Stock Link before placement to join its network. Seat a mob or Blaze Burner in front of it as the Stock Keeper, then right-click the keeper to order."
 		"Submitted orders pack the items for transport. Set a target address on the request so Package Filters and Frogports know where to send them. Right-click the ticker itself to edit listing categories with attribute or list filters. Hold &eW&r over it in EMI."
@@ -3049,6 +3330,8 @@
 	quest.5CE618D90A0AF061.quest_desc: [
 		"The other cut from crude. This is what the Diesel Engine, Modular Engine, and Huge Engine all want."
 	]
+	quest.5CE618D90A0AF061.title: "Diesel Bucket"
+	quest.5CE618D90A0AF061.quest_subtitle: "The other cut from crude. This is what the Diesel Engine, Modular Engine, and Huge Engine all want."
 	quest.5CFE7A2DE6EECBEA.quest_desc: [
 		"Fuses two boss items into a stronger one: Infernal Forge plus Void Core becomes Void Forge, and so on. Beat more bosses to feed it."
 	]
@@ -3063,6 +3346,7 @@
 		"Stand a &eTesla Coil&r over a depot to charge energy items, or power it to shock nearby mobs. It drinks a lot of FE either way."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5D2866B8B177B27E.title: "Tesla Coil"
 	quest.5D2866B8B177B27E.quest_subtitle: "Lets you charge certain items"
 	quest.5D8770DD2177142F.quest_desc: [
 		"The back of the gun. A cast-iron cannon end is simple; a sliding breech opens for mechanical reloading later."
@@ -3077,10 +3361,13 @@
 	quest.5E5D62726D846A63.quest_desc: [
 		"Potions now mix themselves. Feed them to a &eConduit Cage&r to grant or strip effects nearby — a conduit that works as a factory, not just a monument piece."
 	]
+	quest.5E5D62726D846A63.title: "Potions now mix themselves. Feed them"
+	quest.5E5D62726D846A63.quest_subtitle: "Potions now mix themselves. Feed them to a &eConduit Cage&r to grant or strip effects nearby — a conduit that works as a factory, not jus..."
 	quest.5E89E093362958B4.quest_desc: [
 		"Click two corners to paint a glue box, then Ctrl-scroll to grow or shrink it. Hold Alt to plant a corner in mid-air."
 		"It only joins Simulated assemblies, so Super Glue will not drag the wrong Create elevator into your hull. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5E89E093362958B4.title: "Honey Glue"
 	quest.5E89E093362958B4.quest_subtitle: "&6Honey Glue&r is a convenient alternative to &aSuper Glue&r for simulated contraptions"
 	quest.5EB05566545D1E5C.quest_desc: [
 		"Place a &eTrain Station&r on the track under your glued locomotive, then assemble from its UI."
@@ -3100,6 +3387,7 @@
 		"A &eClutch&r disconnects the kinetic line while it has a redstone signal, so one machine can idle without stopping the factory."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.5F161C9839C62F0C.title: "Clutch"
 	quest.5F161C9839C62F0C.quest_subtitle: "A &6Clutch&r allows you to stop rotational force from passing through when powered by a &credstone&r signal"
 	quest.5F3FF42E32035B90.quest_desc: [
 		"Compact the molten metal back into ingots, or pour it into sand moulds for barrels and breeches. This is your first cannon metal."
@@ -3109,6 +3397,7 @@
 	quest.5F54692C554A45BE.quest_desc: [
 		"Right-click a Diesel Engine with it. Same power, much less racket next to the base."
 	]
+	quest.5F54692C554A45BE.title: "Engine Silencer"
 	quest.5F54692C554A45BE.quest_subtitle: "Use an &fEngine Silencer&r on a &6Diesel Engine&r to silence it"
 	quest.5F699CBFE79E637E.quest_desc: [
 		"&7Opens after &eIon Thrusters&7 (Electric Flight)"
@@ -3132,6 +3421,7 @@
 	quest.601860A2654A4095.quest_desc: [
 		"To make our &9Echo items&r we will need to upgrade them from Netherite items through the usage of a smithing table and an &3Echo Upgrade Smithing Template"
 	]
+	quest.601860A2654A4095.quest_subtitle: "To make our &9Echo items&r we will need to upgrade them from Netherite items through the usage of a smithing table and an &3Echo Upgrade ..."
 	quest.601860A2654A4095.title: "&3Smithing Template"
 	quest.603AAE60ABAEB20E.quest_desc: [
 		"&7Opens after &eAndesite, the Foundation&7 (Andesite Age)"
@@ -3158,6 +3448,7 @@
 		""
 		"You can also right-click the block and put it on &aBrake Mode&r which will instead slow down entities, but who even wants to brake in the first place"
 	]
+	quest.606349BB488D2422.quest_subtitle: "Now that you have the necessary materials we can start by crafting ourselves a couple of &bHypertube Block&r after you put down one of th..."
 	quest.606349BB488D2422.title: "&b&lThe Hypertube"
 	quest.6063CF361CA2DAF7.quest_desc: [
 		"Brick & Mortar adds coloured bricks and tiles fired in a Kiln. Fire a clay ball in the Kiln to get a Tan Brick."
@@ -3168,6 +3459,8 @@
 	quest.606567FF7D0B81E1.quest_desc: [
 		"Two marshmallows and a stick. Hold it over a campfire or run it through a smoker to caramelize it."
 	]
+	quest.606567FF7D0B81E1.title: "Marshmallow on a Stick"
+	quest.606567FF7D0B81E1.quest_subtitle: "Two marshmallows and a stick. Hold it over a campfire or run it through a smoker to caramelize it."
 	quest.60936D55394B8517.quest_desc: [
 		"Power the &eMechanical Oven&r and use it with cake moulds. Cog, electron-tube and lava-tank cakes all bake here."
 		"Hold &eW&r over it in EMI to see its Ponder."
@@ -3178,10 +3471,13 @@
 		"Run gingerdough through a &eMechanical Press&r. One press, one little man."
 		"That's the pressed cousin of baked gingerbread — same dough, different machine."
 	]
+	quest.60959BD560D5C3F6.title: "Gingerbread Man"
+	quest.60959BD560D5C3F6.quest_subtitle: "Run gingerdough through a &eMechanical Press&r. One press, one little man."
 	quest.6174776659022D6B.quest_desc: [
 		"The book that ships with Create: Garnished. Craft the &eGarnishment Guide&r and keep it handy."
 		"It explains the nuts, sweets and fan processing the mod adds."
 	]
+	quest.6174776659022D6B.quest_subtitle: "The book that ships with Create: Garnished. Craft the &eGarnishment Guide&r and keep it handy."
 	quest.6174776659022D6B.title: "&eGarnishment Guide"
 	quest.61C903CC178F7F32.quest_desc: [
 		"It's crafted from a book and a sourceberry, or found in chests. Everything below is explained in it."
@@ -3196,6 +3492,7 @@
 	quest.6258271B8132C384.quest_desc: [
 		"Build a portal and step through. Cataclysm's Soul Black Smith and Burning Arena generate here, in terrain nobody has visited yet."
 	]
+	quest.6258271B8132C384.quest_subtitle: "Build a portal and step through. Cataclysm's Soul Black Smith and Burning Arena generate here, in terrain nobody has visited yet."
 	quest.6258271B8132C384.title: "&4The Nether"
 	quest.6286DD80F462B1A9.quest_desc: [
 		"Macaw's Bridges adds wooden bridges and matching bridge stairs. Start with an Oak Bridge."
@@ -3206,10 +3503,12 @@
 		"A stationary &eMechanical Saw&r strips logs and cuts blocks; glued onto a contraption it fells whole trees. You will want one on the belt for sequenced recipes later."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.628B4647AA410A19.title: "Mechanical Saw"
 	quest.628B4647AA410A19.quest_subtitle: "&6Mechanical Saws&r can fell trees or allow contraptions to fell trees, as well as perform recipes like cutting blocks or stripping &aLogs&r"
 	quest.62A83DCB7F9DE4E2.quest_desc: [
 		"An IDAS maze. Mark your path; getting lost is the point."
 	]
+	quest.62A83DCB7F9DE4E2.quest_subtitle: "An IDAS maze. Mark your path; getting lost is the point."
 	quest.62A83DCB7F9DE4E2.title: "&8Labyrinth"
 	quest.62BC1FF3A591FAAF.quest_desc: [
 		"Metal or wooden walkway steps. Power them with rotation for moving walkways and escalators through the factory."
@@ -3232,18 +3531,24 @@
 	quest.634B2ED978962892.quest_desc: [
 		"The pumpjack's product. Distill it — heated for a smaller split, superheated for more — into diesel and gasoline."
 	]
+	quest.634B2ED978962892.title: "Crude Oil Bucket"
+	quest.634B2ED978962892.quest_subtitle: "The pumpjack's product. Distill it — heated for a smaller split, superheated for more — into diesel and gasoline."
 	quest.639561EA12D5FADC.quest_desc: [
 		"Set the output you want, then feed it analog redstone and it remaps that strength to the configured signal."
 		"Handy when a sensor's 0–15 range is the wrong shape for a throttle or tilt adapter."
 	]
+	quest.639561EA12D5FADC.title: "Redstone Converter"
 	quest.639561EA12D5FADC.quest_subtitle: "A &bRedstone Converter&r converts &credstone&r signal strength into a configurable &credstone&r output signal"
 	quest.63ABA4CA92CAA675.quest_desc: [
 		"The everyday all-terrain wheel: four rubber sheets around a shaft."
 		"Sits on the same mount as the others. Use this size until you need clearance or a heavier footprint."
 	]
+	quest.63ABA4CA92CAA675.title: "Tire"
+	quest.63ABA4CA92CAA675.quest_subtitle: "The everyday all-terrain wheel: four rubber sheets around a shaft."
 	quest.63AFEFF942ED2C1B.quest_desc: [
 		"A huge netherite golem. Fight up close; it caps damage and ignores shots from far away. It drops the Infernal Forge and a Monstrous Horn."
 	]
+	quest.63AFEFF942ED2C1B.quest_subtitle: "A huge netherite golem. Fight up close; it caps damage and ignores shots from far away. It drops the Infernal Forge and a Monstrous Horn."
 	quest.63AFEFF942ED2C1B.title: "&c&lNetherite Monstrosity"
 	quest.63C987F952F77C0E.quest_desc: [
 		"First flight. The battery starts empty, so park it under a &eTesla Coil&r before you jump."
@@ -3254,19 +3559,24 @@
 	quest.63D62E2A3E5FABD4.quest_desc: [
 		"A whisk, a coupling, a Heat Engine, a cog, and zinc. Bring these back and the next quest crafts the grappling hook."
 	]
+	quest.63D62E2A3E5FABD4.quest_subtitle: "A whisk, a coupling, a Heat Engine, a cog, and zinc. Bring these back and the next quest crafts the grappling hook."
 	quest.63D62E2A3E5FABD4.title: "Materials for the &dGrapplin Whisk"
 	quest.64523E32C0CAD9C5.quest_desc: [
 		"The &eThreshold Switch&r watches how full a chest, vault, or tank is and turns redstone on at the high mark, off at the low mark. That is your pump shutoff."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.64523E32C0CAD9C5.title: "Stockpile Switch"
 	quest.64523E32C0CAD9C5.quest_subtitle: "A &cThreshold Switch&r can monitor the fill levels of inventories and tanks"
 	quest.64D485944845F231.quest_desc: [
 		"Heat it from below and it turns that heat into shaft rotation. No heat, no RPM."
 		"The Solid and Liquid Burners next door are the heaters it wants. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.64D485944845F231.title: "Stirling Engine"
+	quest.64D485944845F231.quest_subtitle: "Heat it from below and it turns that heat into shaft rotation. No heat, no RPM."
 	quest.64D5A9E80FBEDC8C.quest_desc: [
 		"Set a &eCampfire&r in the fan's blast so passing items smoke. Keep the soul, water, and lava setups next to it — each one changes the recipe table."
 	]
+	quest.64D5A9E80FBEDC8C.title: "Campfire"
 	quest.64D5A9E80FBEDC8C.quest_subtitle: "When placed in front of the &6Encased Fan&r, a &6Campfire&r allows it to smoke items"
 	quest.64F520643E1E82C9.quest_desc: [
 		"Couples only above a speed you set. Leave a vehicle engine spinning and the wheels only bite once RPM is up."
@@ -3281,10 +3591,12 @@
 	quest.6582B638965D114F.quest_desc: [
 		"Pair two &eRedstone Links&r on the same frequency and a signal jumps the gap. Set one as transmitter and one as receiver so you are not running dust across the base."
 	]
+	quest.6582B638965D114F.title: "Redstone Link"
 	quest.6582B638965D114F.quest_subtitle: "Lets you transfer a redstone signal wirelessly within a range using a &cRedstone Link&r"
 	quest.65D9E2BA22CC2DBC.quest_desc: [
 		"Sequenced assembly on Andesite Alloy: copper sheets, a lava spout, and a press. Goes into the &eOptical Receptor&r."
 	]
+	quest.65D9E2BA22CC2DBC.quest_subtitle: "Sequenced assembly on Andesite Alloy: copper sheets, a lava spout, and a press. Goes into the &eOptical Receptor&r."
 	quest.65D9E2BA22CC2DBC.title: "&6Copper Coil"
 	quest.65E11DFFD2125089.quest_desc: [
 		"Heat a mixer that is combining &6Copper&r and &7Zinc&r to make &eBrass&r."
@@ -3297,10 +3609,12 @@
 		"A &eTrack Buffer&r goes on the last piece of rail so a runaway train hits a bumper, not air."
 		"Glue a &eTrain Buffer&r onto the front of the locomotive if you want the crash to look the part."
 	]
+	quest.66760C6B0C1DDDD0.quest_subtitle: "A &eTrack Buffer&r goes on the last piece of rail so a runaway train hits a bumper, not air."
 	quest.66760C6B0C1DDDD0.title: "&3Track and Train Buffers"
 	quest.66C2E7174AD6111D.quest_desc: [
 		"Andesite, iron, brass, and sturdy crates — compact storage dressed in your casings. Craft them from the casings and vaults you just gathered."
 	]
+	quest.66C2E7174AD6111D.quest_subtitle: "Andesite, iron, brass, and sturdy crates — compact storage dressed in your casings. Craft them from the casings and vaults you just gathe..."
 	quest.66C2E7174AD6111D.title: "&3Crates"
 	quest.66E5A95A785EE428.quest_desc: [
 		"An Item Vault that stands up instead of lying down. Same capacity, better footprint in a tall room."
@@ -3311,6 +3625,8 @@
 		"Grab redstone and industrial plating. The magnet, inductor, and accumulator in this branch all want a redstone supply."
 		"The magnet itself crafts from redstone, a copper sheet, and industrial iron."
 	]
+	quest.66F79A7EDE20FDE5.title: "Redstone"
+	quest.66F79A7EDE20FDE5.quest_subtitle: "Grab redstone and industrial plating. The magnet, inductor, and accumulator in this branch all want a redstone supply."
 	quest.66FCECE2CEA842D9.quest_desc: [
 		"Right-click a Fluid Hatch with a &eBlock of Experience&r. Buckets and bottles can then tap the tank like a fluid hatch, but for liquid XP."
 	]
@@ -3320,11 +3636,13 @@
 		"Park it where analog redstone needs a cockpit control: engine speed, burner heat, or thruster throttle."
 		"Pair it with the inductor if you want the output to ramp instead of jumping. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.670EE1E72CCE9C2B.title: "Throttle Lever"
 	quest.670EE1E72CCE9C2B.quest_subtitle: "A &6Throttle Lever&r allows precise control over its analog power output"
 	quest.67E511B88ADFC5BC.quest_desc: [
 		"Any potion counts. Feed it to the sprinkler and entities standing under the spray get that effect."
 		"A drain can empty bottles into pipes if you'd rather not bucket the fluid by hand."
 	]
+	quest.67E511B88ADFC5BC.quest_subtitle: "Any potion counts. Feed it to the sprinkler and entities standing under the spray get that effect."
 	quest.67E511B88ADFC5BC.title: "&dPotions"
 	quest.68567D80BF886B45.quest_desc: [
 		"Fill in stops, waits and conditions, then give the &eSchedule&r to whoever is sitting at the controls."
@@ -3347,6 +3665,7 @@
 	quest.6892533F1AE22174.quest_desc: [
 		"An End construct with a tight range cap, so stay in its face. It drops the Gauntlet of Guard."
 	]
+	quest.6892533F1AE22174.quest_subtitle: "An End construct with a tight range cap, so stay in its face. It drops the Gauntlet of Guard."
 	quest.6892533F1AE22174.title: "&c&lEnder Guardian"
 	quest.68AC478385F4DE6C.quest_desc: [
 		"Congratulations! You have obtained &bSuper Experience&r, which can be used on the &6Blaze Forger&r or &6Enchanter&r to create even more powerful enchants."
@@ -3366,6 +3685,7 @@
 	quest.691B8A20556D43BB.quest_desc: [
 		"Craft autocannon cartridges and an ammo container to feed the gun. Tracer tips make the rounds visible if you want to walk the fire."
 	]
+	quest.691B8A20556D43BB.quest_subtitle: "Craft autocannon cartridges and an ammo container to feed the gun. Tracer tips make the rounds visible if you want to walk the fire."
 	quest.691B8A20556D43BB.title: "&7Autocannon Ammo"
 	quest.6933441D38037E5A.quest_desc: [
 		"Put a &eBlaze Burner&r under the basin, heat it, and Farmer's Delight cooking-pot meals mix themselves."
@@ -3389,6 +3709,7 @@
 		"Stock &eAndesite Alloy&r, &eAndesite Casing&r, iron, and brass. Almost every Simulated block starts from this pile."
 		"With these in a chest you can branch into the assembler, the engine, and the control gadgets."
 	]
+	quest.697A75979171E953.quest_subtitle: "Stock &eAndesite Alloy&r, &eAndesite Casing&r, iron, and brass. Almost every Simulated block starts from this pile."
 	quest.697A75979171E953.title: "Materials"
 	quest.6980D94CDC9657E1.quest_desc: [
 		"Bake any one of the three novelty cakes and take a slice."
@@ -3400,12 +3721,14 @@
 		"Wear &eEngineer's Goggles&r on your head or in a Curios slot. Later they also overlay boiler heat and tank fill, not just stress."
 		"Put them on before you start debugging stalled Andesite machines."
 	]
+	quest.6997BE357A2624B1.title: "Goggles"
 	quest.6997BE357A2624B1.quest_subtitle: "Essential for anyone working with &6&lCreate&r. &6Engineer's Goggles&r allow you to see more information about blocks, such as stress impact or contents"
 	quest.69A89636F2F4FCB2.quest_desc: [
 		"Maybe the most tedious but also definitely the funnest &bthe Hypertube&r allows you to crawl inside the hypertunnel and zoom to the end of the tunnel at lightning speed &ano matter the shape of the tunnel&r "
 		""
 		"Come back once you've got all the ingredients and follow the next quest in line to build your very own &bHypertube&r"
 	]
+	quest.69A89636F2F4FCB2.quest_subtitle: "Maybe the most tedious but also definitely the funnest &bthe Hypertube&r allows you to crawl inside the hypertunnel and zoom to the end o..."
 	quest.69A89636F2F4FCB2.title: "Materials for &l&bthe Hypertube"
 	quest.69E94ABCEF133B0E.quest_desc: [
 		"Collects oxygen or carbon from thin air when the planet has any. Pair it with the sealer so a Moon or Mars base does not depend on tanks shipped from Earth."
@@ -3426,6 +3749,7 @@
 		""
 		"Feel free to join our &bDiscord &rfor any other questions you may have: https://discord.gg/5mJnYNMv6Q"
 	]
+	quest.6A4CB4700F0082C6.title: "The tutorial is now finished"
 	quest.6A4CB4700F0082C6.quest_subtitle: "Read my description!"
 	quest.6A52090D6BC064D7.quest_desc: [
 		"This book is a map, not a leash. Follow it, wander off it, or ignore whole chapters — the world still runs."
@@ -3452,10 +3776,12 @@
 	quest.6ABABF2B012DB63F.quest_desc: [
 		"Bulk fluid storage, and the walls of your distillery. Controller on a tank, heat below, crude in, diesel and gasoline out."
 	]
+	quest.6ABABF2B012DB63F.title: "Fluid Tank"
 	quest.6ABABF2B012DB63F.quest_subtitle: "A &6Fluid Tank&r is the main block used for bulk fluid storage"
 	quest.6AE9AF77572C3F74.quest_desc: [
 		"Hold &eSuper Glue&r and drag across blocks to mark them as one piece. Anything glued (or grabbed by a chassis) moves together on a bearing, piston, or cart."
 	]
+	quest.6AE9AF77572C3F74.title: "Super Glue"
 	quest.6AE9AF77572C3F74.quest_subtitle: "As the name implies, &aSuper Glue&r allows you to glue blocks together. Particularly useful when making contraptions"
 	quest.6AFDA474C97CA327.quest_desc: [
 		"In order to make a train, you're going to need at least:"
@@ -3466,6 +3792,7 @@
 		""
 		"In order to see how you assemble a train, &b&lponder&r the &6Train Station&r"
 	]
+	quest.6AFDA474C97CA327.quest_subtitle: "In order to make a train, you're going to need at least:"
 	quest.6AFDA474C97CA327.title: "&bAssemble a train"
 	quest.6B0E9E7992D52704.quest_desc: [
 		"Smelt raw copper, or crush it first if you want the extra bits."
@@ -3501,11 +3828,13 @@
 		"Heated mix of sugar, cocoa butter, two cocoa beans and milk, then compact the fluid in a press and basin."
 		"Spout that chocolate over marshmallows for the glazed variants later."
 	]
+	quest.6B9D82DE26A0CC56.quest_subtitle: "Heated mix of sugar, cocoa butter, two cocoa beans and milk, then compact the fluid in a press and basin."
 	quest.6B9D82DE26A0CC56.title: "&6Bar of Dark Chocolate"
 	quest.6BBA95BF47D9B2AC.quest_desc: [
 		"Feed ingots into a spinning &eRolling Mill&r to draw them into rods and wires — the start of Create Crafts & Additions power."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.6BBA95BF47D9B2AC.title: "Rolling Mill"
 	quest.6BBA95BF47D9B2AC.quest_subtitle: "A &6Rolling Mill&r is for milling raw materials into useful components, like rods and wires"
 	quest.6BC0D978E293515F.quest_desc: [
 		"Any colour works. Feed furnace fuel, or a &eBlaze Cake&r if you want it superheated for extra RPM and SU."
@@ -3517,11 +3846,13 @@
 		"Cyan top head and orange bottom head, each driving its own assembly. That is how you flap two control surfaces from one bearing."
 		"Put it after the servo bearing once you need ailerons rather than a single steered nozzle. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.6BD99B734B74E3EC.quest_subtitle: "Cyan top head and orange bottom head, each driving its own assembly. That is how you flap two control surfaces from one bearing."
 	quest.6BD99B734B74E3EC.title: "Craft Aileron Bearing"
 	quest.6BF926405F2D9D26.quest_desc: [
 		"Spout liquid dark chocolate onto a marshmallow."
 		"Same spout, different chocolate, for the ruby glaze next."
 	]
+	quest.6BF926405F2D9D26.quest_subtitle: "Spout liquid dark chocolate onto a marshmallow."
 	quest.6BF926405F2D9D26.title: "&6Dark Chocolate Glazed Marshmallow"
 	quest.6C3F8B6CBEB3E69F.quest_desc: [
 		"Craft a Rivet from an Iron Sheet and an Iron Nugget."
@@ -3556,10 +3887,12 @@
 		"A &eNixie Tube&r shows a short number or a few characters. Pair it with a Display Link on an elevator contact if you want a floor readout."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.6DDC8E408BE84968.title: "Nixie Tube"
 	quest.6DDC8E408BE84968.quest_subtitle: "A &6Nixie Tube&r can display text or numbers. This would be useful for making elevators too."
 	quest.6DE5C143971CCDC8.quest_desc: [
 		"An IDAS haunted house. Bring light and a weapon; it is a step up from the castle."
 	]
+	quest.6DE5C143971CCDC8.quest_subtitle: "An IDAS haunted house. Bring light and a weapon; it is a step up from the castle."
 	quest.6DE5C143971CCDC8.title: "&8Haunted Manor"
 	quest.6DF1388101A98433.quest_desc: [
 		"An iron sheet, deployed with polished amethyst, copper and gold, then engraved. You will want a pile for the &eTargeting Computer&r, Rocket Station and later machines."
@@ -3576,6 +3909,7 @@
 		"Mine platinum ore or deepslate platinum, then smelt or blast it. Crushing the raw ore works too."
 		"Sheets, casings, tanks, cables, the converter, and the vector thruster all start from this ingot."
 	]
+	quest.6F5A9597B7259915.quest_subtitle: "Mine platinum ore or deepslate platinum, then smelt or blast it. Crushing the raw ore works too."
 	quest.6F5A9597B7259915.title: "Platinum Ingot"
 	quest.6F5D431065508C0B.quest_desc: [
 		"Focus a beam onto a recipe or a meal. Faster, cheaper Optical Devices than full sequenced assembly — and a way to cook."
@@ -3586,20 +3920,25 @@
 	quest.6F761CEF7CF87194.quest_desc: [
 		"A sea serpent with a long range cap, so get close anyway. It drops Tidal Claws and an Abyssal Egg."
 	]
+	quest.6F761CEF7CF87194.quest_subtitle: "A sea serpent with a long range cap, so get close anyway. It drops Tidal Claws and an Abyssal Egg."
 	quest.6F761CEF7CF87194.title: "&c&lThe Leviathan"
 	quest.6F7B8AD6377B3621.quest_desc: [
 		"Mount a &eMechanical Roller&r on the front of a train or contraption. It paves with the blocks you give it and clears rubble so you can lay track as you ride."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.6F7B8AD6377B3621.title: "Mechanical Roller"
 	quest.6F7B8AD6377B3621.quest_subtitle: "A &6Mechanical Roller&r lets you clear blocks in front and pave with desired blocks underneath the tracks while riding a train"
 	quest.6F998D330698620F.quest_desc: [
 		"Press cocoa beans into crushed cocoa, then run that through crushing wheels: cocoa powder plus a chance of butter."
 		"Butter is the fat in dark and white chocolate."
 	]
+	quest.6F998D330698620F.title: "Cocoa Butter"
+	quest.6F998D330698620F.quest_subtitle: "Press cocoa beans into crushed cocoa, then run that through crushing wheels: cocoa powder plus a chance of butter."
 	quest.7003D050CAD2307C.quest_desc: [
 		"This branch is Create's redstone toolkit: contacts, latches, pulses, and wireless links that talk to kinetics and contraptions."
 		"Tick them off as you need them; none of these are required to leave Andesite Age."
 	]
+	quest.7003D050CAD2307C.quest_subtitle: "This branch is Create's redstone toolkit: contacts, latches, pulses, and wireless links that talk to kinetics and contraptions."
 	quest.7003D050CAD2307C.title: "Redstone + Create"
 	quest.7058C7040CC3A881.quest_desc: [
 		"Obtain Hoglin Loin. A knife on a Cutting Board or Slicer cuts it into two Hoglin Sausage."
@@ -3617,11 +3956,13 @@
 		"Same placement rules as a copper tank, twice the millibuckets per block. Press the ingot into sheets first."
 		"Use them as the fuel or oxidizer reservoirs on long-range Propulsion ships."
 	]
+	quest.708AB3D0AC844C2F.title: "Platinum Fluid Tank"
 	quest.708AB3D0AC844C2F.quest_subtitle: "A &bPlatinum Fluid Tank&r stores fluids like a &6Copper Fluid Tank&r, but with double the capacity per block"
 	quest.709E90DDEFB25E66.quest_desc: [
 		"The &eIndustrial Alternator&r turns shaft RPM into FE; the &eIndustrial Motor&r spends FE to spin a shaft. &eAndesite Cable&r is the cheap FE wire between them."
 		"Heavier SU and FE numbers than Crafts & Additions' motor pair. Hold &eW&r over them in EMI to see their Ponder."
 	]
+	quest.709E90DDEFB25E66.quest_subtitle: "The &eIndustrial Alternator&r turns shaft RPM into FE; the &eIndustrial Motor&r spends FE to spin a shaft. &eAndesite Cable&r is the chea..."
 	quest.709E90DDEFB25E66.title: "Craft Industrial Motor and Alternator"
 	quest.70B08B5924AF5A89.quest_desc: [
 		"Small, rapid-fire barrels with a recoil spring, fed from an ammo container. Steel autocannon barrels come off the Cannon Builder path."
@@ -3642,6 +3983,7 @@
 		"A &eGearbox&r takes rotation on one face and sends it out the others, so you do not have to snake cogwheels around a wall."
 		"From here you can add clutches, gearshifts, and chain drives. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.7123D5EC2157E788.title: "Gearbox"
 	quest.7123D5EC2157E788.quest_subtitle: "The &6Gearbox&r is sort of like an extension cord, but for &6Shafts&r. It can change the direction of shafts, and can have more than one shaft attached to a different side of the gearbox"
 	quest.7123F925F2A66D5B.quest_desc: [
 		"Place it, then right-click with a Space Atlas to save the coordinates. Rockets can fly straight back to that pad."
@@ -3657,16 +3999,19 @@
 		"Give a &eMechanical Drill&r rotation and it chews the block in front. Glue it to a piston or cart and it becomes a quarry or tunnel bore."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.715B648D1C6D34C1.title: "Mechanical Drill"
 	quest.715B648D1C6D34C1.quest_subtitle: "Lets you use &6SU&r to break blocks, and can also be attached to contraptions to make tunnel bores and other destructive machines"
 	quest.71B1BAA207E6B417.quest_desc: [
 		"&eGantry Shafts&r are the rail; the &eGantry Carriage&r is the trolley. Stack two axes and a glued farm can move both sideways and forward."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.71B1BAA207E6B417.title: "Gantry Carriage"
 	quest.71B1BAA207E6B417.quest_subtitle: "A &6Gantry Carriage&r allows for contraptions that move across gantries. Multiple &6Gantry Carriages&r can be chained, allowing for muliple axes of movement"
 	quest.71ECD7EE0270484A.quest_desc: [
 		"One block, two independent kinetic lanes — or it can drive face-mounted servo bearings from orientation data."
 		"Horizontal and vertical variants. Use it when a normal gearbox would mash two shafts together."
 	]
+	quest.71ECD7EE0270484A.quest_subtitle: "One block, two independent kinetic lanes — or it can drive face-mounted servo bearings from orientation data."
 	quest.71ECD7EE0270484A.title: "Craft Smart Gearbox"
 	quest.72198C23A0D07A3B.quest_desc: [
 		"When the network overstresses, this clutch waits a bit then disconnects. Wrench it to reset once you've fixed the jam."
@@ -3677,6 +4022,7 @@
 		"Spout liquid ruby chocolate onto a marshmallow, same setup as the dark glaze."
 		"Mix ruby chocolate from sugar, dragon's breath, cocoa beans and milk if you haven't made any yet."
 	]
+	quest.7236F44BE57B00C6.quest_subtitle: "Spout liquid ruby chocolate onto a marshmallow, same setup as the dark glaze."
 	quest.7236F44BE57B00C6.title: "&dRuby Chocolate Glazed Marshmallow"
 	quest.723BC505B72493F0.quest_desc: [
 		"Smith netherite armour with Cursium and a Cursium Upgrade template. Not as tanky as Ignitium, but a full netherite upgrade from this boss."
@@ -3686,6 +4032,7 @@
 	quest.726C3E3376580AF4.quest_desc: [
 		"Fill the empty catalyst with a lava bucket, or spout lava into it. The fan bulk-blasts as if lava were sitting in front of it — without spilling."
 	]
+	quest.726C3E3376580AF4.quest_subtitle: "Fill the empty catalyst with a lava bucket, or spout lava into it. The fan bulk-blasts as if lava were sitting in front of it — without s..."
 	quest.726C3E3376580AF4.title: "&cFan Blasting Catalyst"
 	quest.72A508D87CAC0E4F.quest_desc: [
 		"Apply a brass ingot to any glass block (or use a Deployer) to make Brass Glass Casing."
@@ -3715,14 +4062,18 @@
 		"Place a &eCrossing&r where a road meets the rails, then power it — a &eTrain Observer&r is the usual trigger — so the arms drop when a train is coming."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.73646CD6C89DDF7B.quest_subtitle: "Place a &eCrossing&r where a road meets the rails, then power it — a &eTrain Observer&r is the usual trigger — so the arms drop when a tr..."
 	quest.73646CD6C89DDF7B.title: "&aCrossing Gate"
 	quest.73BD53E9130BA3C5.quest_desc: [
 		"Run an iron sheet through sequenced assembly: a &eMechanical Saw&r and a &eMechanical Press&r, looping until the assembly finishes."
 		"Wrap the finished part into a coloured &ePortable Engine&r next."
 	]
+	quest.73BD53E9130BA3C5.title: "Engine Assembly"
+	quest.73BD53E9130BA3C5.quest_subtitle: "Run an iron sheet through sequenced assembly: a &eMechanical Saw&r and a &eMechanical Press&r, looping until the assembly finishes."
 	quest.73C8DAA9A9CBC28B.quest_desc: [
 		"Right-click a brass ingot on a stripped log for a &eBrass Casing&r. Smart logistics, crafters, and the electric machines in this chapter all want that casing."
 	]
+	quest.73C8DAA9A9CBC28B.title: "Brass Casing"
 	quest.73C8DAA9A9CBC28B.quest_subtitle: "The basis for more advanced blocks"
 	quest.73CA3C62CBC41E94.quest_desc: [
 		"Put the &eConduit Cage&r in front of the fan instead of water. That's channeling: flint can become shards, glowstone dust becomes crystals, and Suspicious Rock can drop nautilus shells."
@@ -3733,10 +4084,13 @@
 		"A &eMinecart Coupling&r chains minecarts or cart contraptions so they pull as one consist."
 		"Right-click two carts with it to join them. Furnace carts can then haul a whole string."
 	]
+	quest.73CBEFC51D900FE3.title: "Minecart Coupling"
+	quest.73CBEFC51D900FE3.quest_subtitle: "A &eMinecart Coupling&r chains minecarts or cart contraptions so they pull as one consist."
 	quest.742B53EF2F996E70.quest_desc: [
 		"Sneak-scroll a &eWeighted Ejector&r to set the throw distance, then dump items onto it. Stacks land on another depot or belt without a long conveyor."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.742B53EF2F996E70.title: "Weighted Ejector"
 	quest.742B53EF2F996E70.quest_subtitle: "&6Weighted Ejectors&r can launch items accurately over long distances"
 	quest.74A663BECB035204.quest_desc: [
 		"&7Opens after &eBlaze Burner&7 (Brass Age)"
@@ -3770,6 +4124,7 @@
 		"Spin an &eAlternator&r from your kinetic network and it outputs FE. Faster RPM means more energy; dump the surplus into an accumulator."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.757AC0F85778164E.title: "Alternator"
 	quest.757AC0F85778164E.quest_subtitle: "An &6Alternator&r generates &6Energy (E)&r from kinetic energy. The amount generated is dependent on the &6RPM&r and caps at &6256 E/t&r"
 	quest.75BA8D3D6C0B9D1C.quest_desc: [
 		"Park a &eCutting Board&r next to a &eBamboo Basket&r and let a &eMechanical Arm&r move ingredients between them."
@@ -3786,6 +4141,7 @@
 	quest.75CACD0EE12EFB13.quest_desc: [
 		"Hold the &eExtendo Grip&r to place and break from several blocks further away. Mechanical-craft it once; wiring a big factory feels different afterwards."
 	]
+	quest.75CACD0EE12EFB13.title: "Extendo Grip"
 	quest.75CACD0EE12EFB13.quest_subtitle: "A &6Extendo Grip&r allows for increased reach for block mining and entity striking"
 	quest.75CFD6668679C928.quest_desc: [
 		"Craft a &eTrain Station Clock&r and hang it where passengers can see it."
@@ -3801,6 +4157,7 @@
 	quest.7611AC5B2A3A96EF.quest_desc: [
 		"A bearing, obsidian plate, shafts, spring-alloy sheets, and brass casing. Spins parts together to weld them — check EMI for what it joins."
 	]
+	quest.7611AC5B2A3A96EF.quest_subtitle: "A bearing, obsidian plate, shafts, spring-alloy sheets, and brass casing. Spins parts together to weld them — check EMI for what it joins."
 	quest.7611AC5B2A3A96EF.title: "&bFriction Welder"
 	quest.7640216D4CDF6C92.quest_desc: [
 		"Spout liquid gunpowder or nitropowder onto Andesite Alloy. Every assembled cartridge needs one."
@@ -3826,6 +4183,7 @@
 		"An &eAdjustable Chain Gearshift&r on a chain-drive row doubles or halves that line's speed while it is powered. Scroll the block to pick which."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.769351E6B5091327.title: "Adjustable Chain Gearshift"
 	quest.769351E6B5091327.quest_subtitle: "An &6Adjustable Chain Gearshift&r can be used to halve or double the rotational speed of connected chain drives when receiving a &credstone&r signal"
 	quest.76B9A5C1355E0C38.quest_desc: [
 		"&eSturdy Sheets&r, blaze rods, cinder flour, and tinted glass. Mechanical Crafters turn that into an Inactive Blaze Core — the renewable superheat path."
@@ -3836,6 +4194,7 @@
 		"Same &ePortable Engine&r as Simulated. Bolt it to the airframe so the ship carries its own rotation for propellers and vents."
 		"From here the chapter splits into goggles, flight hardware, and the Levitite line."
 	]
+	quest.76D805D38E84858C.quest_subtitle: "Same &ePortable Engine&r as Simulated. Bolt it to the airframe so the ship carries its own rotation for propellers and vents."
 	quest.76D805D38E84858C.title: "Engine"
 	quest.76D9D182704B7FC8.quest_desc: [
 		"Macaw's Lights and Lamps adds tiki torches and other lamps. An Oak Tiki Torch is a cheap start."
@@ -3861,6 +4220,7 @@
 		"A &eThruster Bearing&r turns the mounted assembly so you can redirect nozzles without rebuilding the ship."
 		"Install a Gadgets thruster on it, then aim with redstone or the analogue controller. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.776D3E4656FECF89.quest_subtitle: "A &eThruster Bearing&r turns the mounted assembly so you can redirect nozzles without rebuilding the ship."
 	quest.776D3E4656FECF89.title: "Craft Servo Bearing"
 	quest.778CCF75E93579B4.quest_desc: [
 		"On this pack, three &eRubber Sheets&r in a row craft a &eMechanical Belt&r — kelp is no longer the ingredient."
@@ -3872,6 +4232,7 @@
 		"String &eDisplay Boards&r into a wide sign. Faster rotation makes the text refresh sooner, which is why stations like them for arrivals."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.7826031A16D82432.title: "Display Board"
 	quest.7826031A16D82432.quest_subtitle: "A &6Display Board&r is basically an advanced sign that updates faster if provided with higher &6RPM&r. It's like the bulletin boards you see in train stations"
 	quest.7860AF137465560B.quest_desc: [
 		"Explosive shells. They do nothing without a fuze on the front. Watch the crater, and keep the mount well away from your factory."
@@ -3886,6 +4247,7 @@
 	quest.78EA25B85A869DD3.quest_desc: [
 		"Same idea as the Copper Coil, with zinc — check EMI for the sequence. Unlocks the Hologram Source."
 	]
+	quest.78EA25B85A869DD3.quest_subtitle: "Same idea as the Copper Coil, with zinc — check EMI for the sequence. Unlocks the Hologram Source."
 	quest.78EA25B85A869DD3.title: "&aZinc Coil"
 	quest.78F7924189EFC7A8.quest_desc: [
 		"Undying, fall, void, fire, drowning, wither. Craft them at the apparatus. A Water Breathing Charm is worth bringing to the Leviathan."
@@ -3896,6 +4258,7 @@
 		"Stick an &eIron Handle&r on a block and you can grab that Simulated assembly and haul it by hand."
 		"Handy for lining a hull up with the assembler or a dock before you add engines."
 	]
+	quest.7971AD11B9C4EBE5.title: "Iron Handle"
 	quest.7971AD11B9C4EBE5.quest_subtitle: "Fuel can be inserted to activate the engine and produce rotational power until the fuel runs out"
 	quest.7975D965D14D10BC.quest_desc: [
 		"Gold, chiseled sandstone, emerald, dead bush, cactus, rotten flesh and bone around an Eye of Ender. It finds a Cursed Pyramid."
@@ -3906,6 +4269,7 @@
 		"Analog redstone scales rotation through it from stopped to full speed, horizontally or vertically."
 		"Use it as a smooth clutch for gantries, props, or anything a binary clutch would jerk. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.7986DE628299BE48.quest_subtitle: "Analog redstone scales rotation through it from stopped to full speed, horizontally or vertically."
 	quest.7986DE628299BE48.title: "Craft Variable Tranmissions"
 	quest.7993A52ED6910F60.quest_desc: [
 		"Mechanical-craft an Ornithopter Glider from seven Wing Meshes, ropes, Cogwheels, Shafts, brass nuggets, wooden slabs and Andesite Casing."
@@ -3917,11 +4281,13 @@
 		"Look up the empty iced cup in EMI, add ice, then spout coffee fluid into it."
 		"The drink is caffeinated; banana, mint and caramel variants are extra spouting on top of this cup."
 	]
+	quest.7A0E5258CC7059F9.quest_subtitle: "Look up the empty iced cup in EMI, add ice, then spout coffee fluid into it."
 	quest.7A0E5258CC7059F9.title: "&6Iced Coffee"
 	quest.7A22F754E879815D.quest_desc: [
 		"A brass gearbox whose four faces can each be reversed on their own. Use the vertical variant when the shafts need to stand up."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.7A22F754E879815D.title: "Brass Gearbox"
 	quest.7A22F754E879815D.quest_subtitle: "A gearbox where the rotation direction of all 4 sides are independently configurable."
 	quest.7A56250D2EBADD11.quest_desc: [
 		"Run normal track through sequenced assembly again to widen it, then use a wide bogey."
@@ -3977,6 +4343,7 @@
 		"The analogue controller maps flight keys, redstone, wireless frequencies, or blocks on the hull. The joystick splits stick motion into four 0–15 signals."
 		"Double buttons are two wireless buttons in one block. The gyroscope link shares orientation with whatever is on the network."
 	]
+	quest.7B17ACDB9B2B94E5.quest_subtitle: "The analogue controller maps flight keys, redstone, wireless frequencies, or blocks on the hull. The joystick splits stick motion into fo..."
 	quest.7B17ACDB9B2B94E5.title: "Craft All Controllers And Data Link"
 	quest.7B203B70553A2B6C.quest_desc: [
 		"Motor, shafts, optional gearboxes, then an Aeronautics &ePropeller Bearing&r. That is an electric airframe."
@@ -4006,6 +4373,8 @@
 		"Unpowered, it behaves like an encased cogwheel. Analog redstone changes the ratio between the shaft and the cog."
 		"Feed the cog instead of the shaft and the shaft speeds up. Full signal disconnects the two so they can spin apart. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.7BE8110B77ACE902.title: "Analog Transmission"
+	quest.7BE8110B77ACE902.quest_subtitle: "Unpowered, it behaves like an encased cogwheel. Analog redstone changes the ratio between the shaft and the cog."
 	quest.7C11C7027F18398C.quest_desc: [
 		"Activate one, then teleport to it from any other waystone. They spawn in the world and you can craft more. Warp stones let you do it without standing at a stone."
 	]
@@ -4020,6 +4389,7 @@
 		"Assemble a glued structure on a &eMechanical Bearing&r and it spins in place. That is the usual way to run a circle of harvesters."
 		"Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.7C26D6CEC3139342.title: "Mechanical Bearing"
 	quest.7C26D6CEC3139342.quest_subtitle: "A &6Mechanical Bearing&r allows for contraptions that rotate around a point in space, particularly useful for farms"
 	quest.7C490456FC7E561C.quest_desc: [
 		"Hang a &eSprinkler&r from a fluid pipe and pump into it. It rains that fluid onto the blocks below."
@@ -4056,11 +4426,13 @@
 		"Mechanical-craft the full-size &eThruster&r, or shapeless-convert it to the &eSmall Thruster&r that packs the same output into a tighter body."
 		"Load solid or liquid fuel, throttle with redstone 0–15, and optionally sit it on a servo bearing. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.7CFE797B0EC4A6E7.quest_subtitle: "Mechanical-craft the full-size &eThruster&r, or shapeless-convert it to the &eSmall Thruster&r that packs the same output into a tighter ..."
 	quest.7CFE797B0EC4A6E7.title: "Craft Thrusters"
 	quest.7D20EAB7E4E34B45.quest_desc: [
 		"A moving chest. Load it at one end of the line and unload with a hopper at the other."
 		"Still the simplest way to send a delivery before you have trains."
 	]
+	quest.7D20EAB7E4E34B45.quest_subtitle: "A moving chest. Load it at one end of the line and unload with a hopper at the other."
 	quest.7D20EAB7E4E34B45.title: "&6Minecart with Chest"
 	quest.7D607C004797651F.quest_desc: [
 		"Capture any allowed mob with the Empty Soul Catcher to fill it."
@@ -4087,10 +4459,13 @@
 		"It shines a pointer and outputs redstone from how far the first blocking block is. The value panel sets max range; a filter limits which blocks count."
 		"Use it as a Simulated rangefinder for docks, ground proximity, or avoiding walls. Hold &eW&r over it in EMI to see its Ponder."
 	]
+	quest.7DC6F687EB6A1139.title: "Optical Sensor"
+	quest.7DC6F687EB6A1139.quest_subtitle: "It shines a pointer and outputs redstone from how far the first blocking block is. The value panel sets max range; a filter limits which ..."
 	quest.7E8F42F1D630BD88.quest_desc: [
 		"Faster exhaust processing than T1, and propulsion T2 quadruples thrust with another fuel bump."
 		"Keep the same three processing types plus propulsion. T3 widens the cooking area as well as the speed."
 	]
+	quest.7E8F42F1D630BD88.quest_subtitle: "Faster exhaust processing than T1, and propulsion T2 quadruples thrust with another fuel bump."
 	quest.7E8F42F1D630BD88.title: "Craft All Tier 2 on Thrusters"
 	quest.7EB6B6A390A7574A.quest_desc: [
 		"Build something that actually runs using parts from three of this chapter's mods — gears, presses or fans, springs, or the rest. Tick this off when the machine is spinning."
