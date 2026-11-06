@@ -1,5 +1,5 @@
 {
- "scanned_at": "2026-11-05T12:40:05Z",
+ "scanned_at": "2026-11-06T00:35:36Z",
  "minecraft": "1.21.1",
  "mods": [
   {
@@ -76,30 +76,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "1.21-2.2.5",
+   "current": "1.21-2.2.7",
    "source": "modrinth",
    "project": "6iTJugQR",
-   "current_id": "Fjkt65h2",
-   "current_date": "2026-10-29",
+   "current_id": "w19mjFoT",
+   "current_date": "2026-10-31",
    "latest": {
-    "release": {
-     "id": "w19mjFoT",
-     "version": "1.21-2.2.7",
-     "type": "release",
-     "date": "2026-10-31"
-    },
-    "beta": {
-     "id": "w19mjFoT",
-     "version": "1.21-2.2.7",
-     "type": "release",
-     "date": "2026-10-31"
-    },
-    "alpha": {
-     "id": "w19mjFoT",
-     "version": "1.21-2.2.7",
-     "type": "release",
-     "date": "2026-10-31"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -142,30 +127,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "2.7.21",
+   "current": "2.7.22",
    "source": "modrinth",
    "project": "Vl1uNAuy",
-   "current_id": "5pbz0ETj",
-   "current_date": "2026-04-09",
+   "current_id": "EVDXfAI9",
+   "current_date": "2026-11-03",
    "latest": {
-    "release": {
-     "id": "EVDXfAI9",
-     "version": "2.7.22",
-     "type": "release",
-     "date": "2026-11-03"
-    },
-    "beta": {
-     "id": "EVDXfAI9",
-     "version": "2.7.22",
-     "type": "release",
-     "date": "2026-11-03"
-    },
-    "alpha": {
-     "id": "EVDXfAI9",
-     "version": "2.7.22",
-     "type": "release",
-     "date": "2026-11-03"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -259,30 +229,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "5.13.3",
+   "current": "5.13.4",
    "source": "modrinth",
    "project": "TKB6INcv",
-   "current_id": "yWDnir1o",
-   "current_date": "2026-10-03",
+   "current_id": "CHw9k5Va",
+   "current_date": "2026-11-03",
    "latest": {
-    "release": {
-     "id": "CHw9k5Va",
-     "version": "5.13.4",
-     "type": "release",
-     "date": "2026-11-03"
-    },
-    "beta": {
-     "id": "CHw9k5Va",
-     "version": "5.13.4",
-     "type": "release",
-     "date": "2026-11-03"
-    },
-    "alpha": {
-     "id": "CHw9k5Va",
-     "version": "5.13.4",
-     "type": "release",
-     "date": "2026-11-03"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -427,30 +382,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "balm-neoforge-1.21.1-21.0.66.jar",
+   "current": "balm-neoforge-1.21.1-21.0.67.jar",
    "source": "curseforge",
    "project": "531761",
-   "current_id": "8969738",
-   "current_date": "2026-09-25",
+   "current_id": "9406246",
+   "current_date": "2026-11-02",
    "latest": {
-    "release": {
-     "id": "9406246",
-     "version": "balm-neoforge-1.21.1-21.0.67.jar",
-     "type": "release",
-     "date": "2026-11-02"
-    },
-    "beta": {
-     "id": "9406246",
-     "version": "balm-neoforge-1.21.1-21.0.67.jar",
-     "type": "release",
-     "date": "2026-11-02"
-    },
-    "alpha": {
-     "id": "9406246",
-     "version": "balm-neoforge-1.21.1-21.0.67.jar",
-     "type": "release",
-     "date": "2026-11-02"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -583,30 +523,15 @@
    "side": "both",
    "pinned": true,
    "channel": "release",
-   "current": "2.2.5",
+   "current": "2.2.6",
    "source": "modrinth",
    "project": "joEfVgkn",
-   "current_id": "9u0z3vZD",
-   "current_date": "2026-07-06",
+   "current_id": "PV8oLZ1q",
+   "current_date": "2026-07-26",
    "latest": {
-    "release": {
-     "id": "PV8oLZ1q",
-     "version": "2.2.6",
-     "type": "release",
-     "date": "2026-07-26"
-    },
-    "beta": {
-     "id": "PV8oLZ1q",
-     "version": "2.2.6",
-     "type": "release",
-     "date": "2026-07-26"
-    },
-    "alpha": {
-     "id": "PV8oLZ1q",
-     "version": "2.2.6",
-     "type": "release",
-     "date": "2026-07-26"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -734,30 +659,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "1.21.1-8.69-fabric+forge+neo",
+   "current": "1.21.1-8.81-fabric+forge+neo",
    "source": "modrinth",
    "project": "e0M1UDsY",
-   "current_id": "DjCiHvZ6",
-   "current_date": "2026-10-29",
+   "current_id": "uCFreeKh",
+   "current_date": "2026-11-05",
    "latest": {
-    "release": {
-     "id": "COyiO7dz",
-     "version": "1.21.1-8.80-fabric+forge+neo",
-     "type": "release",
-     "date": "2026-11-05"
-    },
-    "beta": {
-     "id": "COyiO7dz",
-     "version": "1.21.1-8.80-fabric+forge+neo",
-     "type": "release",
-     "date": "2026-11-05"
-    },
-    "alpha": {
-     "id": "COyiO7dz",
-     "version": "1.21.1-8.80-fabric+forge+neo",
-     "type": "release",
-     "date": "2026-11-05"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -1004,30 +914,15 @@
    "side": "both",
    "pinned": true,
    "channel": "release",
-   "current": "1.2.10",
+   "current": "2.0.0",
    "source": "modrinth",
    "project": "Sza3GgEL",
-   "current_id": "MgD655V5",
-   "current_date": "2026-10-12",
+   "current_id": "aP8QzV0K",
+   "current_date": "2026-11-04",
    "latest": {
-    "release": {
-     "id": "aP8QzV0K",
-     "version": "2.0.0",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "beta": {
-     "id": "aP8QzV0K",
-     "version": "2.0.0",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "alpha": {
-     "id": "aP8QzV0K",
-     "version": "2.0.0",
-     "type": "release",
-     "date": "2026-11-04"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -1053,30 +948,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "0.3.6",
+   "current": "0.3.8",
    "source": "modrinth",
    "project": "5fUBLqeW",
-   "current_id": "pcD0Yutw",
-   "current_date": "2026-08-21",
+   "current_id": "Cpnq2cXd",
+   "current_date": "2026-11-04",
    "latest": {
-    "release": {
-     "id": "Cpnq2cXd",
-     "version": "0.3.8",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "beta": {
-     "id": "Cpnq2cXd",
-     "version": "0.3.8",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "alpha": {
-     "id": "Cpnq2cXd",
-     "version": "0.3.8",
-     "type": "release",
-     "date": "2026-11-04"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -1085,30 +965,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "0.2.8",
+   "current": "0.2.9",
    "source": "modrinth",
    "project": "Y1dq5ioE",
-   "current_id": "FCZZ3ED4",
-   "current_date": "2026-09-02",
+   "current_id": "WoUjC6d4",
+   "current_date": "2026-11-01",
    "latest": {
-    "release": {
-     "id": "WoUjC6d4",
-     "version": "0.2.9",
-     "type": "release",
-     "date": "2026-11-01"
-    },
-    "beta": {
-     "id": "WoUjC6d4",
-     "version": "0.2.9",
-     "type": "release",
-     "date": "2026-11-01"
-    },
-    "alpha": {
-     "id": "WoUjC6d4",
-     "version": "0.2.9",
-     "type": "release",
-     "date": "2026-11-01"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -1309,6 +1174,23 @@
    "project": "W1ZUfWdr",
    "current_id": "PGhQoSBq",
    "current_date": "2026-08-15",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
+   "slug": "create-collision-fix",
+   "name": "Create Collision Crash Fix",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.0",
+   "source": "modrinth",
+   "project": "j20TJ3QZ",
+   "current_id": "oIRUjqoI",
+   "current_date": "2026-06-28",
    "latest": {
     "release": null,
     "beta": null,
@@ -1559,30 +1441,15 @@
    "side": "both",
    "pinned": false,
    "channel": "beta",
-   "current": "1.2.0-beta3-1.21.1",
+   "current": "1.2.1-1.21.1",
    "source": "modrinth",
    "project": "UvrmqS41",
-   "current_id": "xaayBxRe",
-   "current_date": "2026-08-06",
+   "current_id": "K7O1CgV2",
+   "current_date": "2026-11-01",
    "latest": {
-    "release": {
-     "id": "K7O1CgV2",
-     "version": "1.2.1-1.21.1",
-     "type": "release",
-     "date": "2026-11-01"
-    },
-    "beta": {
-     "id": "K7O1CgV2",
-     "version": "1.2.1-1.21.1",
-     "type": "release",
-     "date": "2026-11-01"
-    },
-    "alpha": {
-     "id": "K7O1CgV2",
-     "version": "1.2.1-1.21.1",
-     "type": "release",
-     "date": "2026-11-01"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -2320,30 +2187,15 @@
    "side": "both",
    "pinned": true,
    "channel": "release",
-   "current": "sablexaeromaps-1.21.1-1.4.0.jar",
+   "current": "sablexaeromaps-1.21.1-1.4.2.jar",
    "source": "curseforge",
    "project": "1622142",
-   "current_id": "8736099",
-   "current_date": "2026-08-26",
+   "current_id": "9321190",
+   "current_date": "2026-10-25",
    "latest": {
-    "release": {
-     "id": "9321190",
-     "version": "sablexaeromaps-1.21.1-1.4.2.jar",
-     "type": "release",
-     "date": "2026-10-25"
-    },
-    "beta": {
-     "id": "9321190",
-     "version": "sablexaeromaps-1.21.1-1.4.2.jar",
-     "type": "release",
-     "date": "2026-10-25"
-    },
-    "alpha": {
-     "id": "9321190",
-     "version": "sablexaeromaps-1.21.1-1.4.2.jar",
-     "type": "release",
-     "date": "2026-10-25"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -2379,6 +2231,15 @@
     "beta": null,
     "alpha": null
    }
+  },
+  {
+   "slug": "createlanternsxnorthstar-redux",
+   "name": "Create: Lanterns x Northstar - Bridge",
+   "side": "both",
+   "pinned": false,
+   "channel": "release",
+   "current": "createlanternsxnorthstar-redux-1.0.1.jar",
+   "source": "manual"
   },
   {
    "slug": "createmechanical-confection",
@@ -2629,30 +2490,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "2.3.8-NeoForge",
+   "current": "2.3.10_1-NeoForge",
    "source": "modrinth",
    "project": "NCKpPR0Z",
-   "current_id": "62SFTuDx",
-   "current_date": "2026-10-24",
+   "current_id": "NFmPPUo2",
+   "current_date": "2026-11-05",
    "latest": {
-    "release": {
-     "id": "NFmPPUo2",
-     "version": "2.3.10_1-NeoForge",
-     "type": "release",
-     "date": "2026-11-05"
-    },
-    "beta": {
-     "id": "NFmPPUo2",
-     "version": "2.3.10_1-NeoForge",
-     "type": "release",
-     "date": "2026-11-05"
-    },
-    "alpha": {
-     "id": "NFmPPUo2",
-     "version": "2.3.10_1-NeoForge",
-     "type": "release",
-     "date": "2026-11-05"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -2746,30 +2592,15 @@
    "side": "client",
    "pinned": false,
    "channel": "release",
-   "current": "7.2.6-neoforge-1.21",
+   "current": "7.2.7-neoforge-1.21",
    "source": "modrinth",
    "project": "BVzZfTc1",
-   "current_id": "lwNx1nD1",
-   "current_date": "2026-10-15",
+   "current_id": "1DVPB3a4",
+   "current_date": "2026-11-03",
    "latest": {
-    "release": {
-     "id": "1DVPB3a4",
-     "version": "7.2.7-neoforge-1.21",
-     "type": "release",
-     "date": "2026-11-03"
-    },
-    "beta": {
-     "id": "1DVPB3a4",
-     "version": "7.2.7-neoforge-1.21",
-     "type": "release",
-     "date": "2026-11-03"
-    },
-    "alpha": {
-     "id": "1DVPB3a4",
-     "version": "7.2.7-neoforge-1.21",
-     "type": "release",
-     "date": "2026-11-03"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -3106,30 +2937,15 @@
    "side": "both",
    "pinned": true,
    "channel": "release",
-   "current": "[NEOFORGE][1.21.1] FTB Teams 2101.1.11",
+   "current": "[NEOFORGE][1.21.1] FTB Teams 2101.1.12",
    "source": "curseforge",
    "project": "404468",
-   "current_id": "8724782",
-   "current_date": "2026-08-24",
+   "current_id": "9434081",
+   "current_date": "2026-11-04",
    "latest": {
-    "release": {
-     "id": "9434081",
-     "version": "[NEOFORGE][1.21.1] FTB Teams 2101.1.12",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "beta": {
-     "id": "9434081",
-     "version": "[NEOFORGE][1.21.1] FTB Teams 2101.1.12",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "alpha": {
-     "id": "9434081",
-     "version": "[NEOFORGE][1.21.1] FTB Teams 2101.1.12",
-     "type": "release",
-     "date": "2026-11-04"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -3147,30 +2963,15 @@
    "side": "client",
    "pinned": false,
    "channel": "release",
-   "current": "[NeoForge] FTB Chunks x Xaero's Map Compat 1.3.0+1.21.1",
+   "current": "[NeoForge] FTB Chunks x Xaero's Map Compat 1.4.0+1.21.1",
    "source": "curseforge",
    "project": "1357724",
-   "current_id": "9365980",
-   "current_date": "2026-10-29",
+   "current_id": "9387323",
+   "current_date": "2026-10-31",
    "latest": {
-    "release": {
-     "id": "9387323",
-     "version": "[NeoForge] FTB Chunks x Xaero's Map Compat 1.4.0+1.21.1",
-     "type": "release",
-     "date": "2026-10-31"
-    },
-    "beta": {
-     "id": "9387323",
-     "version": "[NeoForge] FTB Chunks x Xaero's Map Compat 1.4.0+1.21.1",
-     "type": "release",
-     "date": "2026-10-31"
-    },
-    "alpha": {
-     "id": "9387323",
-     "version": "[NeoForge] FTB Chunks x Xaero's Map Compat 1.4.0+1.21.1",
-     "type": "release",
-     "date": "2026-10-31"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -3417,30 +3218,15 @@
    "side": "client",
    "pinned": true,
    "channel": "release",
-   "current": "4.6.10+1.21.1-neoforge",
+   "current": "4.6.11+1.21.1-neoforge",
    "source": "modrinth",
    "project": "p8RJPJIC",
-   "current_id": "QZHF8QKH",
-   "current_date": "2026-10-19",
+   "current_id": "SMNtHcH8",
+   "current_date": "2026-10-31",
    "latest": {
-    "release": {
-     "id": "SMNtHcH8",
-     "version": "4.6.11+1.21.1-neoforge",
-     "type": "release",
-     "date": "2026-10-31"
-    },
-    "beta": {
-     "id": "SMNtHcH8",
-     "version": "4.6.11+1.21.1-neoforge",
-     "type": "release",
-     "date": "2026-10-31"
-    },
-    "alpha": {
-     "id": "SMNtHcH8",
-     "version": "4.6.11+1.21.1-neoforge",
-     "type": "release",
-     "date": "2026-10-31"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -3619,30 +3405,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "leaky-1.21-3.6.jar",
+   "current": "leaky-1.21-3.8.jar",
    "source": "curseforge",
    "project": "856906",
-   "current_id": "9259502",
-   "current_date": "2026-10-19",
+   "current_id": "9408843",
+   "current_date": "2026-11-02",
    "latest": {
-    "release": {
-     "id": "9408843",
-     "version": "leaky-1.21-3.8.jar",
-     "type": "release",
-     "date": "2026-11-02"
-    },
-    "beta": {
-     "id": "9408843",
-     "version": "leaky-1.21-3.8.jar",
-     "type": "release",
-     "date": "2026-11-02"
-    },
-    "alpha": {
-     "id": "9408843",
-     "version": "leaky-1.21-3.8.jar",
-     "type": "release",
-     "date": "2026-11-02"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -3933,7 +3704,7 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "mfcore-1.0.5.jar",
+   "current": "mfcore-1.0.8.jar",
    "source": "manual"
   },
   {
@@ -3993,30 +3764,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "1.21.1-3.7.2",
+   "current": "1.21.1-3.8.2",
    "source": "modrinth",
    "project": "twkfQtEc",
-   "current_id": "fAIfWX6M",
-   "current_date": "2026-10-10",
+   "current_id": "drG7quQp",
+   "current_date": "2026-11-05",
    "latest": {
-    "release": {
-     "id": "Utlh1Gae",
-     "version": "1.21.1-3.8.1",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "beta": {
-     "id": "Utlh1Gae",
-     "version": "1.21.1-3.8.1",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "alpha": {
-     "id": "Utlh1Gae",
-     "version": "1.21.1-3.8.1",
-     "type": "release",
-     "date": "2026-11-04"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -4042,30 +3798,15 @@
    "side": "client",
    "pinned": false,
    "channel": "release",
-   "current": "1.0.10",
+   "current": "1.0.11",
    "source": "modrinth",
    "project": "51shyZVL",
-   "current_id": "5M4T2FfG",
-   "current_date": "2026-09-07",
+   "current_id": "ucyxnpWe",
+   "current_date": "2026-11-01",
    "latest": {
-    "release": {
-     "id": "ucyxnpWe",
-     "version": "1.0.11",
-     "type": "release",
-     "date": "2026-11-01"
-    },
-    "beta": {
-     "id": "ucyxnpWe",
-     "version": "1.0.11",
-     "type": "release",
-     "date": "2026-11-01"
-    },
-    "alpha": {
-     "id": "ucyxnpWe",
-     "version": "1.0.11",
-     "type": "release",
-     "date": "2026-11-01"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -4244,30 +3985,15 @@
    "side": "client",
    "pinned": false,
    "channel": "release",
-   "current": "1.12.6",
+   "current": "1.12.7",
    "source": "modrinth",
    "project": "MPCX6s5C",
-   "current_id": "VCuMsK45",
-   "current_date": "2026-09-19",
+   "current_id": "f9RkhlA0",
+   "current_date": "2026-11-01",
    "latest": {
-    "release": {
-     "id": "f9RkhlA0",
-     "version": "1.12.7",
-     "type": "release",
-     "date": "2026-11-01"
-    },
-    "beta": {
-     "id": "f9RkhlA0",
-     "version": "1.12.7",
-     "type": "release",
-     "date": "2026-11-01"
-    },
-    "alpha": {
-     "id": "f9RkhlA0",
-     "version": "1.12.7",
-     "type": "release",
-     "date": "2026-11-01"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -4592,30 +4318,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "2.4.4+1.21.1-neoforge",
+   "current": "2.5.0+1.21.1-neoforge",
    "source": "modrinth",
    "project": "5pzBXDS3",
-   "current_id": "e4yVoAvP",
-   "current_date": "2026-09-30",
+   "current_id": "aEwhhJqE",
+   "current_date": "2026-11-04",
    "latest": {
-    "release": {
-     "id": "aEwhhJqE",
-     "version": "2.5.0+1.21.1-neoforge",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "beta": {
-     "id": "aEwhhJqE",
-     "version": "2.5.0+1.21.1-neoforge",
-     "type": "release",
-     "date": "2026-11-04"
-    },
-    "alpha": {
-     "id": "aEwhhJqE",
-     "version": "2.5.0+1.21.1-neoforge",
-     "type": "release",
-     "date": "2026-11-04"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -4675,30 +4386,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "3.8.3+1.21.1-neoforge",
+   "current": "3.8.4+1.21.1-neoforge",
    "source": "modrinth",
    "project": "pLxsKvNt",
-   "current_id": "zNTpRJOJ",
-   "current_date": "2026-10-26",
+   "current_id": "wgpBpDHA",
+   "current_date": "2026-11-02",
    "latest": {
-    "release": {
-     "id": "wgpBpDHA",
-     "version": "3.8.4+1.21.1-neoforge",
-     "type": "release",
-     "date": "2026-11-02"
-    },
-    "beta": {
-     "id": "wgpBpDHA",
-     "version": "3.8.4+1.21.1-neoforge",
-     "type": "release",
-     "date": "2026-11-02"
-    },
-    "alpha": {
-     "id": "wgpBpDHA",
-     "version": "3.8.4+1.21.1-neoforge",
-     "type": "release",
-     "date": "2026-11-02"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {
@@ -5210,30 +4906,15 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "1.1.26-neoforge-mc1.21",
+   "current": "1.1.26a-neoforge-mc1.21",
    "source": "modrinth",
    "project": "rOUBggPv",
-   "current_id": "HGyYs7Z4",
-   "current_date": "2026-10-28",
+   "current_id": "sLRKmslC",
+   "current_date": "2026-11-05",
    "latest": {
-    "release": {
-     "id": "sLRKmslC",
-     "version": "1.1.26a-neoforge-mc1.21",
-     "type": "release",
-     "date": "2026-11-05"
-    },
-    "beta": {
-     "id": "sLRKmslC",
-     "version": "1.1.26a-neoforge-mc1.21",
-     "type": "release",
-     "date": "2026-11-05"
-    },
-    "alpha": {
-     "id": "sLRKmslC",
-     "version": "1.1.26a-neoforge-mc1.21",
-     "type": "release",
-     "date": "2026-11-05"
-    }
+    "release": null,
+    "beta": null,
+    "alpha": null
    }
   },
   {

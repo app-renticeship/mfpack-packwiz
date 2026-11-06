@@ -1,4 +1,4 @@
-filename = 'create_aeronautics_transmission_linkage-0.2.8.jar'
+filename = 'create_aeronautics_transmission_linkage-0.2.9.jar'
 name = 'Create Aeronautics: Transmission & Linkage'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'af637fc793448928354cb453f794ce08fa14694250a377ae67d4a2d40db7c4a00adcb9f980387947c264e74c575939e9f525ef1f1443b8471c10bf72c52000a5'
+hash = 'da593d7462f100abe6b5ce2ddb661228433890dda1c66d87cbf0eff4f97637c102cd9f12be1d9e40e967e17b35a28d10a41fdfea571c2dc64be8d28eb2d5ace5'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Y1dq5ioE/versions/FCZZ3ED4/create_aeronautics_transmission_linkage-0.2.8.jar'
+url = 'https://cdn.modrinth.com/data/Y1dq5ioE/versions/WoUjC6d4/create_aeronautics_transmission_linkage-0.2.9.jar'
 
 [update.modrinth]
 mod-id = 'Y1dq5ioE'
-version = 'FCZZ3ED4'
+version = 'WoUjC6d4'

@@ -1,0 +1,10 @@
+name = "Create: Lanterns x Northstar - Bridge"
+filename = "createlanternsxnorthstar-redux-1.0.1.jar"
+side = "both"
+
+# Shipped from files/ until the Modrinth and CurseForge listings are approved; switch to the store listing then.
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/createlanternsxnorthstar-redux-1.0.1.jar"
+hash-format = "sha256"
+hash = "62a133d98fafa6eeaace6a3aee406753fb7cfe1ad14bf0895030dd3313d16b43"

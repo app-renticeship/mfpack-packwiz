@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "aef2b0ee3884d9da84c099557f8f7529f965513d269d450f1f9f8e8cc78b5a47"
+hash = "d6c2790cc195eb3620ef71248c0f30b747eb654b24e55ada7eb35af531594c5e"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/aquaculture.pw.toml"
-hash = "edb1e30801929f07419a93c6d92e79ec6245519275282c556806f5759a5f2c8a"
+hash = "48f4c6049a842ed9fb28db5c3378a26f644918809ad3fef5e7994f171059c9f6"
 metafile = true
 
 [[files]]
@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "a77dcf89abdc55bd64a8a0f7f33a825ae9f8e53717d41b2c6e7dda1793761de6"
+hash = "d48a8dd78b1b13815e75ada9e31519fa098e4a91879de4caf1cd46aa6f5ef5b8"
 metafile = true
 
 [[files]]
@@ -152,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "1d1cffa8c517a1b2ed336d1335c3fdeb3bebef78a6b31511444f22c89deb2863"
+hash = "2c2e8f250fb2453db71e9aa5bedf09ff72775d913d2c88e37169f00fe17c6657"
 metafile = true
 
 [[files]]
@@ -192,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/carry-on.pw.toml"
-hash = "cb716be22ee98d1708e53b5c043c6042fec44660a3d7974304121138f1a7b841"
+hash = "29224f52b512ee02dd5a6eaaa07278cc31d8f28462d5c0a7f407a7a2c4b0cff2"
 metafile = true
 
 [[files]]
@@ -232,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "623c7a7f11b2d9d083f81bf47382260c924c47eeb64c8ec921af1c445a2f7d7b"
+hash = "45fdb757ae3de9df2af3b7d3559cb3c68ce5c395563c05d515337d614f34bc02"
 metafile = true
 
 [[files]]
@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-gadgets-and-gizmos.pw.toml"
-hash = "fb6321007ad551c275d1d113d962f9315248294fffb8ed9ce7340e4b908beb68"
+hash = "49c3197ab5b39fb765f268d944c5ab0c7ce04d1229d5359b26b5caef7e14a4cd"
 metafile = true
 
 [[files]]
@@ -317,12 +317,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-toolgun.pw.toml"
-hash = "d13fbc41de0e195d624c1929c52c2ccc2a6187a58013f8345216f838d6d8cf90"
+hash = "cc71d7b8a3b8861c3054cb885ffd36bb575354c5c3f791df1116540a7eb01226"
 metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-transmission-linkage.pw.toml"
-hash = "bc425f292f39406f5e2d14a8c51abe6ff8538bf41109b5bebb6e538f56a08ef2"
+hash = "b0551042128e0b5d0599684dcd4ca4917a426bdcc005ba0b00f478cc566cb8cf"
 metafile = true
 
 [[files]]
@@ -462,7 +462,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fantasizing-again.pw.toml"
-hash = "4964e3e887a6c2278cbf6e8c70f8f770f1bb714d199e6428a0d8891815953444"
+hash = "a88dd31c632a5c08e636f2ac81f930dcd552c68348a67f8cfaf9d36ab2db010e"
 metafile = true
 
 [[files]]
@@ -677,7 +677,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-xaeros-map.pw.toml"
-hash = "e78e982a02334b9f051701b154fd210bfdbf3be16bec1ace3b4ba7fc93095cf6"
+hash = "7f0a3f916673c3be75a581b65b14dbf95853e7a850335778e8f3eabdd5b2a99a"
 metafile = true
 
 [[files]]
@@ -688,6 +688,11 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
+metafile = true
+
+[[files]]
+file = "mods/createlanternsxnorthstar-redux.pw.toml"
+hash = "4cf0e5a83f2565bd94d763234431a999f1b7d71ec0806c11778f0840a83c5d6d"
 metafile = true
 
 [[files]]
@@ -762,7 +767,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecologics.pw.toml"
-hash = "121770c811982041fe105a7517a4951f54fee5d1567697a2f27626f5268a46c4"
+hash = "34a4bda4d8043f6d4b571c23702dcfb9a2d571307b5a3c5a374c05a0d80459a1"
 metafile = true
 
 [[files]]
@@ -792,7 +797,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "37ae0fc372cc387710fb7cb525f79a405e88f9e88786f83c1e0834e127997d35"
+hash = "ed1b9c3018ec4e6afbaafd1544138a4f11bc211683ecf9c5d28b42553f60e8c7"
 metafile = true
 
 [[files]]
@@ -887,7 +892,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-teams.pw.toml"
-hash = "1506491f72a3bfaa348aee17df73dcdace5a2144297149645bf7848d22fdd76e"
+hash = "4bf0ea10995a229061c09c24290dfd4215ce79bfe43ad9f592dc862f1094746e"
 metafile = true
 
 [[files]]
@@ -897,7 +902,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftbxaerocompat.pw.toml"
-hash = "ec679ce2684f729db9d48a39517574116247539b2195794db4b4a6ad75c8b886"
+hash = "b45b1dcf2186299707846c03e80bc704b7fa1d0522cdc52eff07a2ac2a52a6fd"
 metafile = true
 
 [[files]]
@@ -972,7 +977,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "e8838b22642d7614962af8f8e2c42daaab5ce361aea6fdce3765183a8ad01a1b"
+hash = "08dcc5b8017d24ccc69687434f5812d3ade6d7fc2be270dc1d585991e5afc042"
 metafile = true
 
 [[files]]
@@ -1027,7 +1032,7 @@ metafile = true
 
 [[files]]
 file = "mods/leaky.pw.toml"
-hash = "865d6d6f7130bb022641eaf9145e3d39070526e60e6a757a74ee58c609ab12cd"
+hash = "179700c774df7c394736a828bc16113836f1c7a84861d4745e6c8425fab8e517"
 metafile = true
 
 [[files]]
@@ -1132,7 +1137,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "99e376818ca094dea7d313417c35a00d05c9e0ebfd9e74049e64c40deb91e9c2"
+hash = "962850de149a9f5dfd612ac2d72d136c799e9e85eeca4a9e2a567cf2e278004a"
 metafile = true
 
 [[files]]
@@ -1142,7 +1147,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "d6183e3e5f6f98aa2dc8dec2491ca2a4802262007f75781ef449296f7d9671ba"
+hash = "e484cc8f8f03940addbb053b09e9efd2804785d95240719b81393942eb3883d3"
 metafile = true
 
 [[files]]
@@ -1197,7 +1202,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "1d2ce76b72b27a4ffa9cca38675be5f0b0d8c86f871b97cd8d5d3483bd85e077"
+hash = "432b809dba8c8b78237d47af150944500dba15f293bceb99a884c22064c39eaa"
 metafile = true
 
 [[files]]
@@ -1292,7 +1297,7 @@ metafile = true
 
 [[files]]
 file = "mods/reconnectible-chains.pw.toml"
-hash = "2a4f123fab3b78243abc248cc22c83a496b5d0c189d54b64fdfd52fdcaf42a56"
+hash = "8fe741853924944b4bb7e8cf18822d39922a9bc85e1208cddfba509e1344a0a4"
 metafile = true
 
 [[files]]
@@ -1312,7 +1317,7 @@ metafile = true
 
 [[files]]
 file = "mods/reliable-remover.pw.toml"
-hash = "d964d845d33e847c0942b477aa3a02adf44909b07567ee388e35e645a17512ff"
+hash = "acf72896a02eac09daddf6d5f1c8a6db2c34b5d5ab3be6157d76fe174fccd132"
 metafile = true
 
 [[files]]
@@ -1462,7 +1467,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "5e8133fa52350f0b4a468c0db32aef9ab0abfdc88765c9a2baac4f9422e13493"
+hash = "33eab1ec1f2b6a02756c74817832b56960b689f112690ecf37f8ce7f8077589f"
 metafile = true
 
 [[files]]
