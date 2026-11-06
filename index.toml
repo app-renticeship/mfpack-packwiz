@@ -98,7 +98,7 @@ hash = "ad80585467f7536302b28a532b9d166db9d456f017af2a5675317d6110197c57"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_lanterns.snbt"
-hash = "45406775039ca35af06e01113f5c5004962e2934a4cae1c2eb2a57faa2cf80ea"
+hash = "5dd3846c3d6eb6edcb8f4f5211d81bc2a3ae152bfb7d0cc1727737b778561b1e"
 
 
 [[files]]
@@ -188,7 +188,7 @@ hash = "5b9f9329084559c5d3dc53cada2462567e9872471297a97c9a1e4878941fc545"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/logistics_and_trade.snbt"
-hash = "5e617a89a336e87fe7049edecd1bdd7d684463e1d270980ae42ea11c195bf0c1"
+hash = "3c67c2ff43028c47e1b53870ca6f551f47d5cb6e63df872ef20b452ca2f1b7c2"
 
 
 [[files]]
@@ -248,7 +248,7 @@ hash = "b25d84317fef1e94b153a666f551fe2b9b451d657a06744f23e38ae3a951c59f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "37e67012b38002c7836a15e22fe6602beaa8d079281938bc8dc4c8de74d211f4"
+hash = "7ef0be4a6f4e2c5746aacf26621f87204f71003ba20abcffa8a4228751d9801c"
 
 
 [[files]]
