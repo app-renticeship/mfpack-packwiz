@@ -689,7 +689,7 @@
   },
   {
    "slug": "companion",
-   "name": "Companion \ud83d\udc15",
+   "name": "Companion 🐕",
    "side": "server",
    "pinned": false,
    "channel": "beta",
@@ -2239,7 +2239,9 @@
    "pinned": false,
    "channel": "release",
    "current": "createlanternsxnorthstar-redux-1.0.1.jar",
-   "source": "manual"
+   "source": "curseforge",
+   "project": "1785878",
+   "current_id": "9466738"
   },
   {
    "slug": "createmechanical-confection",
@@ -3265,7 +3267,7 @@
   },
   {
    "slug": "jade",
-   "name": "Jade \ud83d\udd0d",
+   "name": "Jade 🔍",
    "side": "both",
    "pinned": false,
    "channel": "release",
@@ -3316,7 +3318,7 @@
   },
   {
    "slug": "kiwi",
-   "name": "Kiwi \ud83e\udd5d",
+   "name": "Kiwi 🥝",
    "side": "both",
    "pinned": false,
    "channel": "release",
@@ -4705,7 +4707,7 @@
   },
   {
    "slug": "snow-real-magic",
-   "name": "Snow! Real Magic! \u26c4",
+   "name": "Snow! Real Magic! ⛄",
    "side": "both",
    "pinned": false,
    "channel": "release",
