@@ -182,7 +182,7 @@ hash = "5b9f9329084559c5d3dc53cada2462567e9872471297a97c9a1e4878941fc545"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/logistics_and_trade.snbt"
-hash = "3c67c2ff43028c47e1b53870ca6f551f47d5cb6e63df872ef20b452ca2f1b7c2"
+hash = "f38a5de570ff7a8bd156111a400f64d778062188b3029479caa6ebf02720f8d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/metalwork_kinetics.snbt"
