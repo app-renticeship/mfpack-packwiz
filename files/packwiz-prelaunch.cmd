@@ -59,5 +59,10 @@ if exist "%~dp0mfpack-java25.ps1" (
   powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0mfpack-java25.ps1" >nul
 )
 
+echo [mfpack] seeding Distant Horizons LOD cache if empty
+if exist "%~dp0mfpack-dhseed.ps1" (
+  powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0mfpack-dhseed.ps1"
+)
+
 echo [mfpack] sync ok
 exit /b 0

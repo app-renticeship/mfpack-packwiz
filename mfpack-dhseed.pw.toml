@@ -1,0 +1,8 @@
+name = "MFPack Distant Horizons LOD seed"
+filename = "mfpack-dhseed.ps1"
+side = "client"
+
+[download]
+url = "https://app-renticeship.github.io/mfpack-packwiz/files/mfpack-dhseed.ps1"
+hash-format = "sha256"
+hash = "72a0fcc0aaf8cd11da16eb553581517f07467302c95dfac09e39c30914b9be7c"

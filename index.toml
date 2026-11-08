@@ -254,6 +254,11 @@ hash = "8d70542a320572da49af7802c482b1665e3149933207cf9bfea6c41d0080fe71"
 metafile = true
 
 [[files]]
+file = "mfpack-dhseed.pw.toml"
+hash = "c495dca23970aa650a39b02703b4c9312c0718b4bda0aac9f252ca6a69efee91"
+metafile = true
+
+[[files]]
 file = "mfpack-java25.pw.toml"
 hash = "60172363726bbada507ad47429a832735e111c5d1c607b341f7113ba8b256d55"
 metafile = true
@@ -950,7 +955,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "46f9e2fe108c5c182f8461ac0e4e250d93eb7efa521793f57d63def4b5b5c9f1"
+hash = "91e1c6a42397696f035a4954df27feb1cf255f2c2cc45dd8fa27dfb5135826fd"
 metafile = true
 
 [[files]]
@@ -1835,7 +1840,7 @@ metafile = true
 
 [[files]]
 file = "packwiz-prelaunch.pw.toml"
-hash = "204b3dcbe9e7936be5fb0a4bf17a2b37f0d89bf7abbd2938a711692dd04d930f"
+hash = "aa10a11b7ca411b0f09d1bcf97d6582e758f347e0efe15de4e7ccd26cb0b6f6b"
 metafile = true
 
 [[files]]
