@@ -1,5 +1,5 @@
 {
- "scanned_at": "2026-11-06T00:35:36Z",
+ "scanned_at": "2026-11-13T21:51:51Z",
  "minecraft": "1.21.1",
  "mods": [
   {
@@ -48,9 +48,24 @@
    "current_id": "9360134",
    "current_date": "2026-10-29",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "9498307",
+     "version": "alltheleaks-1.1.16+1.21.1-neoforge.jar",
+     "type": "release",
+     "date": "2026-11-07"
+    },
+    "beta": {
+     "id": "9498307",
+     "version": "alltheleaks-1.1.16+1.21.1-neoforge.jar",
+     "type": "release",
+     "date": "2026-11-07"
+    },
+    "alpha": {
+     "id": "9498307",
+     "version": "alltheleaks-1.1.16+1.21.1-neoforge.jar",
+     "type": "release",
+     "date": "2026-11-07"
+    }
    }
   },
   {
@@ -235,9 +250,24 @@
    "current_id": "CHw9k5Va",
    "current_date": "2026-11-03",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "ALmdjtiq",
+     "version": "5.13.5",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "beta": {
+     "id": "ALmdjtiq",
+     "version": "5.13.5",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "alpha": {
+     "id": "ALmdjtiq",
+     "version": "5.13.5",
+     "type": "release",
+     "date": "2026-11-09"
+    }
    }
   },
   {
@@ -304,8 +334,18 @@
    "current_date": "2026-10-19",
    "latest": {
     "release": null,
-    "beta": null,
-    "alpha": null
+    "beta": {
+     "id": "ZCHsCohA",
+     "version": "21.1.4.11",
+     "type": "beta",
+     "date": "2026-11-12"
+    },
+    "alpha": {
+     "id": "ZCHsCohA",
+     "version": "21.1.4.11",
+     "type": "beta",
+     "date": "2026-11-12"
+    }
    }
   },
   {
@@ -535,23 +575,6 @@
    }
   },
   {
-   "slug": "carryon-aeronautics-compat",
-   "name": "Carry On + Create Aeronautics Compat",
-   "side": "server",
-   "pinned": true,
-   "channel": "release",
-   "current": "1.1.1",
-   "source": "modrinth",
-   "project": "MpnDZ1Lx",
-   "current_id": "z7xbAdje",
-   "current_date": "2026-05-17",
-   "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
-   }
-  },
-  {
    "slug": "cerulean-advancements",
    "name": "Cerulean",
    "side": "server",
@@ -665,9 +688,24 @@
    "current_id": "uCFreeKh",
    "current_date": "2026-11-05",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "ry7LvdEb",
+     "version": "1.21.1-8.86-fabric+forge+neo",
+     "type": "release",
+     "date": "2026-11-10"
+    },
+    "beta": {
+     "id": "ry7LvdEb",
+     "version": "1.21.1-8.86-fabric+forge+neo",
+     "type": "release",
+     "date": "2026-11-10"
+    },
+    "alpha": {
+     "id": "ry7LvdEb",
+     "version": "1.21.1-8.86-fabric+forge+neo",
+     "type": "release",
+     "date": "2026-11-10"
+    }
    }
   },
   {
@@ -689,7 +727,7 @@
   },
   {
    "slug": "companion",
-   "name": "Companion 🐕",
+   "name": "Companion \ud83d\udc15",
    "side": "server",
    "pinned": false,
    "channel": "beta",
@@ -818,9 +856,24 @@
    "current_id": "bPYeUWZx",
    "current_date": "2026-09-06",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "zLlVJXf0",
+     "version": "3.0.11+mc.1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-08"
+    },
+    "beta": {
+     "id": "zLlVJXf0",
+     "version": "3.0.11+mc.1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-08"
+    },
+    "alpha": {
+     "id": "zLlVJXf0",
+     "version": "3.0.11+mc.1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-08"
+    }
    }
   },
   {
@@ -869,9 +922,24 @@
    "current_id": "TTGedLb3",
    "current_date": "2026-10-19",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "1r3CmpkA",
+     "version": "2.2.2",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "beta": {
+     "id": "1r3CmpkA",
+     "version": "2.2.2",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "alpha": {
+     "id": "1r3CmpkA",
+     "version": "2.2.2",
+     "type": "release",
+     "date": "2026-11-09"
+    }
    }
   },
   {
@@ -920,9 +988,24 @@
    "current_id": "aP8QzV0K",
    "current_date": "2026-11-04",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "SeokxTA4",
+     "version": "2.0.3",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "beta": {
+     "id": "SeokxTA4",
+     "version": "2.0.3",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "alpha": {
+     "id": "SeokxTA4",
+     "version": "2.0.3",
+     "type": "release",
+     "date": "2026-11-09"
+    }
    }
   },
   {
@@ -954,9 +1037,24 @@
    "current_id": "Cpnq2cXd",
    "current_date": "2026-11-04",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "dZDerJVc",
+     "version": "0.3.9",
+     "type": "release",
+     "date": "2026-11-06"
+    },
+    "beta": {
+     "id": "dZDerJVc",
+     "version": "0.3.9",
+     "type": "release",
+     "date": "2026-11-06"
+    },
+    "alpha": {
+     "id": "dZDerJVc",
+     "version": "0.3.9",
+     "type": "release",
+     "date": "2026-11-06"
+    }
    }
   },
   {
@@ -1362,9 +1460,24 @@
    "current_id": "pld6Eng9",
    "current_date": "2026-10-26",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "zuFYAHgQ",
+     "version": "1.21.1-1.10.1",
+     "type": "release",
+     "date": "2026-11-10"
+    },
+    "beta": {
+     "id": "zuFYAHgQ",
+     "version": "1.21.1-1.10.1",
+     "type": "release",
+     "date": "2026-11-10"
+    },
+    "alpha": {
+     "id": "zuFYAHgQ",
+     "version": "1.21.1-1.10.1",
+     "type": "release",
+     "date": "2026-11-10"
+    }
    }
   },
   {
@@ -1606,8 +1719,18 @@
    "current_date": "2026-11-01",
    "latest": {
     "release": null,
-    "beta": null,
-    "alpha": null
+    "beta": {
+     "id": "9595226",
+     "version": "createlanterns-alpha-20.45.jar",
+     "type": "release",
+     "date": "2026-11-13"
+    },
+    "alpha": {
+     "id": "9595226",
+     "version": "createlanterns-alpha-20.45.jar",
+     "type": "release",
+     "date": "2026-11-13"
+    }
    }
   },
   {
@@ -2091,9 +2214,24 @@
    "current_id": "wSuDZsee",
    "current_date": "2026-07-21",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "dnQAZL4P",
+     "version": "0.6.0",
+     "type": "release",
+     "date": "2026-11-13"
+    },
+    "beta": {
+     "id": "dnQAZL4P",
+     "version": "0.6.0",
+     "type": "release",
+     "date": "2026-11-13"
+    },
+    "alpha": {
+     "id": "dnQAZL4P",
+     "version": "0.6.0",
+     "type": "release",
+     "date": "2026-11-13"
+    }
    }
   },
   {
@@ -2241,7 +2379,13 @@
    "current": "createlanternsxnorthstar-redux-1.0.1.jar",
    "source": "curseforge",
    "project": "1785878",
-   "current_id": "9466738"
+   "current_id": "9466738",
+   "current_date": "2026-11-06",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
   },
   {
    "slug": "createmechanical-confection",
@@ -2370,7 +2514,7 @@
   {
    "slug": "distanthorizons",
    "name": "Distant Horizons",
-   "side": "both",
+   "side": "client",
    "pinned": true,
    "channel": "release",
    "current": "3.3.3-1.21.1",
@@ -2583,9 +2727,24 @@
    "current_id": "eieYbWYb",
    "current_date": "2026-10-08",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "DDaDZQ47",
+     "version": "1.12.1",
+     "type": "release",
+     "date": "2026-11-13"
+    },
+    "beta": {
+     "id": "DDaDZQ47",
+     "version": "1.12.1",
+     "type": "release",
+     "date": "2026-11-13"
+    },
+    "alpha": {
+     "id": "DDaDZQ47",
+     "version": "1.12.1",
+     "type": "release",
+     "date": "2026-11-13"
+    }
    }
   },
   {
@@ -2651,9 +2810,24 @@
    "current_id": "iBvaR6AK",
    "current_date": "2026-09-23",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "tjX0GpFW",
+     "version": "1.9.21",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "beta": {
+     "id": "tjX0GpFW",
+     "version": "1.9.21",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "alpha": {
+     "id": "tjX0GpFW",
+     "version": "1.9.21",
+     "type": "release",
+     "date": "2026-11-09"
+    }
    }
   },
   {
@@ -2671,6 +2845,38 @@
     "release": null,
     "beta": null,
     "alpha": null
+   }
+  },
+  {
+   "slug": "fancymenu",
+   "name": "FancyMenu",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "3.9.14-1.21.1-neoforge",
+   "source": "modrinth",
+   "project": "Wq5SjeWM",
+   "current_id": "P9dDosz2",
+   "current_date": "2026-09-28",
+   "latest": {
+    "release": {
+     "id": "W8E2q1iT",
+     "version": "3.10.0-1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-10"
+    },
+    "beta": {
+     "id": "W8E2q1iT",
+     "version": "3.10.0-1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-10"
+    },
+    "alpha": {
+     "id": "W8E2q1iT",
+     "version": "3.10.0-1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-10"
+    }
    }
   },
   {
@@ -3158,9 +3364,24 @@
    "current_id": "oddRiz2I",
    "current_date": "2026-10-12",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "W2kSUAja",
+     "version": "1.9.2",
+     "type": "release",
+     "date": "2026-11-11"
+    },
+    "beta": {
+     "id": "W2kSUAja",
+     "version": "1.9.2",
+     "type": "release",
+     "date": "2026-11-11"
+    },
+    "alpha": {
+     "id": "W2kSUAja",
+     "version": "1.9.2",
+     "type": "release",
+     "date": "2026-11-11"
+    }
    }
   },
   {
@@ -3267,7 +3488,7 @@
   },
   {
    "slug": "jade",
-   "name": "Jade 🔍",
+   "name": "Jade \ud83d\udd0d",
    "side": "both",
    "pinned": false,
    "channel": "release",
@@ -3318,7 +3539,7 @@
   },
   {
    "slug": "kiwi",
-   "name": "Kiwi 🥝",
+   "name": "Kiwi \ud83e\udd5d",
    "side": "both",
    "pinned": false,
    "channel": "release",
@@ -3674,6 +3895,23 @@
    }
   },
   {
+   "slug": "melody",
+   "name": "Melody",
+   "side": "client",
+   "pinned": false,
+   "channel": "release",
+   "current": "1.0.10-1.21-neoforge",
+   "source": "modrinth",
+   "project": "CVT4pFB2",
+   "current_id": "efcdRVZP",
+   "current_date": "2024-06-21",
+   "latest": {
+    "release": null,
+    "beta": null,
+    "alpha": null
+   }
+  },
+  {
    "slug": "mezzconfig",
    "name": "MezzConfig",
    "side": "both",
@@ -3687,16 +3925,16 @@
    "latest": {
     "release": null,
     "beta": {
-     "id": "sPQlt1iR",
-     "version": "0.6.11",
+     "id": "V6oWFnxW",
+     "version": "0.7.1",
      "type": "beta",
-     "date": "2026-11-05"
+     "date": "2026-11-09"
     },
     "alpha": {
-     "id": "sPQlt1iR",
-     "version": "0.6.11",
+     "id": "V6oWFnxW",
+     "version": "0.7.1",
      "type": "beta",
-     "date": "2026-11-05"
+     "date": "2026-11-09"
     }
    }
   },
@@ -3706,7 +3944,7 @@
    "side": "both",
    "pinned": false,
    "channel": "release",
-   "current": "mfcore-1.0.8.jar",
+   "current": "mfcore-1.0.9.jar",
    "source": "manual"
   },
   {
@@ -3772,9 +4010,24 @@
    "current_id": "drG7quQp",
    "current_date": "2026-11-05",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "yBea1yLM",
+     "version": "1.21.1-3.8.3",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "beta": {
+     "id": "yBea1yLM",
+     "version": "1.21.1-3.8.3",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "alpha": {
+     "id": "yBea1yLM",
+     "version": "1.21.1-3.8.3",
+     "type": "release",
+     "date": "2026-11-09"
+    }
    }
   },
   {
@@ -4190,9 +4443,24 @@
    "current_id": "6mPQONys",
    "current_date": "2026-10-28",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "Ty5Aowoi",
+     "version": "1.21-5.3.8",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "beta": {
+     "id": "Ty5Aowoi",
+     "version": "1.21-5.3.8",
+     "type": "release",
+     "date": "2026-11-09"
+    },
+    "alpha": {
+     "id": "Ty5Aowoi",
+     "version": "1.21-5.3.8",
+     "type": "release",
+     "date": "2026-11-09"
+    }
    }
   },
   {
@@ -4326,9 +4594,24 @@
    "current_id": "aEwhhJqE",
    "current_date": "2026-11-04",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "SugYouss",
+     "version": "2.5.1+1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-13"
+    },
+    "beta": {
+     "id": "SugYouss",
+     "version": "2.5.1+1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-13"
+    },
+    "alpha": {
+     "id": "SugYouss",
+     "version": "2.5.1+1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-13"
+    }
    }
   },
   {
@@ -4377,9 +4660,24 @@
    "current_id": "Kr2fGwVB",
    "current_date": "2026-10-29",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "Uydw8VgL",
+     "version": "3.9.0+1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-12"
+    },
+    "beta": {
+     "id": "Uydw8VgL",
+     "version": "3.9.0+1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-12"
+    },
+    "alpha": {
+     "id": "Uydw8VgL",
+     "version": "3.9.0+1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-12"
+    }
    }
   },
   {
@@ -4394,9 +4692,24 @@
    "current_id": "wgpBpDHA",
    "current_date": "2026-11-02",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "T9J7Mqco",
+     "version": "3.9.1+1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-12"
+    },
+    "beta": {
+     "id": "T9J7Mqco",
+     "version": "3.9.1+1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-12"
+    },
+    "alpha": {
+     "id": "T9J7Mqco",
+     "version": "3.9.1+1.21.1-neoforge",
+     "type": "release",
+     "date": "2026-11-12"
+    }
    }
   },
   {
@@ -4707,7 +5020,7 @@
   },
   {
    "slug": "snow-real-magic",
-   "name": "Snow! Real Magic! ⛄",
+   "name": "Snow! Real Magic! \u26c4",
    "side": "both",
    "pinned": false,
    "channel": "release",
@@ -4948,9 +5261,24 @@
    "current_id": "rWq0ko29",
    "current_date": "2026-10-16",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "ASZwA3B8",
+     "version": "1.21.1-4.1.0",
+     "type": "release",
+     "date": "2026-11-13"
+    },
+    "beta": {
+     "id": "ASZwA3B8",
+     "version": "1.21.1-4.1.0",
+     "type": "release",
+     "date": "2026-11-13"
+    },
+    "alpha": {
+     "id": "ASZwA3B8",
+     "version": "1.21.1-4.1.0",
+     "type": "release",
+     "date": "2026-11-13"
+    }
    }
   },
   {
@@ -4982,9 +5310,24 @@
    "current_id": "QK3Z3Gsy",
    "current_date": "2026-10-05",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "NCqxgoYa",
+     "version": "1.2.0",
+     "type": "release",
+     "date": "2026-11-06"
+    },
+    "beta": {
+     "id": "NCqxgoYa",
+     "version": "1.2.0",
+     "type": "release",
+     "date": "2026-11-06"
+    },
+    "alpha": {
+     "id": "NCqxgoYa",
+     "version": "1.2.0",
+     "type": "release",
+     "date": "2026-11-06"
+    }
    }
   },
   {
@@ -5118,9 +5461,24 @@
    "current_id": "9232540",
    "current_date": "2026-10-17",
    "latest": {
-    "release": null,
-    "beta": null,
-    "alpha": null
+    "release": {
+     "id": "9575113",
+     "version": "Unified Xaero Worldmap 2.1.0 (NeoForge 1.21.1)",
+     "type": "release",
+     "date": "2026-11-12"
+    },
+    "beta": {
+     "id": "9575113",
+     "version": "Unified Xaero Worldmap 2.1.0 (NeoForge 1.21.1)",
+     "type": "release",
+     "date": "2026-11-12"
+    },
+    "alpha": {
+     "id": "9575113",
+     "version": "Unified Xaero Worldmap 2.1.0 (NeoForge 1.21.1)",
+     "type": "release",
+     "date": "2026-11-12"
+    }
    }
   },
   {
@@ -5138,6 +5496,70 @@
     "release": null,
     "beta": null,
     "alpha": null
+   }
+  },
+  {
+   "slug": "watermedia-binaries",
+   "name": "WATERMeDIA: Binaries",
+   "side": "client",
+   "pinned": true,
+   "channel": "release",
+   "current": "3.0.0.6",
+   "source": "curseforge",
+   "project": "1029438",
+   "current_id": "8519058",
+   "current_date": "2026-07-27",
+   "latest": {
+    "release": {
+     "id": "9457438",
+     "version": "3.0.1",
+     "type": "release",
+     "date": "2026-11-05"
+    },
+    "beta": {
+     "id": "9457438",
+     "version": "3.0.1",
+     "type": "release",
+     "date": "2026-11-05"
+    },
+    "alpha": {
+     "id": "9457438",
+     "version": "3.0.1",
+     "type": "release",
+     "date": "2026-11-05"
+    }
+   }
+  },
+  {
+   "slug": "watermedia",
+   "name": "WATERMeDIA",
+   "side": "client",
+   "pinned": true,
+   "channel": "release",
+   "current": "3.0.0.23",
+   "source": "modrinth",
+   "project": "G922NeHS",
+   "current_id": "FdCZ5Rxq",
+   "current_date": "2026-07-27",
+   "latest": {
+    "release": {
+     "id": "g9a0QPiB",
+     "version": "3.0.1",
+     "type": "release",
+     "date": "2026-11-05"
+    },
+    "beta": {
+     "id": "g9a0QPiB",
+     "version": "3.0.1",
+     "type": "release",
+     "date": "2026-11-05"
+    },
+    "alpha": {
+     "id": "g9a0QPiB",
+     "version": "3.0.1",
+     "type": "release",
+     "date": "2026-11-05"
+    }
    }
   },
   {
