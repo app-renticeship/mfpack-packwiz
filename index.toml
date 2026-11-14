@@ -1350,7 +1350,7 @@ metafile = true
 
 [[files]]
 file = "mods/mfcore.pw.toml"
-hash = "5f39b7a7873b427b20fc8b58162273745770ea97515ad6e7467b45e67065ecf2"
+hash = "e3c25b7bb57475bd331f6fb515146422af0659879815e038e1e4be62fdc49c4d"
 metafile = true
 
 [[files]]
